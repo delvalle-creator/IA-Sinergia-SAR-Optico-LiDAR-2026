@@ -10,6 +10,14 @@ authors:
     orcid: "https://orcid.org/0000-0002-3329-1057"
     affiliation: "Centro Regional de Geomática (CeReGeo), Facultad de Ciencia y Tecnología (FCyT), Universidad Autónoma de Entre Ríos (UADER); Laboratorio de Ecología, Meteorología y Gestión de Fuegos (LEMIV), Facultad de Ingeniería, Universidad Nacional de la Patagonia San Juan Bosco (UNPSJB)"
 license: CC-BY-NC-SA-4.0
+doi: 10.5281/zenodo.23929604
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23929604
+    description: "DOI de concepto (todas las versiones)"
+  - type: doi
+    value: 10.5281/zenodo.23929605
+    description: "DOI de la versión 1.0.0"
 repository-code: "https://github.com/delvalle-creator/IA-Sinergia-SAR-Optico-LiDAR-2026"
 abstract: >-
   Curso de posgrado práctico sobre sinergia y fusión de radar de apertura
