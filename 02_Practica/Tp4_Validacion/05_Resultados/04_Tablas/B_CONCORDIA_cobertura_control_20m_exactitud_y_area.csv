@@ -1,0 +1,8 @@
+﻿codigo,clase,n_puntos_estrato,area_mapa_ha,area_estimada_ha,IC95_area_ha,exactitud_usuario,IC95_usuario,usuario_Wilson_inf,usuario_Wilson_sup,comision,exactitud_productor,IC95_productor,omision,IC95_area_inf,IC95_area_sup,usuario_inf,usuario_sup,productor_inf,productor_sup,productor_estimable,aviso_normal,exactitud_global,IC95_global,area_total_ha,n_total
+1,agua_permanente,10,16914.2,16914.2,0.0,1.0,0.0,0.722,1.0,0.0,1.0,0.0,0.0,16914.2,16914.2,1.0,1.0,1.0,1.0,si,aproximacion normal inadecuada (n*p < 5): leer Wilson,0.9829,0.0215,18504.6,70
+2,humedal_pajonal,10,8.8,5.3,2.8,0.6,0.32,0.313,0.832,0.4,1.0,0.0,0.0,2.5,8.1,0.28,0.92,1.0,1.0,si,aproximacion normal inadecuada (n*p < 5): leer Wilson,0.9829,0.0215,18504.6,70
+3,monte_nativo,10,1519.3,1217.6,397.1,0.8,0.261,0.49,0.943,0.2,0.998,0.004,0.002,820.5,1614.7,0.539,1.0,0.994,1.0,si,aproximacion normal inadecuada (n*p < 5): leer Wilson,0.9829,0.0215,18504.6,70
+4,plantacion_forestal,10,22.0,332.5,397.1,1.0,0.0,0.722,1.0,0.0,0.066,0.079,0.934,0.0,729.6,1.0,1.0,0.0,0.145,si,aproximacion normal inadecuada (n*p < 5): leer Wilson,0.9829,0.0215,18504.6,70
+5,cultivo_pastura,10,22.0,16.7,7.6,0.6,0.32,0.313,0.832,0.4,0.789,0.16,0.211,9.1,24.3,0.28,0.92,0.629,0.949,si,aproximacion normal inadecuada (n*p < 5): leer Wilson,0.9829,0.0215,18504.6,70
+6,suelo_desnudo,10,0.7,0.7,0.0,1.0,0.0,0.722,1.0,0.0,1.0,0.0,0.0,0.7,0.7,1.0,1.0,1.0,1.0,si,aproximacion normal inadecuada (n*p < 5): leer Wilson,0.9829,0.0215,18504.6,70
+7,urbano,10,17.6,17.6,0.0,1.0,0.0,0.722,1.0,0.0,1.0,0.0,0.0,17.6,17.6,1.0,1.0,1.0,1.0,si,aproximacion normal inadecuada (n*p < 5): leer Wilson,0.9829,0.0215,18504.6,70

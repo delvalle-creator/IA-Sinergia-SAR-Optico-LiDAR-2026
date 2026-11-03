@@ -1,0 +1,4 @@
+﻿zona,pixeles_40m,mediana_mm_ano,%_bajo_umbral,%_bajo_-10
+franja <= 150 m del borde,216.0,-12.9,43.8,81.2
+interior > 300 m,2334.0,-8.3,13.7,32.9
+a 100 m de la grieta,13.0,-15.0,53.7,87.2

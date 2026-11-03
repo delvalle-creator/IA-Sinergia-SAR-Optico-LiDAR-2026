@@ -1,0 +1,11 @@
+﻿metodo,variante,puntos,exactitud_global,comision,omision,area_urbana_estimada_ha,area_urbana_mapa_ha
+A dominio,Óptico solo,58,0.964 +/- 0.060,0.111 +/- 0.121,0.419 +/- 0.478,4958 +/- 4094,3240
+A dominio,SAR solo (C),61,0.992 +/- 0.007,0.160 +/- 0.147,0.000 +/- 0.000,2730 +/- 477,3250
+A dominio,SAR multibanda,73,0.946 +/- 0.069,0.086 +/- 0.094,0.531 +/- 0.341,6388 +/- 4644,3279
+A dominio,Multisensor,63,0.957 +/- 0.074,0.105 +/- 0.099,0.445 +/- 0.485,5763 +/- 5039,3575
+A dominio,Multisensor con S,133,0.974 +/- 0.032,0.060 +/- 0.066,0.300 +/- 0.289,5135 +/- 2135,3826
+B misma muestra,Óptico solo,133,0.964 +/- 0.032,0.027 +/- 0.053,0.464 +/- 0.238,5135 +/- 2135,3240
+B misma muestra,SAR solo (C),133,0.976 +/- 0.023,0.021 +/- 0.042,0.299 +/- 0.240,5135 +/- 2135,3250
+B misma muestra,SAR multibanda,133,0.969 +/- 0.032,0.000 +/- 0.000,0.404 +/- 0.257,5135 +/- 2135,3279
+B misma muestra,Multisensor,133,0.973 +/- 0.032,0.043 +/- 0.058,0.329 +/- 0.280,5135 +/- 2135,3575
+B misma muestra,Multisensor con S,133,0.974 +/- 0.032,0.060 +/- 0.066,0.300 +/- 0.289,5135 +/- 2135,3826

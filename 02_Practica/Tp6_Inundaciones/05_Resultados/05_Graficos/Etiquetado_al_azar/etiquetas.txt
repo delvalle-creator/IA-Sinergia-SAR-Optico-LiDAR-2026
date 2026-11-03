@@ -1,0 +1,427 @@
+# ficha clase confianza observacion   (regla: 1 = agua abierta el 04/11 con JRC < 50 %; 2 = el resto, incluida el agua habitual JRC >= 50 %)
+F001 2 alta campo
+F002 1 alta llanura de Concordia anegada junto al rio
+F003 2 alta campo
+F004 2 alta campo
+F005 2 media vegetacion junto a arroyo
+F006 2 alta camino y campo
+F007 2 media costa del embalse, en tierra
+F008 2 alta embalse permanente
+F009 2 alta campo
+F010 1 baja borde de cauce anegado
+F011 2 alta ciudad
+F012 2 alta embalse permanente
+F013 1 media cauce secundario anegado
+F014 2 alta campo
+F015 1 alta banado anegado junto al rio
+F016 2 media agua habitual JRC 76
+F017 1 alta llanura anegada
+F018 2 alta campo
+F019 2 alta campo
+F020 2 alta campo
+F021 2 alta campo
+F022 2 alta campo
+F023 2 alta campo
+F024 2 alta campo
+F025 2 media albardon con vegetacion
+F026 2 alta campo
+F027 1 alta llanura anegada
+F028 2 alta campo junto a represa
+F029 1 media agua nueva junto a camino
+F030 2 alta campo
+F031 2 alta embalse permanente
+F032 2 alta campo
+F033 2 alta embalse permanente
+F034 2 alta embalse permanente
+F035 2 alta campo
+F036 2 alta tierra junto a agua
+F037 2 alta campo
+F038 2 alta campo
+F039 2 alta campo
+F040 1 alta banado anegado
+F041 2 alta suelo desnudo
+F042 1 baja borde anegado con vegetacion
+F043 2 alta campo
+F044 2 alta campo
+F045 2 alta ciudad
+F046 2 alta campo
+F047 2 media monte de ribera
+F048 1 media llanura anegada con vegetacion rala
+F049 2 alta campo
+F050 1 alta llanura anegada
+F051 2 alta campo
+F052 2 alta campo
+F053 1 alta llanura anegada
+F054 2 alta campo
+F055 2 alta periurbano
+F056 2 alta campo
+F057 2 alta campo
+F058 2 alta campo
+F059 2 media borde de lote
+F060 2 alta campo
+F061 2 alta plantacion
+F062 1 media banado anegado con islotes de vegetacion
+F063 1 alta llanura anegada
+F064 2 alta periurbano
+F065 2 alta campo
+F066 1 alta llanura anegada
+F067 2 alta monte
+F068 2 media bajo con vegetacion
+F069 2 media lote oscuro (posible arrozal)
+F070 2 alta campo
+F071 1 media llanura anegada con vegetacion
+F072 2 media orilla de laguna
+F073 2 baja agua habitual JRC 50
+F074 2 alta monte
+F075 2 alta campo
+F076 2 alta campo
+F077 2 alta periurbano
+F078 1 media orilla anegada
+F079 2 alta campo
+F080 2 alta campo
+F081 2 media campo junto a represa
+F082 1 alta llanura anegada
+F083 2 alta campo
+F084 2 media bajo humedo sin agua abierta
+F085 2 alta aeropuerto
+F086 2 baja borde de anegamiento
+F087 2 alta campo
+F088 2 alta campo
+F089 1 alta laguna de inundacion
+F090 1 alta costa anegada de Concordia
+F091 1 alta llanura anegada
+F092 2 alta campo
+F093 2 media costa del embalse JRC 83
+F094 2 alta campo
+F095 2 alta campo
+F096 2 alta campo
+F097 2 alta campo
+F098 2 media arrozal
+F099 1 media banado anegado con vegetacion
+F100 2 alta campo
+F101 1 alta cauce desbordado
+F102 2 alta agua habitual JRC 79
+F103 2 media bajo con vegetacion
+F104 2 alta campo
+F105 2 alta campo
+F106 2 alta ciudad
+F107 2 alta campo
+F108 1 media arroyo desbordado
+F109 2 alta campo
+F110 2 alta plantacion
+F111 2 alta campo
+F112 2 alta campo
+F113 2 alta campo
+F114 2 alta plantacion
+F115 2 alta campo
+F116 2 alta campo
+F117 2 alta campo
+F118 2 media lote oscuro
+F119 2 alta campo
+F120 2 alta plantacion
+F121 2 alta embalse permanente
+F122 2 alta campo
+F123 2 alta campo
+F124 2 alta campo
+F125 2 alta campo
+F126 2 alta periurbano
+F127 2 alta campo
+F128 2 media tierra junto a agua
+F129 1 alta laguna de inundacion
+F130 2 alta campo
+F131 2 alta ciudad
+F132 2 alta periurbano
+F133 2 alta campo
+F134 2 baja borde de anegamiento
+F135 2 media playa del embalse
+F136 2 media orilla
+F137 2 alta campo
+F138 2 alta periurbano
+F139 2 alta camino
+F140 2 alta campo
+F141 1 alta laguna de inundacion
+F142 2 alta campo
+F143 1 alta llanura anegada
+F144 2 alta campo
+F145 2 alta campo
+F146 1 alta laguna de inundacion
+F147 2 alta embalse permanente
+F148 1 alta costa anegada
+F149 2 alta embalse permanente
+F150 2 alta campo
+F151 1 alta llanura anegada
+F152 2 alta campo
+F153 1 alta llanura anegada
+F154 1 media cauce desbordado
+F155 2 baja vegetacion dentro del anegamiento
+F156 2 alta periurbano
+F157 2 alta campo
+F158 2 alta campo
+F159 1 alta llanura anegada
+F160 2 alta periurbano
+F161 2 media tierra junto a laguna
+F162 2 baja albardon entre canales
+F163 2 alta campo
+F164 1 alta laguna de inundacion
+F165 1 alta costa anegada
+F166 2 alta campo
+F167 1 media bajo anegado
+F168 2 media agua habitual JRC 92
+F169 2 alta campo
+F170 2 alta campo
+F171 2 alta ciudad
+F172 2 alta campo
+F173 2 alta campo
+F174 2 alta campo
+F175 2 alta campo
+F176 1 media banado anegado entre vegetacion
+F177 2 alta campo
+F178 2 alta campo
+F179 2 media isla con vegetacion
+F180 2 alta campo
+F181 2 alta plantacion
+F182 2 alta campo
+F183 1 alta costa anegada
+F184 2 alta campo
+F185 2 alta campo
+F186 2 alta embalse permanente
+F187 2 alta campo
+F188 2 alta campo
+F189 1 alta laguna de inundacion
+F190 2 alta campo
+F191 2 alta campo
+F192 2 media campo junto a represa
+F193 1 alta costa anegada
+F194 2 alta embalse permanente
+F195 1 alta borde urbano anegado
+F196 2 alta campo
+F197 1 alta laguna de inundacion
+F198 2 alta campo
+F199 2 media orilla
+F200 2 media agua habitual JRC 81
+F201 2 alta campo
+F202 2 alta campo
+F203 1 alta laguna de inundacion
+F204 2 alta campo
+F205 2 alta campo
+F206 2 alta campo
+F207 2 alta embalse permanente
+F208 2 alta embalse permanente
+F209 2 alta agua habitual JRC 84
+F210 2 media agua habitual JRC 64
+F211 2 alta campo
+F212 2 alta campo
+F213 2 alta campo
+F214 2 alta campo
+F215 1 alta costa anegada
+F216 2 alta rio permanente
+F217 1 baja arroyo angosto con agua
+F218 2 alta campo
+F219 2 media tierra junto al embalse
+F220 1 media banado anegado
+F221 2 alta embalse permanente
+F222 2 alta rio permanente
+F223 2 media borde urbano
+F224 2 baja vegetacion junto a agua
+F225 2 alta embalse permanente
+F226 2 alta campo
+F227 2 alta campo
+F228 2 alta campo
+F229 2 alta campo
+F230 1 alta llanura anegada
+F231 2 alta ciudad
+F232 2 alta campo
+F233 1 alta costa anegada
+F234 2 alta campo
+F235 1 alta llanura anegada
+F236 2 media playa o banco expuesto
+F237 1 alta llanura anegada
+F238 2 alta campo
+F239 2 alta campo
+F240 2 alta embalse permanente
+F241 2 alta campo
+F242 2 media bajo con vegetacion
+F243 2 alta campo
+F244 2 alta campo
+F245 2 alta campo
+F246 2 alta plantacion
+F247 2 alta ciudad
+F248 2 alta campo
+F249 2 alta campo
+F250 2 alta campo
+F251 2 alta periurbano
+F252 2 alta campo
+F253 2 alta campo
+F254 2 alta campo
+F255 1 alta cauce desbordado
+F256 2 alta campo
+F257 2 alta embalse permanente
+F258 2 alta campo
+F259 2 alta campo
+F260 2 alta campo
+F261 2 alta campo
+F262 2 alta plantacion
+F263 2 baja albardon junto a agua
+F264 2 alta embalse permanente
+F265 2 alta embalse permanente
+F266 1 media orilla anegada
+F267 2 alta campo
+F268 1 baja pequena laguna
+F269 1 media costa anegada
+F270 2 alta campo
+F271 2 alta periurbano
+F272 2 alta campo
+F273 2 alta campo
+F274 2 alta campo
+F275 1 alta llanura anegada
+F276 2 alta campo
+F277 1 media laguna pequena JRC 46
+F278 2 alta campo
+F279 2 alta campo
+F280 2 alta campo
+F281 2 media bajo con vegetacion
+F282 1 alta llanura anegada
+F283 2 alta campo
+F284 2 alta periurbano
+F285 2 alta campo
+F286 2 alta campo
+F287 1 media bajo anegado
+F288 2 alta campo
+F289 2 alta embalse permanente
+F290 2 alta embalse permanente
+F291 2 alta campo
+F292 2 alta campo
+F293 2 alta embalse permanente
+F294 2 alta campo
+F295 1 alta laguna de inundacion
+F296 2 alta campo
+F297 2 media sombra de cortina de arboles
+F298 2 alta campo
+F299 1 alta laguna de inundacion
+F300 2 alta periurbano
+F301 2 alta embalse permanente
+F302 2 alta campo
+F303 2 alta campo
+F304 2 media tierra junto a agua
+F305 2 alta campo
+F306 2 alta campo
+F307 2 alta plantacion
+F308 1 media borde anegado
+F309 2 media tierra junto a agua
+F310 2 alta campo
+F311 1 alta llanura anegada
+F312 2 alta campo
+F313 2 media orilla del embalse
+F314 2 alta campo
+F315 2 alta campo
+F316 2 alta campo
+F317 1 alta llanura anegada
+F318 2 alta campo
+F319 2 alta campo
+F320 2 alta periurbano
+F321 2 alta campo
+F322 2 alta embalse permanente
+F323 1 alta llanura anegada
+F324 1 alta bajo anegado
+F325 2 alta campo
+F326 2 alta campo
+F327 2 alta campo
+F328 2 alta embalse permanente
+F329 2 alta campo
+F330 2 alta campo
+F331 2 alta campo
+F332 1 alta laguna de inundacion
+F333 2 alta campo
+F334 2 alta campo
+F335 2 alta plantacion
+F336 1 alta llanura anegada
+F337 2 media campo
+F338 1 alta llanura anegada
+F339 2 alta campo
+F340 2 baja vegetacion junto a agua
+F341 1 alta laguna de inundacion
+F342 2 alta embalse permanente
+F343 2 alta periurbano
+F344 1 alta llanura anegada
+F345 2 alta embalse permanente
+F346 1 alta llanura anegada
+F347 2 alta embalse permanente
+F348 2 alta campo
+F349 2 alta campo
+F350 2 alta campo
+F351 2 alta campo
+F352 2 baja borde de arroyo con monte
+F353 2 alta embalse permanente
+F354 2 alta campo
+F355 2 alta campo
+F356 2 alta campo
+F357 2 alta campo
+F358 2 alta campo
+F359 1 media costa anegada
+F360 2 alta invernaculos
+F361 2 alta campo
+F362 2 alta campo
+F363 1 alta laguna de inundacion
+F364 2 alta ciudad
+F365 2 alta suelo desnudo
+F366 2 alta embalse permanente
+F367 2 alta campo
+F368 2 alta campo
+F369 2 media agua habitual JRC 92
+F370 1 alta llanura anegada
+F371 2 alta campo
+F372 2 alta campo
+F373 2 alta campo
+F374 2 alta periurbano
+F375 2 alta periurbano
+F376 1 alta llanura anegada
+F377 2 alta periurbano
+F378 2 alta campo
+F379 2 media tierra junto a agua
+F380 2 media bajo con vegetacion
+F381 2 alta plantacion
+F382 2 alta campo
+F383 2 alta periurbano
+F384 1 alta llanura anegada
+F385 2 alta rio permanente
+F386 2 alta orilla JRC 82
+F387 2 alta campo
+F388 2 alta campo
+F389 1 alta cauce desbordado
+F390 2 alta campo
+F391 2 alta campo
+F392 2 alta campo
+F393 2 alta campo
+F394 1 baja borde de bajo anegado
+F395 2 alta periurbano
+F396 2 alta periurbano
+F397 1 alta llanura anegada
+F398 1 alta llanura anegada
+F399 2 alta ciudad
+F400 2 alta embalse permanente
+F401 2 alta camino
+F402 2 alta periurbano
+F403 2 media campo junto a bajo
+F404 2 media vegetacion junto a agua
+F405 2 alta campo
+F406 2 alta plantacion
+F407 2 media agua habitual JRC 93
+F408 2 alta campo
+F409 2 alta campo
+F410 2 alta campo
+F411 1 alta costa anegada
+F412 2 alta campo
+F413 2 alta periurbano
+F414 2 alta campo
+F415 2 alta invernaculos
+F416 2 alta campo
+F417 1 alta arroyo desbordado en la ciudad
+F418 1 baja represa o bajo con agua
+F419 2 alta campo
+F420 2 alta campo
+F421 2 alta campo
+F422 2 alta campo
+F423 2 baja monte de ribera
+F424 1 media bajo anegado
+F425 2 alta campo
+F426 2 alta embalse permanente

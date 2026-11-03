@@ -1,0 +1,25 @@
+<GDAL_WMS>
+  <Service name="WMS">
+    <Version>1.1.1</Version>
+    <ServerUrl>https://geotematico01.conae.gov.ar/geoserver/wms?</ServerUrl>
+    <SRS>EPSG:3857</SRS>
+    <ImageFormat>image/png</ImageFormat>
+    <Transparent>TRUE</Transparent>
+    <Layers>Localidades:EntreRios_GranParana_2022</Layers>
+    <Styles></Styles>
+  </Service>
+  <DataWindow>
+    <UpperLeftX>-6744427.16</UpperLeftX>
+    <UpperLeftY>-3722778.32</UpperLeftY>
+    <LowerRightX>-6716991.36</LowerRightX>
+    <LowerRightY>-3744640.76</LowerRightY>
+    <SizeX>46648</SizeX>
+    <SizeY>37172</SizeY>
+  </DataWindow>
+  <Projection>EPSG:3857</Projection>
+  <BandsCount>4</BandsCount>
+  <BlockSizeX>512</BlockSizeX>
+  <BlockSizeY>512</BlockSizeY>
+  <ZeroBlockHttpCodes>204,404</ZeroBlockHttpCodes>
+  <Cache/>
+</GDAL_WMS>

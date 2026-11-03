@@ -1,0 +1,7 @@
+﻿clase,n_poligonos,n_pixeles_20m,HH_dB,HV_dB,VV_dB,HH_menos_VV_dB,HH_menos_HV_dB
+agua_calma,4,127,-18.3,-28.2,-17.7,-0.6,9.9
+agua_rizada,4,105,-20.4,-28.1,-20.7,0.3,7.7
+pajonal,3,85,-8.2,-19.2,-9.9,1.7,11.0
+suelo_desnudo,3,91,-10.5,-20.9,-10.1,-0.4,10.4
+monte_o_bosque,1,30,-5.2,-12.4,-6.5,1.2,7.2
+estable,1,25,-4.7,-12.7,-8.0,3.3,8.0

@@ -1,0 +1,2 @@
+﻿variante,datos_usados,exactitud_global,omision,comision,area_estimada_ha,area_segun_mapa_ha,superficie_mapeada_ha,porcentaje_estimado,omision_frente_a_la_mejor,comision_frente_a_la_mejor,exactitud_global_frente_a_la_mejor
+Cobertura de control,Esri y Google digitalizado + JRC + MapBiomas recortado con copas CBERS-4A 2 m,0.983 +/- 0.021,0.934 +/- 0.079,0.000 +/- 0.000,332 +/- 397,22,18505,1.8 +/- 2.1 %,una sola variante: no hay comparacion,una sola variante: no hay comparacion,una sola variante: no hay comparacion

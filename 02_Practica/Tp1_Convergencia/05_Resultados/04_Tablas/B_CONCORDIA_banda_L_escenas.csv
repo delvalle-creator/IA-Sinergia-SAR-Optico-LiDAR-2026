@@ -1,0 +1,7 @@
+sensor,fecha,hora_utc,haz,pasada,mirada,incidencia,momento,pixeles_validos_%,tierra_HH_db,tierra_HV_db,tierra_VV_db,agua_perm_HH_db,agua_perm_HV_db,agua_perm_VV_db,contraste_HH_tierra_agua_db
+SAOCOM-1B,10/10/2023,21:16,TNA,descendente,derecha (al oeste),"17,6 a 27,3°",antes,100.0,-8.6,-17.3,-11.0,-15.8,-28.9,-15.1,7.3
+SAOCOM-1B,31/10/2023,21:10,TNB,descendente,derecha (al oeste),"27,2 a 35,5°",durante,50.7,-7.2,-15.6,-9.7,-14.3,-25.4,-13.1,7.2
+SAOCOM-1A,08/11/2023,21:13,TNB,descendente,derecha (al oeste),"27,2 a 35,5°",durante,50.9,-8.2,-16.6,-10.1,-19.7,-27.3,-18.3,11.5
+SAOCOM-1B,11/11/2023,21:16,TNA,descendente,derecha (al oeste),"17,6 a 27,3°",durante,100.0,-5.7,-15.1,-8.4,-11.3,-27.1,-10.3,5.6
+ALOS-2 PALSAR-2,16/11/2023,15:11,ScanSAR WBD,descendente,derecha (al oeste),39 a 42°,durante,100.0,-13.9,-21.4,,-24.2,-32.8,,10.3
+SAOCOM-1B,16/09/2026,21:16,TNA,descendente,derecha (al oeste),"17,6 a 27,3°",tres años después,100.0,-6.7,-16.2,-9.2,-21.2,-31.2,-22.4,14.5

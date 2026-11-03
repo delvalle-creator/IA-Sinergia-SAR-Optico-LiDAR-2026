@@ -1,0 +1,23 @@
+﻿sensor,banda,fecha,hora_utc,id,tesela,nubosidad_catalogo_%,nubosidad_sitio_%,pixeles_validos_%,decision,orbita_relativa,pasada,polarizaciones
+Sentinel-2,optico,2023-09-03,13:57,S2A_MSIL2A_20230903T135711_R067_T21JTF_20241023T134022,21JTF,98.699433,,,descartada: nubes de catalogo,,,
+Sentinel-2,optico,2023-09-10,13:47,S2A_MSIL2A_20230910T134711_R024_T21JTF_20241024T042500,21JTF,2.737996,0.0,100.0,candidata,,,
+Sentinel-2,optico,2023-09-13,13:57,S2A_MSIL2A_20230913T135711_R067_T21JTF_20241025T135823,21JTF,94.017559,,,descartada: nubes de catalogo,,,
+Sentinel-2,optico,2023-09-20,13:47,S2A_MSIL2A_20230920T134711_R024_T21JTF_20241027T200000,21JTF,100.0,,,descartada: nubes de catalogo,,,
+Sentinel-2,optico,2023-09-23,13:57,S2A_MSIL2A_20230923T135701_R067_T21JTF_20241106T051920,21JTF,96.585482,,,descartada: nubes de catalogo,,,
+Sentinel-2,optico,2023-09-30,13:47,S2A_MSIL2A_20230930T134711_R024_T21JTF_20240826T211921,21JTF,55.821574,93.6,6.4,descartada: 94 % de nubes DENTRO del sitio,,,
+Sentinel-2,optico,2023-09-05,13:47,S2B_MSIL2A_20230905T134709_R024_T21JTF_20241104T061117,21JTF,39.849949,47.2,52.8,descartada: 47 % de nubes DENTRO del sitio,,,
+Sentinel-2,optico,2023-09-08,13:57,S2B_MSIL2A_20230908T135709_R067_T21JTF_20241104T064428,21JTF,25.934613,3.5,96.5,candidata,,,
+Sentinel-2,optico,2023-09-15,13:47,S2B_MSIL2A_20230915T134709_R024_T21JTF_20241025T143411,21JTF,16.120015,28.6,71.4,descartada: 29 % de nubes DENTRO del sitio,,,
+Sentinel-2,optico,2023-09-18,13:57,S2B_MSIL2A_20230918T135709_R067_T21JTF_20241025T220845,21JTF,99.5637,,,descartada: nubes de catalogo,,,
+Sentinel-2,optico,2023-09-25,13:47,S2B_MSIL2A_20230925T134709_R024_T21JTF_20230925T200947,21JTF,68.241769,100.0,0.0,descartada: 100 % de nubes DENTRO del sitio,,,
+Sentinel-2,optico,2023-09-28,13:57,S2B_MSIL2A_20230928T135709_R067_T21JTF_20230928T222741,21JTF,0.004935,0.0,100.0,candidata,,,
+Sentinel-2 mosaico del dia,optico,2023-09-05,13:47,2023-09-05 R024 (21JTF),21JTF,,47.2,52.8,descartada: 47 % de nubes DENTRO del sitio,,,
+Sentinel-2 mosaico del dia,optico,2023-09-08,13:57,2023-09-08 R067 (21JTF),21JTF,,3.5,96.5,candidata,,,
+Sentinel-2 mosaico del dia,optico,2023-09-10,13:47,2023-09-10 R024 (21JTF),21JTF,,0.0,100.0,candidata,,,
+Sentinel-2 mosaico del dia,optico,2023-09-15,13:47,2023-09-15 R024 (21JTF),21JTF,,28.6,71.4,descartada: 29 % de nubes DENTRO del sitio,,,
+Sentinel-2 mosaico del dia,optico,2023-09-25,13:47,2023-09-25 R024 (21JTF),21JTF,,100.0,0.0,descartada: 100 % de nubes DENTRO del sitio,,,
+Sentinel-2 mosaico del dia,optico,2023-09-28,13:57,2023-09-28 R067 (21JTF),21JTF,,0.0,100.0,candidata,,,
+Sentinel-2 mosaico del dia,optico,2023-09-30,13:47,2023-09-30 R024 (21JTF),21JTF,,93.6,6.4,descartada: 94 % de nubes DENTRO del sitio,,,
+Sentinel-1 RTC,C,2023-09-05,09:15,S1A_IW_GRDH_1SDV_20230905T091449_20230905T091514_050190_060A7B_rtc,,,,100.0,candidata,68.0,descending,VV+VH
+Sentinel-1 RTC,C,2023-09-17,09:15,S1A_IW_GRDH_1SDV_20230917T091449_20230917T091514_050365_061067_rtc,,,,100.0,candidata,68.0,descending,VV+VH
+Sentinel-1 RTC,C,2023-09-29,09:15,S1A_IW_GRDH_1SDV_20230929T091449_20230929T091514_050540_061662_rtc,,,,100.0,candidata,68.0,descending,VV+VH

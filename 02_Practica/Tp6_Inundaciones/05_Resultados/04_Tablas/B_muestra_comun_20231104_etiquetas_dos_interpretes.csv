@@ -1,0 +1,301 @@
+id,jrc,seca,A,cA,B,cB,C,regla,ficha,estrato,mapa_optico,mapa_C,mapa_multisensor,ref,ref_sin_seca
+1,0.0,1.0,2,alta,2,media,2,acuerdo,M001,4,2,2,2,0.0,0.0
+2,0.0,0.0,2,alta,2,alta,2,acuerdo,M002,4,2,2,2,0.0,0.0
+3,0.0,0.0,2,alta,2,alta,2,acuerdo,M003,4,2,2,2,0.0,0.0
+4,0.0,0.0,1,media,0,baja,1,solo A (B con nube),M004,3,2,2,2,1.0,1.0
+5,0.0,0.0,2,alta,2,alta,2,acuerdo,M005,3,2,2,2,0.0,0.0
+6,0.0,0.0,2,alta,2,media,2,acuerdo,M006,4,2,2,2,0.0,0.0
+7,0.0,0.0,2,alta,2,alta,2,acuerdo,M007,4,2,2,2,0.0,0.0
+8,0.0,0.0,2,alta,2,alta,2,acuerdo,M008,4,2,2,2,0.0,0.0
+9,0.0,0.0,2,alta,2,alta,2,acuerdo,M009,3,2,2,2,0.0,0.0
+10,0.0,0.0,2,alta,2,alta,2,acuerdo,M010,3,2,2,2,0.0,0.0
+11,0.0,0.0,2,alta,2,baja,2,acuerdo,M011,3,2,2,2,0.0,0.0
+12,0.0,0.0,1,media,2,media,1,"desacuerdo: empate, fecha del mapa (A)",M012,3,2,2,2,1.0,1.0
+13,61.0,0.0,1,alta,1,media,1,acuerdo,M013,1,1,1,1,1.0,1.0
+14,2.0,0.0,1,alta,1,alta,1,acuerdo,M014,1,1,1,1,1.0,1.0
+15,0.0,0.0,1,media,2,media,1,"desacuerdo: empate, fecha del mapa (A)",M015,1,1,1,1,1.0,1.0
+16,0.0,0.0,2,media,2,alta,2,acuerdo,M016,3,2,2,2,0.0,0.0
+17,0.0,0.0,2,alta,2,alta,2,acuerdo,M017,4,2,2,2,0.0,0.0
+18,0.0,0.0,2,alta,2,alta,2,acuerdo,M018,3,2,2,2,0.0,0.0
+19,0.0,0.0,2,media,2,media,2,acuerdo,M019,3,2,2,2,0.0,0.0
+20,6.0,0.0,1,alta,1,alta,1,acuerdo,M020,1,1,1,1,1.0,1.0
+21,0.0,0.0,2,media,2,alta,2,acuerdo,M021,3,2,2,2,0.0,0.0
+22,0.0,0.0,2,alta,2,alta,2,acuerdo,M022,4,2,2,2,0.0,0.0
+23,0.0,0.0,2,media,2,media,2,acuerdo,M023,3,2,2,2,0.0,0.0
+24,0.0,0.0,2,alta,2,alta,2,acuerdo,M024,4,2,2,2,0.0,0.0
+25,0.0,0.0,2,media,2,alta,2,acuerdo,M025,3,2,2,2,0.0,0.0
+26,0.0,0.0,1,alta,0,baja,1,solo A (B con nube),M026,2,2,1,1,1.0,1.0
+27,0.0,0.0,1,alta,1,media,1,acuerdo,M027,1,1,1,1,1.0,1.0
+28,0.0,0.0,2,alta,2,alta,2,acuerdo,M028,4,2,2,2,0.0,0.0
+29,0.0,0.0,2,baja,2,alta,2,acuerdo,M029,1,1,1,1,0.0,0.0
+30,1.0,0.0,1,alta,1,alta,1,acuerdo,M030,2,1,2,1,1.0,1.0
+31,0.0,0.0,2,alta,2,alta,2,acuerdo,M031,4,2,2,2,0.0,0.0
+32,0.0,0.0,2,alta,2,alta,2,acuerdo,M032,4,2,2,2,0.0,0.0
+33,0.0,0.0,1,alta,1,baja,1,acuerdo,M033,2,1,2,1,1.0,1.0
+34,0.0,0.0,2,alta,2,alta,2,acuerdo,M034,4,2,2,2,0.0,0.0
+35,0.0,0.0,2,media,0,baja,2,solo A (B con nube),M035,4,2,2,2,0.0,0.0
+36,0.0,0.0,1,alta,1,baja,1,acuerdo,M036,2,1,2,1,1.0,1.0
+37,2.0,0.0,1,alta,1,alta,1,acuerdo,M037,1,1,1,1,1.0,1.0
+38,0.0,0.0,2,alta,2,baja,2,acuerdo,M038,4,2,2,2,0.0,0.0
+39,1.0,0.0,1,alta,1,media,1,acuerdo,M039,1,1,1,1,1.0,1.0
+40,0.0,1.0,2,alta,2,alta,2,acuerdo,M040,4,2,2,2,0.0,0.0
+41,5.0,0.0,1,alta,1,alta,1,acuerdo,M041,2,1,2,1,1.0,1.0
+42,0.0,0.0,1,media,2,media,1,"desacuerdo: empate, fecha del mapa (A)",M042,3,2,2,2,1.0,1.0
+43,0.0,0.0,1,alta,0,baja,1,solo A (B con nube),M043,2,1,2,1,1.0,1.0
+44,0.0,0.0,2,media,2,media,2,acuerdo,M044,3,2,2,2,0.0,0.0
+45,0.0,0.0,2,alta,0,baja,2,solo A (B con nube),M045,4,2,2,2,0.0,0.0
+46,2.0,0.0,1,alta,1,alta,1,acuerdo,M046,1,1,1,1,1.0,1.0
+47,0.0,0.0,2,alta,0,baja,2,solo A (B con nube),M047,4,2,2,2,0.0,0.0
+48,0.0,0.0,2,alta,2,alta,2,acuerdo,M048,4,2,2,2,0.0,0.0
+49,,0.0,2,alta,2,alta,2,acuerdo,M049,4,2,2,2,0.0,0.0
+50,0.0,0.0,1,baja,2,alta,2,desacuerdo: confianza B,M050,4,2,2,2,0.0,0.0
+51,0.0,0.0,2,alta,2,alta,2,acuerdo,M051,4,2,2,2,0.0,0.0
+52,10.0,0.0,1,media,1,baja,1,acuerdo,M052,2,2,1,1,1.0,1.0
+53,0.0,0.0,2,alta,2,baja,2,acuerdo,M053,4,2,2,2,0.0,0.0
+54,0.0,0.0,2,alta,0,baja,2,solo A (B con nube),M054,4,2,2,2,0.0,0.0
+55,0.0,0.0,2,media,2,baja,2,acuerdo,M055,3,2,2,2,0.0,0.0
+56,0.0,0.0,2,alta,2,alta,2,acuerdo,M056,4,2,2,2,0.0,0.0
+57,0.0,0.0,2,alta,2,media,2,acuerdo,M057,4,2,2,2,0.0,0.0
+58,0.0,0.0,1,media,2,baja,1,desacuerdo: confianza A,M058,2,1,2,1,1.0,1.0
+59,0.0,0.0,2,alta,2,alta,2,acuerdo,M059,3,2,2,2,0.0,0.0
+60,0.0,0.0,2,alta,2,alta,2,acuerdo,M060,4,2,2,2,0.0,0.0
+61,0.0,0.0,2,alta,2,media,2,acuerdo,M061,4,2,2,2,0.0,0.0
+62,0.0,0.0,2,baja,2,media,2,acuerdo,M062,3,2,2,2,0.0,0.0
+63,1.0,0.0,1,alta,1,baja,1,acuerdo,M063,2,1,2,1,1.0,1.0
+64,0.0,0.0,2,alta,2,media,2,acuerdo,M064,4,2,2,2,0.0,0.0
+65,0.0,0.0,2,media,2,alta,2,acuerdo,M065,3,2,2,2,0.0,0.0
+66,0.0,0.0,2,alta,2,baja,2,acuerdo,M066,4,2,2,2,0.0,0.0
+67,0.0,0.0,2,media,0,baja,2,solo A (B con nube),M067,3,2,2,2,0.0,0.0
+68,80.0,0.0,1,alta,1,alta,1,acuerdo,M068,2,1,2,1,1.0,1.0
+69,0.0,0.0,2,baja,2,alta,2,acuerdo,M069,2,2,1,1,0.0,0.0
+70,0.0,0.0,1,media,1,media,1,acuerdo,M070,2,1,2,1,1.0,1.0
+71,0.0,0.0,2,alta,2,alta,2,acuerdo,M071,4,2,2,2,0.0,0.0
+72,0.0,1.0,2,baja,1,media,1,desacuerdo: confianza B,M072,3,2,2,2,0.0,1.0
+73,0.0,0.0,2,media,2,media,2,acuerdo,M073,2,2,1,1,0.0,0.0
+74,0.0,0.0,2,baja,1,alta,1,desacuerdo: confianza B,M074,3,2,2,2,1.0,1.0
+75,0.0,0.0,2,alta,2,alta,2,acuerdo,M075,4,2,2,2,0.0,0.0
+76,1.0,0.0,1,alta,1,baja,1,acuerdo,M076,1,1,1,1,1.0,1.0
+77,0.0,0.0,2,alta,2,alta,2,acuerdo,M077,4,2,2,2,0.0,0.0
+78,0.0,0.0,2,alta,2,alta,2,acuerdo,M078,4,2,2,2,0.0,0.0
+79,0.0,0.0,2,alta,2,alta,2,acuerdo,M079,4,2,2,2,0.0,0.0
+80,0.0,0.0,2,media,2,media,2,acuerdo,M080,3,2,2,2,0.0,0.0
+81,0.0,0.0,2,alta,2,alta,2,acuerdo,M081,2,2,1,1,0.0,0.0
+82,0.0,0.0,1,alta,0,baja,1,solo A (B con nube),M082,2,1,2,1,1.0,1.0
+83,0.0,0.0,1,media,1,media,1,acuerdo,M083,2,1,2,1,1.0,1.0
+84,0.0,0.0,1,alta,1,alta,1,acuerdo,M084,1,1,1,1,1.0,1.0
+85,1.0,0.0,1,media,1,media,1,acuerdo,M085,1,1,1,1,1.0,1.0
+86,0.0,0.0,2,alta,2,alta,2,acuerdo,M086,4,2,2,2,0.0,0.0
+87,0.0,0.0,1,media,0,baja,1,solo A (B con nube),M087,2,1,2,1,1.0,1.0
+88,1.0,0.0,1,alta,1,alta,1,acuerdo,M088,1,1,1,1,1.0,1.0
+89,0.0,0.0,2,alta,2,alta,2,acuerdo,M089,4,2,2,2,0.0,0.0
+90,0.0,0.0,1,media,1,baja,1,acuerdo,M090,2,1,2,1,1.0,1.0
+91,0.0,0.0,2,alta,2,alta,2,acuerdo,M091,4,2,2,2,0.0,0.0
+92,9.0,0.0,1,alta,1,media,1,acuerdo,M092,2,1,2,1,1.0,1.0
+93,0.0,0.0,2,media,0,baja,2,solo A (B con nube),M093,4,2,2,2,0.0,0.0
+94,3.0,0.0,1,alta,1,baja,1,acuerdo,M094,1,1,1,1,1.0,1.0
+95,0.0,0.0,2,media,0,baja,2,solo A (B con nube),M095,3,2,2,2,0.0,0.0
+96,0.0,0.0,1,alta,1,alta,1,acuerdo,M096,2,1,2,1,1.0,1.0
+97,0.0,0.0,2,alta,2,alta,2,acuerdo,M097,2,2,1,1,0.0,0.0
+98,0.0,0.0,2,alta,2,alta,2,acuerdo,M098,4,2,2,2,0.0,0.0
+99,0.0,0.0,2,alta,2,alta,2,acuerdo,M099,4,2,2,2,0.0,0.0
+100,0.0,0.0,2,alta,2,alta,2,acuerdo,M100,4,2,2,2,0.0,0.0
+101,0.0,0.0,1,alta,2,media,1,desacuerdo: confianza A,M101,3,2,2,2,1.0,1.0
+102,,0.0,2,alta,2,alta,2,acuerdo,M102,4,2,2,2,0.0,0.0
+103,45.0,0.0,1,alta,1,media,1,acuerdo,M103,1,1,1,1,1.0,1.0
+104,0.0,0.0,2,media,2,alta,2,acuerdo,M104,2,2,1,1,0.0,0.0
+105,0.0,0.0,2,alta,2,baja,2,acuerdo,M105,4,2,2,2,0.0,0.0
+106,0.0,0.0,2,media,2,media,2,acuerdo,M106,3,2,2,2,0.0,0.0
+107,0.0,0.0,2,alta,2,alta,2,acuerdo,M107,4,2,2,2,0.0,0.0
+108,0.0,0.0,2,alta,2,alta,2,acuerdo,M108,3,2,2,2,0.0,0.0
+109,0.0,0.0,2,alta,1,baja,2,desacuerdo: confianza A,M109,4,2,2,2,0.0,0.0
+110,0.0,0.0,1,baja,2,media,2,desacuerdo: confianza B,M110,3,2,2,2,0.0,0.0
+111,0.0,0.0,2,alta,2,alta,2,acuerdo,M111,4,2,2,2,0.0,0.0
+112,0.0,0.0,2,media,2,alta,2,acuerdo,M112,3,2,2,2,0.0,0.0
+113,0.0,0.0,1,media,1,baja,1,acuerdo,M113,3,2,2,2,1.0,1.0
+114,0.0,0.0,1,alta,1,media,1,acuerdo,M114,3,2,2,2,1.0,1.0
+115,0.0,0.0,2,alta,2,alta,2,acuerdo,M115,3,2,2,2,0.0,0.0
+116,0.0,0.0,1,media,1,baja,1,acuerdo,M116,2,1,2,1,1.0,1.0
+117,0.0,0.0,2,alta,2,media,2,acuerdo,M117,4,2,2,2,0.0,0.0
+118,0.0,0.0,2,alta,2,alta,2,acuerdo,M118,3,2,2,2,0.0,0.0
+119,1.0,0.0,1,alta,1,alta,1,acuerdo,M119,2,1,2,1,1.0,1.0
+120,0.0,0.0,1,media,1,media,1,acuerdo,M120,2,1,2,1,1.0,1.0
+121,0.0,0.0,2,alta,2,alta,2,acuerdo,M121,4,2,2,2,0.0,0.0
+122,0.0,0.0,2,media,2,baja,2,acuerdo,M122,2,1,2,1,0.0,0.0
+123,0.0,0.0,1,alta,1,alta,1,acuerdo,M123,1,1,1,1,1.0,1.0
+124,1.0,0.0,1,media,1,baja,1,acuerdo,M124,2,1,2,1,1.0,1.0
+125,0.0,0.0,2,alta,2,media,2,acuerdo,M125,4,2,2,2,0.0,0.0
+126,0.0,0.0,2,media,2,media,2,acuerdo,M126,2,1,2,1,0.0,0.0
+127,0.0,0.0,2,alta,2,alta,2,acuerdo,M127,4,2,2,2,0.0,0.0
+128,0.0,0.0,2,alta,2,alta,2,acuerdo,M128,2,2,1,1,0.0,0.0
+129,0.0,0.0,2,media,2,media,2,acuerdo,M129,3,2,2,2,0.0,0.0
+130,0.0,1.0,2,alta,2,alta,2,acuerdo,M130,4,2,2,2,0.0,0.0
+131,0.0,0.0,2,alta,2,baja,2,acuerdo,M131,3,2,2,2,0.0,0.0
+132,0.0,0.0,2,media,2,baja,2,acuerdo,M132,4,2,2,2,0.0,0.0
+133,0.0,0.0,1,alta,1,alta,1,acuerdo,M133,1,1,1,1,1.0,1.0
+134,0.0,0.0,2,alta,2,alta,2,acuerdo,M134,3,2,2,2,0.0,0.0
+135,3.0,0.0,1,alta,1,alta,1,acuerdo,M135,1,1,1,1,1.0,1.0
+136,0.0,0.0,2,alta,2,alta,2,acuerdo,M136,4,2,2,2,0.0,0.0
+137,0.0,0.0,2,alta,2,alta,2,acuerdo,M137,4,2,2,2,0.0,0.0
+138,0.0,0.0,2,alta,2,alta,2,acuerdo,M138,4,2,2,2,0.0,0.0
+139,0.0,0.0,2,alta,2,media,2,acuerdo,M139,3,2,2,2,0.0,0.0
+140,0.0,0.0,2,alta,2,baja,2,acuerdo,M140,3,2,2,2,0.0,0.0
+141,0.0,0.0,2,alta,2,alta,2,acuerdo,M141,3,2,2,2,0.0,0.0
+142,0.0,0.0,2,alta,0,baja,2,solo A (B con nube),M142,3,2,2,2,0.0,0.0
+143,4.0,0.0,1,alta,1,media,1,acuerdo,M143,1,1,1,1,1.0,1.0
+144,0.0,0.0,2,alta,2,alta,2,acuerdo,M144,3,2,2,2,0.0,0.0
+145,0.0,0.0,2,media,2,media,2,acuerdo,M145,2,1,2,1,0.0,0.0
+146,0.0,0.0,1,media,0,baja,1,solo A (B con nube),M146,3,2,2,2,1.0,1.0
+147,0.0,0.0,1,media,1,baja,1,acuerdo,M147,2,1,2,1,1.0,1.0
+148,0.0,0.0,2,media,2,alta,2,acuerdo,M148,3,2,2,2,0.0,0.0
+149,1.0,0.0,2,baja,1,baja,2,"desacuerdo: empate, fecha del mapa (A)",M149,2,1,2,1,0.0,0.0
+150,0.0,0.0,1,media,2,baja,1,desacuerdo: confianza A,M150,1,1,1,1,1.0,1.0
+151,0.0,0.0,2,alta,2,alta,2,acuerdo,M151,4,2,2,2,0.0,0.0
+152,0.0,0.0,2,media,2,media,2,acuerdo,M152,3,2,2,2,0.0,0.0
+153,0.0,0.0,2,media,2,alta,2,acuerdo,M153,3,2,2,2,0.0,0.0
+154,0.0,0.0,2,alta,2,alta,2,acuerdo,M154,4,2,2,2,0.0,0.0
+155,0.0,0.0,2,baja,1,baja,2,"desacuerdo: empate, fecha del mapa (A)",M155,2,1,2,1,0.0,0.0
+156,0.0,0.0,1,alta,1,alta,1,acuerdo,M156,1,1,1,1,1.0,1.0
+157,4.0,0.0,1,alta,1,alta,1,acuerdo,M157,1,1,1,1,1.0,1.0
+158,19.0,1.0,1,baja,1,media,1,acuerdo,M158,3,2,2,2,0.0,1.0
+159,0.0,0.0,1,media,1,baja,1,acuerdo,M159,1,1,1,1,1.0,1.0
+160,0.0,0.0,2,alta,2,alta,2,acuerdo,M160,4,2,2,2,0.0,0.0
+161,0.0,0.0,2,alta,2,alta,2,acuerdo,M161,4,2,2,2,0.0,0.0
+162,0.0,1.0,2,alta,2,media,2,acuerdo,M162,4,2,2,2,0.0,0.0
+163,0.0,0.0,1,baja,2,baja,1,"desacuerdo: empate, fecha del mapa (A)",M163,2,1,2,1,1.0,1.0
+164,0.0,0.0,2,media,2,baja,2,acuerdo,M164,3,2,2,2,0.0,0.0
+165,0.0,0.0,1,media,1,media,1,acuerdo,M165,2,2,1,1,1.0,1.0
+166,0.0,0.0,2,baja,1,baja,2,"desacuerdo: empate, fecha del mapa (A)",M166,2,1,2,1,0.0,0.0
+167,0.0,0.0,1,media,0,baja,1,solo A (B con nube),M167,3,2,2,2,1.0,1.0
+168,0.0,0.0,2,alta,2,alta,2,acuerdo,M168,4,2,2,2,0.0,0.0
+169,0.0,0.0,2,alta,2,baja,2,acuerdo,M169,4,2,2,2,0.0,0.0
+170,38.0,0.0,1,alta,1,alta,1,acuerdo,M170,1,1,1,1,1.0,1.0
+171,0.0,0.0,1,alta,1,media,1,acuerdo,M171,1,1,1,1,1.0,1.0
+172,0.0,0.0,2,media,2,alta,2,acuerdo,M172,3,2,2,2,0.0,0.0
+173,0.0,0.0,2,alta,2,alta,2,acuerdo,M173,4,2,2,2,0.0,0.0
+174,0.0,0.0,2,media,2,alta,2,acuerdo,M174,3,2,2,2,0.0,0.0
+175,0.0,0.0,1,media,1,baja,1,acuerdo,M175,3,2,2,2,1.0,1.0
+176,0.0,0.0,2,alta,2,alta,2,acuerdo,M176,4,2,2,2,0.0,0.0
+177,0.0,0.0,2,alta,2,alta,2,acuerdo,M177,2,2,1,1,0.0,0.0
+178,10.0,0.0,1,alta,1,alta,1,acuerdo,M178,2,1,2,1,1.0,1.0
+179,0.0,0.0,2,alta,2,alta,2,acuerdo,M179,4,2,2,2,0.0,0.0
+180,0.0,0.0,2,alta,2,baja,2,acuerdo,M180,2,2,1,1,0.0,0.0
+181,0.0,0.0,2,alta,2,media,2,acuerdo,M181,4,2,2,2,0.0,0.0
+182,0.0,0.0,2,alta,2,alta,2,acuerdo,M182,3,2,2,2,0.0,0.0
+183,0.0,0.0,1,media,0,baja,1,solo A (B con nube),M183,2,1,2,1,1.0,1.0
+184,0.0,0.0,1,baja,1,baja,1,acuerdo,M184,1,1,1,1,1.0,1.0
+185,0.0,0.0,2,baja,0,baja,2,solo A (B con nube),M185,3,2,2,2,0.0,0.0
+186,,0.0,2,alta,2,alta,2,acuerdo,M186,4,2,2,2,0.0,0.0
+187,0.0,0.0,2,alta,2,alta,2,acuerdo,M187,4,2,2,2,0.0,0.0
+188,0.0,0.0,2,alta,2,alta,2,acuerdo,M188,4,2,2,2,0.0,0.0
+189,2.0,0.0,1,alta,1,alta,1,acuerdo,M189,2,1,2,1,1.0,1.0
+190,51.0,0.0,1,alta,0,baja,1,solo A (B con nube),M190,2,1,2,1,1.0,1.0
+191,8.0,0.0,1,alta,1,baja,1,acuerdo,M191,2,1,2,1,1.0,1.0
+192,0.0,0.0,2,alta,2,alta,2,acuerdo,M192,4,2,2,2,0.0,0.0
+193,0.0,0.0,2,alta,2,alta,2,acuerdo,M193,2,2,1,1,0.0,0.0
+194,27.0,0.0,1,alta,1,media,1,acuerdo,M194,1,1,1,1,1.0,1.0
+195,1.0,0.0,1,alta,1,alta,1,acuerdo,M195,1,1,1,1,1.0,1.0
+196,6.0,0.0,1,media,1,media,1,acuerdo,M196,2,2,1,1,1.0,1.0
+197,22.0,0.0,1,alta,1,alta,1,acuerdo,M197,2,1,2,1,1.0,1.0
+198,0.0,0.0,2,alta,2,alta,2,acuerdo,M198,4,2,2,2,0.0,0.0
+199,0.0,0.0,2,alta,2,alta,2,acuerdo,M199,4,2,2,2,0.0,0.0
+200,0.0,0.0,2,alta,2,alta,2,acuerdo,M200,3,2,2,2,0.0,0.0
+201,0.0,0.0,1,alta,2,media,1,desacuerdo: confianza A,M201,1,1,1,1,1.0,1.0
+202,0.0,0.0,2,alta,2,media,2,acuerdo,M202,2,2,1,1,0.0,0.0
+203,0.0,0.0,1,media,2,baja,1,desacuerdo: confianza A,M203,3,2,2,2,1.0,1.0
+204,0.0,0.0,2,alta,2,alta,2,acuerdo,M204,4,2,2,2,0.0,0.0
+205,2.0,0.0,1,alta,1,alta,1,acuerdo,M205,1,1,1,1,1.0,1.0
+206,0.0,0.0,2,alta,2,media,2,acuerdo,M206,2,2,1,1,0.0,0.0
+207,0.0,0.0,1,baja,2,alta,2,desacuerdo: confianza B,M207,3,2,2,2,0.0,0.0
+208,87.0,0.0,1,alta,1,baja,1,acuerdo,M208,1,1,1,1,1.0,1.0
+209,0.0,0.0,2,alta,2,alta,2,acuerdo,M209,2,2,1,1,0.0,0.0
+210,0.0,0.0,2,alta,2,alta,2,acuerdo,M210,4,2,2,2,0.0,0.0
+211,0.0,0.0,1,media,1,media,1,acuerdo,M211,2,1,2,1,1.0,1.0
+212,9.0,0.0,1,alta,1,alta,1,acuerdo,M212,1,1,1,1,1.0,1.0
+213,0.0,0.0,2,alta,2,alta,2,acuerdo,M213,3,2,2,2,0.0,0.0
+214,0.0,0.0,1,media,2,baja,1,desacuerdo: confianza A,M214,2,2,1,1,1.0,1.0
+215,0.0,0.0,2,media,2,media,2,acuerdo,M215,4,2,2,2,0.0,0.0
+216,0.0,0.0,2,alta,2,alta,2,acuerdo,M216,2,2,1,1,0.0,0.0
+217,0.0,0.0,1,alta,1,alta,1,acuerdo,M217,1,1,1,1,1.0,1.0
+218,3.0,0.0,1,media,0,baja,1,solo A (B con nube),M218,1,1,1,1,1.0,1.0
+219,0.0,0.0,1,media,1,media,1,acuerdo,M219,2,1,2,1,1.0,1.0
+220,0.0,0.0,2,alta,2,alta,2,acuerdo,M220,3,2,2,2,0.0,0.0
+221,0.0,0.0,1,media,1,baja,1,acuerdo,M221,2,2,1,1,1.0,1.0
+222,0.0,0.0,2,alta,2,alta,2,acuerdo,M222,2,2,1,1,0.0,0.0
+223,0.0,0.0,2,alta,2,alta,2,acuerdo,M223,4,2,2,2,0.0,0.0
+224,8.0,0.0,1,alta,1,alta,1,acuerdo,M224,1,1,1,1,1.0,1.0
+225,0.0,0.0,2,alta,2,media,2,acuerdo,M225,3,2,2,2,0.0,0.0
+226,0.0,0.0,1,media,1,baja,1,acuerdo,M226,3,2,2,2,1.0,1.0
+227,0.0,0.0,2,alta,0,baja,2,solo A (B con nube),M227,4,2,2,2,0.0,0.0
+228,0.0,0.0,1,media,2,media,1,"desacuerdo: empate, fecha del mapa (A)",M228,1,1,1,1,1.0,1.0
+229,0.0,0.0,1,alta,1,alta,1,acuerdo,M229,1,1,1,1,1.0,1.0
+230,0.0,0.0,2,alta,2,alta,2,acuerdo,M230,3,2,2,2,0.0,0.0
+231,79.0,1.0,1,alta,1,alta,1,acuerdo,M231,3,2,2,2,0.0,1.0
+232,0.0,0.0,2,media,2,media,2,acuerdo,M232,4,2,2,2,0.0,0.0
+233,0.0,0.0,2,alta,2,alta,2,acuerdo,M233,2,2,1,1,0.0,0.0
+234,0.0,0.0,1,media,0,baja,1,solo A (B con nube),M234,2,1,2,1,1.0,1.0
+235,0.0,0.0,2,alta,2,alta,2,acuerdo,M235,4,2,2,2,0.0,0.0
+236,0.0,0.0,1,baja,1,baja,1,acuerdo,M236,3,2,2,2,1.0,1.0
+237,0.0,0.0,1,alta,1,alta,1,acuerdo,M237,2,1,2,1,1.0,1.0
+238,0.0,0.0,2,alta,2,alta,2,acuerdo,M238,2,2,1,1,0.0,0.0
+239,0.0,0.0,2,alta,2,alta,2,acuerdo,M239,2,2,1,1,0.0,0.0
+240,0.0,0.0,1,alta,1,baja,1,acuerdo,M240,1,1,1,1,1.0,1.0
+241,0.0,0.0,1,alta,1,alta,1,acuerdo,M241,1,1,1,1,1.0,1.0
+242,0.0,0.0,2,media,2,media,2,acuerdo,M242,2,1,2,1,0.0,0.0
+243,0.0,0.0,1,baja,2,baja,1,"desacuerdo: empate, fecha del mapa (A)",M243,3,2,2,2,1.0,1.0
+244,0.0,0.0,2,alta,2,alta,2,acuerdo,M244,4,2,2,2,0.0,0.0
+245,1.0,0.0,1,alta,1,alta,1,acuerdo,M245,2,1,2,1,1.0,1.0
+246,0.0,0.0,2,alta,2,alta,2,acuerdo,M246,4,2,2,2,0.0,0.0
+247,0.0,0.0,2,alta,2,media,2,acuerdo,M247,3,2,2,2,0.0,0.0
+248,0.0,0.0,2,alta,2,alta,2,acuerdo,M248,4,2,2,2,0.0,0.0
+249,75.0,0.0,1,alta,1,alta,1,acuerdo,M249,2,1,2,1,1.0,1.0
+250,0.0,0.0,2,alta,2,alta,2,acuerdo,M250,4,2,2,2,0.0,0.0
+251,0.0,0.0,1,alta,1,media,1,acuerdo,M251,1,1,1,1,1.0,1.0
+252,0.0,0.0,1,media,2,baja,1,desacuerdo: confianza A,M252,3,2,2,2,1.0,1.0
+253,0.0,0.0,1,media,0,baja,1,solo A (B con nube),M253,2,1,2,1,1.0,1.0
+254,0.0,0.0,2,alta,2,alta,2,acuerdo,M254,4,2,2,2,0.0,0.0
+255,10.0,0.0,1,alta,1,alta,1,acuerdo,M255,2,1,2,1,1.0,1.0
+256,0.0,0.0,1,baja,1,media,1,acuerdo,M256,3,2,2,2,1.0,1.0
+257,0.0,0.0,2,alta,2,alta,2,acuerdo,M257,4,2,2,2,0.0,0.0
+258,0.0,0.0,2,media,2,alta,2,acuerdo,M258,3,2,2,2,0.0,0.0
+259,0.0,0.0,2,media,2,baja,2,acuerdo,M259,3,2,2,2,0.0,0.0
+260,20.0,0.0,1,alta,1,alta,1,acuerdo,M260,1,1,1,1,1.0,1.0
+261,0.0,0.0,2,alta,2,alta,2,acuerdo,M261,4,2,2,2,0.0,0.0
+262,0.0,0.0,2,alta,2,alta,2,acuerdo,M262,3,2,2,2,0.0,0.0
+263,0.0,0.0,1,media,1,media,1,acuerdo,M263,2,1,2,1,1.0,1.0
+264,3.0,0.0,1,alta,1,alta,1,acuerdo,M264,2,1,2,1,1.0,1.0
+265,3.0,0.0,1,alta,1,alta,1,acuerdo,M265,1,1,1,1,1.0,1.0
+266,1.0,0.0,1,alta,1,alta,1,acuerdo,M266,2,1,2,1,1.0,1.0
+267,0.0,0.0,2,alta,2,alta,2,acuerdo,M267,2,2,1,1,0.0,0.0
+268,0.0,0.0,1,media,1,media,1,acuerdo,M268,2,1,2,1,1.0,1.0
+269,0.0,0.0,2,alta,2,alta,2,acuerdo,M269,4,2,2,2,0.0,0.0
+270,0.0,0.0,2,media,2,media,2,acuerdo,M270,3,2,2,2,0.0,0.0
+271,0.0,0.0,2,alta,2,alta,2,acuerdo,M271,4,2,2,2,0.0,0.0
+272,,0.0,2,alta,2,alta,2,acuerdo,M272,4,2,2,2,0.0,0.0
+273,2.0,0.0,1,alta,1,media,1,acuerdo,M273,1,1,1,1,1.0,1.0
+274,0.0,0.0,2,alta,1,baja,2,desacuerdo: confianza A,M274,3,2,2,2,0.0,0.0
+275,0.0,0.0,2,media,2,media,2,acuerdo,M275,3,2,2,2,0.0,0.0
+276,16.0,0.0,1,media,1,media,1,acuerdo,M276,1,1,1,1,1.0,1.0
+277,2.0,0.0,2,alta,2,alta,2,acuerdo,M277,4,2,2,2,0.0,0.0
+278,0.0,0.0,2,alta,2,alta,2,acuerdo,M278,4,2,2,2,0.0,0.0
+279,0.0,0.0,2,alta,2,media,2,acuerdo,M279,3,2,2,2,0.0,0.0
+280,3.0,0.0,1,alta,0,baja,1,solo A (B con nube),M280,1,1,1,1,1.0,1.0
+281,0.0,0.0,2,alta,2,alta,2,acuerdo,M281,4,2,2,2,0.0,0.0
+282,0.0,0.0,2,alta,2,alta,2,acuerdo,M282,4,2,2,2,0.0,0.0
+283,0.0,0.0,2,alta,2,baja,2,acuerdo,M283,4,2,2,2,0.0,0.0
+284,0.0,0.0,2,media,2,media,2,acuerdo,M284,1,1,1,1,0.0,0.0
+285,43.0,0.0,1,alta,1,alta,1,acuerdo,M285,2,1,2,1,1.0,1.0
+286,3.0,0.0,1,alta,1,alta,1,acuerdo,M286,1,1,1,1,1.0,1.0
+287,0.0,0.0,1,baja,1,baja,1,acuerdo,M287,2,1,2,1,1.0,1.0
+288,0.0,0.0,2,alta,2,alta,2,acuerdo,M288,3,2,2,2,0.0,0.0
+289,2.0,0.0,1,alta,1,baja,1,acuerdo,M289,2,1,2,1,1.0,1.0
+290,0.0,0.0,2,alta,2,alta,2,acuerdo,M290,4,2,2,2,0.0,0.0
+291,0.0,0.0,2,alta,2,alta,2,acuerdo,M291,4,2,2,2,0.0,0.0
+292,1.0,0.0,1,alta,1,alta,1,acuerdo,M292,1,1,1,1,1.0,1.0
+293,0.0,0.0,2,alta,2,baja,2,acuerdo,M293,4,2,2,2,0.0,0.0
+294,0.0,0.0,2,alta,2,alta,2,acuerdo,M294,3,2,2,2,0.0,0.0
+295,0.0,0.0,1,media,1,media,1,acuerdo,M295,1,1,1,1,1.0,1.0
+296,0.0,0.0,2,alta,2,alta,2,acuerdo,M296,2,2,1,1,0.0,0.0
+297,0.0,0.0,1,media,1,alta,1,acuerdo,M297,1,1,1,1,1.0,1.0
+298,0.0,0.0,2,alta,2,alta,2,acuerdo,M298,2,2,1,1,0.0,0.0
+299,0.0,0.0,2,alta,2,alta,2,acuerdo,M299,4,2,2,2,0.0,0.0
+300,0.0,0.0,2,alta,2,alta,2,acuerdo,M300,4,2,2,2,0.0,0.0

@@ -1,0 +1,3 @@
+﻿codigo,clase,n_puntos_estrato,area_mapa_ha,area_estimada_ha,IC95_area_ha,exactitud_usuario,IC95_usuario,comision,exactitud_productor,IC95_productor,omision,exactitud_global,IC95_global,area_total_ha,n_total
+1,urbano,41,8492.1,4612.3,1986.3,0.415,0.153,0.585,0.763,0.258,0.237,0.9047,0.0312,63598.3,142
+2,no_urbano,101,55106.2,58986.0,1986.3,0.98,0.027,0.02,0.916,0.02,0.084,0.9047,0.0312,63598.3,142

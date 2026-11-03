@@ -1,0 +1,4 @@
+variante,datos_usados,exactitud_global,IC_global,omision_perdida,IC_omision,comision_perdida,IC_comision,porcentaje_estimado,IC_porcentaje,area_segun_mapa_ha
+Solo optico,Sentinel-2,0.952,0.007,0.0,0.0,0.829,0.127,1.0,0.7,10251
+Solo banda L,ALOS-2 + NISAR,0.83,0.0,,,1.0,0.0,0.0,0.0,29853
+Multisensor,L + C + optico,0.904,0.035,0.821,0.197,0.889,0.104,4.3,3.5,11756

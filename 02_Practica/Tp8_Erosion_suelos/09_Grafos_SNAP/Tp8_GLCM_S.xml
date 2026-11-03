@@ -1,0 +1,54 @@
+<graph id="Tp8_GLCM_S">
+  <version>1.0</version>
+  <node id="Read">
+    <operator>Read</operator>
+    <parameters>
+      <file>D:\CURSOS_CEREGEO_2026\02_Practica\Tp8_Erosion_suelos\02_Subsets_SNAP_QGIS\F_textura_S_C_10m.tif</file>
+    </parameters>
+  </node>
+  <node id="dB">
+    <operator>BandMaths</operator>
+    <sources><sourceProduct refid="Read"/></sources>
+    <parameters>
+      <targetBands>
+        <targetBand>
+          <name>S_NovaSAR_sigma0_HH_db</name>
+          <type>float32</type>
+          <expression>S_NovaSAR_sigma0_HH &gt; 0 ? 10*log10(S_NovaSAR_sigma0_HH) : NaN</expression>
+          <unit>dB</unit>
+          <noDataValue>NaN</noDataValue>
+        </targetBand>
+      </targetBands>
+    </parameters>
+  </node>
+  <node id="GLCM">
+    <operator>GLCM</operator>
+    <sources><sourceProduct refid="dB"/></sources>
+    <parameters>
+      <sourceBands>S_NovaSAR_sigma0_HH_db</sourceBands>
+      <windowSizeStr>5x5</windowSizeStr>
+      <angleStr>ALL</angleStr>
+      <quantizerStr>Probabilistic Quantizer</quantizerStr>
+      <quantizationLevelsStr>32</quantizationLevelsStr>
+      <displacement>1</displacement>
+      <outputContrast>true</outputContrast>
+      <outputDissimilarity>false</outputDissimilarity>
+      <outputHomogeneity>true</outputHomogeneity>
+      <outputASM>false</outputASM>
+      <outputEnergy>false</outputEnergy>
+      <outputMAX>false</outputMAX>
+      <outputEntropy>false</outputEntropy>
+      <outputMean>false</outputMean>
+      <outputVariance>false</outputVariance>
+      <outputCorrelation>false</outputCorrelation>
+    </parameters>
+  </node>
+  <node id="Write">
+    <operator>Write</operator>
+    <sources><sourceProduct refid="GLCM"/></sources>
+    <parameters>
+      <file>D:\CURSOS_CEREGEO_2026\02_Practica\Tp8_Erosion_suelos\05_Resultados\02_Rasters\F_GLCM_S_HH_dB_5x5.tif</file>
+      <formatName>GeoTIFF</formatName>
+    </parameters>
+  </node>
+</graph>

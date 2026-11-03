@@ -1,0 +1,3 @@
+﻿banda,pasada,incidencia_grados,coherencia_media_ladera,coherencia_media_referencia,%_ladera_coherente,desp_mediana_ladera_m,desp_p05_ladera_m,desvio_referencia_m,nmad_referencia_m,umbral_m
+X_COSMO,descendente,59.6,0.415,0.393,80.2,0.0005,-0.0022,0.0016,0.0016,0.01
+C_Sentinel1,descendente,38.9,0.586,0.435,78.4,-0.0013,-0.0049,0.004,0.0023,0.01

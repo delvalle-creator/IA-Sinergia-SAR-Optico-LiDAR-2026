@@ -1,0 +1,9 @@
+rasgos,validacion,AUC,exactitud
+optico,por pixel (10 grupos al azar),0.8062875176553672,0.75
+optico,por poligono (10 grupos),0.7279363082627118,0.7274193548387097
+optico + pendiente,por pixel (10 grupos al azar),0.9224763859463276,0.8403225806451613
+optico + pendiente,por poligono (10 grupos),0.7238038488700563,0.6403225806451613
+optico + pendiente + SAR,por pixel (10 grupos al azar),0.9823556673728814,0.9451612903225807
+optico + pendiente + SAR,por poligono (10 grupos),0.7314839336158193,0.6758064516129032
+solo SAR,por pixel (10 grupos al azar),0.7970074152542372,0.7290322580645161
+solo SAR,por poligono (10 grupos),0.5665717690677966,0.5693548387096774

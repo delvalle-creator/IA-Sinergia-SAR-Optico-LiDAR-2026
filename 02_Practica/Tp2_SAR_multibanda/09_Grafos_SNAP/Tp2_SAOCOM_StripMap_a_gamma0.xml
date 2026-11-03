@@ -1,0 +1,164 @@
+<graph id="SAOCOM_L1A_a_gamma0_TF_UTM21S">
+  <!-- SAOCOM-1 L1A (SLC banda L) -> gamma0 con Terrain Flattening ->
+       EPSG:32721 a 10 m. SNAP >= 9 lee el producto (carpeta con .xemt).
+       El Subset recorta el AOI (mas un margen) antes del Terrain Flattening,
+       igual que en los grafos Sentinel.
+
+       Sirve para cualquier modo y polarizacion: el nodo Calibration NO fija
+       polarizaciones, asi que procesa las que traiga el producto. Con las
+       quad-pol (HH, HV, VH, VV) saca cuatro bandas; con las dual-pol S4
+       (HH, HV) saca dos. No hay que tocar nada.
+
+       OJO con la geometria de mirada: las escenas SAOCOM-1A del archivo del
+       curso (Delta, julio a octubre de 2020, Stripmap QP y DP) deben ser de
+       la MISMA pasada (ascendente o descendente) para apilarlas o
+       promediarlas. Una escena de la pasada opuesta se procesa con este
+       mismo grafo, pero su gamma0 en las barrancas y albardones no es
+       comparable: se usa por separado y se declara. -->
+  <version>1.0</version>
+  <node id="Read">
+    <operator>Read</operator>
+    <sources/>
+    <parameters><file/></parameters>
+  </node>
+  <node id="Calibration">
+    <operator>Calibration</operator>
+    <sources><sourceProduct refid="Read"/></sources>
+    <parameters>
+      <outputBetaBand>true</outputBetaBand>
+      <outputSigmaBand>false</outputSigmaBand>
+    
+      <sourceBands/>
+      <auxFile>Latest Auxiliary File</auxFile>
+      <externalAuxFile/>
+      <createGammaBand>false</createGammaBand>
+      <createBetaBand>false</createBetaBand>
+    
+      <outputImageInComplex>false</outputImageInComplex>
+      <outputImageScaleInDb>false</outputImageScaleInDb>
+    </parameters>
+  </node>
+  <node id="Subset">
+    <operator>Subset</operator>
+    <sources><sourceProduct refid="Calibration"/></sources>
+    <parameters>
+      <geoRegion/>
+      <copyMetadata>true</copyMetadata>
+    
+      <sourceBands/>
+      <region>0,0,0,0</region>
+      <subSamplingX>1</subSamplingX>
+      <subSamplingY>1</subSamplingY>
+      <fullSwath>false</fullSwath>
+      <tiePointGridNames/>
+    </parameters>
+  </node>
+  <node id="Multilook">
+    <operator>Multilook</operator>
+    <sources><sourceProduct refid="Subset"/></sources>
+    <parameters>
+      <nRgLooks>2</nRgLooks>
+      <nAzLooks>2</nAzLooks>
+    
+      <sourceBands/>
+    
+      <outputIntensity>true</outputIntensity>
+      <grSquarePixel>true</grSquarePixel>
+    </parameters>
+  </node>
+  <node id="Terrain-Flattening">
+    <operator>Terrain-Flattening</operator>
+    <sources><sourceProduct refid="Multilook"/></sources>
+    <parameters>
+      <demName>Copernicus 30m Global DEM</demName>
+      <demResamplingMethod>BILINEAR_INTERPOLATION</demResamplingMethod>
+      <additionalOverlap>0.1</additionalOverlap>
+      <oversamplingMultiple>1.0</oversamplingMultiple>
+    
+      <externalDEMApplyEGM>true</externalDEMApplyEGM>
+      <outputSimulatedImage>false</outputSimulatedImage>
+    
+      <sourceBands/>
+      <externalDEMFile/>
+      <externalDEMNoDataValue>0.0</externalDEMNoDataValue>
+    </parameters>
+  </node>
+  <node id="Terrain-Correction">
+    <operator>Terrain-Correction</operator>
+    <sources><sourceProduct refid="Terrain-Flattening"/></sources>
+    <parameters>
+      <demName>Copernicus 30m Global DEM</demName>
+      <imgResamplingMethod>BILINEAR_INTERPOLATION</imgResamplingMethod>
+      <pixelSpacingInMeter>10.0</pixelSpacingInMeter>
+      <pixelSpacingInDegree>8.983152841195213e-05</pixelSpacingInDegree>
+      <mapProjection>EPSG:32721</mapProjection>
+      <nodataValueAtSea>false</nodataValueAtSea>
+      <alignToStandardGrid>true</alignToStandardGrid>
+      <!-- Origen desplazado medio pixel: SNAP alinea los CENTROS de pixel al
+           origen indicado. Con origen 0,0 los centros caerian en multiplos de
+           10 m y los BORDES quedarian desfasados 5 m respecto de la grilla del
+           AOI (cuyas esquinas son multiplos de 10). Con origen 5,5 los centros
+           caen en 5, 15, 25... y los bordes en 0, 10, 20...: la grilla coincide
+           exactamente con la del optico. -->
+      <standardGridOriginX>5.0</standardGridOriginX>
+      <standardGridOriginY>5.0</standardGridOriginY>
+      <saveLocalIncidenceAngle>true</saveLocalIncidenceAngle>
+    
+      <sourceBands/>
+      <externalDEMFile/>
+      <externalDEMNoDataValue>0.0</externalDEMNoDataValue>
+      <externalDEMApplyEGM>true</externalDEMApplyEGM>
+      <saveDEM>false</saveDEM>
+      <saveLatLon>false</saveLatLon>
+      <saveIncidenceAngleFromEllipsoid>false</saveIncidenceAngleFromEllipsoid>
+      <saveProjectedLocalIncidenceAngle>false</saveProjectedLocalIncidenceAngle>
+      <saveLayoverShadowMask>true</saveLayoverShadowMask>
+      <applyRadiometricNormalization>false</applyRadiometricNormalization>
+      <saveSigmaNought>false</saveSigmaNought>
+      <saveGammaNought>false</saveGammaNought>
+      <saveBetaNought>false</saveBetaNought>
+      <incidenceAngleForSigma0>Use projected local incidence angle from DEM</incidenceAngleForSigma0>
+      <incidenceAngleForGamma0>Use projected local incidence angle from DEM</incidenceAngleForGamma0>
+      <auxFile>Latest Auxiliary File</auxFile>
+      <externalAuxFile/>
+    
+      <demResamplingMethod>BILINEAR_INTERPOLATION</demResamplingMethod>
+      <saveSelectedSourceBand>true</saveSelectedSourceBand>
+    </parameters>
+  </node>
+  <node id="Write">
+    <operator>Write</operator>
+    <sources><sourceProduct refid="Terrain-Correction"/></sources>
+    <parameters>
+      <file/>
+      <!-- BEAM-DIMAP: formato nativo de SNAP. Conserva TODOS los metadatos, de
+           modo que el subset puede seguir procesandose en SNAP (polarimetria,
+           InSAR, filtros). El GeoTIFF los perderia. -->
+      <formatName>BEAM-DIMAP</formatName>
+    </parameters>
+  </node>
+  <applicationData id="Presentation">
+    <Description/>
+    <node id="Read">
+      <displayPosition x="15.0" y="20.0"/>
+    </node>
+    <node id="Calibration">
+      <displayPosition x="220.0" y="20.0"/>
+    </node>
+    <node id="Subset">
+      <displayPosition x="425.0" y="20.0"/>
+    </node>
+    <node id="Multilook">
+      <displayPosition x="15.0" y="82.0"/>
+    </node>
+    <node id="Terrain-Flattening">
+      <displayPosition x="220.0" y="82.0"/>
+    </node>
+    <node id="Terrain-Correction">
+      <displayPosition x="425.0" y="82.0"/>
+    </node>
+    <node id="Write">
+      <displayPosition x="15.0" y="144.0"/>
+    </node>
+  </applicationData>
+</graph>

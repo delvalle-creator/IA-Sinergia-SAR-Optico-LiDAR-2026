@@ -1,0 +1,9 @@
+﻿ventana,dy_px,dx_px,corr_antes,corr_despues,usada,mejora_bordes,mediana_dx_px,mediana_dy_px,modulo_px,dispersion_x_px,dispersion_y_px,rango_dx_columnas_px,rango_dy_filas_px,dx_m_este,dy_m_norte,ventanas_validas,ventanas_usadas,modulo_todas_px,dispersion_x_todas_px,dispersion_y_todas_px,veredicto,pixel_m,ref,mov
+"2,0",0.3,0.1,0.502,0.524,True,True,-0.05,0.2,0.21,0.13,0.08,0.25,0.05,-1.0,-4.0,8,8,0.21,0.13,0.08,CUMPLE para fusion de pixel,20.0,OPT_S2_B08,S_NISAR_gamma0_HH_20260930
+"2,1",0.3,0.2,0.414,0.454,True,True,-0.05,0.2,0.21,0.13,0.08,0.25,0.05,-1.0,-4.0,8,8,0.21,0.13,0.08,CUMPLE para fusion de pixel,20.0,OPT_S2_B08,S_NISAR_gamma0_HH_20260930
+"2,2",0.1,-0.1,0.451,0.455,True,True,-0.05,0.2,0.21,0.13,0.08,0.25,0.05,-1.0,-4.0,8,8,0.21,0.13,0.08,CUMPLE para fusion de pixel,20.0,OPT_S2_B08,S_NISAR_gamma0_HH_20260930
+"2,3",0.2,0.0,0.467,0.471,True,True,-0.05,0.2,0.21,0.13,0.08,0.25,0.05,-1.0,-4.0,8,8,0.21,0.13,0.08,CUMPLE para fusion de pixel,20.0,OPT_S2_B08,S_NISAR_gamma0_HH_20260930
+"3,0",0.3,-0.1,0.459,0.472,True,True,-0.05,0.2,0.21,0.13,0.08,0.25,0.05,-1.0,-4.0,8,8,0.21,0.13,0.08,CUMPLE para fusion de pixel,20.0,OPT_S2_B08,S_NISAR_gamma0_HH_20260930
+"3,1",0.2,0.0,0.443,0.453,True,True,-0.05,0.2,0.21,0.13,0.08,0.25,0.05,-1.0,-4.0,8,8,0.21,0.13,0.08,CUMPLE para fusion de pixel,20.0,OPT_S2_B08,S_NISAR_gamma0_HH_20260930
+"3,2",0.1,-0.2,0.438,0.452,True,True,-0.05,0.2,0.21,0.13,0.08,0.25,0.05,-1.0,-4.0,8,8,0.21,0.13,0.08,CUMPLE para fusion de pixel,20.0,OPT_S2_B08,S_NISAR_gamma0_HH_20260930
+"3,3",0.2,-0.1,0.451,0.463,True,True,-0.05,0.2,0.21,0.13,0.08,0.25,0.05,-1.0,-4.0,8,8,0.21,0.13,0.08,CUMPLE para fusion de pixel,20.0,OPT_S2_B08,S_NISAR_gamma0_HH_20260930

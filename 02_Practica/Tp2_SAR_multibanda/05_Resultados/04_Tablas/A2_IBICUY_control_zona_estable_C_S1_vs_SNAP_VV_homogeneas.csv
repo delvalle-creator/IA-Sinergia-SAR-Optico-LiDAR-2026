@@ -1,0 +1,4 @@
+﻿banda_a,banda_b,clase,n_pixeles,n_poligonos,pasada_traza_a,pasada_traza_b,diferencia_media_dB,desvio_pixel_a_pixel_dB,diferencia_por_poligono_dB,diferencia_poligono_min_dB,diferencia_poligono_max_dB,ic95_remuestreo_poligonos_dB,umbral_dB,veredicto
+C_S1_gamma0_VV,C_SNAP_gamma0_VV,monte_o_bosque,484,4,D68,D68,0.96,1.22,+1.02 ; +1.02 ; +0.86 ; +0.93,0.86,1.02,+0.89 a +1.02,1.0,CUMPLE
+C_S1_gamma0_VV,C_SNAP_gamma0_VV,pajonal,484,4,D68,D68,0.87,1.69,+1.39 ; +0.91 ; +0.70 ; +1.07,0.7,1.39,+0.72 a +1.33,1.0,CUMPLE
+C_S1_gamma0_VV,C_SNAP_gamma0_VV,agua_calma,484,4,D68,D68,1.36,1.89,+1.38 ; +1.21 ; +1.31 ; +1.55,1.21,1.55,+1.25 a +1.48,1.0,"NO CUMPLE: revisar calibracion, normalizacion u orbita"

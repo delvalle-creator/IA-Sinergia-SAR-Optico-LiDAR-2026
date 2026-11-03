@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "DELTA_NISAR",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "sitio": "DELTA_NISAR", "nombre": "Delta del Parana, sector medio (recorte NISAR 2026)", "origen": "mosaico_NISAR", "practicos": "Tp2,Tp3", "columnas": 13623, "filas": 9964, "superficie_km2": 13574.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -58.72, -33.83 ], [ -58.72, -32.96 ], [ -60.16, -32.96 ], [ -60.16, -33.83 ], [ -58.72, -33.83 ] ] ] } }
+]
+}

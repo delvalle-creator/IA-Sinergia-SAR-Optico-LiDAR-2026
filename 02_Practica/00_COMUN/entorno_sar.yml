@@ -1,0 +1,44 @@
+# Entorno de Miniforge para los once trabajos practicos del curso
+# "Sinergias multisensor y estrategias de fusion SAR-Optico-LiDAR
+#  para evaluacion de emergencias ambientales" (Diamante, Entre Rios, 2026).
+#
+# Se instala UNA sola vez, desde el Miniforge Prompt:
+#
+#   cd /d D:\CURSOS_CEREGEO_2026\02_Practica\00_COMUN
+#   conda env create -f entorno_sar.yml
+#   conda activate sar
+#   python comprobar_entorno.py
+#
+# Si el entorno ya existe y se agrego un paquete a esta lista:
+#   conda env update -f entorno_sar.yml --prune
+#
+# Todos los paquetes salen del canal conda-forge, que es el que trae
+# Miniforge por defecto. No se mezcla con pip.
+name: sar
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy                 # calculo numerico: todos los scripts
+  - scipy                 # filtros, distancias y estadistica (Tp5 a Tp10)
+  - pandas                # tablas (planillas de escenas, resultados)
+  - matplotlib            # graficos de control y figuras de los informes
+  - gdal                  # motor de lectura y escritura raster
+  - libgdal-jp2openjpeg   # lector JPEG-2000 (Sentinel-2 descargado en .SAFE)
+  - libgdal-hdf5          # lector HDF5 de GDAL (NISAR GCOV, GEDI, ICESat-2)
+  - rasterio              # lectura de recortes COG y escritura de GeoTIFF
+  - geopandas             # poligonos y puntos (sitios, muestras, huellas)
+  - pyogrio               # lectura y escritura rapida de GeoPackage
+  - shapely               # geometria: huella del catalogo frente al sitio
+  - pyproj                # reproyecciones y geoide (EGM2008)
+  - h5py                  # lectura directa de NISAR GCOV, GEDI L2A y ATL08
+  - scikit-learn          # Random Forest (fusion de rasgos) y metricas
+  - scikit-image          # Otsu y correlacion de fase (corregistro)
+  - pystac-client         # catalogo STAC de Microsoft Planetary Computer
+  - planetary-computer    # firma las URL del Planetary Computer (sin cuenta)
+  - asf_search            # catalogo de ASF: NISAR, ALOS PALSAR, Sentinel-1 SLC
+  - earthaccess           # descargas de NASA Earthdata (cuenta gratuita)
+  - harmony-py            # recortes GEDI hechos en los servidores de NASA (Harmony)
+  - hyp3_sdk              # pedido de interferogramas a ASF HyP3 (Tp7, Tp10)
+  - requests              # descargas por HTTP
+  - openpyxl              # lectura y escritura de planillas .xlsx

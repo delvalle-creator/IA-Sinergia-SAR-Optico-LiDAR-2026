@@ -1,0 +1,25 @@
+﻿region,sensor_1,sensor_2,pixeles,%_clase_sensor_1,%_clase_sensor_2,%_ambos,%_solo_1,%_solo_2,acuerdo_%
+todo el sitio,C_VV,S_HH,1699173,5.0,4.7,2.4,2.6,2.3,95.2
+todo el sitio,C_VV,L_HH,1699173,5.0,4.7,2.5,2.5,2.2,95.2
+todo el sitio,S_HH,L_HH,1699173,4.7,4.7,2.9,1.8,1.8,96.5
+control: agua_permanente,C_VV,S_HH,295852,0.0,0.0,0.0,0.0,0.0,100.0
+control: agua_permanente,C_VV,L_HH,295852,0.0,0.0,0.0,0.0,0.0,100.0
+control: agua_permanente,S_HH,L_HH,295852,0.0,0.0,0.0,0.0,0.0,100.0
+control: humedal_pajonal,C_VV,S_HH,220,0.0,0.0,0.0,0.0,0.0,100.0
+control: humedal_pajonal,C_VV,L_HH,220,0.0,0.0,0.0,0.0,0.0,100.0
+control: humedal_pajonal,S_HH,L_HH,220,0.0,0.0,0.0,0.0,0.0,100.0
+control: monte_nativo,C_VV,S_HH,37761,5.4,1.8,0.2,5.2,1.6,93.2
+control: monte_nativo,C_VV,L_HH,37761,5.4,1.7,0.1,5.3,1.6,93.1
+control: monte_nativo,S_HH,L_HH,37761,1.8,1.7,0.1,1.8,1.7,96.5
+control: plantacion_forestal,C_VV,S_HH,110,3.6,0.0,0.0,3.6,0.0,96.4
+control: plantacion_forestal,C_VV,L_HH,110,3.6,0.0,0.0,3.6,0.0,96.4
+control: plantacion_forestal,S_HH,L_HH,110,0.0,0.0,0.0,0.0,0.0,100.0
+control: cultivo_pastura,C_VV,S_HH,110,0.0,0.0,0.0,0.0,0.0,100.0
+control: cultivo_pastura,C_VV,L_HH,110,0.0,0.0,0.0,0.0,0.0,100.0
+control: cultivo_pastura,S_HH,L_HH,110,0.0,0.0,0.0,0.0,0.0,100.0
+control: suelo_desnudo,C_VV,S_HH,18,22.2,5.6,5.6,16.7,0.0,83.3
+control: suelo_desnudo,C_VV,L_HH,18,22.2,11.1,11.1,11.1,0.0,88.9
+control: suelo_desnudo,S_HH,L_HH,18,5.6,11.1,0.0,5.6,11.1,83.3
+control: urbano,C_VV,S_HH,330,86.4,92.7,81.8,4.5,10.9,84.5
+control: urbano,C_VV,L_HH,330,86.4,93.6,82.4,3.9,11.2,84.8
+control: urbano,S_HH,L_HH,330,92.7,93.6,88.2,4.5,5.5,90.0

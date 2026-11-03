@@ -1,0 +1,5 @@
+﻿forma,pixeles,area_m2,dz_medio_m,volumen_m3,volumen_detectable_m3,incertidumbre_m3,%_pixeles_sobre_2_desvios_signo_esperado,%_pixeles_sobre_2_desvios_signo_contrario,sesgo_restado_m,ruido_zona_estable_m,nmad_zona_estable_m
+cicatriz,5,4500.0,-4.24,-19095.7,-16210.4,8308.2,40.0,0.0,0.83,2.06,1.15
+deposito,6,5400.0,-6.57,0.0,0.0,9101.1,0.0,100.0,0.83,2.06,1.15
+control_cicatriz,298,268200.0,-0.91,-705753.6,-511469.4,64139.8,26.8,15.4,0.83,2.06,1.15
+control_deposito,298,268200.0,-0.91,461926.0,332603.8,64139.8,15.4,26.8,0.83,2.06,1.15

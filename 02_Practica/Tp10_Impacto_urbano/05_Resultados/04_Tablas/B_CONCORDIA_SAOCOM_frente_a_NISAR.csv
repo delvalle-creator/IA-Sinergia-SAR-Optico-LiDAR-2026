@@ -1,0 +1,24 @@
+﻿medida,valor
+"HH SAOCOM - NISAR, mediana (dB)",1.12
+HH r de Pearson (dB),0.76
+"HV SAOCOM - NISAR, mediana (dB)",-1.29
+HV r de Pearson (dB),0.80
+% sitio urbano SAOCOM (HH > 0 dB),2.63
+% sitio urbano NISAR (HH > 0 dB),3.19
+% sitio urbano en los dos,1.72
+% control urbano (7) urbano SAOCOM (HH > 0 dB),93.64
+% control urbano (7) urbano NISAR (HH > 0 dB),90.00
+% control urbano (7) urbano en los dos,84.32
+% control monte (3) urbano SAOCOM (HH > 0 dB),2.03
+% control monte (3) urbano NISAR (HH > 0 dB),1.73
+% control monte (3) urbano en los dos,0.31
+urbano denso: % urbano SAOCOM / NISAR,100.0 / 92.5
+"urbano denso: mediana HH, VV, HV, HH-VV (dB)","4.1, -2.1, -13.2, 6.1"
+urbano abierto y periurbano: % urbano SAOCOM / NISAR,41.2 / 42.5
+"urbano abierto y periurbano: mediana HH, VV, HV, HH-VV (dB)","-1.4, -6.0, -12.8, 3.8"
+vegetacion: % urbano SAOCOM / NISAR,0.0 / 3.7
+"vegetacion: mediana HH, VV, HV, HH-VV (dB)","-6.5, -9.9, -16.3, 1.6"
+agua: % urbano SAOCOM / NISAR,0.0 / 0.0
+"agua: mediana HH, VV, HV, HH-VV (dB)","-20.7, -22.7, -31.4, 1.9"
+suelo desnudo: % urbano SAOCOM / NISAR,0.0 / 0.0
+"suelo desnudo: mediana HH, VV, HV, HH-VV (dB)","-10.1, -11.0, -20.5, 0.8"

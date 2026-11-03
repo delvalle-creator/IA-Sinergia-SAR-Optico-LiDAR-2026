@@ -1,0 +1,13 @@
+﻿codigo_mapbiomas,clase_mapbiomas,codigo_curso,clase_curso,superficie_ha
+3,Bosques cerrados,3,monte_nativo,3055.3
+4,Bosques abiertos,5,herbaceo_cultivo_pastura,10408.5
+6,Bosques inundables,3,monte_nativo,663.4
+9,Silvicultura,4,plantacion_forestal,28460.1
+11,Herbaceas inundables,2,humedal_pajonal,5188.8
+12,Herbaceas,5,herbaceo_cultivo_pastura,37670.4
+15,Pastura,5,herbaceo_cultivo_pastura,125.9
+19,Cultivos temporarios,5,herbaceo_cultivo_pastura,2195.8
+24,Areas urbanas,7,urbano,4100.6
+25,Otras areas no vegetadas,6,suelo_desnudo,1127.0
+33,"Rios, lagunas, lagos y oceano",1,agua_permanente,10466.4
+36,Cultivos perennes,5,herbaceo_cultivo_pastura,14194.3

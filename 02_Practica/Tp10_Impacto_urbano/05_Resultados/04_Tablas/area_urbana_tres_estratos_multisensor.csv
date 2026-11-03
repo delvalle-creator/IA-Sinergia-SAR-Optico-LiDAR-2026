@@ -1,0 +1,5 @@
+estrato,nombre,superficie_ha,puntos_sorteados,puntos_etiquetados,puntos_urbanos,proporcion_urbano,area_urbana_ha
+1,urbano del mapa multisensor,5614.7,51,49,42,0.857,4812.6
+2,franja de 1 km (no urbano del mapa),12772.0,100,95,9,0.095,1210.0
+3,resto no urbano,153339.5,42,29,0,0.000,0.0
+total,area urbana estimada (IC 95 %: +/- 938 ha; el estrato 3 sin urbanos aporta varianza 0),171726.2,193,173,51,,6022.6

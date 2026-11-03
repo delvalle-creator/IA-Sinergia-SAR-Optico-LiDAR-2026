@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "D_LAPAZ_VILLAGUAY",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "sitio": "D_LAPAZ_VILLAGUAY", "nombre": "Franja La Paz - Villaguay (BIOMASS, banda P)", "origen": "aproximada", "practicos": "Tp9", "columnas": 9835, "filas": 15167, "superficie_km2": 14916.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -58.8, -31.95 ], [ -58.8, -30.6 ], [ -59.8, -30.6 ], [ -59.8, -31.95 ], [ -58.8, -31.95 ] ] ] } }
+]
+}

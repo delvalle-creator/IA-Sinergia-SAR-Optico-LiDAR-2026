@@ -1,0 +1,2 @@
+﻿banda_a,banda_b,n_pixeles,pasada_traza_a,pasada_traza_b,diferencia_media_dB,desvio_pixel_a_pixel_dB,n_poligonos,dif_por_poligono_dB,dif_min_poligono_dB,dif_max_poligono_dB,ic95_bootstrap_poligonos_dB,umbral_dB,veredicto
+C_S1_gamma0_VH,C_SNAP_gamma0_VH,484,D68,D68,1.36,2.05,4,+1.53 / +1.69 / +0.84 / +1.74,0.84,1.74,+0.96 a +1.73,1.0,"NO CUMPLE: revisar calibracion, normalizacion u orbita"

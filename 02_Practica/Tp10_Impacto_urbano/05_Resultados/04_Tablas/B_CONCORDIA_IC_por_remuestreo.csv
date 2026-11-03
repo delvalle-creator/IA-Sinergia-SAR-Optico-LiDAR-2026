@@ -1,0 +1,9 @@
+mapa,indicador,valor,ic95_normal,ic95_remuestreo_inf,ic95_remuestreo_sup,replicas,nota
+Random Forest multisensor,exactitud_global,0.983,0.021,0.960,0.996,5000,remuestreo por estratos de los 142 puntos
+Random Forest multisensor,exactitud_usuario_urbano,0.804,0.110,0.686,0.902,5000,
+Random Forest multisensor,exactitud_productor_urbano,0.712,0.403,0.433,1.000,5000,un solo punto urbano en el estrato no urbano
+Random Forest multisensor,omision_urbano,0.288,0.403,0.000,0.567,5000,
+Random Forest multisensor,area_urbana_ha,6339,3631,4073,10320,5000,
+kNN embeddings AlphaEarth 2025,exactitud_global,0.993,0.004,0.989,0.996,5000,estimador de Stehman con los estratos de la multisensor
+kNN embeddings AlphaEarth 2025,exactitud_usuario_urbano,0.884,0.101,0.755,0.958,5000,
+kNN embeddings AlphaEarth 2025,exactitud_productor_urbano,0.931,0.076,0.825,0.986,5000,

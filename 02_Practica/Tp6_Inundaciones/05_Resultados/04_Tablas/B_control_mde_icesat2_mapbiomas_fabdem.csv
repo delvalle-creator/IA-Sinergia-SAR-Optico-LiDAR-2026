@@ -1,0 +1,14 @@
+﻿grupo,n,sesgo_m,desvio_m,RMSE_m,mediana_m
+todos,123983,1.59,3.34,3.7,0.88
+3 bosque cerrado,3050,2.63,2.37,3.54,2.12
+4 bosque abierto,8577,1.81,2.65,3.21,1.14
+6 bosque inundable,264,2.67,3.47,4.38,1.94
+9 silvicultura,18943,3.1,6.5,7.2,1.24
+11 herbaceas inundables,3931,1.73,2.28,2.86,1.26
+12 herbaceas,28586,1.13,1.88,2.2,0.77
+15 pastura,11,0.34,0.46,0.55,0.29
+19 cultivos temporarios,2348,1.69,4.75,5.04,0.69
+24 areas urbanas,3041,0.46,1.42,1.49,0.48
+25 otras areas no vegetadas,847,1.46,1.99,2.47,1.1
+"33 rios, lagunas y lagos",667,0.71,2.61,2.71,0.72
+36 cultivos perennes,13560,2.2,2.96,3.69,1.51

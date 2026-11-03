@@ -1,0 +1,3 @@
+﻿sensor,banda,lambda_cm,producto,fecha,hora_utc,pasada,orbita_track,frame,polarizaciones,cobertura_huella_%,pixeles_validos_%,nombre,tamano_MB,url
+ALOS,L,23.6,RTC_HI_RES,2011-03-13,03:01,ascending,87,6560,HH,96.8,,ALPSRP273366560-RTC_HI_RES,242.7,https://datapool.asf.alaska.edu/RTC_HI_RES/A3/AP_27336_FBS_F6560_RT1.zip
+ALOS,L,23.6,RTC_HI_RES,2011-03-13,03:01,ascending,87,6550,HH,4.6,,ALPSRP273366550-RTC_HI_RES,241.2,https://datapool.asf.alaska.edu/RTC_HI_RES/A3/AP_27336_FBS_F6550_RT1.zip

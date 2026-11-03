@@ -1,0 +1,390 @@
+﻿anio,clase,nombre,ha,pct_area_con_dato
+1985,3,Bosques cerrados,454.2,1.5
+1985,4,Bosques abiertos,12.1,0.04
+1985,6,Bosques inundables,303.2,1.0
+1985,11,Herbaceas inundables,24635.7,81.43
+1985,12,Herbaceas,1734.6,5.73
+1985,15,Pastura,3.1,0.01
+1985,24,Areas urbanas,107.4,0.35
+1985,25,Otras areas no vegetadas,214.7,0.71
+1985,33,"Rios, lagunas, lagos y oceano",2788.7,9.22
+1986,3,Bosques cerrados,464.2,1.53
+1986,4,Bosques abiertos,4.3,0.01
+1986,6,Bosques inundables,283.0,0.94
+1986,11,Herbaceas inundables,24671.5,81.55
+1986,12,Herbaceas,1701.6,5.62
+1986,24,Areas urbanas,108.1,0.36
+1986,25,Otras areas no vegetadas,232.3,0.77
+1986,33,"Rios, lagunas, lagos y oceano",2788.7,9.22
+1987,3,Bosques cerrados,484.8,1.6
+1987,4,Bosques abiertos,5.6,0.02
+1987,6,Bosques inundables,376.7,1.25
+1987,11,Herbaceas inundables,24715.0,81.69
+1987,12,Herbaceas,1543.4,5.1
+1987,19,Cultivos temporarios,0.1,0.0
+1987,24,Areas urbanas,108.1,0.36
+1987,25,Otras areas no vegetadas,232.1,0.77
+1987,33,"Rios, lagunas, lagos y oceano",2787.8,9.21
+1988,3,Bosques cerrados,489.6,1.62
+1988,4,Bosques abiertos,5.8,0.02
+1988,6,Bosques inundables,401.4,1.33
+1988,11,Herbaceas inundables,24771.9,81.88
+1988,12,Herbaceas,1474.7,4.87
+1988,19,Cultivos temporarios,0.3,0.0
+1988,24,Areas urbanas,108.3,0.36
+1988,25,Otras areas no vegetadas,248.7,0.82
+1988,33,"Rios, lagunas, lagos y oceano",2752.8,9.1
+1989,3,Bosques cerrados,532.4,1.76
+1989,4,Bosques abiertos,12.7,0.04
+1989,6,Bosques inundables,331.6,1.1
+1989,11,Herbaceas inundables,24775.1,81.89
+1989,12,Herbaceas,1512.4,5.0
+1989,19,Cultivos temporarios,0.2,0.0
+1989,24,Areas urbanas,108.5,0.36
+1989,25,Otras areas no vegetadas,263.0,0.87
+1989,33,"Rios, lagunas, lagos y oceano",2717.6,8.98
+1990,3,Bosques cerrados,468.7,1.55
+1990,4,Bosques abiertos,15.2,0.05
+1990,6,Bosques inundables,169.8,0.56
+1990,11,Herbaceas inundables,24621.1,81.38
+1990,12,Herbaceas,1876.0,6.2
+1990,19,Cultivos temporarios,1.1,0.0
+1990,24,Areas urbanas,109.0,0.36
+1990,25,Otras areas no vegetadas,279.9,0.93
+1990,33,"Rios, lagunas, lagos y oceano",2712.8,8.97
+1991,3,Bosques cerrados,382.5,1.26
+1991,4,Bosques abiertos,17.9,0.06
+1991,6,Bosques inundables,147.3,0.49
+1991,11,Herbaceas inundables,24693.9,81.62
+1991,12,Herbaceas,1892.5,6.26
+1991,15,Pastura,0.1,0.0
+1991,19,Cultivos temporarios,4.7,0.02
+1991,24,Areas urbanas,111.9,0.37
+1991,25,Otras areas no vegetadas,281.1,0.93
+1991,33,"Rios, lagunas, lagos y oceano",2721.7,9.0
+1992,3,Bosques cerrados,448.9,1.48
+1992,4,Bosques abiertos,6.5,0.02
+1992,6,Bosques inundables,206.3,0.68
+1992,11,Herbaceas inundables,24643.5,81.46
+1992,12,Herbaceas,1768.6,5.85
+1992,15,Pastura,0.1,0.0
+1992,19,Cultivos temporarios,14.0,0.05
+1992,24,Areas urbanas,134.3,0.44
+1992,25,Otras areas no vegetadas,317.8,1.05
+1992,33,"Rios, lagunas, lagos y oceano",2713.4,8.97
+1993,3,Bosques cerrados,472.2,1.56
+1993,4,Bosques abiertos,2.4,0.01
+1993,6,Bosques inundables,228.8,0.76
+1993,11,Herbaceas inundables,24709.9,81.68
+1993,12,Herbaceas,1665.7,5.51
+1993,15,Pastura,0.1,0.0
+1993,19,Cultivos temporarios,0.3,0.0
+1993,24,Areas urbanas,146.5,0.48
+1993,25,Otras areas no vegetadas,319.8,1.06
+1993,33,"Rios, lagunas, lagos y oceano",2707.9,8.95
+1994,3,Bosques cerrados,395.3,1.31
+1994,4,Bosques abiertos,0.5,0.0
+1994,6,Bosques inundables,193.0,0.64
+1994,11,Herbaceas inundables,24832.7,82.08
+1994,12,Herbaceas,1627.6,5.38
+1994,15,Pastura,0.1,0.0
+1994,19,Cultivos temporarios,2.5,0.01
+1994,24,Areas urbanas,162.2,0.54
+1994,25,Otras areas no vegetadas,323.5,1.07
+1994,33,"Rios, lagunas, lagos y oceano",2716.3,8.98
+1995,3,Bosques cerrados,431.7,1.43
+1995,4,Bosques abiertos,10.7,0.04
+1995,6,Bosques inundables,376.5,1.24
+1995,11,Herbaceas inundables,24609.0,81.34
+1995,12,Herbaceas,1625.0,5.37
+1995,15,Pastura,0.1,0.0
+1995,19,Cultivos temporarios,0.5,0.0
+1995,24,Areas urbanas,164.6,0.54
+1995,25,Otras areas no vegetadas,333.6,1.1
+1995,33,"Rios, lagunas, lagos y oceano",2701.8,8.93
+1996,3,Bosques cerrados,337.3,1.11
+1996,4,Bosques abiertos,19.3,0.06
+1996,6,Bosques inundables,405.8,1.34
+1996,11,Herbaceas inundables,24686.2,81.6
+1996,12,Herbaceas,1623.7,5.37
+1996,19,Cultivos temporarios,0.5,0.0
+1996,24,Areas urbanas,168.5,0.56
+1996,25,Otras areas no vegetadas,315.8,1.04
+1996,33,"Rios, lagunas, lagos y oceano",2696.5,8.91
+1997,3,Bosques cerrados,307.2,1.02
+1997,4,Bosques abiertos,21.7,0.07
+1997,6,Bosques inundables,172.1,0.57
+1997,11,Herbaceas inundables,24839.3,82.1
+1997,12,Herbaceas,1782.6,5.89
+1997,19,Cultivos temporarios,1.0,0.0
+1997,24,Areas urbanas,168.7,0.56
+1997,25,Otras areas no vegetadas,306.6,1.01
+1997,33,"Rios, lagunas, lagos y oceano",2654.3,8.77
+1998,3,Bosques cerrados,159.4,0.53
+1998,4,Bosques abiertos,14.0,0.05
+1998,6,Bosques inundables,164.4,0.54
+1998,11,Herbaceas inundables,24996.4,82.62
+1998,12,Herbaceas,1757.8,5.81
+1998,19,Cultivos temporarios,0.1,0.0
+1998,24,Areas urbanas,169.1,0.56
+1998,25,Otras areas no vegetadas,342.9,1.13
+1998,33,"Rios, lagunas, lagos y oceano",2649.6,8.76
+1999,3,Bosques cerrados,239.4,0.79
+1999,4,Bosques abiertos,48.6,0.16
+1999,6,Bosques inundables,242.6,0.8
+1999,11,Herbaceas inundables,24799.5,81.97
+1999,12,Herbaceas,1725.9,5.7
+1999,19,Cultivos temporarios,2.5,0.01
+1999,24,Areas urbanas,169.9,0.56
+1999,25,Otras areas no vegetadas,340.4,1.13
+1999,33,"Rios, lagunas, lagos y oceano",2684.8,8.87
+2000,3,Bosques cerrados,405.6,1.34
+2000,4,Bosques abiertos,41.3,0.14
+2000,6,Bosques inundables,234.2,0.77
+2000,11,Herbaceas inundables,24815.0,82.02
+2000,12,Herbaceas,1536.9,5.08
+2000,15,Pastura,3.2,0.01
+2000,19,Cultivos temporarios,5.2,0.02
+2000,24,Areas urbanas,170.5,0.56
+2000,25,Otras areas no vegetadas,323.1,1.07
+2000,33,"Rios, lagunas, lagos y oceano",2718.4,8.99
+2001,3,Bosques cerrados,366.6,1.21
+2001,4,Bosques abiertos,36.0,0.12
+2001,6,Bosques inundables,177.3,0.59
+2001,11,Herbaceas inundables,25071.0,82.87
+2001,12,Herbaceas,1414.5,4.68
+2001,15,Pastura,3.3,0.01
+2001,24,Areas urbanas,170.5,0.56
+2001,25,Otras areas no vegetadas,297.3,0.98
+2001,33,"Rios, lagunas, lagos y oceano",2717.1,8.98
+2002,3,Bosques cerrados,292.4,0.97
+2002,4,Bosques abiertos,8.9,0.03
+2002,6,Bosques inundables,185.5,0.61
+2002,11,Herbaceas inundables,25235.2,83.41
+2002,12,Herbaceas,1300.1,4.3
+2002,15,Pastura,12.3,0.04
+2002,24,Areas urbanas,171.1,0.57
+2002,25,Otras areas no vegetadas,323.3,1.07
+2002,33,"Rios, lagunas, lagos y oceano",2724.8,9.01
+2003,3,Bosques cerrados,294.1,0.97
+2003,4,Bosques abiertos,7.8,0.03
+2003,6,Bosques inundables,218.0,0.72
+2003,11,Herbaceas inundables,25339.9,83.76
+2003,12,Herbaceas,1105.6,3.65
+2003,15,Pastura,20.8,0.07
+2003,24,Areas urbanas,171.7,0.57
+2003,25,Otras areas no vegetadas,358.1,1.18
+2003,33,"Rios, lagunas, lagos y oceano",2737.7,9.05
+2004,3,Bosques cerrados,563.4,1.86
+2004,4,Bosques abiertos,19.0,0.06
+2004,6,Bosques inundables,185.0,0.61
+2004,11,Herbaceas inundables,25120.4,83.03
+2004,12,Herbaceas,1084.2,3.58
+2004,15,Pastura,12.3,0.04
+2004,19,Cultivos temporarios,1.2,0.0
+2004,24,Areas urbanas,171.9,0.57
+2004,25,Otras areas no vegetadas,360.9,1.19
+2004,33,"Rios, lagunas, lagos y oceano",2735.4,9.04
+2005,3,Bosques cerrados,719.2,2.38
+2005,4,Bosques abiertos,20.4,0.07
+2005,6,Bosques inundables,18.1,0.06
+2005,11,Herbaceas inundables,24985.8,82.59
+2005,12,Herbaceas,1196.3,3.95
+2005,15,Pastura,7.4,0.02
+2005,19,Cultivos temporarios,0.2,0.0
+2005,24,Areas urbanas,179.7,0.59
+2005,25,Otras areas no vegetadas,396.0,1.31
+2005,33,"Rios, lagunas, lagos y oceano",2730.5,9.03
+2006,3,Bosques cerrados,729.7,2.41
+2006,4,Bosques abiertos,16.3,0.05
+2006,6,Bosques inundables,0.8,0.0
+2006,11,Herbaceas inundables,24991.2,82.61
+2006,12,Herbaceas,1201.5,3.97
+2006,15,Pastura,1.1,0.0
+2006,19,Cultivos temporarios,0.3,0.0
+2006,24,Areas urbanas,180.7,0.6
+2006,25,Otras areas no vegetadas,404.6,1.34
+2006,33,"Rios, lagunas, lagos y oceano",2727.4,9.02
+2007,3,Bosques cerrados,659.6,2.18
+2007,4,Bosques abiertos,19.3,0.06
+2007,6,Bosques inundables,4.2,0.01
+2007,11,Herbaceas inundables,24875.8,82.22
+2007,12,Herbaceas,1385.3,4.58
+2007,15,Pastura,0.4,0.0
+2007,19,Cultivos temporarios,0.2,0.0
+2007,24,Areas urbanas,181.2,0.6
+2007,25,Otras areas no vegetadas,404.0,1.34
+2007,33,"Rios, lagunas, lagos y oceano",2723.6,9.0
+2008,3,Bosques cerrados,502.2,1.66
+2008,4,Bosques abiertos,22.1,0.07
+2008,6,Bosques inundables,2.6,0.01
+2008,11,Herbaceas inundables,24994.9,82.62
+2008,12,Herbaceas,1382.9,4.57
+2008,15,Pastura,0.2,0.0
+2008,24,Areas urbanas,183.6,0.61
+2008,25,Otras areas no vegetadas,422.9,1.4
+2008,33,"Rios, lagunas, lagos y oceano",2742.1,9.06
+2009,3,Bosques cerrados,513.5,1.7
+2009,4,Bosques abiertos,15.2,0.05
+2009,6,Bosques inundables,0.2,0.0
+2009,11,Herbaceas inundables,24995.5,82.62
+2009,12,Herbaceas,1390.8,4.6
+2009,19,Cultivos temporarios,0.1,0.0
+2009,24,Areas urbanas,186.5,0.62
+2009,25,Otras areas no vegetadas,407.0,1.35
+2009,33,"Rios, lagunas, lagos y oceano",2744.8,9.07
+2010,3,Bosques cerrados,591.1,1.95
+2010,4,Bosques abiertos,20.2,0.07
+2010,6,Bosques inundables,0.3,0.0
+2010,11,Herbaceas inundables,25037.3,82.76
+2010,12,Herbaceas,1285.5,4.25
+2010,15,Pastura,1.7,0.01
+2010,24,Areas urbanas,188.4,0.62
+2010,25,Otras areas no vegetadas,395.2,1.31
+2010,33,"Rios, lagunas, lagos y oceano",2733.9,9.04
+2011,3,Bosques cerrados,625.0,2.07
+2011,4,Bosques abiertos,14.6,0.05
+2011,6,Bosques inundables,0.1,0.0
+2011,11,Herbaceas inundables,25085.8,82.92
+2011,12,Herbaceas,1218.0,4.03
+2011,15,Pastura,1.9,0.01
+2011,19,Cultivos temporarios,1.9,0.01
+2011,24,Areas urbanas,189.6,0.63
+2011,25,Otras areas no vegetadas,379.4,1.25
+2011,33,"Rios, lagunas, lagos y oceano",2737.2,9.05
+2012,3,Bosques cerrados,636.4,2.1
+2012,4,Bosques abiertos,25.9,0.09
+2012,6,Bosques inundables,0.3,0.0
+2012,11,Herbaceas inundables,25042.5,82.78
+2012,12,Herbaceas,1263.3,4.18
+2012,15,Pastura,6.3,0.02
+2012,24,Areas urbanas,191.8,0.63
+2012,25,Otras areas no vegetadas,364.1,1.2
+2012,33,"Rios, lagunas, lagos y oceano",2723.1,9.0
+2013,3,Bosques cerrados,479.7,1.59
+2013,4,Bosques abiertos,45.2,0.15
+2013,6,Bosques inundables,4.6,0.02
+2013,11,Herbaceas inundables,25211.2,83.33
+2013,12,Herbaceas,1226.5,4.05
+2013,15,Pastura,6.6,0.02
+2013,24,Areas urbanas,193.2,0.64
+2013,25,Otras areas no vegetadas,357.6,1.18
+2013,33,"Rios, lagunas, lagos y oceano",2728.9,9.02
+2014,3,Bosques cerrados,445.0,1.47
+2014,4,Bosques abiertos,86.4,0.29
+2014,6,Bosques inundables,2.6,0.01
+2014,11,Herbaceas inundables,25208.8,83.32
+2014,12,Herbaceas,1190.5,3.94
+2014,15,Pastura,1.3,0.0
+2014,19,Cultivos temporarios,2.5,0.01
+2014,24,Areas urbanas,194.3,0.64
+2014,25,Otras areas no vegetadas,400.0,1.32
+2014,33,"Rios, lagunas, lagos y oceano",2722.0,9.0
+2015,3,Bosques cerrados,389.3,1.29
+2015,4,Bosques abiertos,80.5,0.27
+2015,6,Bosques inundables,1.6,0.01
+2015,11,Herbaceas inundables,25317.4,83.68
+2015,12,Herbaceas,1167.7,3.86
+2015,15,Pastura,0.7,0.0
+2015,19,Cultivos temporarios,0.1,0.0
+2015,24,Areas urbanas,198.3,0.66
+2015,25,Otras areas no vegetadas,378.5,1.25
+2015,33,"Rios, lagunas, lagos y oceano",2719.3,8.99
+2016,3,Bosques cerrados,359.8,1.19
+2016,4,Bosques abiertos,97.9,0.32
+2016,6,Bosques inundables,2.3,0.01
+2016,11,Herbaceas inundables,25133.3,83.08
+2016,12,Herbaceas,1378.6,4.56
+2016,24,Areas urbanas,201.1,0.66
+2016,25,Otras areas no vegetadas,377.3,1.25
+2016,33,"Rios, lagunas, lagos y oceano",2702.7,8.93
+2016,36,Cultivos perennes,0.6,0.0
+2017,3,Bosques cerrados,315.0,1.04
+2017,4,Bosques abiertos,230.1,0.76
+2017,6,Bosques inundables,1.6,0.01
+2017,11,Herbaceas inundables,24989.3,82.6
+2017,12,Herbaceas,1410.0,4.66
+2017,24,Areas urbanas,202.4,0.67
+2017,25,Otras areas no vegetadas,378.3,1.25
+2017,33,"Rios, lagunas, lagos y oceano",2726.4,9.01
+2017,36,Cultivos perennes,0.6,0.0
+2018,3,Bosques cerrados,345.4,1.14
+2018,4,Bosques abiertos,223.3,0.74
+2018,6,Bosques inundables,1.9,0.01
+2018,11,Herbaceas inundables,25053.1,82.81
+2018,12,Herbaceas,1304.0,4.31
+2018,24,Areas urbanas,202.7,0.67
+2018,25,Otras areas no vegetadas,371.1,1.23
+2018,33,"Rios, lagunas, lagos y oceano",2752.0,9.1
+2019,3,Bosques cerrados,369.4,1.22
+2019,4,Bosques abiertos,179.6,0.59
+2019,6,Bosques inundables,0.3,0.0
+2019,11,Herbaceas inundables,25261.4,83.5
+2019,12,Herbaceas,1129.1,3.73
+2019,15,Pastura,12.0,0.04
+2019,19,Cultivos temporarios,0.2,0.0
+2019,24,Areas urbanas,202.7,0.67
+2019,25,Otras areas no vegetadas,354.7,1.17
+2019,33,"Rios, lagunas, lagos y oceano",2744.0,9.07
+2020,3,Bosques cerrados,364.9,1.21
+2020,4,Bosques abiertos,91.4,0.3
+2020,6,Bosques inundables,0.4,0.0
+2020,11,Herbaceas inundables,25411.6,84.0
+2020,12,Herbaceas,1058.8,3.5
+2020,15,Pastura,12.1,0.04
+2020,24,Areas urbanas,202.7,0.67
+2020,25,Otras areas no vegetadas,349.1,1.15
+2020,33,"Rios, lagunas, lagos y oceano",2762.6,9.13
+2021,3,Bosques cerrados,418.8,1.38
+2021,4,Bosques abiertos,22.0,0.07
+2021,6,Bosques inundables,1.2,0.0
+2021,9,Silvicultura,0.1,0.0
+2021,11,Herbaceas inundables,25255.4,83.48
+2021,12,Herbaceas,1222.6,4.04
+2021,15,Pastura,1.7,0.01
+2021,19,Cultivos temporarios,0.8,0.0
+2021,24,Areas urbanas,203.1,0.67
+2021,25,Otras areas no vegetadas,361.4,1.19
+2021,33,"Rios, lagunas, lagos y oceano",2766.4,9.14
+2022,3,Bosques cerrados,447.0,1.48
+2022,4,Bosques abiertos,16.0,0.05
+2022,6,Bosques inundables,1.4,0.0
+2022,9,Silvicultura,0.7,0.0
+2022,11,Herbaceas inundables,25121.4,83.04
+2022,12,Herbaceas,1279.2,4.23
+2022,15,Pastura,0.3,0.0
+2022,19,Cultivos temporarios,11.9,0.04
+2022,24,Areas urbanas,204.1,0.67
+2022,25,Otras areas no vegetadas,400.6,1.32
+2022,33,"Rios, lagunas, lagos y oceano",2770.9,9.16
+2023,3,Bosques cerrados,411.6,1.36
+2023,4,Bosques abiertos,1.6,0.01
+2023,6,Bosques inundables,0.4,0.0
+2023,9,Silvicultura,0.7,0.0
+2023,11,Herbaceas inundables,25102.6,82.97
+2023,12,Herbaceas,1367.5,4.52
+2023,15,Pastura,0.2,0.0
+2023,19,Cultivos temporarios,5.9,0.02
+2023,24,Areas urbanas,204.4,0.68
+2023,25,Otras areas no vegetadas,411.2,1.36
+2023,33,"Rios, lagunas, lagos y oceano",2747.4,9.08
+2024,3,Bosques cerrados,435.2,1.44
+2024,4,Bosques abiertos,3.1,0.01
+2024,6,Bosques inundables,0.4,0.0
+2024,11,Herbaceas inundables,25175.3,83.21
+2024,12,Herbaceas,1287.3,4.26
+2024,15,Pastura,0.2,0.0
+2024,19,Cultivos temporarios,1.9,0.01
+2024,24,Areas urbanas,204.8,0.68
+2024,25,Otras areas no vegetadas,402.7,1.33
+2024,33,"Rios, lagunas, lagos y oceano",2742.6,9.07
+2025,3,Bosques cerrados,182.4,0.6
+2025,4,Bosques abiertos,28.2,0.09
+2025,6,Bosques inundables,0.4,0.0
+2025,11,Herbaceas inundables,25409.1,83.99
+2025,12,Herbaceas,1282.0,4.24
+2025,15,Pastura,0.3,0.0
+2025,19,Cultivos temporarios,0.1,0.0
+2025,24,Areas urbanas,205.3,0.68
+2025,25,Otras areas no vegetadas,403.2,1.33
+2025,33,"Rios, lagunas, lagos y oceano",2742.6,9.07

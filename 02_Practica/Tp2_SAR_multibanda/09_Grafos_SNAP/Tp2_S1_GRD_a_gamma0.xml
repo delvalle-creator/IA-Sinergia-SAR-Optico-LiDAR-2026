@@ -1,0 +1,168 @@
+<graph id="S1_GRD_a_gamma0_TF_UTM21S">
+  <!-- GRD -> gamma0 con Terrain Flattening (correccion radiometrica del
+       relieve, imprescindible en terreno montanoso) -> geocodificado
+       EPSG:32721 a 10 m.
+       Cadena: orbita -> ruido termico -> beta0 -> Subset(AOI+buffer) ->
+               Terrain-Flattening (gamma0) -> Terrain-Correction -->
+  <version>1.0</version>
+  <node id="Read">
+    <operator>Read</operator>
+    <sources/>
+    <parameters><file/></parameters>
+  </node>
+  <node id="Apply-Orbit-File">
+    <operator>Apply-Orbit-File</operator>
+    <sources><sourceProduct refid="Read"/></sources>
+    <parameters>
+      <orbitType>Sentinel Precise (Auto Download)</orbitType>
+      <continueOnFail>true</continueOnFail>
+    
+      <polyDegree>3</polyDegree>
+    </parameters>
+  </node>
+  <node id="ThermalNoiseRemoval">
+    <operator>ThermalNoiseRemoval</operator>
+    <sources><sourceProduct refid="Apply-Orbit-File"/></sources>
+    <parameters><removeThermalNoise>true</removeThermalNoise>
+      <selectedPolarisations/>
+      <reIntroduceThermalNoise>false</reIntroduceThermalNoise>
+    </parameters>
+  </node>
+  <node id="Calibration">
+    <operator>Calibration</operator>
+    <sources><sourceProduct refid="ThermalNoiseRemoval"/></sources>
+    <parameters>
+      <outputBetaBand>true</outputBetaBand>
+      <outputSigmaBand>false</outputSigmaBand>
+      <selectedPolarisations>VV,VH</selectedPolarisations>
+    
+      <sourceBands/>
+      <auxFile>Latest Auxiliary File</auxFile>
+      <externalAuxFile/>
+      <createGammaBand>false</createGammaBand>
+      <createBetaBand>false</createBetaBand>
+    
+      <outputImageInComplex>false</outputImageInComplex>
+      <outputImageScaleInDb>false</outputImageScaleInDb>
+    </parameters>
+  </node>
+  <node id="Subset">
+    <operator>Subset</operator>
+    <sources><sourceProduct refid="Calibration"/></sources>
+    <parameters>
+      <geoRegion/>
+      <copyMetadata>true</copyMetadata>
+    
+      <sourceBands/>
+      <region>0,0,0,0</region>
+      <subSamplingX>1</subSamplingX>
+      <subSamplingY>1</subSamplingY>
+      <fullSwath>false</fullSwath>
+      <tiePointGridNames/>
+    </parameters>
+  </node>
+  <node id="Terrain-Flattening">
+    <operator>Terrain-Flattening</operator>
+    <sources><sourceProduct refid="Subset"/></sources>
+    <parameters>
+      <demName>Copernicus 30m Global DEM</demName>
+      <demResamplingMethod>BILINEAR_INTERPOLATION</demResamplingMethod>
+      <additionalOverlap>0.1</additionalOverlap>
+      <oversamplingMultiple>1.0</oversamplingMultiple>
+      <!-- NO enmascarar las zonas "sin elevacion". En el Delta los rios y las lagunas
+           estan a cota ~0 m en el Copernicus DEM y SNAP los toma como "mar": con el
+           valor por defecto (true) el agua sale con 0 = sin dato y se pierde la clase
+           agua (prueba del 21/10/2026). En la ventana: Terrain-Flattening, destildar
+           "Mask out areas without elevation". -->
+      <nodataValueAtSea>false</nodataValueAtSea>
+    
+      <externalDEMApplyEGM>true</externalDEMApplyEGM>
+      <outputSimulatedImage>false</outputSimulatedImage>
+    
+      <sourceBands/>
+      <externalDEMFile/>
+      <externalDEMNoDataValue>0.0</externalDEMNoDataValue>
+    </parameters>
+  </node>
+  <node id="Terrain-Correction">
+    <operator>Terrain-Correction</operator>
+    <sources><sourceProduct refid="Terrain-Flattening"/></sources>
+    <parameters>
+      <demName>Copernicus 30m Global DEM</demName>
+      <imgResamplingMethod>BILINEAR_INTERPOLATION</imgResamplingMethod>
+      <pixelSpacingInMeter>10.0</pixelSpacingInMeter>
+      <pixelSpacingInDegree>8.983152841195213e-05</pixelSpacingInDegree>
+      <mapProjection>EPSG:32721</mapProjection>
+      <nodataValueAtSea>false</nodataValueAtSea>
+      <alignToStandardGrid>true</alignToStandardGrid>
+      <!-- Origen desplazado medio pixel: SNAP alinea los CENTROS de pixel al
+           origen indicado. Con origen 0,0 los centros caerian en multiplos de
+           10 m y los BORDES quedarian desfasados 5 m respecto de la grilla del
+           AOI (cuyas esquinas son multiplos de 10). Con origen 5,5 los centros
+           caen en 5, 15, 25... y los bordes en 0, 10, 20...: la grilla coincide
+           exactamente con la del optico. -->
+      <standardGridOriginX>5.0</standardGridOriginX>
+      <standardGridOriginY>5.0</standardGridOriginY>
+      <saveSelectedSourceBand>true</saveSelectedSourceBand>
+      <saveLocalIncidenceAngle>true</saveLocalIncidenceAngle>
+    
+      <sourceBands/>
+      <externalDEMFile/>
+      <externalDEMNoDataValue>0.0</externalDEMNoDataValue>
+      <externalDEMApplyEGM>true</externalDEMApplyEGM>
+      <saveDEM>false</saveDEM>
+      <saveLatLon>false</saveLatLon>
+      <saveIncidenceAngleFromEllipsoid>false</saveIncidenceAngleFromEllipsoid>
+      <saveProjectedLocalIncidenceAngle>false</saveProjectedLocalIncidenceAngle>
+      <saveLayoverShadowMask>true</saveLayoverShadowMask>
+      <applyRadiometricNormalization>false</applyRadiometricNormalization>
+      <saveSigmaNought>false</saveSigmaNought>
+      <saveGammaNought>false</saveGammaNought>
+      <saveBetaNought>false</saveBetaNought>
+      <incidenceAngleForSigma0>Use projected local incidence angle from DEM</incidenceAngleForSigma0>
+      <incidenceAngleForGamma0>Use projected local incidence angle from DEM</incidenceAngleForGamma0>
+      <auxFile>Latest Auxiliary File</auxFile>
+      <externalAuxFile/>
+    
+      <demResamplingMethod>BILINEAR_INTERPOLATION</demResamplingMethod>
+    </parameters>
+  </node>
+  <node id="Write">
+    <operator>Write</operator>
+    <sources><sourceProduct refid="Terrain-Correction"/></sources>
+    <parameters>
+      <file/>
+      <!-- BEAM-DIMAP: formato nativo de SNAP. Conserva TODOS los metadatos, de
+           modo que el subset puede seguir procesandose en SNAP (polarimetria,
+           InSAR, filtros). El GeoTIFF los perderia. -->
+      <formatName>BEAM-DIMAP</formatName>
+    </parameters>
+  </node>
+  <applicationData id="Presentation">
+    <Description/>
+    <node id="Read">
+      <displayPosition x="15.0" y="20.0"/>
+    </node>
+    <node id="Apply-Orbit-File">
+      <displayPosition x="220.0" y="20.0"/>
+    </node>
+    <node id="ThermalNoiseRemoval">
+      <displayPosition x="425.0" y="20.0"/>
+    </node>
+    <node id="Calibration">
+      <displayPosition x="15.0" y="82.0"/>
+    </node>
+    <node id="Subset">
+      <displayPosition x="220.0" y="82.0"/>
+    </node>
+    <node id="Terrain-Flattening">
+      <displayPosition x="425.0" y="82.0"/>
+    </node>
+    <node id="Terrain-Correction">
+      <displayPosition x="15.0" y="144.0"/>
+    </node>
+    <node id="Write">
+      <displayPosition x="220.0" y="144.0"/>
+    </node>
+  </applicationData>
+</graph>

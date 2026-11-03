@@ -1,0 +1,12 @@
+﻿clase,SAOCOM,NISAR_ALOS2
+"todo el sitio (mediana del cambio, dB)",2.42,1.0
+perdida: % con caida relativa > 3 dB,66.54,96.3
+perdida: mediana relativa (dB),-5.27,-7.37
+degradacion: % con caida relativa > 3 dB,13.06,54.1
+degradacion: mediana relativa (dB),-0.31,-3.83
+monte estable: % con caida relativa > 3 dB,2.65,9.57
+monte estable: mediana relativa (dB),-0.08,-0.21
+no bosque estable: % con caida relativa > 3 dB,7.56,9.94
+no bosque estable: mediana relativa (dB),0.28,1.53
+puntos '1 perdida o degradacion' (14): con caida relativa > 3 dB,3.0,6.0
+puntos '2 no' (412): con caida relativa > 3 dB,31.0,79.0

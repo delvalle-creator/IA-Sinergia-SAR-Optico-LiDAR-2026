@@ -1,0 +1,4 @@
+<!DOCTYPE connections>
+<qgsWMSConnections version="1.0">
+  <wms name="CONAE Impactar (Pleiades y Pleiades Neo)" url="https://geotematico01.conae.gov.ar/geoserver/wms" ignoreGetMapURI="false" ignoreGetFeatureInfoURI="false" ignoreAxisOrientation="false" invertAxisOrientation="false" smoothPixmapTransform="false" dpiMode="7" referer="" username="" password=""/>
+</qgsWMSConnections>

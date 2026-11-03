@@ -1,0 +1,14 @@
+﻿sensor,banda,fecha,hora_utc,id,tesela,nubosidad_catalogo_%,nubosidad_sitio_%,pixeles_validos_%,decision,orbita_relativa,pasada,polarizaciones
+Sentinel-2,optico,2018-10-09,14:00,S2A_MSIL2A_20181009T140051_R067_T20HQK_20201009T094703,20HQK,74.937422,95.9,4.1,descartada: 96 % de nubes DENTRO del sitio,,,
+Sentinel-2,optico,2018-10-19,14:00,S2A_MSIL2A_20181019T140051_R067_T20HQK_20201009T130724,20HQK,3.451568,9.4,90.6,candidata,,,
+Sentinel-2,optico,2018-10-29,14:00,S2A_MSIL2A_20181029T140051_R067_T20HQK_20201009T162732,20HQK,65.801203,91.1,8.9,descartada: 91 % de nubes DENTRO del sitio,,,
+Sentinel-2,optico,2018-10-04,14:00,S2B_MSIL2A_20181004T140049_R067_T20HQK_20201009T080953,20HQK,9.820594,1.1,98.9,candidata,,,
+Sentinel-2,optico,2018-10-14,14:00,S2B_MSIL2A_20181014T140049_R067_T20HQK_20201009T113434,20HQK,21.312606,25.4,74.6,descartada: 25 % de nubes DENTRO del sitio,,,
+Sentinel-2,optico,2018-10-24,14:00,S2B_MSIL2A_20181024T140049_R067_T20HQK_20201009T145913,20HQK,88.17942,,,descartada: nubes de catalogo,,,
+Sentinel-2 mosaico del dia,optico,2018-10-04,14:00,2018-10-04 R067 (20HQK),20HQK,,1.1,98.9,candidata,,,
+Sentinel-2 mosaico del dia,optico,2018-10-09,14:00,2018-10-09 R067 (20HQK),20HQK,,95.9,4.1,descartada: 96 % de nubes DENTRO del sitio,,,
+Sentinel-2 mosaico del dia,optico,2018-10-14,14:00,2018-10-14 R067 (20HQK),20HQK,,25.4,74.6,descartada: 25 % de nubes DENTRO del sitio,,,
+Sentinel-2 mosaico del dia,optico,2018-10-19,14:00,2018-10-19 R067 (20HQK),20HQK,,9.4,90.6,candidata,,,
+Sentinel-2 mosaico del dia,optico,2018-10-29,14:00,2018-10-29 R067 (20HQK),20HQK,,91.1,8.9,descartada: 91 % de nubes DENTRO del sitio,,,
+Sentinel-1 RTC,C,2018-10-12,09:22,S1B_IW_GRDH_1SDV_20181012T092150_20181012T092215_013117_0183C5_rtc,,,,100.0,candidata,141.0,descending,VV+VH
+Sentinel-1 RTC,C,2018-10-24,09:22,S1B_IW_GRDH_1SDV_20181024T092150_20181024T092215_013292_018930_rtc,,,,100.0,candidata,141.0,descending,VV+VH

@@ -1,0 +1,17 @@
+﻿ventana,dy_px,dx_px,corr_antes,corr_despues,usada,mejora_bordes,mediana_dx_px,mediana_dy_px,modulo_px,dispersion_x_px,dispersion_y_px,rango_dx_columnas_px,rango_dy_filas_px,dx_m_este,dy_m_norte,ventanas_validas,ventanas_usadas,modulo_todas_px,dispersion_x_todas_px,dispersion_y_todas_px,veredicto,pixel_m,ref,mov
+"0,0",-0.2,-0.4,0.486,0.531,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"0,1",-0.4,-0.8,0.577,0.636,False,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"0,2",-0.2,-0.7,0.552,0.596,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"0,3",-0.2,-0.4,0.435,0.474,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"1,0",-0.1,-0.4,0.583,0.618,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"1,1",-0.3,-0.5,0.675,0.717,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"1,2",-0.2,-0.4,0.601,0.637,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"1,3",-0.2,-0.6,0.547,0.593,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"2,0",-0.2,-0.5,0.573,0.64,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"2,1",-0.2,-0.5,0.55,0.604,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"2,2",-0.2,-0.3,0.593,0.633,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"2,3",-0.4,-0.4,0.575,0.615,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"3,0",-0.2,-0.5,0.567,0.616,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"3,1",-0.2,-0.4,0.624,0.662,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"3,2",-0.1,-0.2,0.582,0.602,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH
+"3,3",-0.3,-0.5,0.596,0.642,True,True,-0.4,-0.2,0.45,0.12,0.07,0.15,0.0,-8.0,4.0,16,15,0.49,0.14,0.09,CUMPLE para fusion de pixel,20.0,L_NISAR_gamma0_HV_20260930,P_BIOMASS_gamma0_VH

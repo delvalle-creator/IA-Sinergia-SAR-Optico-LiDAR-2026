@@ -1,0 +1,9 @@
+﻿clase,variable,huellas_p1,huellas_p2,celdas,diferencia,IC95_inf_celdas,IC95_sup_celdas
+perdida,rh98,113,29,88,-0.08,-0.94,0.7
+perdida,agbd,113,29,88,-0.11999999731779099,-1.5,1.22
+degradacion,rh98,2952,643,2797,0.21,0.13,0.33
+degradacion,agbd,2952,643,2797,0.3499999940395355,0.17,0.47
+monte estable,rh98,32371,7735,15036,0.24,0.18,0.28
+monte estable,agbd,32371,7735,15036,0.4000000059604645,0.32,0.47
+no bosque estable,rh98,12444,2942,7713,0.28,0.24,0.32
+no bosque estable,agbd,12444,2942,7713,0.3499999940395355,0.28,0.4

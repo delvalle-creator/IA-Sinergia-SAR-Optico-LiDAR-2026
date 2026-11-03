@@ -1,0 +1,8 @@
+﻿codigo_curso,clase_curso,superficie_ha,pct_area_con_dato,CCI_AGB_2024_mediana,P_HH_dB_mediana,P_VH_dB_mediana
+1,agua_permanente,10466.4,8.9,0.0,-15.2,-29.3
+2,humedal_pajonal,5188.8,4.41,28.0,-9.0,-18.4
+3,monte_nativo,14127.1,12.01,36.0,-7.6,-16.8
+4,plantacion_forestal,28460.1,24.19,69.0,-7.0,-16.9
+5,herbaceo_cultivo_pastura,54186.5,46.05,0.0,-10.6,-20.8
+6,suelo_desnudo,1127.0,0.96,0.0,-10.3,-20.7
+7,urbano,4100.6,3.49,0.0,-6.2,-14.2

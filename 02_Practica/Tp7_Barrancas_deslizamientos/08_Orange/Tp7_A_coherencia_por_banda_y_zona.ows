@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp7_A - coherencia de X y C por cobertura y por zona" description="Muestra de pixeles de 10 m (hasta 800 por clase de MapBiomas 2018, semilla 2026) con la coherencia X (COSMO-SkyMed 15-19/10/2018) y C (Sentinel-1 HyP3 12-24/10 y 18-30/09/2018) y la zona (escarpa, bloque, pie, ciudad, anillo).">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File - coherencia por pixel" position="(80, 220)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(330, 60)" />
+		<node id="2" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distributions - coherencia X por cobertura" position="(330, 200)" />
+		<node id="3" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - coherencia C (octubre) por cobertura" position="(330, 340)" />
+		<node id="4" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - coherencia X por zona" position="(330, 480)" />
+		<node id="5" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot - coherencia X frente a C" position="(330, 620)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(560, 160, 440, 160)" font-family="Arial" font-size="14">Compare X y C en el bosque cerrado y en el area urbana: en el bosque las dos rondan 0,35; en la ciudad la C sube a 0,78 y la X queda en 0,41. La diferencia no es solo la longitud de onda: la C tiene pixeles de 40 m, polarizacion VV y 12 dias; la X, 2 m, HH y 4 dias.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASV1wEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjHVEOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwN19CYXJyYW5jYXNfZGVz
+bGl6YW1pZW50b3NcMDhfT3JhbmdlL2RhdG9zXFRwN19BX2NvaGVyZW5jaWFfcG9yX2JhbmRhX3lf
+em9uYS5jc3aUjAZwcmVmaXiUjAdiYXNlZGlylIwHcmVscGF0aJSMK2RhdG9zL1RwN19BX2NvaGVy
+ZW5jaWFfcG9yX2JhbmRhX3lfem9uYS5jc3aUjAV0aXRsZZSMAJSMBXNoZWV0lGgQjAtmaWxlX2Zv
+cm1hdJROdWJhjAtyZWNlbnRfdXJsc5RdlIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZROjAtzaGVldF9u
+YW1lc5R9lIwGc291cmNllEsAjAN1cmyUaBCMDWRvbWFpbl9lZGl0b3KUfZSMC19fdmVyc2lvbl9f
+lEsBjBBjb250ZXh0X3NldHRpbmdzlF2UdS4=
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVugEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBjdW11bGF0aXZlX2Rpc3RylImM
+E2ZpdHRlZF9kaXN0cmlidXRpb26USwCMDWtkZV9zbW9vdGhpbmeUSwqMDm51bWJlcl9vZl9iaW5z
+lEsFjBNzYXZlZFdpZGdldEdlb21ldHJ5lE6MCXNlbGVjdGlvbpSPlIwKc2hvd19wcm9ic5SJjAxz
+b3J0X2J5X2ZyZXGUiYwPc3RhY2tlZF9jb2x1bW5zlImMC19fdmVyc2lvbl9flEsCjBBjb250ZXh0
+X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAph
+dHRyaWJ1dGVzlH2UKIwOY29oX1hfMTVfMTlvY3SUSwKMDmNvaF9DXzEyXzI0b2N0lEsCjA5jb2hf
+Q18xOF8zMHNlcJRLAowOTWFwQmlvbWFzXzIwMTiUSwGMBHpvbmGUSwGMAXiUSwKMAXmUSwJ1jAVt
+ZXRhc5R9lIwGdmFsdWVzlH2UKGgMSwKMBGN2YXKUaBlLZYaUjAN2YXKUaBZLZoaUdXViYXUu
+</properties>
+		<properties node_id="3" format="pickle">gASV8AEAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojA5jb2hfWF8xNV8xOW9jdJRLAowO
+Y29oX0NfMTJfMjRvY3SUSwKMDmNvaF9DXzE4XzMwc2VwlEsCjA5NYXBCaW9tYXNfMjAxOJRLAYwE
+em9uYZRLAYwBeJRLAowBeZRLAnWMBW1ldGFzlH2UjAZ2YWx1ZXOUfZQoaAxLAYwJYXR0cmlidXRl
+lGgXS2aGlIwJZ3JvdXBfdmFylGgZS2WGlIwJc2VsZWN0aW9ulClK/v///4aUdXViYXUu
+</properties>
+		<properties node_id="4" format="pickle">gASV8AEAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojA5jb2hfWF8xNV8xOW9jdJRLAowO
+Y29oX0NfMTJfMjRvY3SUSwKMDmNvaF9DXzE4XzMwc2VwlEsCjA5NYXBCaW9tYXNfMjAxOJRLAYwE
+em9uYZRLAYwBeJRLAowBeZRLAnWMBW1ldGFzlH2UjAZ2YWx1ZXOUfZQoaAxLAYwJYXR0cmlidXRl
+lGgWS2aGlIwJZ3JvdXBfdmFylGgaS2WGlIwJc2VsZWN0aW9ulClK/v///4aUdXViYXUu
+</properties>
+		<properties node_id="5" format="pickle">gASVAgMAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZROjAlzZWxlY3Rpb26UTowRdG9vbHRpcF9zaG93c19hbGyUiIwPdmlzdWFsX3NldHRp
+bmdzlH2UjAVncmFwaJR9lCiMC2FscGhhX3ZhbHVllEtajA1jbGFzc19kZW5zaXR5lImMEWppdHRl
+cl9jb250aW51b3VzlImMC2ppdHRlcl9zaXpllEsAjBNsYWJlbF9vbmx5X3NlbGVjdGVklImMFm9y
+dGhvbm9ybWFsX3JlZ3Jlc3Npb26UiYwLcG9pbnRfd2lkdGiUSwWMDHNob3dfZWxsaXBzZZSJjAlz
+aG93X2dyaWSUiIwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGluZZSIdYwLX192ZXJzaW9uX1+U
+SwWMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojA5jb2hfWF8xNV8xOW9jdJRLAowOY29oX0NfMTJfMjRv
+Y3SUSwKMDmNvaF9DXzE4XzMwc2VwlEsCjA5NYXBCaW9tYXNfMjAxOJRLAYwEem9uYZRLAYwBeJRL
+AowBeZRLAnWMBW1ldGFzlH2UjAZ2YWx1ZXOUfZQoaBhLBYwKYXR0cl9jb2xvcpRoJUtlhpSMCmF0
+dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUaDCMCWF0dHJfc2l6ZZRoMIwGYXR0cl94lGgj
+S2aGlIwMYXR0cl94X2xvd2VylGgwjAxhdHRyX3hfdXBwZXKUaDCMBmF0dHJfeZRoIktmhpSMDGF0
+dHJfeV9sb3dlcpRoMIwMYXR0cl95X3VwcGVylGgwaAt9lHV1YmF1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

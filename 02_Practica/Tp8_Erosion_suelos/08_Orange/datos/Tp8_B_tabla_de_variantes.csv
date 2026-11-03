@@ -1,0 +1,3 @@
+variante,datos,exactitud_global,exactitud_global_IC95,omision_susceptible,omision_IC95,comision_susceptible,comision_IC95,exactitud_usuario,area_estimada_ha,area_IC95_ha,area_segun_mapa_ha
+Solo optico,Sentinel-2,0.963,0.025,0.901,0.157,0.906,0.103,0.094,369,461,391
+Multisensor,S2 + NovaSAR S + S1 C + FABDEM,0.833,0.026,0.601,0.424,0.93,0.077,0.07,468,439,2677

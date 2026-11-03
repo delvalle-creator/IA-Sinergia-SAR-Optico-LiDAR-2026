@@ -1,0 +1,13 @@
+﻿region,sensor_1,sensor_2,pixeles,%_clase_sensor_1,%_clase_sensor_2,%_ambos,%_solo_1,%_solo_2,acuerdo_%
+todo el sitio,C_Sentinel1_dVH,L_ALOS2_dHV,1454146,26.9,29.9,10.2,16.7,19.7,63.6
+todo el sitio,C_Sentinel1_dVH,L_SAOCOM_dHV,1454146,26.9,28.0,12.0,14.9,16.0,69.2
+todo el sitio,C_Sentinel1_dVH,Optico_dNBR,1454146,26.9,31.7,14.7,12.2,17.0,70.8
+todo el sitio,L_ALOS2_dHV,L_SAOCOM_dHV,1454146,29.9,28.0,10.3,19.6,17.7,62.7
+todo el sitio,L_ALOS2_dHV,Optico_dNBR,1454146,29.9,31.7,11.9,18.0,19.8,62.2
+todo el sitio,L_SAOCOM_dHV,Optico_dNBR,1454146,28.0,31.7,14.3,13.7,17.4,69.0
+control: agua_permanente,C_Sentinel1_dVH,L_ALOS2_dHV,87462,0.0,0.0,0.0,0.0,0.0,100.0
+control: agua_permanente,C_Sentinel1_dVH,L_SAOCOM_dHV,87462,0.0,0.0,0.0,0.0,0.0,100.0
+control: agua_permanente,C_Sentinel1_dVH,Optico_dNBR,87462,0.0,0.0,0.0,0.0,0.0,100.0
+control: agua_permanente,L_ALOS2_dHV,L_SAOCOM_dHV,87462,0.0,0.0,0.0,0.0,0.0,100.0
+control: agua_permanente,L_ALOS2_dHV,Optico_dNBR,87462,0.0,0.0,0.0,0.0,0.0,100.0
+control: agua_permanente,L_SAOCOM_dHV,Optico_dNBR,87462,0.0,0.0,0.0,0.0,0.0,100.0

@@ -1,0 +1,5 @@
+﻿variante,puntos_con_dato_Landsat,exactitud_global_ref_Landsat8,omision_ref_Landsat8,comision_ref_Landsat8,area_quemada_ha_ref_Landsat8,exactitud_global_ref_Sentinel2_mismos_puntos,omision_ref_Sentinel2,comision_ref_Sentinel2,acuerdo_etiquetas_S2_Landsat8
+V1 óptico solo,122,0.827 ± 0.064,0.228 ± 0.128,0.304 ± 0.122,23010 ± 4834,0.848 ± 0.067,0.27,0.125,0.836
+V2 SAR solo (C),126,0.743 ± 0.077,0.492 ± 0.115,0.348 ± 0.139,25757 ± 5888,0.695 ± 0.083,0.55,0.283,0.762
+V3 SAR multibanda,122,0.645 ± 0.084,0.757 ± 0.100,0.632 ± 0.155,23076 ± 6396,0.593 ± 0.088,0.784,0.605,0.893
+V4 multisensor,126,0.875 ± 0.052,0.098 ± 0.100,0.283 ± 0.122,13911 ± 2627,0.834 ± 0.066,0.273,0.17,0.802

@@ -1,0 +1,20 @@
+# Nunca se publican
+*.docx
+*.pptx
+*.odt
+*.bak*
+*.log
+*.part*
+__pycache__/
+*.pyc
+_to_delete*/
+# Datos: van en el disco externo
+**/08_Originales_crudos/
+**/02_Subsets_SNAP_QGIS/
+**/05_LiDAR_tablas/
+*.gpkg
+*.h5
+*.dim
+*.data/
+# Excepciones que sí van
+!02_Practica/00_COMUN/01_AOI/sitios_curso.gpkg

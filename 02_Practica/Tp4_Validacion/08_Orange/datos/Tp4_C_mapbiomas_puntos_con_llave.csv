@@ -1,0 +1,71 @@
+id,x_km,y_km,clase_mapa,clase_ref,coincide,C#acierto,confianza,CCI_AGB_2024,P_VH_dB,P_HH_dB,observacion
+1,399.53,6526.61,2 humedal,3 monte,no,0.00,baja,71.00,-13.67,-8.78,"arbustal de espinal: abierto en Esri, denso en Google"
+2,405.05,6525.89,7 urbano,5 cultivo/pastura,no,0.00,media,0.00,-14.95,-10.19,baldio con pasto en el borde urbano
+3,401.09,6549.85,5 cultivo/pastura,4 plantacion,no,0.00,media,33.00,-20.60,-10.02,"plantacion en hileras; en Google, cosechada"
+4,405.25,6527.95,7 urbano,7 urbano,si,1.00,alta,0.00,-15.18,-3.45,manzanas urbanas
+5,398.07,6532.67,3 monte,5 cultivo/pastura,no,0.00,media,0.00,-20.74,-8.00,pastizal con arboles dispersos (sabana de espinal)
+6,410.57,6554.57,2 humedal,3 monte,no,0.00,baja,62.00,-15.69,-10.88,"arboles alrededor de un tajamar, entre plantaciones"
+7,410.17,6551.35,1 agua,1 agua,si,1.00,media,4.00,-14.70,-12.17,"embalse junto a la costa; en Google, playa al borde"
+8,402.79,6525.91,7 urbano,7 urbano,si,1.00,alta,0.00,-10.83,-5.49,centro de la ciudad
+9,390.21,6547.95,5 cultivo/pastura,4 plantacion,no,0.00,media,69.00,-17.45,-6.97,"bloque de plantacion cosechado: suelo con restos en Esri, hileras en Google"
+10,386.55,6551.63,7 urbano,5 cultivo/pastura,no,0.00,media,0.00,-14.33,-12.87,"franja de pasto con zanja entre calles, borde de pueblo"
+11,404.47,6525.87,2 humedal,5 cultivo/pastura,no,0.00,media,0.00,-20.82,-12.03,claro de pasto y tierra en un parque periurbano
+12,388.17,6523.35,3 monte,3 monte,si,1.00,alta,0.00,-13.98,-6.06,monte en galeria sobre un arroyo
+13,399.43,6555.37,6 suelo,5 cultivo/pastura,no,0.00,media,0.00,-20.46,-9.43,"frutal joven en hileras, junto al camino interno"
+14,397.13,6521.13,2 humedal,5 cultivo/pastura,no,0.00,baja,15.00,-24.60,-14.83,pastizal con matas de arbustos; bajos humedos alrededor
+15,403.39,6525.23,7 urbano,7 urbano,si,1.00,alta,0.00,-10.80,-3.20,manzanas urbanas
+16,407.27,6544.01,5 cultivo/pastura,5 cultivo/pastura,si,1.00,media,0.00,-22.98,-12.70,parque de pasto de una casa de campo junto al lago
+17,402.11,6552.01,4 plantacion,4 plantacion,si,1.00,media,78.00,-17.36,-3.25,plantacion en hileras (raleada)
+18,405.59,6533.77,2 humedal,3 monte,no,0.00,baja,0.00,-17.21,-8.21,"borde de una laguna con arboles; en Google, agua"
+19,394.71,6518.85,4 plantacion,4 plantacion,si,1.00,alta,117.00,-17.16,-3.27,plantacion densa de copas uniformes
+20,398.89,6529.45,7 urbano,7 urbano,si,1.00,media,0.00,-16.31,2.90,casas dispersas junto a la ruta
+21,390.29,6517.41,6 suelo,5 cultivo/pastura,no,0.00,baja,0.00,-19.55,-14.08,"cantero central de pasto de la ruta 14, con asfalto en el pixel"
+22,393.97,6517.01,4 plantacion,4 plantacion,si,1.00,media,131.00,-13.16,-4.57,arboles densos; en Google se ven hileras y cortafuegos
+23,402.05,6549.03,4 plantacion,4 plantacion,si,1.00,alta,81.00,-14.64,-7.84,bloque de plantacion densa junto a un tajamar
+24,396.29,6539.09,6 suelo,6 suelo,si,1.00,media,0.00,-19.31,-10.19,playon de tierra junto a un galpon rural
+25,402.11,6524.07,7 urbano,3 monte,no,0.00,media,90.00,-17.23,-10.88,monte ribereno con claros y sendas junto a la ciudad
+26,398.57,6541.13,3 monte,4 plantacion,no,0.00,media,0.00,-18.14,-12.00,"plantacion raleada; en Google, copas secas"
+27,383.83,6523.03,4 plantacion,4 plantacion,si,1.00,alta,69.00,-17.51,-12.28,plantacion densa
+28,391.49,6539.85,4 plantacion,4 plantacion,si,1.00,alta,0.00,-19.31,-8.41,plantacion densa
+29,404.45,6533.21,6 suelo,6 suelo,si,1.00,media,0.00,-22.84,-4.16,camino de tierra y suelo removido junto a dos tajamares
+30,398.27,6545.53,2 humedal,1 agua,no,0.00,baja,5.00,-25.07,-8.15,"tajamar con algas en Esri; en Google, fondo con vegetacion palustre"
+31,401.25,6558.69,5 cultivo/pastura,5 cultivo/pastura,si,1.00,alta,0.00,-24.04,-12.94,potrero junto a galpones e invernaderos
+32,403.83,6534.95,3 monte,4 plantacion,no,0.00,media,84.00,-13.69,-1.19,rodal denso de copas uniformes junto a la ruta
+33,389.33,6556.21,5 cultivo/pastura,5 cultivo/pastura,si,1.00,alta,0.00,-27.15,-11.97,pastizal
+34,381.83,6520.95,5 cultivo/pastura,7 urbano,no,0.00,baja,90.00,-14.08,-8.99,casa rural en un claro entre plantaciones
+35,412.09,6546.75,1 agua,1 agua,si,1.00,alta,0.00,-30.65,-18.23,embalse
+36,403.35,6532.81,5 cultivo/pastura,7 urbano,no,0.00,media,0.00,-12.13,-3.58,casa con jardin en el borde del pueblo
+37,413.09,6557.99,1 agua,1 agua,si,1.00,alta,0.00,-28.81,-6.57,rio/embalse
+38,401.93,6547.73,7 urbano,7 urbano,si,1.00,alta,0.00,-12.47,-7.09,manzanas de un pueblo
+39,383.85,6544.43,5 cultivo/pastura,5 cultivo/pastura,si,1.00,alta,0.00,-27.56,-15.92,lote agricola/pastura
+40,406.43,6543.53,4 plantacion,3 monte,no,0.00,baja,0.00,-14.58,-8.79,bosquecito irregular junto a casas; puede ser implantado
+41,394.19,6539.59,6 suelo,7 urbano,no,0.00,alta,36.00,-17.77,-9.85,loteo nuevo con casas
+42,402.31,6528.71,7 urbano,7 urbano,si,1.00,alta,0.00,-16.78,-7.97,manzanas urbanas e industriales
+43,396.39,6518.21,2 humedal,5 cultivo/pastura,no,0.00,media,80.00,-18.35,-9.80,claro de pastizal dentro del monte ribereno
+44,408.51,6546.69,1 agua,1 agua,si,1.00,alta,0.00,-30.06,-14.09,embalse; Esri con nubes
+45,404.99,6531.45,2 humedal,2 humedal,si,1.00,media,56.00,-24.84,-13.90,banado verde con matas junto a la costa
+46,411.49,6542.43,1 agua,1 agua,si,1.00,alta,0.00,-31.99,-12.51,rio/embalse
+47,380.95,6544.17,3 monte,3 monte,si,1.00,media,59.00,-14.65,-7.54,monte abierto de espinal
+48,387.09,6534.37,4 plantacion,3 monte,no,0.00,baja,0.00,-18.85,-7.65,arboles dispersos y manchas de monte (posibles pinos asilvestrados)
+49,385.27,6544.29,5 cultivo/pastura,2 humedal,no,0.00,baja,0.00,-19.83,-7.49,canada humeda con vegetacion palustre en un potrero
+50,394.73,6517.69,4 plantacion,4 plantacion,si,1.00,baja,90.00,-13.49,-11.40,"arboles en Esri; en Google, bloque cosechado en hileras"
+51,393.09,6539.29,3 monte,5 cultivo/pastura,no,0.00,media,76.00,-18.71,-13.58,pastizal con arbustos (campo abandonado)
+52,398.55,6547.71,5 cultivo/pastura,5 cultivo/pastura,si,1.00,media,0.00,-16.04,-4.66,pastura junto a una cortina de arboles
+53,393.47,6531.75,6 suelo,1 agua,no,0.00,baja,20.00,-23.82,-8.98,"arroyo: agua en Google, agua y banco de arena en Esri"
+54,391.65,6530.49,6 suelo,4 plantacion,no,0.00,baja,0.00,-25.88,-14.43,hileras de plantacion joven sobre suelo arenoso
+55,407.95,6549.47,1 agua,1 agua,si,1.00,alta,0.00,-30.73,-15.49,embalse
+56,387.29,6529.09,4 plantacion,4 plantacion,si,1.00,media,61.00,-15.67,-6.29,cortafuego entre bloques de plantacion
+57,384.37,6528.33,3 monte,5 cultivo/pastura,no,0.00,baja,0.00,-20.68,-8.77,pasto con arbustos entre frutales jovenes
+58,391.57,6551.07,2 humedal,5 cultivo/pastura,no,0.00,alta,61.00,-21.25,-4.97,pastizal
+59,411.13,6546.77,6 suelo,7 urbano,no,0.00,alta,0.00,-15.89,-11.15,galpones de un establecimiento
+60,403.31,6554.87,1 agua,1 agua,si,1.00,alta,0.00,-33.67,-14.28,embalse
+61,404.55,6526.33,7 urbano,7 urbano,si,1.00,media,0.00,-18.87,-8.64,esquina urbana junto a la avenida
+62,394.97,6544.97,2 humedal,5 cultivo/pastura,no,0.00,baja,41.00,-23.72,-8.18,pastizal humedo al borde de un bajo con matas
+63,405.13,6551.43,1 agua,1 agua,si,1.00,alta,0.00,-35.44,-13.91,embalse
+64,400.27,6548.69,6 suelo,8 otra,no,0.00,alta,63.00,-17.79,-11.71,tuneles/malla de arandanos
+65,387.41,6557.35,3 monte,5 cultivo/pastura,no,0.00,media,0.00,-26.63,-15.97,pastizal con arboles sueltos junto a un lote arado
+66,394.77,6547.15,3 monte,2 humedal,no,0.00,baja,110.00,-15.18,-5.19,banado con arbustos junto al monte; Esri con nubes
+67,387.07,6535.77,6 suelo,4 plantacion,no,0.00,media,36.00,-19.22,-14.35,Esri: bloque cosechado; Google: plantacion densa
+68,384.37,6522.35,3 monte,4 plantacion,no,0.00,alta,78.00,-17.01,-8.82,borde de plantacion
+69,400.25,6556.81,1 agua,1 agua,si,1.00,alta,0.00,-30.35,-17.13,embalse
+70,405.81,6551.61,1 agua,1 agua,si,1.00,alta,0.00,-28.96,-14.52,embalse

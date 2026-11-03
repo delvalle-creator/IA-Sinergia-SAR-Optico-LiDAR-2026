@@ -1,0 +1,11 @@
+﻿sensor,banda,lambda_cm,portal,producto,escena,fecha,hora_utc,pasada,polarizaciones,pixel_m,sitio,resultado,fecha_pedido,observaciones,pixeles_validos_%
+EJEMPLO SAOCOM-1A,L,23.5,https://catalogos.conae.gov.ar,L1D GTC QP,(identificador del catalogo),AAAA-MM-DD,HH:MM,ascendente/descendente,HH+HV+VH+VV,10,B_CONCORDIA,obtenida / pedida / sin cobertura / sin acceso,AAAA-MM-DD,texto libre,
+NovaSAR-1,S,9.4,CSIRO NovaSAR Data Hub,Stripmap GRD,47942,2023-09-13,01:36,,HH,6,B_CONCORDIA,obtenida,,"Cubre el 39,5 % del sitio con dato",39.5
+SAOCOM-1B,L,23.5,https://catalog.saocom.conae.gov.ar,L1A SLC TOPSAR Narrow A (TNA) QP,EOL1ASARSAO1B15725893,2023-10-10,21:16,descendente,HH+HV+VH+VV,20,B_CONCORDIA,obtenida,2026-10-25,Referencia seca; procesada a gamma0 (00_COMUN/procesar_saocom_topsar.py),100.0
+SAOCOM-1B,L,23.5,https://catalog.saocom.conae.gov.ar,L1A SLC TOPSAR Narrow B (TNB) QP,EOL1ASARSAO1B15725957,2023-10-31,21:10,descendente,HH+HV+VH+VV,20,B_CONCORDIA,obtenida,2026-10-25,Cubre la mitad oeste del sitio; ruido en el borde del haz,50.6
+SAOCOM-1A,L,23.5,https://catalog.saocom.conae.gov.ar,L1A SLC TOPSAR Narrow B (TNB) QP,EOL1ASARSAO1A15725877,2023-11-08,21:13,descendente,HH+HV+VH+VV,20,B_CONCORDIA,obtenida,2026-10-25,Cubre la mitad oeste del sitio; ruido en el borde del haz,50.9
+SAOCOM-1B,L,23.5,https://catalog.saocom.conae.gov.ar,L1A SLC TOPSAR Narrow A (TNA) QP,EOL1ASARSAO1B15725921,2023-11-11,21:16,descendente,HH+HV+VH+VV,20,B_CONCORDIA,obtenida,2026-10-25,Misma orbita que el 10/10/2023,100.0
+SAOCOM-1B,L,23.5,https://catalog.saocom.conae.gov.ar,L1A SLC TOPSAR Narrow A (TNA) QP,EOL1ASARSAO1B15543480,2026-09-16,21:16,descendente,HH+HV+VH+VV,20,B_CONCORDIA,obtenida,2026-10-25,Evento urbano 2026 (Tp10),100.0
+ALOS-2 PALSAR-2,L,22.9,ASF (https://search.asf.alaska.edu),ScanSAR WBD L1.1,ALOS2512104250-231116,2023-11-16,15:11,descendente,HH+HV,20,B_CONCORDIA,obtenida,2026-10-25,"Bajada el 25/10/2026 (62,8 GB); subfranjas F3 y F4 procesadas a gamma0 (00_COMUN/procesar_alos2_scansar.py)",100.0
+NISAR,S,9.4,Bhoonidhi (ISRO),,,2023-11-04,,,,,B_CONCORDIA,sin cobertura,,La mision se lanzo en 2025,
+COSMO-SkyMed,X,3.1,CONAE - ASI,,,2023-11-04,,,,,B_CONCORDIA,sin acceso,,El curso solo tiene COSMO-SkyMed de Diamante (2018),

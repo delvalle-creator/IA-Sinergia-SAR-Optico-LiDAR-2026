@@ -1,0 +1,5 @@
+﻿estrato,nombre,pixeles,superficie_ha,W,n
+1,agua en las tres variantes,52001,2080.0,0.0134,50
+2,agua en una o dos variantes,65519,2620.8,0.0169,75
+3,borde (anillo de 200 m alrededor de manchas de 1 ha o más),183485,7339.4,0.0473,75
+4,resto sin agua,3581094,143243.8,0.9225,100

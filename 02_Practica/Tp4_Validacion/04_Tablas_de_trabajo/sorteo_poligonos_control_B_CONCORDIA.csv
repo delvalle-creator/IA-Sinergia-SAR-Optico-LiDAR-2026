@@ -1,0 +1,185 @@
+id,etapa,orden,x,y,mb,clase_visual,resultado
+E001,1 extension,1,386270.0,6552910.0,5,5.0,acepta: cultivo_pastura
+E002,1 extension,2,380870.0,6539970.0,0,4.0,acepta: plantacion_forestal
+E003,1 extension,3,387110.0,6528030.0,5,0.0,"borde, mezcla o dudoso"
+E004,1 extension,4,390790.0,6522870.0,5,0.0,"borde, mezcla o dudoso"
+E005,1 extension,5,386270.0,6522030.0,5,0.0,"borde, mezcla o dudoso"
+E006,1 extension,6,391430.0,6545130.0,5,0.0,"borde, mezcla o dudoso"
+E007,1 extension,7,409490.0,6558750.0,5,5.0,acepta: cultivo_pastura
+E008,1 extension,8,398430.0,6529050.0,5,0.0,"borde, mezcla o dudoso"
+E009,1 extension,9,386810.0,6555430.0,5,5.0,acepta: cultivo_pastura
+E010,1 extension,10,394250.0,6538890.0,3,0.0,"borde, mezcla o dudoso"
+E011,1 extension,11,410950.0,6532150.0,0,0.0,"borde, mezcla o dudoso"
+E012,1 extension,12,383290.0,6526310.0,3,0.0,"borde, mezcla o dudoso"
+E013,1 extension,13,391330.0,6544810.0,4,0.0,"borde, mezcla o dudoso"
+E014,1 extension,14,409350.0,6515070.0,0,5.0,acepta: cultivo_pastura
+E015,1 extension,15,418910.0,6529230.0,0,0.0,"borde, mezcla o dudoso"
+E016,1 extension,16,404910.0,6527770.0,7,7.0,acepta: urbano
+E017,1 extension,17,395810.0,6517170.0,5,0.0,"borde, mezcla o dudoso"
+E018,1 extension,18,416550.0,6545910.0,0,0.0,"borde, mezcla o dudoso"
+E019,1 extension,19,384270.0,6553390.0,5,0.0,"borde, mezcla o dudoso"
+E020,1 extension,20,386010.0,6525210.0,4,4.0,acepta: plantacion_forestal
+E021,1 extension,21,381150.0,6515190.0,0,5.0,acepta: cultivo_pastura
+E022,1 extension,22,414190.0,6539450.0,0,0.0,"borde, mezcla o dudoso"
+E023,1 extension,23,410410.0,6553390.0,2,0.0,"borde, mezcla o dudoso"
+E024,1 extension,24,403930.0,6525590.0,7,7.0,acepta: urbano
+E025,1 extension,25,392650.0,6522830.0,3,0.0,"borde, mezcla o dudoso"
+E026,1 extension,26,406970.0,6541690.0,4,0.0,"borde, mezcla o dudoso"
+E027,1 extension,27,388530.0,6547910.0,4,0.0,"borde, mezcla o dudoso"
+E028,1 extension,28,397790.0,6541830.0,4,0.0,"borde, mezcla o dudoso"
+E029,1 extension,29,408030.0,6543670.0,5,0.0,"borde, mezcla o dudoso"
+E030,1 extension,30,406630.0,6536070.0,3,0.0,"borde, mezcla o dudoso"
+E031,1 extension,31,381750.0,6542150.0,3,0.0,"borde, mezcla o dudoso"
+E032,1 extension,32,384030.0,6523490.0,5,0.0,"borde, mezcla o dudoso"
+E033,1 extension,33,394870.0,6541410.0,4,4.0,acepta: plantacion_forestal
+E034,1 extension,34,383490.0,6517310.0,5,5.0,clase completa
+E035,1 extension,35,409090.0,6544370.0,2,0.0,"borde, mezcla o dudoso"
+E036,1 extension,36,395690.0,6533730.0,3,3.0,acepta: monte_nativo
+E037,1 extension,37,381690.0,6537790.0,5,4.0,acepta: plantacion_forestal
+E038,1 extension,38,383010.0,6558750.0,0,0.0,"borde, mezcla o dudoso"
+E039,1 extension,39,389050.0,6555750.0,5,5.0,clase completa
+E040,1 extension,40,405590.0,6541290.0,2,0.0,"borde, mezcla o dudoso"
+E041,1 extension,41,399290.0,6547930.0,4,4.0,acepta: plantacion_forestal
+E042,1 extension,42,416650.0,6538910.0,0,0.0,"borde, mezcla o dudoso"
+E043,1 extension,43,385750.0,6543110.0,5,0.0,"borde, mezcla o dudoso"
+E044,1 extension,44,414130.0,6551870.0,0,1.0,acepta: agua_permanente
+E045,1 extension,45,402190.0,6546670.0,5,0.0,"borde, mezcla o dudoso"
+E046,1 extension,46,399850.0,6549230.0,4,4.0,clase completa
+E047,1 extension,47,382270.0,6549190.0,5,0.0,"borde, mezcla o dudoso"
+E048,1 extension,48,384690.0,6553730.0,5,0.0,"borde, mezcla o dudoso"
+E049,1 extension,49,399250.0,6547550.0,5,0.0,"borde, mezcla o dudoso"
+E050,1 extension,50,393230.0,6540870.0,5,0.0,"borde, mezcla o dudoso"
+E051,1 extension,51,383010.0,6529310.0,4,4.0,clase completa
+E052,1 extension,52,398170.0,6548050.0,4,0.0,"borde, mezcla o dudoso"
+E053,1 extension,53,405770.0,6544270.0,5,0.0,"borde, mezcla o dudoso"
+E054,1 extension,54,386010.0,6558490.0,5,0.0,"borde, mezcla o dudoso"
+E055,1 extension,55,404190.0,6554770.0,1,1.0,acepta: agua_permanente
+E056,1 extension,56,408950.0,6555750.0,5,0.0,"borde, mezcla o dudoso"
+E057,1 extension,57,387150.0,6547630.0,4,0.0,"borde, mezcla o dudoso"
+E058,1 extension,58,418050.0,6557030.0,0,0.0,"borde, mezcla o dudoso"
+E059,1 extension,59,389310.0,6550410.0,4,0.0,"borde, mezcla o dudoso"
+E060,1 extension,60,418710.0,6552010.0,0,0.0,"borde, mezcla o dudoso"
+E061,1 extension,61,389350.0,6552210.0,5,0.0,"borde, mezcla o dudoso"
+E062,1 extension,62,404270.0,6526810.0,7,7.0,acepta: urbano
+E063,1 extension,63,416310.0,6556230.0,0,0.0,"borde, mezcla o dudoso"
+E064,1 extension,64,381370.0,6545490.0,3,0.0,"borde, mezcla o dudoso"
+E065,1 extension,65,418270.0,6519350.0,0,0.0,"borde, mezcla o dudoso"
+E066,1 extension,66,403670.0,6558110.0,5,0.0,"borde, mezcla o dudoso"
+E067,1 extension,67,402010.0,6544430.0,5,0.0,"borde, mezcla o dudoso"
+E068,1 extension,68,403610.0,6554190.0,1,1.0,acepta: agua_permanente
+E069,1 extension,69,406910.0,6555490.0,4,0.0,"borde, mezcla o dudoso"
+E070,1 extension,70,394230.0,6523270.0,5,0.0,"borde, mezcla o dudoso"
+E071,1 extension,71,387890.0,6517290.0,3,0.0,"borde, mezcla o dudoso"
+E072,1 extension,72,405350.0,6551130.0,1,1.0,clase completa
+E073,1 extension,73,394750.0,6526730.0,5,0.0,"borde, mezcla o dudoso"
+E074,1 extension,74,402050.0,6552210.0,4,4.0,clase completa
+E075,1 extension,75,398710.0,6538990.0,5,0.0,"borde, mezcla o dudoso"
+E076,1 extension,76,409350.0,6526710.0,0,7.0,acepta: urbano
+E077,1 extension,77,398570.0,6521650.0,7,0.0,"borde, mezcla o dudoso"
+E078,1 extension,78,400670.0,6556030.0,2,0.0,"borde, mezcla o dudoso"
+E079,1 extension,79,385910.0,6554310.0,3,3.0,acepta: monte_nativo
+E080,1 extension,80,391250.0,6539630.0,5,0.0,"borde, mezcla o dudoso"
+E081,1 extension,81,383910.0,6543890.0,4,4.0,clase completa
+E082,1 extension,82,411010.0,6537970.0,0,0.0,"borde, mezcla o dudoso"
+E083,1 extension,83,416850.0,6547570.0,0,1.0,clase completa
+E084,1 extension,84,398470.0,6533990.0,5,0.0,"borde, mezcla o dudoso"
+E085,1 extension,85,394390.0,6531530.0,3,5.0,clase completa
+E086,1 extension,86,387590.0,6516470.0,5,0.0,"borde, mezcla o dudoso"
+E087,1 extension,87,382490.0,6529110.0,4,4.0,clase completa
+E088,1 extension,88,392910.0,6553950.0,4,4.0,clase completa
+E089,1 extension,89,408270.0,6517250.0,0,0.0,"borde, mezcla o dudoso"
+E090,1 extension,90,396790.0,6542750.0,5,0.0,"borde, mezcla o dudoso"
+E091,1 extension,91,388970.0,6543850.0,4,0.0,"borde, mezcla o dudoso"
+E092,1 extension,92,405130.0,6521770.0,0,0.0,"borde, mezcla o dudoso"
+E093,1 extension,93,408910.0,6557990.0,5,0.0,"borde, mezcla o dudoso"
+E094,1 extension,94,408830.0,6529730.0,0,0.0,"borde, mezcla o dudoso"
+E095,1 extension,95,413590.0,6528570.0,0,0.0,"borde, mezcla o dudoso"
+E096,1 extension,96,390230.0,6541570.0,5,5.0,clase completa
+E097,1 extension,97,387650.0,6521090.0,5,5.0,clase completa
+E098,1 extension,98,404070.0,6526350.0,7,7.0,clase completa
+E099,1 extension,99,402890.0,6552670.0,1,1.0,clase completa
+E100,1 extension,100,410410.0,6555730.0,4,0.0,"borde, mezcla o dudoso"
+A01,2 estrato agua_permanente,1,412810.0,6557730.0,1,,no mirado (la clase ya estaba completa)
+A02,2 estrato agua_permanente,2,411450.0,6556410.0,1,,no mirado (la clase ya estaba completa)
+A03,2 estrato agua_permanente,3,405210.0,6553930.0,1,,no mirado (la clase ya estaba completa)
+A04,2 estrato agua_permanente,4,402050.0,6555270.0,1,,no mirado (la clase ya estaba completa)
+A05,2 estrato agua_permanente,5,406610.0,6552270.0,1,,no mirado (la clase ya estaba completa)
+A06,2 estrato agua_permanente,6,403250.0,6553130.0,1,,no mirado (la clase ya estaba completa)
+A07,2 estrato agua_permanente,7,411890.0,6549190.0,1,,no mirado (la clase ya estaba completa)
+A08,2 estrato agua_permanente,8,410590.0,6545510.0,1,,no mirado (la clase ya estaba completa)
+A09,2 estrato agua_permanente,9,408110.0,6548070.0,1,,no mirado (la clase ya estaba completa)
+A10,2 estrato agua_permanente,10,411770.0,6547250.0,1,,no mirado (la clase ya estaba completa)
+A11,2 estrato agua_permanente,11,401870.0,6557070.0,1,,no mirado (la clase ya estaba completa)
+A12,2 estrato agua_permanente,12,407670.0,6546730.0,1,,no mirado (la clase ya estaba completa)
+B01,2 estrato humedal_pajonal,1,397370.0,6520670.0,2,0.0,"borde, mezcla o dudoso"
+B02,2 estrato humedal_pajonal,2,382710.0,6543610.0,2,0.0,"borde, mezcla o dudoso"
+B03,2 estrato humedal_pajonal,3,396450.0,6521670.0,2,0.0,"borde, mezcla o dudoso"
+B04,2 estrato humedal_pajonal,4,396550.0,6521270.0,2,2.0,acepta: humedal_pajonal
+B05,2 estrato humedal_pajonal,5,405230.0,6531810.0,2,2.0,acepta: humedal_pajonal
+B06,2 estrato humedal_pajonal,6,401170.0,6524550.0,2,0.0,"borde, mezcla o dudoso"
+B07,2 estrato humedal_pajonal,7,400610.0,6525170.0,2,0.0,"borde, mezcla o dudoso"
+B08,2 estrato humedal_pajonal,8,397310.0,6521190.0,2,0.0,"borde, mezcla o dudoso"
+B09,2 estrato humedal_pajonal,9,399930.0,6525890.0,2,,no mirado (la clase ya estaba completa)
+B10,2 estrato humedal_pajonal,10,397270.0,6521290.0,2,,no mirado (la clase ya estaba completa)
+B11,2 estrato humedal_pajonal,11,401290.0,6525650.0,2,,no mirado (la clase ya estaba completa)
+B12,2 estrato humedal_pajonal,12,396530.0,6521290.0,2,,no mirado (la clase ya estaba completa)
+C01,2 estrato monte_nativo,1,385050.0,6527030.0,3,0.0,"borde, mezcla o dudoso"
+C02,2 estrato monte_nativo,2,393150.0,6531850.0,3,3.0,acepta: monte_nativo
+C03,2 estrato monte_nativo,3,381190.0,6545270.0,3,,no mirado (la clase ya estaba completa)
+C04,2 estrato monte_nativo,4,387050.0,6525870.0,3,,no mirado (la clase ya estaba completa)
+C05,2 estrato monte_nativo,5,389590.0,6534470.0,3,,no mirado (la clase ya estaba completa)
+C06,2 estrato monte_nativo,6,393570.0,6532490.0,3,,no mirado (la clase ya estaba completa)
+C07,2 estrato monte_nativo,7,391610.0,6533030.0,3,,no mirado (la clase ya estaba completa)
+C08,2 estrato monte_nativo,8,381990.0,6546050.0,3,,no mirado (la clase ya estaba completa)
+C09,2 estrato monte_nativo,9,389090.0,6535250.0,3,,no mirado (la clase ya estaba completa)
+C10,2 estrato monte_nativo,10,384110.0,6515310.0,3,,no mirado (la clase ya estaba completa)
+C11,2 estrato monte_nativo,11,384550.0,6526970.0,3,,no mirado (la clase ya estaba completa)
+C12,2 estrato monte_nativo,12,382470.0,6526650.0,3,,no mirado (la clase ya estaba completa)
+D01,2 estrato plantacion_forestal,1,391850.0,6553130.0,4,,no mirado (la clase ya estaba completa)
+D02,2 estrato plantacion_forestal,2,396990.0,6537130.0,4,,no mirado (la clase ya estaba completa)
+D03,2 estrato plantacion_forestal,3,391270.0,6554610.0,4,,no mirado (la clase ya estaba completa)
+D04,2 estrato plantacion_forestal,4,382350.0,6528410.0,4,,no mirado (la clase ya estaba completa)
+D05,2 estrato plantacion_forestal,5,405210.0,6556270.0,4,,no mirado (la clase ya estaba completa)
+D06,2 estrato plantacion_forestal,6,397810.0,6551590.0,4,,no mirado (la clase ya estaba completa)
+D07,2 estrato plantacion_forestal,7,410170.0,6549490.0,4,,no mirado (la clase ya estaba completa)
+D08,2 estrato plantacion_forestal,8,408850.0,6554290.0,4,,no mirado (la clase ya estaba completa)
+D09,2 estrato plantacion_forestal,9,405490.0,6556190.0,4,,no mirado (la clase ya estaba completa)
+D10,2 estrato plantacion_forestal,10,404750.0,6556510.0,4,,no mirado (la clase ya estaba completa)
+D11,2 estrato plantacion_forestal,11,406730.0,6543110.0,4,,no mirado (la clase ya estaba completa)
+D12,2 estrato plantacion_forestal,12,390550.0,6553890.0,4,,no mirado (la clase ya estaba completa)
+E01,2 estrato cultivo_pastura,1,388430.0,6551690.0,5,,no mirado (la clase ya estaba completa)
+E02,2 estrato cultivo_pastura,2,393830.0,6542870.0,5,,no mirado (la clase ya estaba completa)
+E03,2 estrato cultivo_pastura,3,386070.0,6546410.0,5,,no mirado (la clase ya estaba completa)
+E04,2 estrato cultivo_pastura,4,381650.0,6558510.0,5,,no mirado (la clase ya estaba completa)
+E05,2 estrato cultivo_pastura,5,395630.0,6534370.0,5,,no mirado (la clase ya estaba completa)
+E06,2 estrato cultivo_pastura,6,407930.0,6556430.0,5,,no mirado (la clase ya estaba completa)
+E07,2 estrato cultivo_pastura,7,391750.0,6541450.0,5,,no mirado (la clase ya estaba completa)
+E08,2 estrato cultivo_pastura,8,388710.0,6553670.0,5,,no mirado (la clase ya estaba completa)
+E09,2 estrato cultivo_pastura,9,392150.0,6542110.0,5,,no mirado (la clase ya estaba completa)
+E10,2 estrato cultivo_pastura,10,394450.0,6532790.0,5,,no mirado (la clase ya estaba completa)
+E11,2 estrato cultivo_pastura,11,404410.0,6543370.0,5,,no mirado (la clase ya estaba completa)
+E12,2 estrato cultivo_pastura,12,381930.0,6557010.0,5,,no mirado (la clase ya estaba completa)
+F01,2 estrato suelo_desnudo,1,405010.0,6534650.0,6,6.0,acepta: suelo_desnudo
+F02,2 estrato suelo_desnudo,2,400030.0,6554030.0,6,0.0,"borde, mezcla o dudoso"
+F03,2 estrato suelo_desnudo,3,404830.0,6534510.0,6,6.0,a menos de 500 m de otro
+F04,2 estrato suelo_desnudo,4,395070.0,6539130.0,6,0.0,"borde, mezcla o dudoso"
+F05,2 estrato suelo_desnudo,5,402430.0,6546370.0,6,0.0,"borde, mezcla o dudoso"
+F06,2 estrato suelo_desnudo,6,399570.0,6531350.0,6,0.0,"borde, mezcla o dudoso"
+F07,2 estrato suelo_desnudo,7,402730.0,6531450.0,6,0.0,"borde, mezcla o dudoso"
+F08,2 estrato suelo_desnudo,8,400790.0,6554530.0,6,0.0,"borde, mezcla o dudoso"
+F09,2 estrato suelo_desnudo,9,400250.0,6554390.0,6,0.0,"borde, mezcla o dudoso"
+F10,2 estrato suelo_desnudo,10,408250.0,6538990.0,6,0.0,"borde, mezcla o dudoso"
+F11,2 estrato suelo_desnudo,11,400890.0,6530550.0,6,6.0,acepta: suelo_desnudo
+F12,2 estrato suelo_desnudo,12,401810.0,6548510.0,6,0.0,"borde, mezcla o dudoso"
+G01,2 estrato urbano,1,401210.0,6527510.0,7,,no mirado (la clase ya estaba completa)
+G02,2 estrato urbano,2,401790.0,6529650.0,7,,no mirado (la clase ya estaba completa)
+G03,2 estrato urbano,3,403210.0,6528350.0,7,,no mirado (la clase ya estaba completa)
+G04,2 estrato urbano,4,404150.0,6526330.0,7,,no mirado (la clase ya estaba completa)
+G05,2 estrato urbano,5,404050.0,6527510.0,7,,no mirado (la clase ya estaba completa)
+G06,2 estrato urbano,6,400970.0,6529490.0,7,,no mirado (la clase ya estaba completa)
+G07,2 estrato urbano,7,401510.0,6530150.0,7,,no mirado (la clase ya estaba completa)
+G08,2 estrato urbano,8,396870.0,6524590.0,7,,no mirado (la clase ya estaba completa)
+G09,2 estrato urbano,9,401870.0,6529450.0,7,,no mirado (la clase ya estaba completa)
+G10,2 estrato urbano,10,401330.0,6527490.0,7,,no mirado (la clase ya estaba completa)
+G11,2 estrato urbano,11,402370.0,6524730.0,7,,no mirado (la clase ya estaba completa)
+G12,2 estrato urbano,12,404110.0,6526230.0,7,,no mirado (la clase ya estaba completa)

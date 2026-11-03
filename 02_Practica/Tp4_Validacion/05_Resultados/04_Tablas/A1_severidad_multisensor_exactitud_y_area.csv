@@ -1,0 +1,5 @@
+﻿codigo,clase,n_puntos_estrato,area_mapa_ha,area_estimada_ha,IC95_area_ha,exactitud_usuario,IC95_usuario,comision,exactitud_productor,IC95_productor,omision,exactitud_global,IC95_global,area_total_ha,n_total
+1,severidad_alta,31,2413.6,9543.6,2859.6,0.581,0.177,0.419,0.147,0.058,0.853,0.5979,0.0645,50628.3,143
+2,severidad_baja,37,15090.6,5999.7,2971.6,0.189,0.128,0.811,0.476,0.246,0.524,0.5979,0.0645,50628.3,143
+3,no_quemado,42,26865.1,32970.1,3529.5,0.905,0.09,0.095,0.737,0.061,0.263,0.5979,0.0645,50628.3,143
+4,agua,33,6259.0,2114.8,1253.7,0.273,0.154,0.727,0.807,0.318,0.193,0.5979,0.0645,50628.3,143

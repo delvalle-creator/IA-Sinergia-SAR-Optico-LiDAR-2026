@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "E_PARANA_DIAMANTE",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "sitio": "E_PARANA_DIAMANTE", "nombre": "Barrancas del rio Parana, Parana - Diamante", "origen": "aproximada", "practicos": "Tp7,Tp10", "columnas": 2532, "filas": 5071, "superficie_km2": 1284.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -60.45, -32.1 ], [ -60.45, -31.65 ], [ -60.7, -31.65 ], [ -60.7, -32.1 ], [ -60.45, -32.1 ] ] ] } }
+]
+}

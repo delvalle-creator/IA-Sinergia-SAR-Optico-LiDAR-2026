@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp7_B - ICESat-2 menos MDE por zona y por MDE" description="Segmentos ATL08 de 100 m con terreno valido (2018-2026) en E1_DIAMANTE_BARRANCA: diferencia ICESat-2 menos IGN 5 m (SRVN16), GLO-30 y FABDEM (EGM2008), con la zona (ladera, anillo, resto), la fuerza del haz y la pendiente.">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File - ICESat-2 menos MDE" position="(80, 220)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(330, 60)" />
+		<node id="2" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - diferencia por MDE" position="(330, 200)" />
+		<node id="3" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - diferencia por zona" position="(330, 340)" />
+		<node id="4" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot - pendiente frente a diferencia" position="(330, 480)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(560, 160, 440, 160)" font-family="Arial" font-size="14">Fuera de la barranca (resto) el GLO-30 y el FABDEM dan medianas de -0,03 y -0,06 m; el IGN, -0,96 m. En la ladera y el anillo los tres quedan por encima del terreno (diferencias negativas): son modelos de superficie o tienen error en el talud. Filtre por zona en Box Plot.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVwwEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjGtEOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwN19CYXJyYW5jYXNfZGVz
+bGl6YW1pZW50b3NcMDhfT3JhbmdlL2RhdG9zXFRwN19CX2ljZXNhdDJfbWVub3NfbWRlLmNzdpSM
+BnByZWZpeJSMB2Jhc2VkaXKUjAdyZWxwYXRolIwhZGF0b3MvVHA3X0JfaWNlc2F0Ml9tZW5vc19t
+ZGUuY3N2lIwFdGl0bGWUjACUjAVzaGVldJRoEIwLZmlsZV9mb3JtYXSUTnViYYwLcmVjZW50X3Vy
+bHOUXZSME3NhdmVkV2lkZ2V0R2VvbWV0cnmUTowLc2hlZXRfbmFtZXOUfZSMBnNvdXJjZZRLAIwD
+dXJslGgQjA1kb21haW5fZWRpdG9ylH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5n
+c5RdlHUu
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASV/wEAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojAVmZWNoYZRLAYwDaGF6lEsBjApm
+dWVyemFfaGF6lEsBjAR6b25hlEsBjBFwZW5kaWVudGVfdGVycmVub5RLAowDbGF0lEsCjANsb26U
+SwKME2ljZXNhdDJfbWVub3NfTURFX22USwKMA01ERZRLAXWMBW1ldGFzlH2UjAZ2YWx1ZXOUfZQo
+aAxLAYwJYXR0cmlidXRllGgdS2aGlIwJZ3JvdXBfdmFylGgeS2WGlIwJc2VsZWN0aW9ulClK/v//
+/4aUdXViYXUu
+</properties>
+		<properties node_id="3" format="pickle">gASV/wEAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojAVmZWNoYZRLAYwDaGF6lEsBjApm
+dWVyemFfaGF6lEsBjAR6b25hlEsBjBFwZW5kaWVudGVfdGVycmVub5RLAowDbGF0lEsCjANsb26U
+SwKME2ljZXNhdDJfbWVub3NfTURFX22USwKMA01ERZRLAXWMBW1ldGFzlH2UjAZ2YWx1ZXOUfZQo
+aAxLAYwJYXR0cmlidXRllGgdS2aGlIwJZ3JvdXBfdmFylGgZS2WGlIwJc2VsZWN0aW9ulClK/v//
+/4aUdXViYXUu
+</properties>
+		<properties node_id="4" format="pickle">gASVEQMAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZROjAlzZWxlY3Rpb26UTowRdG9vbHRpcF9zaG93c19hbGyUiIwPdmlzdWFsX3NldHRp
+bmdzlH2UjAVncmFwaJR9lCiMC2FscGhhX3ZhbHVllEtajA1jbGFzc19kZW5zaXR5lImMEWppdHRl
+cl9jb250aW51b3VzlImMC2ppdHRlcl9zaXpllEsAjBNsYWJlbF9vbmx5X3NlbGVjdGVklImMFm9y
+dGhvbm9ybWFsX3JlZ3Jlc3Npb26UiYwLcG9pbnRfd2lkdGiUSwWMDHNob3dfZWxsaXBzZZSJjAlz
+aG93X2dyaWSUiIwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGluZZSIdYwLX192ZXJzaW9uX1+U
+SwWMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojAVmZWNoYZRLAYwDaGF6lEsBjApmdWVyemFfaGF6lEsB
+jAR6b25hlEsBjBFwZW5kaWVudGVfdGVycmVub5RLAowDbGF0lEsCjANsb26USwKME2ljZXNhdDJf
+bWVub3NfTURFX22USwKMA01ERZRLAXWMBW1ldGFzlH2UjAZ2YWx1ZXOUfZQoaBhLBYwKYXR0cl9j
+b2xvcpRoKktlhpSMCmF0dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUaDKMCWF0dHJfc2l6
+ZZRoMowGYXR0cl94lGgmS2aGlIwMYXR0cl94X2xvd2VylGgyjAxhdHRyX3hfdXBwZXKUaDKMBmF0
+dHJfeZRoKUtmhpSMDGF0dHJfeV9sb3dlcpRoMowMYXR0cl95X3VwcGVylGgyaAt9lHV1YmF1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

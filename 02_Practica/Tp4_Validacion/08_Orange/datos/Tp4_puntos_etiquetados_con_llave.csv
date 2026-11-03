@@ -1,0 +1,71 @@
+id,x_km,y_km,clase_mapa,clase_ref,coincide,confianza,fuente_del_mapa,observacion
+1,396.57,6521.29,2 humedal,2 humedal,si,media,digitalizado,pajonal/pastizal de banado junto al arroyo
+2,403.95,6525.67,7 urbano,7 urbano,si,alta,digitalizado,manzana urbana
+3,386.79,6555.47,5 cultivo,5 cultivo,si,alta,digitalizado,potrero de pasto
+4,404.33,6526.75,7 urbano,7 urbano,si,alta,digitalizado,manzana urbana
+5,397.29,6530.91,3 monte,3 monte,si,baja,MapBiomas recortado,bosquecillo junto al aerodromo y la ruta (puede ser plantado)
+6,405.25,6531.87,2 humedal,5 cultivo,no,baja,digitalizado,pastizal ribereno
+7,417.29,6549.83,1 agua,1 agua,si,alta,JRC,laguna/embalse
+8,403.97,6525.67,7 urbano,7 urbano,si,alta,digitalizado,manzana urbana
+9,386.75,6555.41,5 cultivo,5 cultivo,si,media,digitalizado,potrero junto a galpones
+10,404.83,6527.87,7 urbano,7 urbano,si,alta,digitalizado,barrio urbano
+11,396.55,6521.27,2 humedal,2 humedal,si,media,digitalizado,pajonal de banado
+12,401.29,6523.83,3 monte,3 monte,si,alta,MapBiomas recortado,monte nativo ribereno junto al arroyo
+13,404.99,6534.67,6 suelo,6 suelo,si,baja,digitalizado,"playa de aserradero/cantera, suelo y rollizos"
+14,396.61,6521.21,2 humedal,2 humedal,si,media,digitalizado,pajonal de banado
+15,403.87,6525.59,7 urbano,7 urbano,si,alta,digitalizado,manzana urbana
+16,386.31,6553.01,5 cultivo,4 plantac.,no,media,digitalizado,lote con arboles jovenes en hileras
+17,394.87,6541.51,4 plantac.,4 plantac.,si,alta,digitalizado,plantacion (cortafuego)
+18,396.49,6521.33,2 humedal,2 humedal,si,media,digitalizado,pajonal de banado
+19,385.93,6525.17,4 plantac.,4 plantac.,si,alta,digitalizado,plantacion
+20,404.25,6526.85,7 urbano,7 urbano,si,alta,digitalizado,barrio urbano
+21,400.91,6530.57,6 suelo,6 suelo,si,media,digitalizado,"loteo nuevo, suelo expuesto"
+22,386.01,6525.15,4 plantac.,4 plantac.,si,media,digitalizado,claro dentro de plantacion
+23,394.83,6541.41,4 plantac.,4 plantac.,si,alta,digitalizado,plantacion
+24,400.89,6530.53,6 suelo,6 suelo,si,media,digitalizado,"loteo nuevo, calle de tierra"
+25,403.93,6525.55,7 urbano,7 urbano,si,alta,digitalizado,manzana urbana
+26,402.61,6534.75,3 monte,3 monte,si,baja,MapBiomas recortado,grupo de arboles en un potrero; el pixel cae sobre las copas
+27,386.09,6525.25,4 plantac.,4 plantac.,si,alta,digitalizado,plantacion
+28,380.79,6539.93,4 plantac.,4 plantac.,si,alta,digitalizado,plantacion
+29,405.01,6534.63,6 suelo,6 suelo,si,baja,digitalizado,playa de aserradero/cantera
+30,405.17,6531.79,2 humedal,5 cultivo,no,media,digitalizado,pastizal ribereno
+31,409.45,6558.85,5 cultivo,3 monte,no,media,digitalizado,isleta de monte en pastizal
+32,401.47,6532.35,3 monte,4 plantac.,no,alta,MapBiomas recortado,plantacion en hileras
+33,409.47,6558.77,5 cultivo,5 cultivo,si,media,digitalizado,pastizal
+34,409.43,6515.09,5 cultivo,5 cultivo,si,alta,digitalizado,cultivo en lotes
+35,406.47,6545.67,1 agua,1 agua,si,alta,JRC,rio
+36,381.07,6515.19,5 cultivo,5 cultivo,si,media,digitalizado,potrero junto a casa rural
+37,413.23,6558.07,1 agua,1 agua,si,alta,JRC,rio
+38,404.95,6527.85,7 urbano,7 urbano,si,alta,digitalizado,barrio urbano
+39,386.23,6553.01,5 cultivo,4 plantac.,no,baja,digitalizado,lote con arboles jovenes
+40,380.89,6540.05,4 plantac.,4 plantac.,si,alta,digitalizado,plantacion
+41,400.91,6530.53,6 suelo,6 suelo,si,media,digitalizado,"loteo nuevo, suelo expuesto"
+42,409.45,6526.81,7 urbano,7 urbano,si,alta,digitalizado,centro urbano
+43,396.57,6521.19,2 humedal,2 humedal,si,media,digitalizado,pajonal de banado
+44,414.37,6545.63,1 agua,1 agua,si,alta,JRC,rio
+45,396.61,6521.33,2 humedal,2 humedal,si,media,digitalizado,pajonal de banado
+46,409.95,6538.81,1 agua,1 agua,si,alta,JRC,rio
+47,406.93,6535.73,3 monte,3 monte,si,alta,MapBiomas recortado,monte nativo ribereno del rio Uruguay
+48,381.79,6537.85,4 plantac.,4 plantac.,si,alta,digitalizado,plantacion
+49,386.29,6553.01,5 cultivo,4 plantac.,no,baja,digitalizado,lote con arboles jovenes
+50,386.07,6525.11,4 plantac.,4 plantac.,si,alta,digitalizado,plantacion
+51,399.75,6533.95,3 monte,4 plantac.,no,media,MapBiomas recortado,plantacion de pinos (borde con un canal)
+52,386.79,6555.41,5 cultivo,5 cultivo,si,media,digitalizado,potrero
+53,400.91,6530.55,6 suelo,6 suelo,si,media,digitalizado,"loteo nuevo, suelo expuesto"
+54,405.03,6534.63,6 suelo,6 suelo,si,baja,digitalizado,playa de aserradero/cantera
+55,417.07,6548.31,1 agua,1 agua,si,alta,JRC,rio
+56,381.75,6537.69,4 plantac.,4 plantac.,si,alta,digitalizado,plantacion
+57,396.47,6528.67,3 monte,3 monte,si,media,MapBiomas recortado,franja de monte a lo largo del arroyo y las vias
+58,405.25,6531.85,2 humedal,5 cultivo,no,media,digitalizado,pastizal ribereno
+59,405.01,6534.67,6 suelo,6 suelo,si,baja,digitalizado,"playa de aserradero, camino de tierra"
+60,413.87,6554.09,1 agua,1 agua,si,alta,JRC,rio
+61,403.85,6525.69,7 urbano,7 urbano,si,alta,digitalizado,manzana urbana
+62,405.19,6531.79,2 humedal,5 cultivo,no,media,digitalizado,pastizal ribereno
+63,406.73,6549.91,1 agua,1 agua,si,alta,JRC,rio
+64,400.87,6530.57,6 suelo,6 suelo,si,media,digitalizado,"loteo nuevo, suelo expuesto"
+65,404.75,6538.99,3 monte,3 monte,si,alta,MapBiomas recortado,monte nativo irregular con claros
+66,407.89,6536.69,3 monte,3 monte,si,alta,MapBiomas recortado,monte nativo ribereno
+67,404.99,6534.63,6 suelo,6 suelo,si,baja,digitalizado,playa de aserradero/cantera
+68,394.63,6523.43,3 monte,3 monte,si,media,MapBiomas recortado,"monte irregular con claros de pasto, junto a la ruta"
+69,412.03,6556.51,1 agua,1 agua,si,alta,JRC,rio
+70,405.05,6550.13,1 agua,1 agua,si,alta,JRC,rio

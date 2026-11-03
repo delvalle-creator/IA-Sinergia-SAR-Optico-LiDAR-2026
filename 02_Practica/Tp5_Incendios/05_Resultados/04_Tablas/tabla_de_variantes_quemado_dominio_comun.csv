@@ -1,0 +1,5 @@
+﻿variante,puntos_en_la_superficie_comun,exactitud_global,omision,comision,area_estimada_ha,porcentaje_quemado
+V1 optico solo,102,0.906 +/- 0.057,0.169 +/- 0.120,0.125 +/- 0.104,16596 +/- 2890,32.8 +/- 5.7 %
+V2 SAR solo (C),89,0.756 +/- 0.092,0.494 +/- 0.139,0.324 +/- 0.160,16809 +/- 4648,33.2 +/- 9.2 %
+V3 SAR multibanda,105,0.628 +/- 0.095,0.764 +/- 0.099,0.625 +/- 0.152,16267 +/- 4824,32.1 +/- 9.5 %
+V4 multisensor,142,0.835 +/- 0.061,0.254 +/- 0.103,0.207 +/- 0.105,18615 +/- 3100,36.8 +/- 6.1 %

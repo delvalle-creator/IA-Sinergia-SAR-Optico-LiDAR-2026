@@ -1,0 +1,2 @@
+﻿banda_a,banda_b,n_pixeles,pasada_traza_a,pasada_traza_b,diferencia_media_dB,desvio_pixel_a_pixel_dB,n_poligonos,dif_por_poligono_dB,dif_min_poligono_dB,dif_max_poligono_dB,ic95_bootstrap_poligonos_dB,umbral_dB,veredicto
+C_S1_gamma0_VV,C_SNAP_gamma0_VV,484,D68,D68,0.96,1.22,4,+1.02 / +1.02 / +0.86 / +0.93,0.86,1.02,+0.89 a +1.02,1.0,CUMPLE

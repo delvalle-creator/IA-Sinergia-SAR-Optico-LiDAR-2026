@@ -1,0 +1,10 @@
+﻿referencia,producto,zona,desfase_dB,RIC_desfase_dB,pixeles_estables,residuo_p75_abs_dB,aplicado,aviso
+L_ALOS2_2021_HH,L_ALOS1_2011_HH,monte (3),1.77,+0.70 a +2.63,350,1.87,no (solo se informa),cambio minimo interpretable ~ 1.9 dB (p75 del residuo absoluto en la otra mitad)
+L_ALOS2_2021_HH,L_ALOS1_2011_HH,ciudad (7),1.63,+0.03 a +2.85,300,2.46,no (solo se informa),cambio minimo interpretable ~ 2.5 dB (p75 del residuo absoluto en la otra mitad)
+L_ALOS2_2021_HH,L_ALOS1_2011_HH,las dos,1.74,+0.39 a +2.68,650,2.2,si,cambio minimo interpretable ~ 2.2 dB (p75 del residuo absoluto en la otra mitad)
+L_ALOS2_2021_HH,L_NISAR_2026_HH,monte (3),-1.64,-3.09 a -0.47,350,2.37,no (solo se informa),cambio minimo interpretable ~ 2.4 dB (p75 del residuo absoluto en la otra mitad)
+L_ALOS2_2021_HH,L_NISAR_2026_HH,ciudad (7),-1.4,-3.60 a +0.49,300,3.39,no (solo se informa),cambio minimo interpretable ~ 3.4 dB (p75 del residuo absoluto en la otra mitad)
+L_ALOS2_2021_HH,L_NISAR_2026_HH,las dos,-1.59,-3.27 a -0.03,650,2.93,si,cambio minimo interpretable ~ 2.9 dB (p75 del residuo absoluto en la otra mitad)
+L_ALOS2_2021_HV,L_NISAR_2026_HV,monte (3),-1.6,-2.95 a +0.09,350,2.64,no (solo se informa),cambio minimo interpretable ~ 2.6 dB (p75 del residuo absoluto en la otra mitad)
+L_ALOS2_2021_HV,L_NISAR_2026_HV,ciudad (7),-0.45,-2.53 a +1.38,300,3.58,no (solo se informa),cambio minimo interpretable ~ 3.6 dB (p75 del residuo absoluto en la otra mitad)
+L_ALOS2_2021_HV,L_NISAR_2026_HV,las dos,-1.13,-2.85 a +0.62,650,3.05,si,cambio minimo interpretable ~ 3.1 dB (p75 del residuo absoluto en la otra mitad)

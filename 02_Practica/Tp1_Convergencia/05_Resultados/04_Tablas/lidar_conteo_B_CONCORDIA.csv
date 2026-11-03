@@ -1,0 +1,3 @@
+﻿producto,granulos,huellas_en_sitio,validas,fechas_con_validas,descartes,otros_datos
+GEDI L2A v003,134,514243,75340,77,calidad=353291; sensibilidad<0.95=281119; superficie=148112; degradado=143180; agua=57915,validas dudosas (rh98 > 50 m)=1018
+ATL08 v007,117,138526,71338,93,sin_canopia=62515; agua=14441; urbano=4584,terreno valido=124085; haces fuertes=76494; nocturnos=70833; canopia valida dudosa (> 50 m)=115

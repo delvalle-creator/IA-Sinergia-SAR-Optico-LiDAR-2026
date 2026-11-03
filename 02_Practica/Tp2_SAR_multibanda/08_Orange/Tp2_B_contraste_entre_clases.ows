@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp2 B - Contraste entre clases" description="A2_IBICUY_contraste_entre_clases.csv: diferencia de medias (dB) entre cada par de clases en cada banda.">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="Contrastes (File)" position="(80, 200)" />
+		<node id="1" name="Pivot Table" qualified_name="Orange.widgets.data.owpivot.OWPivot" project_name="Orange3" version="" title="Contraste por par y banda" position="(330, 120)" />
+		<node id="2" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Contraste absoluto por banda" position="(330, 260)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(40, 360, 600, 80)" font-family="Arial" font-size="14">Una banda 've' la diferencia entre dos cubiertas cuando el contraste supera la dispersion de cada clase (rango p10-p90 de Tp2_03). Compare contrastes, no valores absolutos entre sensores.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVXAkAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjFhEOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwMl9TQVJfbXVsdGliYW5k
+YVwwOF9PcmFuZ2VcZGF0b3NcVHAyX2NvbnRyYXN0ZXMuY3N2lIwGcHJlZml4lIwHYmFzZWRpcpSM
+B3JlbHBhdGiUjBhkYXRvcy9UcDJfY29udHJhc3Rlcy5jc3aUjAV0aXRsZZSMAJSMBXNoZWV0lGgQ
+jAtmaWxlX2Zvcm1hdJROdWJhjAtyZWNlbnRfdXJsc5RdlIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRO
+jAtzaGVldF9uYW1lc5R9lIwGc291cmNllEsAjAN1cmyUaBCMDWRvbWFpbl9lZGl0b3KUfZSMC19f
+dmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OU
+jAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAl2YXJpYWJsZXOUXZRoGn2UaCZdlChdlCiM
+A3BhcpSMFE9yYW5nZS5kYXRhLnZhcmlhYmxllIwQRGlzY3JldGVWYXJpYWJsZZSTlEsAWOwBAABh
+Z3VhX2NhbG1hIC0gYWd1YV9yaXphZGEsIGFndWFfY2FsbWEgLSBlc3RhYmxlLCBhZ3VhX2NhbG1h
+IC0gbW9udGVfb19ib3NxdWUsIGFndWFfY2FsbWEgLSBwYWpvbmFsLCBhZ3VhX2NhbG1hIC0gc3Vl
+bG9fZGVzbnVkbywgYWd1YV9jYWxtYSAtIHVyYmFubywgYWd1YV9yaXphZGEgLSBlc3RhYmxlLCBh
+Z3VhX3JpemFkYSAtIG1vbnRlX29fYm9zcXVlLCBhZ3VhX3JpemFkYSAtIHBham9uYWwsIGFndWFf
+cml6YWRhIC0gc3VlbG9fZGVzbnVkbywgYWd1YV9yaXphZGEgLSB1cmJhbm8sIGVzdGFibGUgLSBt
+b250ZV9vX2Jvc3F1ZSwgZXN0YWJsZSAtIHBham9uYWwsIGVzdGFibGUgLSBzdWVsb19kZXNudWRv
+LCBlc3RhYmxlIC0gdXJiYW5vLCBtb250ZV9vX2Jvc3F1ZSAtIHBham9uYWwsIG1vbnRlX29fYm9z
+cXVlIC0gc3VlbG9fZGVzbnVkbywgbW9udGVfb19ib3NxdWUgLSB1cmJhbm8sIHBham9uYWwgLSBz
+dWVsb19kZXNudWRvLCBwYWpvbmFsIC0gdXJiYW5vLCAuLi6UiWVdlCiMB2NsYXNlXzGUaC5LAIxI
+YWd1YV9jYWxtYSwgYWd1YV9yaXphZGEsIGVzdGFibGUsIG1vbnRlX29fYm9zcXVlLCBwYWpvbmFs
+LCBzdWVsb19kZXNudWRvlIllXZQojAdjbGFzZV8ylGguSwCMRGFndWFfcml6YWRhLCBlc3RhYmxl
+LCBtb250ZV9vX2Jvc3F1ZSwgcGFqb25hbCwgc3VlbG9fZGVzbnVkbywgdXJiYW5vlIllXZQojAVi
+YW5kYZRoLksAjHZDX1MxX1ZILCBDX1MxX1ZWLCBDX1NOQVBfVkgsIENfU05BUF9WViwgTDE3X0hI
+LCBMMTdfSFYsIEwxOF9ISCwgTDE4X0hWLCBMMzBfSEgsIEwzMF9IViwgUDA1X0hILCBQMDVfVkgs
+IFMzMF9ISCwgUzMwX0hWlIllXZQojAxjb250cmFzdGVfZEKUaCyMEkNvbnRpbnVvdXNWYXJpYWJs
+ZZSTlEsAaBCIZV2UKIwQYWJzX2NvbnRyYXN0ZV9kQpRoPEsAaBCIZWVzaBxLAXWMCmF0dHJpYnV0
+ZXOUKGgrXZQojBhhZ3VhX2NhbG1hIC0gYWd1YV9yaXphZGGUjBRhZ3VhX2NhbG1hIC0gZXN0YWJs
+ZZSMG2FndWFfY2FsbWEgLSBtb250ZV9vX2Jvc3F1ZZSMFGFndWFfY2FsbWEgLSBwYWpvbmFslIwa
+YWd1YV9jYWxtYSAtIHN1ZWxvX2Rlc251ZG+UjBNhZ3VhX2NhbG1hIC0gdXJiYW5vlIwVYWd1YV9y
+aXphZGEgLSBlc3RhYmxllIwcYWd1YV9yaXphZGEgLSBtb250ZV9vX2Jvc3F1ZZSMFWFndWFfcml6
+YWRhIC0gcGFqb25hbJSMG2FndWFfcml6YWRhIC0gc3VlbG9fZGVzbnVkb5SMFGFndWFfcml6YWRh
+IC0gdXJiYW5vlIwYZXN0YWJsZSAtIG1vbnRlX29fYm9zcXVllIwRZXN0YWJsZSAtIHBham9uYWyU
+jBdlc3RhYmxlIC0gc3VlbG9fZGVzbnVkb5SMEGVzdGFibGUgLSB1cmJhbm+UjBhtb250ZV9vX2Jv
+c3F1ZSAtIHBham9uYWyUjB5tb250ZV9vX2Jvc3F1ZSAtIHN1ZWxvX2Rlc251ZG+UjBdtb250ZV9v
+X2Jvc3F1ZSAtIHVyYmFub5SMF3Bham9uYWwgLSBzdWVsb19kZXNudWRvlIwQcGFqb25hbCAtIHVy
+YmFub5SMFnN1ZWxvX2Rlc251ZG8gLSB1cmJhbm+UZYaUaDFdlCiMCmFndWFfY2FsbWGUjAthZ3Vh
+X3JpemFkYZSMB2VzdGFibGWUjA5tb250ZV9vX2Jvc3F1ZZSMB3Bham9uYWyUjA1zdWVsb19kZXNu
+dWRvlGWGlGg0XZQojAthZ3VhX3JpemFkYZSMB2VzdGFibGWUjA5tb250ZV9vX2Jvc3F1ZZSMB3Bh
+am9uYWyUjA1zdWVsb19kZXNudWRvlIwGdXJiYW5vlGWGlGg3XZQojAdDX1MxX1ZIlIwHQ19TMV9W
+VpSMCUNfU05BUF9WSJSMCUNfU05BUF9WVpSMBkwxN19ISJSMBkwxN19IVpSMBkwxOF9ISJSMBkwx
+OF9IVpSMBkwzMF9ISJSMBkwzMF9IVpSMBlAwNV9ISJSMBlAwNV9WSJSMBlMzMF9ISJSMBlMzMF9I
+VpRlhpRoOksChpRoPksChpR0lIwFbWV0YXOUKYwKY2xhc3NfdmFyc5QpjBJtb2RpZmllZF92YXJp
+YWJsZXOUXZR1YmF1Lg==
+</properties>
+		<properties node_id="1" format="pickle">gASVcwEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lE6MEXNlbF9hZ2dfZnVuY3Rpb25zlI+UKEsDkIwJc2VsZWN0aW9ulI+U
+jAtfX3ZlcnNpb25fX5RLAowQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRp
+bmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwLY29sX2ZlYXR1cmWUjAViYW5kYZRL
+ZYaUjAtyb3dfZmVhdHVyZZSMA3BhcpRLZYaUjAt2YWxfZmVhdHVyZZSMDGNvbnRyYXN0ZV9kQpRL
+ZoaUaAhLAnWMCmF0dHJpYnV0ZXOUfZQoaBZLAYwHY2xhc2VfMZRLAYwHY2xhc2VfMpRLAWgTSwFo
+GUsCjBBhYnNfY29udHJhc3RlX2RClEsCdYwFbWV0YXOUfZR1YmF1Lg==
+</properties>
+		<properties node_id="2" format="pickle">gASV3wEAAAAAAAB9lCiMB2NvbXBhcmWUSwGMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCWF0dHJpYnV0ZZSMEGFic19jb250cmFz
+dGVfZEKUS2aGlIwJZ3JvdXBfdmFylIwFYmFuZGGUS2WGlIwJc2VsZWN0aW9ulClK/v///4aUaAxL
+AXWMCmF0dHJpYnV0ZXOUfZQojANwYXKUSwGMB2NsYXNlXzGUSwGMB2NsYXNlXzKUSwFoGksBjAxj
+b250cmFzdGVfZEKUSwJoF0sCdYwFbWV0YXOUfZR1YmF1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

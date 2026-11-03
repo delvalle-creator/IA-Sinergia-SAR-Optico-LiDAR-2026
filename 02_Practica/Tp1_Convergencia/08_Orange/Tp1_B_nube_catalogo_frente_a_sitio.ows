@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp1 B - Nube del catalogo frente a nube del sitio" description="Sentinel-2 sobre B_CONCORDIA, octubre y noviembre de 2023: nubosidad de la tesela frente a la del sitio.">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="Nubosidad Sentinel-2 (File)" position="(80, 200)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Tabla de teselas" position="(330, 120)" />
+		<node id="2" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Catalogo frente a sitio" position="(330, 280)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(60, 380, 520, 80)" font-family="Arial" font-size="14">Sobre la diagonal, el catalogo y el sitio coinciden. Lejos de la diagonal, decidir por el catalogo descarta escenas utiles o acepta escenas nubladas.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVygMAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjF9EOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwMV9Db252ZXJnZW5jaWFc
+MDhfT3JhbmdlXGRhdG9zXFRwMV9udWJvc2lkYWRfU2VudGluZWwyLmNzdpSMBnByZWZpeJSMB2Jh
+c2VkaXKUjAdyZWxwYXRolIwhZGF0b3MvVHAxX251Ym9zaWRhZF9TZW50aW5lbDIuY3N2lIwFdGl0
+bGWUjACUjAVzaGVldJRoEIwLZmlsZV9mb3JtYXSUTnViYYwLcmVjZW50X3VybHOUXZSME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUTowLc2hlZXRfbmFtZXOUfZSMBnNvdXJjZZRLAIwDdXJslGgQjA1kb21h
+aW5fZWRpdG9ylH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdl
+d2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJdmFyaWFibGVz
+lF2UaBp9lGgmXZQoXZQojAVmZWNoYZSMFE9yYW5nZS5kYXRhLnZhcmlhYmxllIwMVGltZVZhcmlh
+YmxllJOUSwBoEIhlXZQojAZ0ZXNlbGGUaCyMEERpc2NyZXRlVmFyaWFibGWUk5RLAIwMMjFKVUYs
+IDIxSlZGlIllXZQojBJudWJlc19jYXRhbG9nb19wY3SUaCyMEkNvbnRpbnVvdXNWYXJpYWJsZZST
+lEsAaBCIZV2UKIwPbnViZXNfc2l0aW9fcGN0lGg3SwBoEIhlXZQojAh1dGlsX3BjdJRoN0sAaBCI
+ZV2UKIwIZGVjaXNpb26UaDJLAIwVY2FuZGlkYXRhLCBkZXNjYXJ0YWRhlIllXZQojBRjYXRhbG9n
+b19tZW5vc19zaXRpb5RoN0sAaBCIZWVzaBxLAXWMCmF0dHJpYnV0ZXOUKGgrSwSGlGgwXZQojAUy
+MUpVRpSMBTIxSlZGlGWGlGg1SwKGlGg5SwKGlGg7SwKGlGg9XZQojAljYW5kaWRhdGGUjApkZXNj
+YXJ0YWRhlGWGlGhASwKGlHSUjAVtZXRhc5QpjApjbGFzc192YXJzlCmMEm1vZGlmaWVkX3Zhcmlh
+Ymxlc5RdlHViYXUu
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVOAMAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZROjAlzZWxlY3Rpb26UTowRdG9vbHRpcF9zaG93c19hbGyUiIwPdmlzdWFsX3NldHRp
+bmdzlH2UjAVncmFwaJR9lCiMC2FscGhhX3ZhbHVllEuAjA1jbGFzc19kZW5zaXR5lImMEWppdHRl
+cl9jb250aW51b3VzlImMC2ppdHRlcl9zaXpllEsAjBNsYWJlbF9vbmx5X3NlbGVjdGVklImMFm9y
+dGhvbm9ybWFsX3JlZ3Jlc3Npb26UiYwLcG9pbnRfd2lkdGiUSxCMDHNob3dfZWxsaXBzZZSJjAlz
+aG93X2dyaWSUiYwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGluZZSJdYwLX192ZXJzaW9uX1+U
+SwWMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjAhkZWNpc2lvbpRLZYaUjAphdHRyX2xh
+YmVslE5K/v///4aUjAphdHRyX3NoYXBllE5K/v///4aUjAlhdHRyX3NpemWUTkr+////hpSMBmF0
+dHJfeJSMEm51YmVzX2NhdGFsb2dvX3BjdJRLZoaUjAxhdHRyX3hfbG93ZXKUTkr+////hpSMDGF0
+dHJfeF91cHBlcpROSv7///+GlIwGYXR0cl95lIwPbnViZXNfc2l0aW9fcGN0lEtmhpSMDGF0dHJf
+eV9sb3dlcpROSv7///+GlIwMYXR0cl95X3VwcGVylE5K/v///4aUaAt9lGgYSwV1jAphdHRyaWJ1
+dGVzlH2UKIwFZmVjaGGUSwSMBnRlc2VsYZRLAWgsSwJoM0sCjAh1dGlsX3BjdJRLAmgjSwGMFGNh
+dGFsb2dvX21lbm9zX3NpdGlvlEsCdYwFbWV0YXOUfZR1YmF1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

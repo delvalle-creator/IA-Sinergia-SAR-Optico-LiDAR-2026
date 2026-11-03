@@ -1,0 +1,7 @@
+﻿clase,nombre,ha_2025,pct_area_con_dato,CCI_AGB_2020_mediana,CCI_AGB_2020_p25,CCI_AGB_2020_p75,CCI_AGB_2020_pct_mayor_0,CCI_AGB_2024_mediana,CCI_AGB_2024_p25,CCI_AGB_2024_p75,CCI_AGB_2024_pct_mayor_0,FH_m_mediana,FH_pct_con_dato,FH_calidad_mediana,P_HH_dB_mediana,P_VH_dB_mediana,pct_quemado_alguna_vez,pct_perdida_alguna_vez
+11,Herbaceas inundables,25409.1,83.99,31.0,0.0,67.0,68.6,23.0,0.0,55.0,69.1,9.1,99.5,6.8,-15.1,-27.7,55.2,0.1
+33,"Rios, lagunas, lagos y oceano",2742.6,9.07,0.0,0.0,0.0,5.7,0.0,0.0,0.0,5.9,,0.0,,-23.6,-32.8,0.0,0.0
+12,Herbaceas,1282.0,4.24,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.9,11.7,100.0,3.5,-15.8,-29.1,40.4,1.1
+25,Otras areas no vegetadas,403.2,1.33,0.0,0.0,0.0,2.2,0.0,0.0,0.0,1.7,10.7,99.8,4.2,-15.4,-28.8,13.2,0.4
+24,Areas urbanas,205.3,0.68,0.0,0.0,0.0,5.7,0.0,0.0,0.0,5.7,9.5,100.0,4.3,-8.0,-15.9,1.8,37.8
+3,Bosques cerrados,182.4,0.6,64.0,0.0,72.0,67.9,63.0,0.0,73.0,67.9,5.5,100.0,13.5,-6.5,-15.2,0.1,0.0

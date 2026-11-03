@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Si usa este material, cítelo de la siguiente manera."
+title: "Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), 2026"
+type: software
+version: 1.0.0
+date-released: 2026-11-03
+authors:
+  - family-names: "del Valle"
+    given-names: "Héctor Francisco"
+    orcid: "https://orcid.org/0000-0002-3329-1057"
+    affiliation: "Centro Regional de Geomática (CeReGeo), Facultad de Ciencia y Tecnología (FCyT), Universidad Autónoma de Entre Ríos (UADER); Laboratorio de Ecología, Meteorología y Gestión de Fuegos (LEMIV), Facultad de Ingeniería, Universidad Nacional de la Patagonia San Juan Bosco (UNPSJB)"
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/delvalle-creator/IA-Sinergia-SAR-Optico-LiDAR-2026"
+abstract: >-
+  Curso de posgrado práctico sobre sinergia y fusión de radar de apertura
+  sintética (bandas X, C, S, L y P), datos ópticos y LiDAR satelital (GEDI,
+  ICESat-2) para evaluar emergencias ambientales en Entre Ríos, Argentina:
+  incendios, inundaciones, deslizamientos, erosión de suelos, deforestación e
+  impacto urbano. Incluye teoría, guía teórico-práctica, diez trabajos prácticos
+  con scripts, flujos de Orange y grafos de SNAP, y sus desarrollos resueltos.
+  Este curso fue desarrollado en su mayor parte con la inteligencia artificial Claude (Anthropic) y con aportes de ChatGPT (OpenAI) y Copilot (Microsoft), en sus versiones Premium. La idea, la supervisión y la revisión de todo el material son del docente responsable, Héctor Francisco del Valle.
+keywords:
+  - SAR
+  - sinergia multisensor
+  - fusión de datos
+  - LiDAR
+  - emergencias ambientales
+  - Entre Ríos

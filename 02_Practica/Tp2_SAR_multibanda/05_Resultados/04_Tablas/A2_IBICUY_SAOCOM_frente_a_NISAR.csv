@@ -1,0 +1,14 @@
+﻿medida,valor
+% del sitio con dato SAOCOM,80.43
+% del sitio con dato lejos del borde,58.20
+HH r (50 m),0.84
+HH SAOCOM - NISAR mediana (dB),0.75
+HV r (50 m),0.88
+HV SAOCOM - NISAR mediana (dB),-0.39
+"agua_calma (446 px lejos del borde): HH, HV, VV, HH-VV (dB, media lineal)","-18.4, -28.4, -17.9, -0.5"
+"agua_rizada (484 px lejos del borde): HH, HV, VV, HH-VV (dB, media lineal)","-20.2, -27.7, -20.7, 0.5"
+"pajonal (363 px lejos del borde): HH, HV, VV, HH-VV (dB, media lineal)","-8.2, -19.0, -9.9, 1.7"
+"monte_o_bosque (121 px lejos del borde): HH, HV, VV, HH-VV (dB, media lineal)","-8.1, -15.1, -7.4, -0.7"
+"suelo_desnudo (363 px lejos del borde): HH, HV, VV, HH-VV (dB, media lineal)","-10.6, -20.9, -10.1, -0.4"
+"estable (121 px lejos del borde): HH, HV, VV, HH-VV (dB, media lineal)","-4.5, -12.6, -7.9, 3.4"
+urbano: todos sus pixeles caen en la franja del borde,

@@ -1,0 +1,10 @@
+grupo,haces,n,sesgo_m,desvio_m,RMSE_m,mediana_m
+1 agua,todos,764,0.42,2.28,2.32,0.41
+3 monte,todos,1270,3.75,3.47,5.11,2.79
+4 plantacion,todos,12,17.35,9.11,19.42,19.68
+5 cultivo_pastura,todos,8,0.75,0.64,0.96,0.71
+7 urbano,todos,12,1.98,1.0,2.2,2.35
+1 agua,fuertes,383,0.55,2.18,2.25,0.41
+3 monte,fuertes,736,3.95,3.62,5.35,2.98
+4 plantacion,fuertes,9,15.38,9.68,17.88,19.49
+7 urbano,fuertes,6,2.43,0.66,2.5,2.64

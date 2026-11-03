@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp10_A - qué ve cada banda en cada clase del entrenamiento" description="300 píxeles de 20 m por clase del entrenamiento de MapBiomas (píxeles estables 2023-2025), con C VV y VH del compuesto de Sentinel-1, S HH de NovaSAR, L HH y HV de NISAR en dB, y NDBI, NDVI y MNDWI del compuesto de Sentinel-2.">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File - píxeles del entrenamiento" position="(80, 260)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(330, 40)" />
+		<node id="2" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - C VV por clase" position="(330, 160)" />
+		<node id="3" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - S HH por clase" position="(330, 280)" />
+		<node id="4" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - L HH por clase" position="(330, 400)" />
+		<node id="5" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot - C VV frente a L HH" position="(330, 520)" />
+		<node id="6" name="Rank" qualified_name="Orange.widgets.data.owrank.OWRank" project_name="Orange3" version="" title="Rank - ganancia de información por capa" position="(330, 640)" />
+		<node id="7" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest (300 árboles)" position="(330, 760)" />
+		<node id="8" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score - validación cruzada con píxeles de entrenamiento (OPTIMISTA)" position="(560, 700)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="5" source_node_id="0" sink_node_id="6" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="6" source_node_id="0" sink_node_id="8" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="train_data" />
+		<link id="7" source_node_id="7" sink_node_id="8" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(560, 160, 420, 140)" font-family="Arial" font-size="14">El urbano tiene la mediana más alta en C VV (-6,4 dB) y en L HH (+1,4 dB); la vegetación leñosa le sigue (-8,9 y -5,8 dB): el volumen de las copas tambien brilla. En L HV el urbano y la vegetación leñosa casi no se separan (-13,0 y -13,7 dB). El agua es la más oscura en todas las bandas.</text>
+		<text id="1" type="text/plain" rect="(560, 320, 460, 160)" font-family="Arial" font-size="14">Rank ordena las capas por la ganancia de información respecto de la clase. Test and Score evalúa el Random Forest con validación cruzada de 10 particiones SOBRE LOS MISMOS PÍXELES DE ENTRENAMIENTO: el resultado es optimista (los píxeles vecinos se parecen) y no es la exactitud del mapa, que sale del Tp4.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVxAEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjGdEOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwMTBfSW1wYWN0b191cmJh
+bm9cMDhfT3JhbmdlL2RhdG9zXFRwMTBfQV9waXhlbGVzX2VudHJlbmFtaWVudG8uY3N2lIwGcHJl
+Zml4lIwHYmFzZWRpcpSMB3JlbHBhdGiUjCZkYXRvcy9UcDEwX0FfcGl4ZWxlc19lbnRyZW5hbWll
+bnRvLmNzdpSMBXRpdGxllIwAlIwFc2hlZXSUaBCMC2ZpbGVfZm9ybWF0lE51YmGMC3JlY2VudF91
+cmxzlF2UjBNzYXZlZFdpZGdldEdlb21ldHJ5lE6MC3NoZWV0X25hbWVzlH2UjAZzb3VyY2WUSwCM
+A3VybJRoEIwNZG9tYWluX2VkaXRvcpR9lIwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGlu
+Z3OUXZR1Lg==
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVCwIAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojAVjbGFzZZRLAYwHQ19WVl9kQpRL
+AowHQ19WSF9kQpRLAowHU19ISF9kQpRLAowHTF9ISF9kQpRLAowHTF9IVl9kQpRLAowETkRCSZRL
+AowETkRWSZRLAowFTU5EV0mUSwKMAXiUSwKMAXmUSwJ1jAVtZXRhc5R9lIwGdmFsdWVzlH2UKGgM
+SwGMCWF0dHJpYnV0ZZSMB0NfVlZfZEKUS2aGlIwJZ3JvdXBfdmFylIwFY2xhc2WUS2WGlIwJc2Vs
+ZWN0aW9ulClK/v///4aUdXViYXUu
+</properties>
+		<properties node_id="3" format="pickle">gASVCwIAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojAVjbGFzZZRLAYwHQ19WVl9kQpRL
+AowHQ19WSF9kQpRLAowHU19ISF9kQpRLAowHTF9ISF9kQpRLAowHTF9IVl9kQpRLAowETkRCSZRL
+AowETkRWSZRLAowFTU5EV0mUSwKMAXiUSwKMAXmUSwJ1jAVtZXRhc5R9lIwGdmFsdWVzlH2UKGgM
+SwGMCWF0dHJpYnV0ZZSMB1NfSEhfZEKUS2aGlIwJZ3JvdXBfdmFylIwFY2xhc2WUS2WGlIwJc2Vs
+ZWN0aW9ulClK/v///4aUdXViYXUu
+</properties>
+		<properties node_id="4" format="pickle">gASVCwIAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojAVjbGFzZZRLAYwHQ19WVl9kQpRL
+AowHQ19WSF9kQpRLAowHU19ISF9kQpRLAowHTF9ISF9kQpRLAowHTF9IVl9kQpRLAowETkRCSZRL
+AowETkRWSZRLAowFTU5EV0mUSwKMAXiUSwKMAXmUSwJ1jAVtZXRhc5R9lIwGdmFsdWVzlH2UKGgM
+SwGMCWF0dHJpYnV0ZZSMB0xfSEhfZEKUS2aGlIwJZ3JvdXBfdmFylIwFY2xhc2WUS2WGlIwJc2Vs
+ZWN0aW9ulClK/v///4aUdXViYXUu
+</properties>
+		<properties node_id="5" format="pickle">gASVJQMAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZROjAlzZWxlY3Rpb26UTowRdG9vbHRpcF9zaG93c19hbGyUiIwPdmlzdWFsX3NldHRp
+bmdzlH2UjAVncmFwaJR9lCiMC2FscGhhX3ZhbHVllEtajA1jbGFzc19kZW5zaXR5lImMEWppdHRl
+cl9jb250aW51b3VzlImMC2ppdHRlcl9zaXpllEsAjBNsYWJlbF9vbmx5X3NlbGVjdGVklImMFm9y
+dGhvbm9ybWFsX3JlZ3Jlc3Npb26UiYwLcG9pbnRfd2lkdGiUSwWMDHNob3dfZWxsaXBzZZSJjAlz
+aG93X2dyaWSUiIwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGluZZSJdYwLX192ZXJzaW9uX1+U
+SwWMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojAVjbGFzZZRLAYwHQ19WVl9kQpRLAowHQ19WSF9kQpRL
+AowHU19ISF9kQpRLAowHTF9ISF9kQpRLAowHTF9IVl9kQpRLAowETkRCSZRLAowETkRWSZRLAowF
+TU5EV0mUSwKMAXiUSwKMAXmUSwJ1jAVtZXRhc5R9lIwGdmFsdWVzlH2UKGgYSwWMCmF0dHJfY29s
+b3KUjAVjbGFzZZRLZYaUjAphdHRyX2xhYmVslE5K/v///4aUjAphdHRyX3NoYXBllGg1jAlhdHRy
+X3NpemWUaDWMBmF0dHJfeJSMB0NfVlZfZEKUS2aGlIwMYXR0cl94X2xvd2VylGg1jAxhdHRyX3hf
+dXBwZXKUaDWMBmF0dHJfeZSMB0xfSEhfZEKUS2aGlIwMYXR0cl95X2xvd2VylGg1jAxhdHRyX3lf
+dXBwZXKUaDVoC32UdXViYXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

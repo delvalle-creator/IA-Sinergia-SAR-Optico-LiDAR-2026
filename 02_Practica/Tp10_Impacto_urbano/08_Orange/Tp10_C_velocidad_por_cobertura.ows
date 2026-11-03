@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp10_C - velocidad vertical por cobertura y por altura" description="Muestra de píxeles de 40 m con velocidad vertical (Tp10_05) de E_PARANA_DIAMANTE, hasta 1.500 por clase de MapBiomas 2025 (las clases con al menos 400 píxeles), con la dispersion entre pares, los pares validos y la altura del MDE del IGN.">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File - píxeles con velocidad" position="(80, 220)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(330, 60)" />
+		<node id="2" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - velocidad por clase de MapBiomas" position="(330, 200)" />
+		<node id="3" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - dispersion por clase de MapBiomas" position="(330, 340)" />
+		<node id="4" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot - altura frente a velocidad" position="(330, 480)" />
+		<node id="5" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distributions - altura del IGN por clase de MapBiomas" position="(330, 620)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(560, 160, 420, 140)" font-family="Arial" font-size="14">En las areas urbanas la mediana es -1,3 mm/ano; en herbaceas, cultivos y suelo desnudo, de -17 a -20 mm/ano, con dispersion mucho mayor. No es subsidencia: es el sesgo de fase de la humedad del suelo y la vegetacion.</text>
+		<text id="1" type="text/plain" rect="(560, 560, 460, 120)" font-family="Arial" font-size="14">Distributions muestra la altura del MDE del IGN por clase de MapBiomas: la ciudad de Paraná está en la barranca alta y las herbáceas en la planicie. Una velocidad que cambia con la cobertura puede estar cambiando, en realidad, con la posición en el relieve. En el Box Plot de velocidad, recorte el eje de −60 a 20 mm/año (los extremos quedan afuera y se dice).</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVvAEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjGNEOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwMTBfSW1wYWN0b191cmJh
+bm9cMDhfT3JhbmdlL2RhdG9zXFRwMTBfQ19waXhlbGVzX3ZlbG9jaWRhZC5jc3aUjAZwcmVmaXiU
+jAdiYXNlZGlylIwHcmVscGF0aJSMImRhdG9zL1RwMTBfQ19waXhlbGVzX3ZlbG9jaWRhZC5jc3aU
+jAV0aXRsZZSMAJSMBXNoZWV0lGgQjAtmaWxlX2Zvcm1hdJROdWJhjAtyZWNlbnRfdXJsc5RdlIwT
+c2F2ZWRXaWRnZXRHZW9tZXRyeZROjAtzaGVldF9uYW1lc5R9lIwGc291cmNllEsAjAN1cmyUaBCM
+DWRvbWFpbl9lZGl0b3KUfZSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UdS4=
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVHAIAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojBB2ZWxvY2lkYWRfbW1fYW5vlEsC
+jBFkaXNwZXJzaW9uX21tX2Fub5RLAowNcGFyZXNfdmFsaWRvc5RLAowMYWx0dXJhX0lHTl9tlEsC
+jA5NYXBCaW9tYXNfMjAyNZRLAYwBeJRLAowBeZRLAnWMBW1ldGFzlH2UjAZ2YWx1ZXOUfZQoaAxL
+AYwJYXR0cmlidXRllIwQdmVsb2NpZGFkX21tX2Fub5RLZoaUjAlncm91cF92YXKUjA5NYXBCaW9t
+YXNfMjAyNZRLZYaUjAlzZWxlY3Rpb26UKUr+////hpR1dWJhdS4=
+</properties>
+		<properties node_id="3" format="pickle">gASVHQIAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojBB2ZWxvY2lkYWRfbW1fYW5vlEsC
+jBFkaXNwZXJzaW9uX21tX2Fub5RLAowNcGFyZXNfdmFsaWRvc5RLAowMYWx0dXJhX0lHTl9tlEsC
+jA5NYXBCaW9tYXNfMjAyNZRLAYwBeJRLAowBeZRLAnWMBW1ldGFzlH2UjAZ2YWx1ZXOUfZQoaAxL
+AYwJYXR0cmlidXRllIwRZGlzcGVyc2lvbl9tbV9hbm+US2aGlIwJZ3JvdXBfdmFylIwOTWFwQmlv
+bWFzXzIwMjWUS2WGlIwJc2VsZWN0aW9ulClK/v///4aUdXViYXUu
+</properties>
+		<properties node_id="4" format="pickle">gASVOwMAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZROjAlzZWxlY3Rpb26UTowRdG9vbHRpcF9zaG93c19hbGyUiIwPdmlzdWFsX3NldHRp
+bmdzlH2UjAVncmFwaJR9lCiMC2FscGhhX3ZhbHVllEtajA1jbGFzc19kZW5zaXR5lImMEWppdHRl
+cl9jb250aW51b3VzlImMC2ppdHRlcl9zaXpllEsAjBNsYWJlbF9vbmx5X3NlbGVjdGVklImMFm9y
+dGhvbm9ybWFsX3JlZ3Jlc3Npb26UiYwLcG9pbnRfd2lkdGiUSwWMDHNob3dfZWxsaXBzZZSJjAlz
+aG93X2dyaWSUiIwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGluZZSJdYwLX192ZXJzaW9uX1+U
+SwWMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojBB2ZWxvY2lkYWRfbW1fYW5vlEsCjBFkaXNwZXJzaW9u
+X21tX2Fub5RLAowNcGFyZXNfdmFsaWRvc5RLAowMYWx0dXJhX0lHTl9tlEsCjA5NYXBCaW9tYXNf
+MjAyNZRLAYwBeJRLAowBeZRLAnWMBW1ldGFzlH2UjAZ2YWx1ZXOUfZQoaBhLBYwKYXR0cl9jb2xv
+cpSMDk1hcEJpb21hc18yMDI1lEtlhpSMCmF0dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWU
+aDGMCWF0dHJfc2l6ZZRoMYwGYXR0cl94lIwMYWx0dXJhX0lHTl9tlEtmhpSMDGF0dHJfeF9sb3dl
+cpRoMYwMYXR0cl94X3VwcGVylGgxjAZhdHRyX3mUjBB2ZWxvY2lkYWRfbW1fYW5vlEtmhpSMDGF0
+dHJfeV9sb3dlcpRoMYwMYXR0cl95X3VwcGVylGgxaAt9lHV1YmF1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

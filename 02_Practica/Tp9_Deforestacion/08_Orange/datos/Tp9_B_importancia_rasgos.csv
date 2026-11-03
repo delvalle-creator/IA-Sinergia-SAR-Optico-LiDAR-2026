@@ -1,0 +1,7 @@
+rasgo,sensor,importancia,banda,importancia (%)
+dHV_L,ALOS-2 y NISAR (L),0.239,banda L,23.9
+dNDVI,Sentinel-2,0.219,óptico,21.9
+HV_L_actual_dB,NISAR (L),0.217,banda L,21.7
+NDVI_actual,Sentinel-2,0.177,óptico,17.7
+dHH_L_hist,ALOS-1 y ALOS-2 (L),0.09,banda L,9.0
+dVH_C,Sentinel-1 (C),0.058,banda C,5.8

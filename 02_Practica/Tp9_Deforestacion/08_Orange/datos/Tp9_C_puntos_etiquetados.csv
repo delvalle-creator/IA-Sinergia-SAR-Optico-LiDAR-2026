@@ -1,0 +1,427 @@
+variante,id,referencia,confianza,clase_del_mapa,dHV_L_dB,HV_L_2026_dB,dVH_C_dB,dNDVI,NDVI_2026,cambio_AlphaEarth,x,y
+Solo optico,56,2 no,alta,1 perdida,-1.866,-20.156,-3.066,-0.265,0.295,0.075,323050.0,6603810.0
+Multisensor,89,2 no,alta,2 degradacion,-4.529,-21.379,-0.969,0.035,0.518,0.0426,310690.0,6579450.0
+Multisensor,15,2 no,alta,4 no bosque estable,4.115,-24.026,1.383,0.083,0.598,0.069,333810.0,6599050.0
+Multisensor,59,2 no,alta,3 monte estable,4.268,-14.006,-0.327,0.054,0.578,0.0736,341970.0,6588130.0
+Solo banda L,126,2 no,alta,sin dato,2.878,-22.119,4.553,,0.619,0.1223,329510.0,6614150.0
+Solo banda L,37,2 no,baja,2 degradacion,-6.189,-26.793,-2.694,0.278,0.716,0.3343,329090.0,6606930.0
+Multisensor,77,2 no,alta,3 monte estable,-0.34,-15.851,-1.621,0.051,0.564,0.0675,340530.0,6600770.0
+Multisensor,70,2 no,alta,3 monte estable,5.508,-12.992,-1.659,-0.044,0.519,0.054,329950.0,6613010.0
+Solo banda L,66,2 no,media,4 no bosque estable,3.535,-17.605,-1.535,0.024,0.502,0.078,342110.0,6574690.0
+Solo optico,5,2 no,alta,4 no bosque estable,6.899,-23.21,-4.647,0.031,0.526,0.0899,342430.0,6578790.0
+Multisensor,81,2 no,alta,3 monte estable,5.927,-13.189,1.513,0.201,0.615,0.0607,308030.0,6614150.0
+Solo banda L,116,2 no,media,2 degradacion,-2.232,-17.98,0.008,-0.047,0.409,0.0596,335110.0,6583470.0
+Solo banda L,84,2 no,alta,4 no bosque estable,-2.399,-18.703,-5.084,0.112,0.326,0.2579,342450.0,6588590.0
+Multisensor,94,2 no,baja,3 monte estable,4.622,-14.128,1.891,-0.015,0.565,0.0483,333290.0,6602710.0
+Multisensor,52,2 no,alta,3 monte estable,2.219,-12.657,-0.511,-0.017,0.596,0.0357,314390.0,6576250.0
+Solo banda L,47,2 no,alta,3 monte estable,-4.124,-18.423,-4.619,0.039,0.604,0.0459,317170.0,6582630.0
+Solo optico,31,2 no,media,2 degradacion,-0.53,-16.995,1.793,-0.067,0.457,0.0773,339350.0,6614530.0
+Multisensor,56,2 no,alta,2 degradacion,-0.118,-16.191,-3.258,-0.073,0.459,0.0732,337310.0,6581270.0
+Solo banda L,109,2 no,alta,3 monte estable,1.814,-14.251,0.236,-0.032,0.54,0.0441,307810.0,6578770.0
+Solo banda L,102,2 no,alta,3 monte estable,-2.142,-15.535,0.115,-0.039,0.565,0.0549,316990.0,6571290.0
+Solo banda L,93,2 no,alta,3 monte estable,6.046,-14.363,-1.077,0.087,0.56,0.0788,308950.0,6610830.0
+Solo optico,136,2 no,media,4 no bosque estable,3.528,-16.722,0.964,-0.073,0.485,0.0531,336010.0,6598390.0
+Solo optico,118,2 no,media,4 no bosque estable,-0.77,-20.725,2.104,0.065,0.569,0.0392,331990.0,6581430.0
+Solo optico,16,2 no,alta,3 monte estable,0.796,-12.961,3.208,0.226,0.738,0.0272,309630.0,6614110.0
+Solo optico,19,2 no,media,sin dato,3.097,-19.459,2.703,0.015,0.486,0.0579,343190.0,6572750.0
+Solo optico,41,2 no,media,3 monte estable,4.719,-11.084,1.423,0.114,0.757,0.0474,312370.0,6612010.0
+Solo optico,69,2 no,baja,4 no bosque estable,4.188,-16.53,0.627,-0.07,0.437,0.1074,338530.0,6602410.0
+Solo optico,68,2 no,alta,3 monte estable,0.774,-18.117,-5.765,-0.006,0.545,0.0598,342710.0,6598370.0
+Multisensor,1,2 no,media,3 monte estable,-1.039,-13.632,-0.879,-0.053,0.6,0.0867,339750.0,6606270.0
+Solo optico,73,2 no,alta,4 no bosque estable,0.021,-20.05,-0.076,0.015,0.573,0.0835,340430.0,6592190.0
+Solo optico,26,2 no,alta,3 monte estable,1.349,-14.855,-0.054,-0.025,0.497,0.0486,312630.0,6579790.0
+Multisensor,64,2 no,baja,2 degradacion,0.808,-16.826,0.376,-0.168,0.414,0.0755,336210.0,6607530.0
+Multisensor,42,2 no,baja,2 degradacion,-3.932,-21.067,-0.699,0.052,0.613,0.0639,343230.0,6608150.0
+Multisensor,3,2 no,alta,3 monte estable,1.825,-16.543,3.025,-0.061,0.488,0.04,325530.0,6579570.0
+Solo banda L,62,2 no,alta,2 degradacion,-3.818,-20.597,0.403,0.119,0.651,0.0512,319910.0,6586330.0
+Multisensor,112,2 no,baja,3 monte estable,1.158,-14.187,-0.272,0.041,0.635,0.0519,322590.0,6610890.0
+Multisensor,40,2 no,media,3 monte estable,1.834,-14.186,-1.946,0.239,0.675,0.1605,329450.0,6606970.0
+Multisensor,111,2 no,media,4 no bosque estable,0.223,-20.17,-0.215,0.028,0.464,0.0302,326050.0,6582230.0
+Solo banda L,48,2 no,media,3 monte estable,-1.929,-15.834,-1.419,0.086,0.65,0.0749,319830.0,6611170.0
+Multisensor,99,2 no,alta,3 monte estable,0.975,-16.971,0.418,0.116,0.689,0.0592,317650.0,6579710.0
+Solo optico,81,2 no,alta,3 monte estable,-3.084,-19.399,-3.696,-0.007,0.52,0.0554,308770.0,6610790.0
+Solo optico,96,2 no,baja,4 no bosque estable,1.139,-19.327,3.909,-0.177,0.434,0.0901,331030.0,6601030.0
+Multisensor,110,2 no,alta,3 monte estable,-1.68,-16.36,0.678,0.024,0.622,0.0514,327430.0,6600210.0
+Solo banda L,68,2 no,alta,3 monte estable,-0.436,-13.075,-0.093,0.067,0.607,0.049,308850.0,6586630.0
+Solo optico,135,1 perdida o degradacion,media,1 perdida,-11.315,-24.201,-4.617,-0.243,0.394,0.2397,318350.0,6607230.0
+Solo banda L,18,2 no,alta,4 no bosque estable,3.199,-18.808,2.473,-0.032,0.42,0.0576,343730.0,6575350.0
+Solo banda L,91,2 no,baja,3 monte estable,-1.94,-19.66,0.742,-0.065,0.492,0.0531,320950.0,6602470.0
+Multisensor,127,2 no,alta,2 degradacion,-4.827,-19.354,-2.955,0.037,0.608,0.0534,324150.0,6572610.0
+Solo banda L,19,2 no,media,4 no bosque estable,0.387,-20.419,-0.074,0.011,0.62,0.0746,329710.0,6613670.0
+Solo optico,115,2 no,baja,4 no bosque estable,-1.772,-22.609,-1.406,-0.046,0.475,0.0644,343930.0,6609950.0
+Solo optico,53,2 no,alta,2 degradacion,-4.046,-21.966,0.623,-0.155,0.331,0.0794,334090.0,6578710.0
+Solo banda L,31,2 no,alta,3 monte estable,-2.754,-17.174,-2.056,-0.032,0.588,0.0673,332330.0,6595730.0
+Multisensor,10,2 no,alta,3 monte estable,-1.197,-18.737,-2.869,-0.063,0.481,0.0743,333010.0,6598810.0
+Solo optico,13,2 no,alta,3 monte estable,1.262,-17.673,-1.584,0.021,0.564,0.0529,315930.0,6595670.0
+Multisensor,58,2 no,media,3 monte estable,-0.853,-16.398,-0.31,0.024,0.556,0.0567,317590.0,6592550.0
+Solo banda L,96,2 no,alta,3 monte estable,-2.303,-18.4,0.084,-0.027,0.56,0.0546,306750.0,6577870.0
+Solo optico,45,2 no,alta,3 monte estable,-4.894,-19.045,-0.184,-0.083,0.504,0.0548,308130.0,6589390.0
+Solo optico,24,2 no,alta,sin dato,9.533,-17.925,1.326,-0.031,0.561,0.1308,338650.0,6571650.0
+Solo optico,10,2 no,alta,4 no bosque estable,9.857,-20.495,2.634,0.284,0.636,0.1292,333290.0,6607730.0
+Solo optico,104,2 no,alta,4 no bosque estable,5.412,-24.657,0.123,0.239,0.467,0.0806,339510.0,6575390.0
+Solo banda L,90,2 no,alta,3 monte estable,-0.531,-16.279,-1.066,-0.004,0.581,0.0309,315610.0,6583110.0
+Solo banda L,107,2 no,alta,2 degradacion,-5.221,-20.678,-2.41,-0.082,0.542,0.0611,321550.0,6578090.0
+Multisensor,109,2 no,media,4 no bosque estable,5.089,-23.386,0.455,0.054,0.467,0.0485,343250.0,6600530.0
+Multisensor,35,2 no,alta,3 monte estable,1.898,-19.731,-1.785,0.061,0.572,0.0548,306570.0,6577230.0
+Solo optico,67,2 no,alta,3 monte estable,-0.228,-15.278,1.169,0.016,0.667,0.0407,308330.0,6584270.0
+Solo optico,50,2 no,media,3 monte estable,1.065,-15.624,0.177,0.072,0.637,0.0484,314730.0,6597390.0
+Multisensor,101,1 perdida o degradacion,media,3 monte estable,0.412,-14.143,-1.952,0.063,0.606,0.0496,307330.0,6592910.0
+Multisensor,71,2 no,media,3 monte estable,-1.437,-18.134,3.977,0.02,0.497,0.0757,339290.0,6590810.0
+Solo banda L,44,2 no,media,3 monte estable,1.881,-17.647,0.936,-0.018,0.451,0.0803,339570.0,6599690.0
+Solo optico,25,2 no,baja,3 monte estable,-2.821,-18.51,-1.159,-0.07,0.485,0.0661,338970.0,6612950.0
+Multisensor,88,2 no,alta,3 monte estable,0.395,-14.717,2.743,-0.055,0.578,0.0487,324930.0,6595490.0
+Solo banda L,51,2 no,alta,3 monte estable,-0.596,-15.094,1.059,0.028,0.597,0.0392,320350.0,6591110.0
+Multisensor,83,2 no,baja,2 degradacion,-1.432,-19.551,-1.586,-0.023,0.439,0.07,342510.0,6611450.0
+Solo banda L,117,2 no,media,4 no bosque estable,3.131,-24.093,2.607,0.056,0.48,0.1151,323950.0,6586410.0
+Solo optico,15,2 no,media,4 no bosque estable,-0.03,-23.515,-4.747,0.101,0.609,0.1251,335390.0,6613170.0
+Solo optico,28,2 no,alta,4 no bosque estable,6.294,-23.056,0.584,0.104,0.527,0.0631,341270.0,6578930.0
+Solo optico,64,2 no,alta,4 no bosque estable,4.098,-20.449,-5.704,-0.6,0.203,0.1078,345070.0,6587650.0
+Multisensor,62,2 no,baja,2 degradacion,-4.059,-16.86,0.208,-0.141,0.499,0.0329,315650.0,6610050.0
+Solo optico,70,2 no,media,sin dato,5.965,-18.879,-0.515,-0.018,0.429,0.0814,341530.0,6571550.0
+Solo optico,61,2 no,alta,3 monte estable,2.187,-16.927,5.517,-0.042,0.527,0.0369,318630.0,6598630.0
+Multisensor,75,2 no,media,4 no bosque estable,2.385,-18.149,-0.444,-0.083,0.451,0.0597,335450.0,6597850.0
+Solo banda L,56,2 no,alta,3 monte estable,-2.039,-16.721,-3.762,0.003,0.634,0.0404,310990.0,6582270.0
+Solo optico,141,2 no,media,2 degradacion,1.165,-15.774,-2.914,-0.087,0.387,0.0655,335310.0,6583030.0
+Solo optico,79,2 no,alta,3 monte estable,1.085,-18.579,2.063,-0.001,0.533,0.0382,327950.0,6578890.0
+Multisensor,97,2 no,media,4 no bosque estable,-0.712,-19.986,0.337,-0.113,0.508,0.0559,319450.0,6587990.0
+Solo banda L,69,2 no,alta,4 no bosque estable,2.83,-25.985,-2.865,-0.391,0.236,0.1504,334550.0,6598490.0
+Solo optico,113,2 no,media,3 monte estable,-0.306,-13.618,1.032,0.018,0.615,0.042,316030.0,6613130.0
+Solo optico,90,2 no,alta,3 monte estable,0.149,-16.082,-2.242,-0.045,0.518,0.0508,342610.0,6581130.0
+Solo optico,88,2 no,alta,3 monte estable,2.034,-13.47,-1.087,0.012,0.522,0.0533,325330.0,6588310.0
+Solo optico,36,2 no,baja,3 monte estable,-0.922,-18.021,0.261,-0.033,0.532,0.0607,340410.0,6606830.0
+Solo optico,52,2 no,alta,3 monte estable,4.128,-15.437,1.889,0.028,0.597,0.0572,318150.0,6594890.0
+Solo banda L,23,2 no,alta,3 monte estable,-2.285,-15.092,-0.283,0.022,0.724,0.0666,329090.0,6600370.0
+Multisensor,55,2 no,baja,3 monte estable,1.572,-18.018,-3.145,-0.028,0.471,0.0549,343010.0,6614550.0
+Solo banda L,135,2 no,media,3 monte estable,-3.33,-17.219,1.856,0.02,0.562,0.0337,307830.0,6586370.0
+Solo optico,142,2 no,alta,4 no bosque estable,0.178,-22.639,-0.114,-0.434,0.224,0.0786,344750.0,6587270.0
+Multisensor,128,2 no,alta,3 monte estable,4.228,-17.546,-2.235,0.101,0.608,0.042,323850.0,6581550.0
+Solo banda L,98,2 no,media,3 monte estable,-3.28,-14.761,-1.476,-0.024,0.55,0.0933,325730.0,6595390.0
+Solo banda L,88,2 no,alta,4 no bosque estable,6.682,-13.633,2.913,-0.04,0.478,0.105,327390.0,6587510.0
+Solo banda L,5,2 no,baja,3 monte estable,-3.538,-19.858,-0.894,0.07,0.593,0.0523,320910.0,6609430.0
+Solo optico,106,2 no,alta,3 monte estable,15.887,-13.985,0.714,0.097,0.696,0.1442,331790.0,6607490.0
+Solo optico,87,2 no,baja,3 monte estable,0.426,-17.429,-1.112,0.06,0.57,0.1027,340970.0,6612070.0
+Solo banda L,43,2 no,alta,3 monte estable,2.504,-13.51,0.804,-0.084,0.481,0.0656,333010.0,6594430.0
+Solo optico,3,2 no,alta,4 no bosque estable,6.639,-17.598,-0.66,-0.077,0.453,0.2515,344750.0,6588910.0
+Solo banda L,59,2 no,alta,3 monte estable,-1.153,-17.048,-0.124,0.03,0.591,0.0335,310690.0,6592190.0
+Multisensor,20,1 perdida o degradacion,baja,2 degradacion,-3.815,-17.191,-2.217,0.037,0.551,0.0454,319430.0,6607590.0
+Solo optico,139,2 no,media,3 monte estable,2.06,-15.188,-1.598,0.037,0.564,0.061,308190.0,6588430.0
+Solo optico,14,2 no,baja,4 no bosque estable,4.338,-22.402,-1.457,-0.124,0.38,0.0642,343750.0,6600850.0
+Solo banda L,140,2 no,baja,4 no bosque estable,-3.522,-20.192,-0.286,0.024,0.526,0.0341,311950.0,6600970.0
+Solo banda L,113,2 no,media,4 no bosque estable,-0.702,-26.996,-1.164,0.098,0.595,0.0983,333670.0,6613030.0
+Solo optico,7,2 no,alta,3 monte estable,-0.455,-18.409,-0.535,0.015,0.574,0.0491,314190.0,6574170.0
+Multisensor,50,2 no,alta,3 monte estable,1.209,-18.246,0.495,0.027,0.654,0.0444,321850.0,6579610.0
+Multisensor,61,2 no,media,4 no bosque estable,3.492,-16.488,1.058,0.037,0.513,0.0819,339490.0,6598790.0
+Multisensor,29,2 no,baja,3 monte estable,-0.73,-18.056,-4.864,-0.005,0.519,0.0334,310350.0,6602190.0
+Multisensor,91,2 no,alta,2 degradacion,-4.172,-20.038,-1.676,-0.072,0.462,0.0319,306650.0,6600510.0
+Solo banda L,120,2 no,baja,3 monte estable,0.519,-15.429,-2.782,0.028,0.52,0.035,310270.0,6600750.0
+Multisensor,136,2 no,alta,3 monte estable,0.985,-15.679,-2.346,0.019,0.586,0.0445,322750.0,6593850.0
+Solo optico,129,2 no,alta,3 monte estable,-1.704,-19.166,-5.512,-0.002,0.566,0.0555,324510.0,6587210.0
+Multisensor,66,2 no,media,4 no bosque estable,3.377,-22.843,-0.628,0.251,0.687,0.1127,325690.0,6613690.0
+Solo optico,55,2 no,alta,3 monte estable,5.8,-14.056,2.251,-0.04,0.539,0.0581,320390.0,6592250.0
+Solo banda L,60,2 no,alta,sin dato,1.34,-24.584,-1.678,-0.314,0.344,0.1328,336450.0,6571490.0
+Multisensor,6,2 no,media,4 no bosque estable,4.487,-16.13,-3.936,0.051,0.49,0.0687,343530.0,6594030.0
+Solo optico,57,2 no,alta,3 monte estable,-1.718,-17.934,1.215,-0.04,0.519,0.043,309370.0,6598290.0
+Solo banda L,78,2 no,alta,3 monte estable,1.514,-13.732,2.934,0.077,0.635,0.0531,320170.0,6591970.0
+Multisensor,67,2 no,alta,3 monte estable,2.035,-14.634,0.702,0.03,0.646,0.0369,314310.0,6596050.0
+Solo optico,114,2 no,media,3 monte estable,2.349,-16.152,4.359,-0.066,0.533,0.0639,324590.0,6595490.0
+Multisensor,126,2 no,media,4 no bosque estable,2.73,-22.245,-0.079,0.033,0.583,0.0568,330150.0,6589790.0
+Solo optico,33,2 no,alta,3 monte estable,2.13,-14.748,-0.498,0.023,0.561,0.1072,316490.0,6572150.0
+Solo banda L,26,2 no,baja,3 monte estable,1.839,-14.408,0.396,-0.048,0.527,0.0655,326810.0,6606810.0
+Solo banda L,35,2 no,media,3 monte estable,1.852,-16.115,-4.807,0.003,0.486,0.0643,336090.0,6587390.0
+Multisensor,122,2 no,alta,2 degradacion,-5.487,-21.655,0.557,0.018,0.33,0.0366,310130.0,6588810.0
+Multisensor,119,2 no,alta,3 monte estable,0.406,-16.041,4.588,0.029,0.626,0.0502,325310.0,6583790.0
+Multisensor,17,2 no,media,4 no bosque estable,5.92,-25.727,-3.059,0.035,0.418,0.0351,308350.0,6610030.0
+Multisensor,36,2 no,media,3 monte estable,1.341,-13.887,-0.942,0.032,0.641,0.0528,306710.0,6570470.0
+Multisensor,100,2 no,alta,4 no bosque estable,3.556,-22.226,-3.658,0.069,0.5,0.0651,341290.0,6582490.0
+Multisensor,102,2 no,media,2 degradacion,-3.711,-17.421,1.482,0.024,0.574,0.0328,311810.0,6578790.0
+Multisensor,21,2 no,media,3 monte estable,0.523,-12.154,-2.983,0.027,0.636,0.0476,318270.0,6612070.0
+Solo optico,116,1 perdida o degradacion,alta,1 perdida,-6.113,-24.136,-9.949,-0.248,0.264,0.1357,307350.0,6590370.0
+Solo banda L,110,2 no,media,4 no bosque estable,-3.801,-23.116,-3.509,-0.144,0.428,0.0819,339430.0,6576990.0
+Multisensor,82,2 no,alta,3 monte estable,1.669,-15.717,1.372,0.01,0.546,0.0555,327930.0,6591650.0
+Solo banda L,16,2 no,media,4 no bosque estable,3.936,-15.857,1.981,-0.008,0.478,0.0611,339870.0,6593290.0
+Solo banda L,87,2 no,alta,3 monte estable,0.011,-16.773,2.925,-0.012,0.554,0.032,310870.0,6590190.0
+Solo optico,62,2 no,media,3 monte estable,-0.366,-16.08,-1.321,-0.101,0.498,0.0465,313910.0,6588230.0
+Solo banda L,89,2 no,baja,3 monte estable,-2.261,-18.413,3.11,0.0,0.563,0.0515,311630.0,6605110.0
+Multisensor,39,2 no,baja,4 no bosque estable,3.164,-16.376,-0.305,0.079,0.534,0.0917,313650.0,6610010.0
+Solo optico,109,2 no,media,3 monte estable,0.742,-15.255,2.736,0.006,0.541,0.0612,338230.0,6587130.0
+Solo banda L,141,2 no,media,3 monte estable,-0.606,-16.807,-1.475,0.047,0.592,0.0655,339330.0,6588430.0
+Solo optico,46,2 no,alta,3 monte estable,-2.286,-16.375,0.222,0.05,0.582,0.0484,326950.0,6586230.0
+Solo banda L,9,2 no,baja,3 monte estable,0.64,-12.758,-4.911,0.069,0.615,0.0379,313270.0,6607710.0
+Solo banda L,53,2 no,alta,4 no bosque estable,-2.067,-20.543,0.024,0.071,0.513,0.0399,309270.0,6597030.0
+Solo optico,34,2 no,media,3 monte estable,-0.395,-17.94,3.509,-0.172,0.377,0.0432,334090.0,6574810.0
+Solo banda L,34,2 no,alta,4 no bosque estable,-2.649,-21.881,0.177,0.038,0.571,0.0659,312030.0,6573590.0
+Multisensor,72,2 no,baja,4 no bosque estable,3.232,-15.208,-3.282,-0.055,0.44,0.0503,341790.0,6606330.0
+Solo banda L,33,2 no,alta,3 monte estable,-1.326,-18.584,-3.488,0.078,0.556,0.0605,342450.0,6581970.0
+Multisensor,34,2 no,media,2 degradacion,-4.051,-20.297,-3.975,0.264,0.509,0.1774,342630.0,6588770.0
+Multisensor,23,2 no,alta,2 degradacion,-1.25,-18.281,3.536,-0.064,0.449,0.0692,330190.0,6594970.0
+Multisensor,103,2 no,alta,2 degradacion,-6.209,-27.791,-7.801,-0.081,0.179,0.1916,344710.0,6576350.0
+Multisensor,78,2 no,alta,3 monte estable,2.966,-17.752,-3.004,0.035,0.628,0.0788,336130.0,6589630.0
+Solo banda L,10,2 no,media,3 monte estable,3.403,-13.858,0.87,0.033,0.568,0.0594,324370.0,6604330.0
+Solo optico,140,2 no,media,3 monte estable,0.739,-18.008,-0.912,-0.117,0.443,0.0715,325790.0,6597630.0
+Solo banda L,29,2 no,baja,3 monte estable,3.751,-12.441,-1.568,-0.137,0.414,0.0619,335090.0,6609990.0
+Multisensor,80,2 no,baja,3 monte estable,-0.75,-18.522,-3.466,-0.014,0.573,0.0395,323750.0,6580610.0
+Solo banda L,38,2 no,baja,3 monte estable,5.568,-13.532,-1.876,-0.047,0.542,0.0834,331010.0,6573970.0
+Solo banda L,8,2 no,alta,3 monte estable,3.788,-11.827,2.883,0.002,0.622,0.0751,341150.0,6593170.0
+Solo optico,127,2 no,alta,4 no bosque estable,-4.556,-30.041,-2.543,-0.198,0.61,0.1168,337190.0,6591270.0
+Solo optico,91,1 perdida o degradacion,media,2 degradacion,-7.414,-25.245,0.439,-0.127,0.45,0.0304,307730.0,6601450.0
+Solo optico,22,2 no,alta,3 monte estable,-0.652,-17.763,-0.302,-0.014,0.617,0.0328,310470.0,6589730.0
+Solo banda L,125,2 no,alta,3 monte estable,0.146,-14.638,2.523,-0.02,0.616,0.0482,320690.0,6592270.0
+Multisensor,22,2 no,alta,3 monte estable,-2.381,-19.753,0.325,-0.081,0.512,0.0612,327390.0,6572350.0
+Solo banda L,27,2 no,alta,4 no bosque estable,5.958,-19.207,-0.271,0.067,0.564,0.0757,337570.0,6572510.0
+Solo optico,130,2 no,alta,3 monte estable,-2.595,-18.721,-0.715,0.024,0.603,0.0474,335550.0,6572190.0
+Solo optico,77,2 no,baja,3 monte estable,-0.489,-16.041,-0.079,0.086,0.648,0.0726,344790.0,6601170.0
+Multisensor,116,2 no,media,2 degradacion,0.427,-14.936,2.773,-0.091,0.484,0.07,337530.0,6579690.0
+Multisensor,8,1 perdida o degradacion,media,4 no bosque estable,-0.999,-19.744,-3.994,-0.166,0.414,0.0498,328530.0,6594690.0
+Solo banda L,46,2 no,alta,4 no bosque estable,3.24,-17.595,-4.42,0.029,0.497,0.0445,331150.0,6583110.0
+Solo banda L,124,2 no,baja,3 monte estable,2.941,-13.457,4.746,0.06,0.536,0.0646,318610.0,6610510.0
+Solo optico,121,2 no,alta,3 monte estable,3.34,-14.644,1.268,0.024,0.57,0.0425,311210.0,6581670.0
+Multisensor,124,2 no,media,3 monte estable,-2.424,-15.83,-1.282,0.013,0.674,0.0383,333310.0,6572230.0
+Solo optico,51,2 no,alta,3 monte estable,0.833,-15.516,1.091,0.033,0.563,0.0515,311790.0,6586470.0
+Multisensor,33,2 no,alta,3 monte estable,-0.833,-16.429,-0.014,0.022,0.638,0.04,311110.0,6588390.0
+Solo banda L,108,2 no,alta,3 monte estable,0.059,-16.103,-0.071,-0.015,0.599,0.062,317830.0,6595630.0
+Solo banda L,40,2 no,baja,4 no bosque estable,3.45,-15.13,-0.383,-0.003,0.497,0.1043,336010.0,6606150.0
+Solo banda L,123,2 no,alta,3 monte estable,-0.395,-13.843,0.657,-0.027,0.532,0.0556,307450.0,6573350.0
+Multisensor,54,2 no,alta,4 no bosque estable,-1.45,-25.821,0.945,0.025,0.613,0.0403,320110.0,6587270.0
+Solo optico,85,2 no,baja,3 monte estable,-0.977,-17.289,0.637,-0.046,0.515,0.0652,339670.0,6603050.0
+Solo banda L,21,2 no,alta,sin dato,7.11,-17.04,2.457,0.033,0.608,0.1246,339470.0,6571590.0
+Solo banda L,61,2 no,alta,3 monte estable,1.955,-15.73,0.728,0.073,0.642,0.0722,340990.0,6576130.0
+Solo optico,66,2 no,alta,4 no bosque estable,1.135,-20.662,-0.698,-0.005,0.462,0.0461,326210.0,6574710.0
+Multisensor,135,2 no,alta,2 degradacion,-5.322,-21.968,-2.798,0.336,0.565,0.2852,342970.0,6585810.0
+Solo banda L,129,2 no,alta,3 monte estable,1.445,-11.406,1.486,0.026,0.538,0.0953,322070.0,6600250.0
+Solo banda L,100,2 no,alta,3 monte estable,3.291,-14.309,-0.032,-0.004,0.494,0.0484,328470.0,6580810.0
+Solo optico,120,2 no,baja,3 monte estable,-0.847,-17.594,-2.127,0.06,0.563,0.0581,310490.0,6609910.0
+Solo banda L,75,2 no,baja,4 no bosque estable,2.877,-19.599,2.483,-0.13,0.454,0.0702,337850.0,6606090.0
+Multisensor,43,2 no,alta,3 monte estable,3.934,-8.601,-1.809,-0.028,0.639,0.0573,328710.0,6596430.0
+Solo optico,82,2 no,alta,4 no bosque estable,0.659,-19.814,-0.011,0.02,0.536,0.0418,323590.0,6593070.0
+Solo optico,100,2 no,alta,sin dato,3.576,-15.801,0.969,-0.034,0.424,0.0835,342890.0,6572570.0
+Solo banda L,114,2 no,alta,3 monte estable,2.836,-14.211,5.321,0.018,0.632,0.0688,334790.0,6592530.0
+Multisensor,118,1 perdida o degradacion,media,3 monte estable,-1.308,-17.402,-2.249,0.085,0.681,0.036,315790.0,6589050.0
+Solo optico,47,2 no,alta,4 no bosque estable,1.315,-28.796,-2.633,-0.266,0.322,0.1409,334190.0,6578910.0
+Multisensor,76,2 no,alta,3 monte estable,0.429,-17.269,1.736,-0.03,0.531,0.0428,308430.0,6612110.0
+Multisensor,24,2 no,alta,3 monte estable,3.62,-15.214,-1.759,-0.005,0.549,0.0498,323950.0,6593730.0
+Solo banda L,142,2 no,alta,3 monte estable,-3.186,-15.056,-3.355,0.028,0.573,0.0435,309950.0,6586750.0
+Solo optico,38,2 no,alta,sin dato,3.715,-28.806,-2.334,-0.048,0.204,0.1358,343950.0,6570210.0
+Multisensor,13,2 no,alta,3 monte estable,-1.106,-18.473,-3.021,0.026,0.568,0.0628,341710.0,6598730.0
+Solo optico,35,2 no,alta,4 no bosque estable,6.937,-16.538,-1.985,0.03,0.541,0.0721,341730.0,6576170.0
+Solo optico,108,2 no,media,3 monte estable,-2.208,-18.091,-2.2,0.012,0.59,0.0596,327030.0,6570690.0
+Multisensor,2,2 no,alta,4 no bosque estable,-0.013,-20.575,-4.365,0.005,0.553,0.0527,323670.0,6585050.0
+Solo banda L,104,2 no,baja,3 monte estable,-3.079,-16.237,-0.648,-0.084,0.541,0.0558,319230.0,6603170.0
+Solo optico,128,2 no,alta,3 monte estable,0.551,-18.922,3.303,-0.028,0.578,0.0607,317130.0,6599850.0
+Solo banda L,1,2 no,alta,3 monte estable,4.353,-13.028,-0.152,0.006,0.564,0.0562,315170.0,6576350.0
+Solo banda L,32,2 no,baja,3 monte estable,-1.439,-17.45,-6.712,-0.034,0.537,0.0861,335330.0,6603050.0
+Solo optico,98,2 no,media,3 monte estable,-1.076,-14.937,-0.104,-0.058,0.47,0.0377,312950.0,6580730.0
+Solo optico,119,2 no,alta,3 monte estable,1.126,-16.676,-0.797,-0.027,0.503,0.0716,339390.0,6587630.0
+Solo optico,6,2 no,alta,3 monte estable,-0.877,-17.536,0.091,0.106,0.694,0.0534,311090.0,6583010.0
+Multisensor,131,2 no,alta,3 monte estable,5.075,-9.459,0.229,0.037,0.575,0.0678,314950.0,6592770.0
+Solo banda L,74,2 no,alta,3 monte estable,-2.172,-18.572,-0.173,-0.056,0.488,0.0755,334990.0,6576650.0
+Solo banda L,13,2 no,alta,4 no bosque estable,3.929,-16.608,-1.333,-0.01,0.527,0.0495,331450.0,6588550.0
+Solo optico,125,2 no,alta,3 monte estable,0.834,-17.286,-5.029,0.07,0.617,0.0643,331070.0,6592110.0
+Solo banda L,112,2 no,alta,3 monte estable,1.092,-14.849,-2.707,-0.03,0.595,0.0757,331290.0,6589130.0
+Solo banda L,14,2 no,media,4 no bosque estable,-4.962,-25.854,0.593,0.481,0.757,0.192,332230.0,6607790.0
+Solo optico,78,2 no,alta,3 monte estable,4.129,-15.95,-3.521,0.367,0.714,0.0529,342330.0,6587350.0
+Solo optico,44,2 no,alta,3 monte estable,-4.609,-19.303,-2.806,-0.041,0.61,0.0385,316190.0,6584110.0
+Solo banda L,103,2 no,alta,3 monte estable,-2.03,-17.251,0.715,-0.002,0.627,0.0601,337370.0,6576890.0
+Solo optico,84,2 no,alta,4 no bosque estable,2.739,-19.352,-0.856,-0.146,0.38,0.0822,345010.0,6598190.0
+Multisensor,104,2 no,alta,3 monte estable,0.942,-16.966,-2.631,-0.004,0.57,0.036,326310.0,6572950.0
+Solo optico,49,2 no,alta,sin dato,0.928,-15.821,0.194,0.0,0.57,0.0683,338390.0,6572150.0
+Solo banda L,139,2 no,baja,2 degradacion,-1.066,-16.791,2.012,-0.112,0.464,0.0612,328950.0,6612030.0
+Multisensor,133,2 no,media,2 degradacion,1.421,-16.523,-0.758,-0.072,0.45,0.0606,336830.0,6588190.0
+Solo optico,11,2 no,alta,3 monte estable,-0.067,-16.597,-0.233,-0.121,0.422,0.0696,325610.0,6596290.0
+Solo banda L,106,2 no,alta,3 monte estable,-2.611,-17.812,1.815,0.007,0.511,0.0627,332710.0,6574350.0
+Solo optico,126,2 no,alta,4 no bosque estable,2.97,-18.731,-3.101,0.029,0.534,0.08,344330.0,6590970.0
+Multisensor,5,2 no,alta,3 monte estable,2.197,-14.754,2.093,-0.086,0.518,0.0908,333070.0,6596590.0
+Multisensor,44,2 no,alta,3 monte estable,-0.186,-16.019,-0.983,-0.041,0.551,0.0443,337470.0,6584890.0
+Solo optico,112,2 no,alta,3 monte estable,-2.396,-17.096,-0.272,0.004,0.607,0.0563,331350.0,6596050.0
+Multisensor,141,2 no,baja,4 no bosque estable,0.546,-20.696,2.69,-0.003,0.549,0.0809,343410.0,6607850.0
+Solo banda L,28,2 no,alta,3 monte estable,1.689,-17.943,-3.85,0.087,0.586,0.0617,340170.0,6584390.0
+Multisensor,11,2 no,media,2 degradacion,-1.237,-17.326,1.252,-0.087,0.47,0.034,307650.0,6601790.0
+Solo banda L,85,2 no,baja,3 monte estable,-0.933,-14.103,5.351,-0.057,0.587,0.0628,340770.0,6614650.0
+Solo banda L,30,2 no,alta,3 monte estable,-2.429,-18.107,2.234,0.094,0.681,0.0443,315510.0,6596230.0
+Solo banda L,64,2 no,alta,3 monte estable,-2.47,-19.422,-1.591,0.001,0.583,0.0311,312690.0,6599750.0
+Solo banda L,63,2 no,alta,3 monte estable,1.204,-18.106,-0.539,0.118,0.712,0.0295,315970.0,6588750.0
+Multisensor,46,2 no,media,4 no bosque estable,-1.086,-20.252,1.733,0.016,0.496,0.0621,339350.0,6590110.0
+Solo banda L,22,2 no,baja,3 monte estable,-0.495,-17.556,-1.317,0.006,0.569,0.0661,338090.0,6601030.0
+Solo banda L,57,2 no,alta,3 monte estable,-0.759,-14.469,2.23,0.059,0.581,0.0871,317130.0,6597270.0
+Multisensor,27,2 no,alta,3 monte estable,2.034,-15.983,4.525,-0.01,0.586,0.0617,333050.0,6587910.0
+Multisensor,108,2 no,media,3 monte estable,-3.134,-18.201,-4.077,-0.002,0.488,0.0703,318830.0,6582530.0
+Multisensor,63,2 no,alta,3 monte estable,0.969,-13.054,0.211,0.01,0.557,0.0485,324370.0,6575090.0
+Solo optico,110,2 no,alta,3 monte estable,1.668,-16.302,-1.71,0.087,0.675,0.0391,320270.0,6586450.0
+Multisensor,115,2 no,alta,4 no bosque estable,-1.238,-20.317,-4.599,0.025,0.256,0.2749,343750.0,6589190.0
+Multisensor,45,2 no,alta,3 monte estable,-0.109,-15.021,-0.385,0.018,0.613,0.065,312790.0,6593090.0
+Multisensor,93,2 no,alta,3 monte estable,2.873,-13.535,2.249,0.004,0.549,0.0648,340070.0,6583790.0
+Solo optico,117,2 no,baja,4 no bosque estable,7.13,-17.41,-3.04,-0.064,0.412,0.0517,335630.0,6610090.0
+Solo banda L,134,2 no,alta,3 monte estable,0.819,-16.446,-1.937,0.122,0.603,0.1272,337170.0,6592350.0
+Solo optico,122,2 no,alta,2 degradacion,1.911,-13.913,1.662,-0.105,0.464,0.0552,338130.0,6584810.0
+Solo optico,42,2 no,baja,2 degradacion,0.036,-18.965,-0.886,-0.17,0.432,0.0791,337050.0,6607190.0
+Solo banda L,127,2 no,baja,3 monte estable,-1.915,-19.403,-1.814,-0.026,0.532,0.0434,313370.0,6603010.0
+Solo banda L,131,2 no,alta,3 monte estable,2.529,-14.447,6.24,0.084,0.671,0.0527,310690.0,6598210.0
+Multisensor,47,2 no,alta,2 degradacion,-1.295,-18.219,-0.247,-0.137,0.406,0.0613,320750.0,6596850.0
+Solo banda L,137,2 no,alta,4 no bosque estable,-1.933,-26.012,-2.655,-0.077,0.386,0.1679,329010.0,6585850.0
+Solo banda L,92,2 no,alta,3 monte estable,1.648,-18.173,1.541,0.006,0.585,0.0428,332950.0,6581830.0
+Solo optico,111,2 no,alta,4 no bosque estable,2.957,-20.166,1.558,0.015,0.537,0.0398,321970.0,6592430.0
+Solo optico,71,2 no,baja,3 monte estable,2.459,-14.483,-0.605,-0.058,0.497,0.0729,339190.0,6606150.0
+Solo optico,9,2 no,alta,3 monte estable,0.196,-17.172,-0.028,0.09,0.448,0.034,309730.0,6597750.0
+Solo optico,30,2 no,alta,3 monte estable,4.983,-13.404,2.956,-0.113,0.458,0.0567,323550.0,6591570.0
+Solo optico,32,2 no,alta,sin dato,-2.362,-19.215,-1.024,,0.322,0.0974,325930.0,6594370.0
+Solo banda L,94,2 no,alta,3 monte estable,-0.68,-19.219,-2.857,-0.023,0.499,0.0594,318010.0,6595130.0
+Multisensor,9,2 no,alta,4 no bosque estable,-1.294,-25.542,-3.798,0.531,0.78,0.1672,337730.0,6572970.0
+Solo optico,101,2 no,alta,3 monte estable,-0.935,-18.273,-0.748,0.131,0.658,0.0495,316810.0,6598990.0
+Multisensor,57,2 no,baja,3 monte estable,-1.599,-15.686,-1.056,0.054,0.668,0.0446,316890.0,6601450.0
+Multisensor,121,2 no,alta,3 monte estable,0.325,-17.094,0.77,0.099,0.576,0.0603,307190.0,6611230.0
+Solo banda L,95,2 no,alta,4 no bosque estable,5.875,-22.222,-0.921,0.028,0.497,0.1127,343690.0,6597630.0
+Solo optico,54,2 no,alta,3 monte estable,1.74,-15.3,0.135,0.096,0.663,0.059,328410.0,6600410.0
+Solo banda L,118,2 no,alta,3 monte estable,2.672,-14.269,-1.1,0.103,0.661,0.0692,316890.0,6570970.0
+Solo optico,89,2 no,baja,4 no bosque estable,2.372,-15.368,-3.776,-0.17,0.402,0.0537,330750.0,6577290.0
+Solo optico,93,2 no,baja,3 monte estable,2.164,-12.885,1.129,0.05,0.625,0.0385,310990.0,6604310.0
+Solo optico,23,2 no,baja,3 monte estable,3.235,-12.942,-0.685,-0.171,0.51,0.0904,339130.0,6604470.0
+Solo banda L,81,2 no,alta,4 no bosque estable,2.641,-21.048,-0.27,-0.066,0.542,0.0542,327390.0,6581210.0
+Multisensor,105,2 no,baja,3 monte estable,1.613,-16.707,-1.421,-0.068,0.465,0.0722,337550.0,6600750.0
+Solo banda L,99,2 no,alta,3 monte estable,1.287,-18.321,-0.101,-0.026,0.523,0.0551,318510.0,6578730.0
+Solo banda L,79,2 no,alta,3 monte estable,0.828,-16.783,0.095,-0.035,0.56,0.0497,315610.0,6593450.0
+Solo optico,17,2 no,baja,4 no bosque estable,4.074,-15.918,-2.63,-0.046,0.459,0.0613,332370.0,6613010.0
+Solo optico,75,2 no,alta,4 no bosque estable,4.671,-16.049,-0.666,-0.024,0.454,0.0591,343810.0,6595670.0
+Solo banda L,77,2 no,alta,3 monte estable,1.728,-15.255,0.714,0.134,0.66,0.0464,321370.0,6591050.0
+Multisensor,37,2 no,alta,2 degradacion,-3.996,-22.153,2.502,0.034,0.583,0.0432,320750.0,6585030.0
+Solo optico,76,2 no,alta,3 monte estable,-0.964,-13.606,0.195,0.04,0.72,0.0314,308530.0,6600170.0
+Solo banda L,133,2 no,alta,3 monte estable,-2.648,-16.211,-1.261,-0.036,0.611,0.0572,319050.0,6581090.0
+Solo optico,40,2 no,alta,4 no bosque estable,2.526,-18.737,-0.095,0.0,0.534,0.0704,339350.0,6595890.0
+Solo optico,105,2 no,alta,3 monte estable,4.961,-13.611,-1.012,0.063,0.527,0.0909,344550.0,6593510.0
+Multisensor,120,2 no,baja,4 no bosque estable,-1.659,-29.46,-2.299,0.14,0.641,0.0596,340110.0,6604570.0
+Solo optico,124,2 no,baja,3 monte estable,-1.395,-17.349,0.127,-0.099,0.492,0.0667,318330.0,6614630.0
+Solo optico,27,2 no,alta,3 monte estable,-1.526,-17.385,4.546,0.024,0.61,0.0491,325990.0,6590110.0
+Multisensor,7,2 no,alta,3 monte estable,4.246,-11.147,-1.455,-0.006,0.72,0.047,335610.0,6573430.0
+Solo optico,83,1 perdida o degradacion,alta,1 perdida,-4.81,-23.869,-3.296,-0.182,0.386,0.0555,307730.0,6591350.0
+Multisensor,41,2 no,media,3 monte estable,-0.155,-17.39,-2.772,0.003,0.574,0.0781,312930.0,6572990.0
+Solo banda L,97,2 no,media,2 degradacion,1.082,-12.486,0.462,-0.031,0.502,0.0506,322910.0,6602310.0
+Solo optico,63,2 no,alta,2 degradacion,-6.149,-25.8,-0.595,0.004,0.538,0.0435,310270.0,6576390.0
+Multisensor,65,2 no,alta,2 degradacion,-6.899,-23.719,-4.401,-0.048,0.198,0.3121,343750.0,6588970.0
+Multisensor,90,2 no,alta,3 monte estable,0.673,-13.938,0.975,0.099,0.663,0.0713,315190.0,6571150.0
+Multisensor,79,2 no,alta,4 no bosque estable,0.678,-21.994,-3.602,-0.054,0.281,0.0675,317050.0,6603090.0
+Solo optico,134,2 no,baja,3 monte estable,0.674,-15.226,-0.614,0.055,0.6,0.063,342650.0,6606090.0
+Multisensor,69,2 no,baja,4 no bosque estable,3.152,-16.495,1.171,-0.068,0.446,0.0789,340650.0,6614650.0
+Multisensor,30,2 no,alta,2 degradacion,-12.721,-23.43,-4.599,0.436,0.658,0.3573,342130.0,6584750.0
+Solo optico,60,2 no,alta,3 monte estable,3.349,-16.071,-1.436,-0.002,0.561,0.0526,316790.0,6593190.0
+Solo optico,138,2 no,baja,3 monte estable,0.267,-17.93,1.994,-0.085,0.478,0.0779,335390.0,6601890.0
+Multisensor,26,2 no,baja,3 monte estable,2.131,-15.663,1.601,-0.021,0.514,0.0677,332930.0,6610570.0
+Solo banda L,101,2 no,alta,4 no bosque estable,2.502,-20.906,-3.807,0.18,0.435,0.105,343510.0,6578930.0
+Solo banda L,138,2 no,alta,4 no bosque estable,8.403,-26.432,-3.029,0.014,-0.265,0.02,342870.0,6587310.0
+Solo banda L,65,2 no,alta,2 degradacion,-6.974,-19.823,-2.404,0.065,0.615,0.0445,310050.0,6599950.0
+Solo banda L,24,2 no,media,3 monte estable,1.851,-13.897,0.192,0.034,0.664,0.0513,327450.0,6570210.0
+Multisensor,84,2 no,baja,2 degradacion,2.02,-14.35,1.729,-0.05,0.471,0.1049,342030.0,6610770.0
+Multisensor,107,2 no,media,2 degradacion,1.807,-15.207,-0.416,-0.133,0.451,0.0895,322910.0,6603950.0
+Solo optico,4,2 no,baja,3 monte estable,-0.169,-14.119,1.722,0.024,0.675,0.0507,338250.0,6602810.0
+Solo optico,107,2 no,alta,4 no bosque estable,3.899,-22.683,-0.924,-0.123,0.458,0.3136,344770.0,6590590.0
+Solo optico,132,2 no,alta,2 degradacion,1.771,-17.568,3.002,-0.114,0.441,0.0736,338810.0,6593890.0
+Solo banda L,136,2 no,alta,3 monte estable,-0.022,-15.375,-1.639,-0.001,0.538,0.0451,312470.0,6584210.0
+Multisensor,139,2 no,media,4 no bosque estable,-0.537,-20.913,1.107,0.096,0.639,0.1071,309710.0,6571550.0
+Solo banda L,111,2 no,baja,3 monte estable,1.059,-13.282,3.089,-0.012,0.69,0.0455,328590.0,6600750.0
+Multisensor,68,2 no,alta,3 monte estable,2.257,-16.556,0.103,-0.007,0.59,0.0356,315570.0,6590430.0
+Multisensor,130,2 no,alta,3 monte estable,4.882,-14.351,0.417,-0.024,0.537,0.054,327530.0,6587250.0
+Multisensor,74,2 no,media,2 degradacion,-2.586,-17.307,-5.323,-0.268,0.379,0.0467,323750.0,6600750.0
+Solo optico,86,2 no,baja,3 monte estable,1.286,-15.03,3.522,-0.121,0.467,0.0572,323330.0,6610090.0
+Solo banda L,12,2 no,alta,3 monte estable,-2.899,-19.232,-1.509,-0.046,0.523,0.0792,332750.0,6592390.0
+Multisensor,86,2 no,alta,2 degradacion,-4.844,-19.193,0.906,0.022,0.36,0.0485,329490.0,6575490.0
+Solo optico,131,2 no,alta,4 no bosque estable,-0.284,-20.753,2.467,-0.026,0.506,0.0386,327970.0,6581730.0
+Multisensor,38,2 no,alta,3 monte estable,-0.596,-17.193,-1.342,0.048,0.601,0.0514,332350.0,6579750.0
+Solo banda L,15,2 no,baja,3 monte estable,-0.305,-16.46,3.458,0.056,0.586,0.0755,320750.0,6612070.0
+Multisensor,16,2 no,alta,4 no bosque estable,0.574,-18.676,-4.418,0.065,0.521,0.0407,328850.0,6575610.0
+Solo banda L,41,2 no,alta,3 monte estable,-1.011,-18.015,-1.332,-0.018,0.549,0.0452,306310.0,6589810.0
+Multisensor,114,2 no,baja,3 monte estable,2.634,-16.926,0.624,0.018,0.567,0.0625,323690.0,6603330.0
+Solo optico,43,2 no,baja,2 degradacion,-5.646,-19.705,-2.277,0.039,0.581,0.0549,318890.0,6600890.0
+Solo banda L,121,2 no,alta,3 monte estable,1.373,-12.99,-2.891,0.055,0.65,0.0461,315690.0,6570670.0
+Multisensor,19,2 no,alta,4 no bosque estable,0.734,-20.972,1.962,0.027,0.538,0.0511,332630.0,6587030.0
+Solo optico,48,2 no,alta,3 monte estable,-0.534,-15.774,-0.028,-0.101,0.489,0.0539,333550.0,6581570.0
+Solo banda L,73,2 no,baja,3 monte estable,3.098,-11.764,-0.216,0.07,0.634,0.0317,325630.0,6606910.0
+Multisensor,31,2 no,alta,3 monte estable,-0.398,-14.854,1.595,-0.008,0.614,0.0631,330810.0,6598190.0
+Multisensor,98,2 no,media,2 degradacion,-0.699,-17.646,0.877,-0.128,0.478,0.0657,327150.0,6596630.0
+Solo banda L,76,2 no,alta,4 no bosque estable,3.127,-17.007,2.018,-0.028,0.519,0.0457,324850.0,6572690.0
+Multisensor,92,2 no,alta,4 no bosque estable,-2.369,-24.891,-1.528,0.11,0.629,0.1079,336590.0,6573630.0
+Solo banda L,49,2 no,alta,3 monte estable,2.754,-11.341,0.785,0.046,0.574,0.0711,343290.0,6598250.0
+Solo banda L,17,2 no,alta,4 no bosque estable,2.963,-25.278,-2.848,0.053,0.438,0.2459,308190.0,6612950.0
+Solo optico,1,2 no,alta,3 monte estable,-2.262,-16.528,-0.913,-0.062,0.567,0.0581,330090.0,6600430.0
+Multisensor,51,2 no,alta,3 monte estable,-1.014,-16.867,-3.415,-0.022,0.542,0.0675,315730.0,6577010.0
+Solo banda L,70,2 no,alta,2 degradacion,-2.469,-19.629,-0.15,-0.061,0.439,0.0911,333650.0,6579470.0
+Multisensor,25,2 no,alta,4 no bosque estable,3.139,-21.318,3.291,0.04,0.491,0.1566,344510.0,6595010.0
+Solo banda L,50,2 no,alta,4 no bosque estable,1.63,-20.832,-1.271,-0.012,0.545,0.0637,338930.0,6586670.0
+Multisensor,49,2 no,alta,3 monte estable,1.654,-13.565,-0.585,-0.017,0.581,0.041,326050.0,6592850.0
+Solo banda L,132,2 no,alta,4 no bosque estable,-3.413,-23.034,-3.332,0.018,0.538,0.0547,322290.0,6586550.0
+Solo optico,72,2 no,alta,4 no bosque estable,3.312,-20.019,0.997,-0.007,0.352,0.0749,342530.0,6591890.0
+Solo optico,97,2 no,baja,3 monte estable,0.423,-16.405,-1.553,0.066,0.583,0.0538,310130.0,6611150.0
+Solo optico,133,2 no,baja,4 no bosque estable,-1.346,-21.235,2.31,-0.103,0.358,0.0811,331210.0,6613950.0
+Multisensor,125,2 no,alta,3 monte estable,2.471,-11.002,-0.838,0.019,0.62,0.0401,307190.0,6583990.0
+Solo optico,39,2 no,baja,3 monte estable,-3.449,-17.553,-2.319,0.033,0.669,0.0494,314250.0,6610490.0
+Solo optico,58,2 no,alta,3 monte estable,1.67,-15.502,-1.708,-0.003,0.508,0.0462,342950.0,6591030.0
+Solo optico,95,2 no,alta,sin dato,3.923,-13.127,-0.389,-0.093,0.464,0.0641,333570.0,6571010.0
+Multisensor,117,2 no,alta,4 no bosque estable,-0.224,-20.899,-2.486,-0.055,0.525,0.0862,325170.0,6595710.0
+Solo optico,137,2 no,alta,3 monte estable,3.445,-14.843,-1.578,-0.101,0.529,0.0713,333290.0,6591770.0
+Multisensor,18,2 no,alta,3 monte estable,-1.06,-17.973,-1.674,-0.02,0.561,0.0332,309550.0,6596210.0
+Solo optico,29,2 no,alta,3 monte estable,2.577,-11.142,-1.503,0.016,0.63,0.0558,309350.0,6578730.0
+Multisensor,137,2 no,alta,2 degradacion,-6.308,-23.97,-6.56,0.329,0.563,0.1959,336190.0,6613430.0
+Solo banda L,122,2 no,alta,4 no bosque estable,-2.324,-18.842,-1.663,0.18,0.365,0.0799,344590.0,6610630.0
+Solo optico,37,2 no,alta,sin dato,4.899,-25.976,-2.987,-0.207,0.229,0.0918,343810.0,6570810.0
+Solo banda L,115,2 no,alta,sin dato,0.044,-23.456,0.435,-0.064,0.425,0.0726,340450.0,6572090.0
+Solo banda L,58,2 no,baja,4 no bosque estable,-6.003,-24.037,-3.83,0.146,0.331,0.0493,345310.0,6610310.0
+Solo banda L,2,2 no,baja,3 monte estable,1.73,-14.202,0.947,-0.103,0.394,0.061,334910.0,6610130.0
+Solo optico,94,2 no,alta,3 monte estable,0.529,-16.494,-0.042,0.037,0.527,0.0554,326630.0,6589070.0
+Multisensor,14,2 no,alta,2 degradacion,-6.368,-25.483,-0.538,-0.118,0.208,0.0918,342990.0,6578570.0
+Multisensor,106,2 no,alta,4 no bosque estable,-1.248,-22.582,2.202,0.062,0.582,0.0553,333830.0,6582670.0
+Multisensor,48,2 no,baja,2 degradacion,1.602,-12.975,-0.467,-0.118,0.46,0.0363,322690.0,6601190.0
+Solo banda L,105,2 no,baja,4 no bosque estable,6.03,-28.178,-0.489,0.032,-0.492,0.0231,345070.0,6613170.0
+Multisensor,129,2 no,alta,4 no bosque estable,-0.3,-21.345,0.28,-0.14,0.417,0.0671,327210.0,6596090.0
+Solo banda L,7,2 no,baja,3 monte estable,0.073,-16.032,-2.125,-0.069,0.493,0.0455,314870.0,6606170.0
+Multisensor,87,2 no,alta,3 monte estable,-0.026,-15.948,1.099,-0.018,0.493,0.0576,332490.0,6581930.0
+Solo optico,18,2 no,baja,3 monte estable,-0.454,-17.146,2.784,0.015,0.618,0.0523,322730.0,6610470.0
+Multisensor,95,2 no,baja,3 monte estable,0.612,-15.376,-3.142,0.008,0.554,0.0635,323330.0,6610590.0
+Multisensor,85,2 no,alta,3 monte estable,1.338,-14.296,-2.414,-0.03,0.56,0.0612,327250.0,6591710.0
+Solo optico,92,2 no,media,3 monte estable,-0.515,-16.181,2.12,-0.016,0.607,0.0846,334810.0,6595530.0
+Multisensor,132,2 no,alta,2 degradacion,-1.725,-17.71,1.196,-0.064,0.394,0.0571,316330.0,6590590.0
+Solo banda L,52,2 no,baja,3 monte estable,0.757,-18.379,-1.311,-0.037,0.491,0.0488,320750.0,6607470.0
+Solo optico,123,2 no,alta,2 degradacion,-8.06,-19.215,-0.086,0.048,0.612,0.0585,310310.0,6583230.0
+Solo optico,102,2 no,alta,4 no bosque estable,2.163,-25.275,-4.804,-0.281,0.497,0.0757,311850.0,6577010.0
+Solo optico,65,1 perdida o degradacion,media,4 no bosque estable,5.383,-17.055,-0.261,-0.283,0.482,0.1184,322230.0,6573850.0
+Multisensor,53,1 perdida o degradacion,baja,2 degradacion,-0.587,-19.602,0.622,-0.077,0.468,0.0583,311830.0,6589110.0
+Solo optico,59,2 no,alta,3 monte estable,1.979,-17.248,-1.054,0.053,0.54,0.0834,339450.0,6581870.0
+Solo banda L,86,2 no,baja,2 degradacion,-4.954,-16.275,2.479,-0.115,0.412,0.0349,323490.0,6606990.0
+Solo banda L,20,2 no,alta,2 degradacion,-6.323,-19.663,2.95,-0.053,0.469,0.0379,313410.0,6592930.0
+Solo optico,103,2 no,alta,4 no bosque estable,-0.517,-22.917,3.812,-0.197,0.431,0.0826,316570.0,6607610.0
+Multisensor,12,1 perdida o degradacion,media,1 perdida,-3.863,-18.389,-2.642,-0.339,0.25,0.0441,322790.0,6603190.0
+Solo banda L,130,2 no,alta,3 monte estable,1.106,-10.906,-0.903,-0.012,0.662,0.0271,314710.0,6579830.0
+Multisensor,28,1 perdida o degradacion,baja,4 no bosque estable,2.493,-19.327,-1.413,-0.12,0.39,0.0573,343430.0,6610190.0
+Solo banda L,36,2 no,baja,3 monte estable,-1.054,-17.604,0.625,0.171,0.644,0.0498,323730.0,6613190.0
+Solo banda L,82,2 no,media,3 monte estable,0.165,-18.354,-1.198,-0.075,0.469,0.0496,309730.0,6610530.0
+Solo banda L,128,2 no,media,3 monte estable,-2.791,-19.772,0.534,0.029,0.575,0.0831,336370.0,6585990.0
+Multisensor,138,2 no,alta,4 no bosque estable,4.99,-24.395,-1.343,0.001,-0.482,0.0223,344630.0,6613210.0
+Multisensor,4,2 no,alta,4 no bosque estable,1.519,-24.074,-1.046,0.08,0.61,0.1139,325770.0,6613230.0
+Solo banda L,83,2 no,baja,3 monte estable,-2.33,-16.883,-1.568,0.04,0.554,0.0325,315050.0,6608210.0
+Solo banda L,55,2 no,alta,3 monte estable,0.517,-12.205,-1.555,-0.03,0.597,0.035,307470.0,6600990.0
+Multisensor,60,2 no,alta,3 monte estable,-0.882,-13.915,-1.174,0.067,0.274,0.0472,329150.0,6574910.0
+Solo banda L,72,2 no,alta,4 no bosque estable,-0.281,-21.068,-4.53,-0.053,0.484,0.0498,335330.0,6572130.0
+Solo banda L,45,2 no,alta,3 monte estable,2.749,-17.451,-1.131,-0.062,0.552,0.0494,316830.0,6598150.0
+Solo banda L,80,2 no,alta,4 no bosque estable,1.616,-20.616,1.106,0.031,0.48,0.0679,343350.0,6594130.0
+Solo optico,20,2 no,baja,2 degradacion,0.518,-18.501,-0.081,-0.109,0.403,0.064,335030.0,6610990.0
+Multisensor,142,2 no,media,2 degradacion,-5.046,-20.158,0.211,0.091,0.551,0.1036,328770.0,6597250.0
+Solo banda L,4,2 no,alta,3 monte estable,1.571,-14.519,-0.256,0.025,0.554,0.0588,342270.0,6581530.0
+Solo banda L,3,2 no,alta,3 monte estable,2.522,-14.705,3.372,0.031,0.605,0.0593,312730.0,6589470.0
+Solo banda L,54,2 no,alta,3 monte estable,-1.038,-16.101,-3.909,0.075,0.71,0.045,317750.0,6581770.0
+Solo banda L,119,2 no,alta,4 no bosque estable,2.567,-19.306,-1.121,0.064,0.537,0.0463,319810.0,6588990.0
+Multisensor,32,2 no,baja,3 monte estable,1.279,-12.961,1.879,-0.024,0.561,0.0258,310370.0,6601470.0
+Solo optico,99,2 no,baja,3 monte estable,0.982,-14.53,-2.887,0.059,0.598,0.084,319770.0,6613630.0
+Solo optico,21,2 no,alta,3 monte estable,1.269,-14.519,-2.325,0.034,0.611,0.054,324250.0,6594050.0
+Multisensor,134,2 no,baja,3 monte estable,2.744,-10.332,1.658,0.001,0.658,0.0427,315370.0,6601210.0
+Multisensor,123,2 no,baja,3 monte estable,6.571,-10.923,0.361,0.064,0.66,0.0444,325630.0,6607610.0
+Multisensor,73,2 no,alta,3 monte estable,1.947,-11.595,1.046,0.07,0.668,0.0448,322270.0,6596230.0
+Solo banda L,6,2 no,alta,4 no bosque estable,4.97,-15.859,1.636,-0.032,0.523,0.0506,319310.0,6595470.0
+Solo banda L,67,2 no,baja,3 monte estable,1.397,-17.697,1.816,-0.07,0.516,0.0658,328570.0,6602990.0
+Solo optico,2,2 no,alta,3 monte estable,1.853,-15.005,2.251,0.084,0.611,0.0668,320930.0,6573990.0
+Solo optico,80,2 no,alta,3 monte estable,0.855,-16.034,0.398,-0.035,0.544,0.0686,329710.0,6595130.0
+Solo banda L,11,2 no,baja,2 degradacion,-3.906,-18.4,-2.921,0.05,0.548,0.0559,314290.0,6607450.0
+Multisensor,113,2 no,baja,3 monte estable,-0.644,-16.568,-2.352,0.069,0.581,0.0878,321550.0,6613070.0
+Solo optico,74,1 perdida o degradacion,media,3 monte estable,1.399,-16.065,-2.658,-0.134,0.481,0.0542,329950.0,6597430.0
+Solo banda L,25,2 no,alta,3 monte estable,1.859,-17.948,0.274,0.005,0.519,0.0479,322830.0,6574590.0
+Solo optico,12,2 no,baja,4 no bosque estable,3.107,-17.542,2.166,-0.112,0.455,0.0733,326610.0,6611510.0
+Solo banda L,42,2 no,alta,2 degradacion,-11.767,-29.144,-5.586,0.352,0.578,0.1852,336230.0,6613510.0
+Solo banda L,39,2 no,baja,3 monte estable,4.109,-15.107,-2.387,0.016,0.621,0.0568,316310.0,6601770.0
+Multisensor,96,2 no,alta,2 degradacion,-2.808,-21.549,-2.377,-0.066,0.432,0.0802,329450.0,6583250.0
+Solo banda L,71,2 no,alta,3 monte estable,2.089,-12.155,-2.608,-0.001,0.565,0.0573,330530.0,6595650.0
+Solo optico,8,2 no,baja,3 monte estable,1.896,-14.924,3.007,-0.007,0.591,0.0417,313450.0,6601130.0
+Multisensor,140,1 perdida o degradacion,baja,2 degradacion,2.16,-14.44,1.373,-0.117,0.423,0.0751,333650.0,6588350.0

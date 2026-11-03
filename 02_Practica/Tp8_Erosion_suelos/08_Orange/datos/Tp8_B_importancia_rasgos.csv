@@ -1,0 +1,8 @@
+rasgo,sensor,importancia
+string,discrete,continuous
+meta,,
+meses_suelo_desnudo,Sentinel-2,0.295
+pendiente_grados,FABDEM,0.287
+S_CV_HH,NovaSAR-1 (S),0.171
+C_CV_VH,Sentinel-1 (C),0.131
+C_CV_VV,Sentinel-1 (C),0.117

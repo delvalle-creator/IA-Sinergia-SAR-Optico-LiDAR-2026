@@ -1,0 +1,5 @@
+variables,n_variables,exactitud_4_clases,exactitud_quemado_no_quemado,poligonos_bien
+"Solo óptico (dNBR, RdNBR)",2,0.936,0.979,1.0
+"Solo radar (C, ALOS-2, SAOCOM)",4,0.677,0.784,0.8
+Todos sin RdNBR,5,0.907,0.927,1.0
+Todos (V4),6,0.958,0.978,1.0

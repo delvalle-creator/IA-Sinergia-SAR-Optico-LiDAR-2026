@@ -1,0 +1,244 @@
+orden,variante,id,clase_ref_IA,confianza_IA,imagen_usada,observacion
+1,multisensor,7,2,alta,Sentinel-2 04/09/2026,pastizal junto a un camino
+2,multisensor,106,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,arboles junto a casas del borde (CBERS)
+3,multisensor,42,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de un barrio del borde (CBERS)
+4,SAR_multibanda,55,1,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,techo de un galpon rural chico (CBERS)
+5,multisensor_con_S,60,2,media,Sentinel-2 04/09/2026,suelo desnudo de una cantera
+6,SAR_multibanda,52,2,media,Sentinel-2 04/09/2026,monte junto a casas rurales
+7,optico,16,2,alta,Sentinel-2 04/09/2026,pastizal con arboles
+8,SAR_multibanda,75,2,media,Sentinel-2 04/09/2026,camino rural angosto entre plantaciones
+9,SAR_multibanda,48,1,media,Sentinel-2 04/09/2026,casas de un pueblo
+10,C,135,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,suelo desnudo junto a un galpon (CBERS)
+11,SAR_multibanda,140,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,baldio con pasto dentro de la manzana (CBERS)
+12,multisensor_con_S,136,2,alta,Sentinel-2 04/09/2026,pastizal junto al agua
+13,C,130,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,camino rural angosto entre vegetacion (CBERS)
+14,optico,57,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,cruce de calles de tierra (CBERS)
+15,optico,28,2,baja,Sentinel-2 04/09/2026,patio junto a un galpon rural
+16,C,142,2,media,Sentinel-2 04/09/2026,borde de invernaderos junto a una avenida
+17,C,137,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,vegetacion entre galpones y suelo removido (CBERS)
+18,multisensor_con_S,106,1,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,galpones e instalaciones con suelo desnudo (CBERS)
+19,multisensor_con_S,95,2,alta,Sentinel-2 04/09/2026,pastizal humedo junto al agua
+20,optico,103,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles (CBERS)
+21,optico,14,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de un pueblo (CBERS)
+22,optico,51,2,alta,Sentinel-2 04/09/2026,plantacion forestal
+23,multisensor,1,2,alta,Sentinel-2 04/09/2026,pastizal
+24,SAR_multibanda,137,1,media,Sentinel-2 04/09/2026,casas de barrio
+25,C,34,2,media,Sentinel-2 04/09/2026,patio junto a casas rurales
+26,multisensor,128,1,media,Sentinel-2 04/09/2026,casas de un pueblo
+27,C,3,2,media,Sentinel-2 04/09/2026,pastizal junto a casas rurales
+28,C,105,2,media,Sentinel-2 04/09/2026,camino rural entre campos
+29,optico,93,2,media,Sentinel-2 04/09/2026,agua junto a un puente
+30,optico,35,2,media,Sentinel-2 04/09/2026,invernaderos de plastico
+31,multisensor_con_S,4,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas del borde (CBERS)
+32,optico,15,2,alta,Sentinel-2 04/09/2026,plantacion forestal
+33,multisensor,99,2,media,Sentinel-2 04/09/2026,camino junto a un tajamar
+34,multisensor,139,2,media,Sentinel-2 04/09/2026,vegetacion junto a invernaderos y casas
+35,multisensor,138,2,baja,Sentinel-2 04/09/2026,banquina de la autovia junto a quintas
+36,multisensor,79,2,alta,Sentinel-2 04/09/2026,monte
+37,C,51,2,alta,Sentinel-2 04/09/2026,humedal
+38,optico,46,1,media,Sentinel-2 04/09/2026,casas del borde de un pueblo
+39,multisensor,16,2,alta,Sentinel-2 04/09/2026,pastura
+40,multisensor_con_S,141,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,arboleda junto a casas (CBERS)
+41,optico,59,2,media,Sentinel-2 04/09/2026,quinta con pastizal
+42,SAR_multibanda,59,2,media,Sentinel-2 04/09/2026,suelo removido con vegetacion
+43,optico,101,1,media,Sentinel-2 04/09/2026,manzana edificada
+44,optico,73,2,alta,Sentinel-2 04/09/2026,plantacion forestal
+45,multisensor_con_S,48,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,calle de tierra entre casas (CBERS)
+46,multisensor,74,1,media,Sentinel-2 04/09/2026,casas de un pueblo
+47,C,84,1,media,Sentinel-2 04/09/2026,casas de barrio
+48,SAR_multibanda,86,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,arboles junto a una casa rural (CBERS)
+49,multisensor_con_S,20,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,calle y casas de un caserio (CBERS)
+50,SAR_multibanda,132,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de barrio con arboles (CBERS)
+51,multisensor_con_S,62,2,media,Sentinel-2 04/09/2026,patio entre casas rurales
+52,multisensor_con_S,59,2,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,agua del rio (CBERS)
+53,SAR_multibanda,27,2,alta,Sentinel-2 04/09/2026,pastizal humedo
+54,C,89,1,media,Sentinel-2 04/09/2026,manzana edificada
+55,C,88,2,alta,Sentinel-2 04/09/2026,monte junto al rio
+56,multisensor,131,2,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,plantacion forestal (CBERS)
+57,SAR_multibanda,2,2,alta,Sentinel-2 04/09/2026,monte junto a un arroyo
+58,multisensor_con_S,103,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles (CBERS)
+59,C,4,1,media,Sentinel-2 04/09/2026,manzana edificada
+60,optico,81,2,media,Sentinel-2 04/09/2026,lote junto a casas rurales
+61,C,53,2,media,Sentinel-2 04/09/2026,pastizal junto a casas rurales
+62,SAR_multibanda,12,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas junto a una calle (CBERS)
+63,multisensor_con_S,13,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,suelo y arbustos en el borde urbano (CBERS)
+64,multisensor_con_S,32,1,baja,Sentinel-2 04/09/2026,calzada de la autovia
+65,C,98,2,baja,Sentinel-2 04/09/2026,patio junto a un galpon de quinta
+66,multisensor,132,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,cancha y arboles (CBERS)
+67,multisensor,104,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,loteo sin construir (CBERS)
+68,SAR_multibanda,65,2,media,Sentinel-2 04/09/2026,pastizal junto a un camino e invernaderos
+69,multisensor,129,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,baldio de tierra dentro de la ciudad (CBERS)
+70,SAR_multibanda,107,1,media,Sentinel-2 04/09/2026,casas con un arbol
+71,multisensor,54,2,alta,Sentinel-2 04/09/2026,pastizal
+72,multisensor,57,1,media,Sentinel-2 04/09/2026,manzana edificada
+73,optico,47,2,media,Sentinel-2 04/09/2026,patio junto a casas rurales
+74,optico,86,2,baja,Sentinel-2 04/09/2026,ruta rural pavimentada entre campos
+75,multisensor_con_S,125,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,arboles junto a un lote del borde urbano (CBERS)
+76,C,101,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,patio arbolado dentro de la ciudad (CBERS)
+77,SAR_multibanda,1,2,media,Sentinel-2 04/09/2026,suelo entre invernaderos
+78,multisensor,134,2,alta,Sentinel-2 04/09/2026,lote cultivado junto a invernaderos
+79,C,48,1,media,Sentinel-2 04/09/2026,edificio junto a la autovia
+80,multisensor_con_S,139,2,alta,Sentinel-2 04/09/2026,agua del embalse
+81,multisensor_con_S,98,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas junto a una calle de tierra (CBERS)
+82,optico,127,1,baja,Sentinel-2 04/09/2026,borde de un galpon en el borde urbano
+83,SAR_multibanda,127,1,media,Sentinel-2 04/09/2026,manzana edificada
+84,optico,53,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,manzana edificada (CBERS)
+85,optico,23,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,baldio en el borde urbano (CBERS)
+86,multisensor,23,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas en la esquina de una cancha (CBERS)
+87,multisensor_con_S,67,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,techo de casa entre arboles (CBERS)
+88,optico,70,1,baja,Sentinel-2 04/09/2026,galpon junto a la ruta
+89,optico,112,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,pastizal junto a un puente vial (CBERS)
+90,optico,12,1,media,Sentinel-2 04/09/2026,manzana edificada
+91,SAR_multibanda,46,2,alta,Sentinel-2 04/09/2026,agua del embalse
+92,SAR_multibanda,102,2,media,Sentinel-2 04/09/2026,pastizal junto a un cruce de rutas
+93,optico,84,2,media,Sentinel-2 04/09/2026,baldio o plaza dentro del barrio
+94,multisensor_con_S,77,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,camino rural de ripio (CBERS)
+95,multisensor,35,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,calle y techos junto a un edificio grande (CBERS)
+96,multisensor_con_S,23,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,cruce de caminos de tierra junto a citrus (CBERS)
+97,C,46,2,alta,Sentinel-2 04/09/2026,plantacion forestal
+98,multisensor,83,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,arbol en un patio entre casas (CBERS)
+99,optico,130,2,media,Sentinel-2 04/09/2026,pastizal junto a una calle del borde
+100,optico,104,1,baja,Sentinel-2 04/09/2026,techo de un galpon junto a invernaderos
+101,SAR_multibanda,62,1,media,Sentinel-2 04/09/2026,manzana edificada
+102,multisensor,65,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de un pueblo (CBERS)
+103,multisensor_con_S,118,2,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,pastizal y suelo (CBERS)
+104,optico,129,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,avenida junto a un edificio grande (CBERS)
+105,multisensor_con_S,104,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de un barrio nuevo (CBERS)
+106,optico,37,1,media,Sentinel-2 04/09/2026,manzana edificada
+107,C,18,2,alta,Sentinel-2 04/09/2026,monte junto al rio
+108,C,50,2,alta,Sentinel-2 04/09/2026,pastizal
+109,C,133,1,media,Sentinel-2 04/09/2026,casas del borde de un barrio nuevo
+110,multisensor,52,2,alta,Sentinel-2 04/09/2026,plantacion forestal
+111,SAR_multibanda,57,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de barrio con arboles (CBERS)
+112,C,62,1,media,Sentinel-2 04/09/2026,manzana edificada
+113,SAR_multibanda,74,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,plaza arbolada (CBERS)
+114,multisensor_con_S,28,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,pastizal con arboles junto a casas rurales (CBERS)
+115,optico,91,2,media,Sentinel-2 04/09/2026,pastizal en el borde de la ciudad
+116,C,112,2,media,Sentinel-2 04/09/2026,lote junto a invernaderos y una ruta
+117,optico,114,2,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,plantacion en lotes (CBERS)
+118,optico,10,2,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,pastizal junto a arboles (CBERS)
+119,multisensor_con_S,9,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas junto a una avenida (CBERS)
+120,multisensor,127,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de barrio (CBERS)
+121,multisensor,36,2,alta,Sentinel-2 04/09/2026,pastizal
+122,multisensor_con_S,56,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,manzana edificada (CBERS)
+123,multisensor_con_S,83,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,techos junto a una plaza (CBERS)
+124,SAR_multibanda,128,1,media,Sentinel-2 04/09/2026,conjunto de viviendas
+125,C,127,1,media,Sentinel-2 04/09/2026,manzana edificada
+126,optico,119,1,media,Sentinel-2 04/09/2026,manzana edificada
+127,SAR_multibanda,56,1,media,Sentinel-2 04/09/2026,manzana edificada
+128,C,23,2,media,Sentinel-2 04/09/2026,suelo removido en el borde urbano
+129,multisensor_con_S,22,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,banquina con pasto junto a la autovia (CBERS)
+130,multisensor,48,1,baja,Sentinel-2 04/09/2026,techo de galpon rural
+131,SAR_multibanda,35,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de un barrio nuevo (CBERS)
+132,multisensor,34,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles (CBERS)
+133,SAR_multibanda,91,2,baja,Sentinel-2 04/09/2026,arboles dentro de la ciudad
+134,optico,102,1,media,Sentinel-2 04/09/2026,techo de una planta industrial
+135,multisensor_con_S,5,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de un caserio junto a una ruta (CBERS)
+136,multisensor,12,1,media,Sentinel-2 04/09/2026,manzana edificada
+137,C,12,1,media,Sentinel-2 04/09/2026,casas de barrio
+138,optico,34,2,media,Sentinel-2 04/09/2026,pasto entre ramas de un cruce vial
+139,multisensor,133,1,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casa rural con techo oscuro (CBERS)
+140,SAR_multibanda,31,1,media,Sentinel-2 04/09/2026,manzana edificada
+141,multisensor_con_S,78,2,alta,Sentinel-2 04/09/2026,agua del embalse
+142,optico,110,1,media,Sentinel-2 04/09/2026,conjunto de viviendas
+143,multisensor,86,2,media,Sentinel-2 04/09/2026,borde de un camino junto a invernaderos
+144,multisensor,80,2,media,Sentinel-2 04/09/2026,cancha o pastizal junto a edificios
+145,C,102,2,media,Sentinel-2 04/09/2026,suelo desnudo junto al agua
+146,SAR_multibanda,106,1,media,Sentinel-2 04/09/2026,casas del borde de un pueblo
+147,multisensor,60,2,alta,Sentinel-2 04/09/2026,pastizal
+148,SAR_multibanda,122,2,baja,Sentinel-2 04/09/2026,borde de un invernadero junto a una ruta
+149,C,31,1,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,playa ferroviaria con vias y vagones (CBERS)
+150,multisensor,137,1,media,Sentinel-2 04/09/2026,casas de barrio
+151,optico,100,2,media,Sentinel-2 04/09/2026,pastizal con arboles
+152,SAR_multibanda,129,1,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,calle y techos con sombra (CBERS)
+153,SAR_multibanda,42,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,baldio en el borde del barrio (CBERS)
+154,C,30,2,baja,Sentinel-2 04/09/2026,cruce de caminos junto a galpones
+155,multisensor,11,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles cerca de la costa (CBERS)
+156,C,119,1,media,Sentinel-2 04/09/2026,manzana edificada
+157,SAR_multibanda,23,1,media,Sentinel-2 04/09/2026,casas de barrio
+158,optico,33,2,media,Sentinel-2 04/09/2026,camino de tierra entre bañados
+159,multisensor,102,1,media,Sentinel-2 04/09/2026,casas junto a una calle de un pueblo
+160,optico,5,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de barrio con arboles (CBERS)
+161,SAR_multibanda,11,1,media,Sentinel-2 04/09/2026,manzana edificada
+162,multisensor_con_S,27,2,media,Sentinel-2 04/09/2026,vegetacion junto a casas en la costa
+163,optico,58,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas y galpones de barrio (CBERS)
+164,multisensor,10,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,patio junto a casas rurales (CBERS con nube)
+165,optico,4,1,media,Sentinel-2 04/09/2026,casas entre arboles
+166,SAR_multibanda,9,1,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casa entre arboles (CBERS)
+167,C,56,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,plaza arbolada (CBERS)
+168,SAR_multibanda,34,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,arboles junto a casas rurales (CBERS)
+169,SAR_multibanda,112,2,media,Sentinel-2 04/09/2026,pastizal junto a casas del borde
+170,multisensor_con_S,34,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles de un barrio nuevo (CBERS)
+171,multisensor,114,2,alta,Sentinel-2 04/09/2026,pastizal con arboles
+172,optico,122,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,borde de un camino junto a quintas (CBERS)
+173,SAR_multibanda,135,1,media,Sentinel-2 04/09/2026,casas de barrio
+174,multisensor_con_S,25,2,alta,Sentinel-2 04/09/2026,agua del embalse
+175,optico,94,2,media,Sentinel-2 04/09/2026,pastizal junto a un barrio rural
+176,multisensor_con_S,122,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de barrio (CBERS)
+177,C,103,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles en una esquina (CBERS)
+178,optico,62,1,media,Sentinel-2 04/09/2026,casas de un pueblo
+179,C,117,2,media,Sentinel-2 04/09/2026,pastizal junto a un camino cerca del rio
+180,multisensor_con_S,37,2,media,Sentinel-2 04/09/2026,playa de arena junto al agua
+181,C,9,2,media,Sentinel-2 04/09/2026,"parque solar (paneles, no techos)"
+182,multisensor,47,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,lote junto a un galpon rural (CBERS)
+183,SAR_multibanda,93,2,alta,Sentinel-2 04/09/2026,lote cultivado
+184,C,7,1,media,Sentinel-2 04/09/2026,casas de un pueblo
+185,optico,128,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles (CBERS)
+186,C,5,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas junto a un deposito de agua (CBERS)
+187,C,107,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,baldio con arboles dentro de la ciudad (CBERS)
+188,optico,98,2,media,Sentinel-2 04/09/2026,pastizal junto a invernaderos
+189,multisensor_con_S,102,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles (CBERS)
+190,optico,41,2,alta,Sentinel-2 04/09/2026,agua del embalse
+191,multisensor_con_S,64,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,techos con un arbol (CBERS)
+192,C,129,2,media,Sentinel-2 04/09/2026,franja de pasto junto a casas
+193,multisensor_con_S,74,1,media,Sentinel-2 04/09/2026,casas junto al agua
+194,optico,116,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de barrio (CBERS)
+195,SAR_multibanda,92,2,media,Sentinel-2 04/09/2026,camino rural entre campos
+196,SAR_multibanda,103,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas del borde del barrio (CBERS)
+197,multisensor,5,1,media,Sentinel-2 04/09/2026,casas de barrio
+198,SAR_multibanda,50,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,arboles de una plaza (CBERS)
+199,C,11,1,media,Sentinel-2 04/09/2026,casas de barrio
+200,multisensor,107,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,patio arbolado dentro del barrio (CBERS)
+201,multisensor,9,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casa con patio (CBERS)
+202,optico,142,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas de barrio (CBERS)
+203,multisensor,56,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles (CBERS)
+204,SAR_multibanda,100,2,alta,Sentinel-2 04/09/2026,monte
+205,multisensor_con_S,92,2,media,Sentinel-2 04/09/2026,pastizal junto a una casa rural
+206,optico,43,2,alta,Sentinel-2 04/09/2026,agua del embalse
+207,optico,131,2,alta,Sentinel-2 04/09/2026,borde de plantacion
+208,C,74,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,manzana edificada (CBERS)
+209,SAR_multibanda,110,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,manzana edificada (CBERS)
+210,C,76,2,media,Sentinel-2 04/09/2026,suelo desnudo arenoso
+211,optico,79,2,media,Sentinel-2 04/09/2026,banco de arena del rio
+212,C,91,2,media,Sentinel-2 04/09/2026,vegetacion en el borde de la ciudad
+213,C,122,2,media,Sentinel-2 04/09/2026,pastizal entre casas rurales
+214,SAR_multibanda,141,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,arboles dentro del barrio (CBERS)
+215,optico,30,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,terraplen con pasto junto a una avenida (CBERS)
+216,SAR_multibanda,98,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas junto a una calle de tierra (CBERS)
+217,multisensor_con_S,65,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,calle de tierra en el borde del barrio (CBERS)
+218,C,14,2,media,Sentinel-2 04/09/2026,pastizal junto a un camino y un galpon
+219,multisensor,8,2,alta,Sentinel-2 04/09/2026,agua del embalse
+220,SAR_multibanda,133,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,baldio dentro del barrio (CBERS)
+221,multisensor,122,2,media,Sentinel-2 04/09/2026,invernaderos
+222,optico,64,1,media,Sentinel-2 04/09/2026,manzana edificada
+223,C,35,2,media,Sentinel-2 04/09/2026,camino y patios de un caserio
+224,optico,137,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,conjunto de viviendas (CBERS)
+225,multisensor,112,1,media,Sentinel-2 04/09/2026,casas del borde de un pueblo
+226,C,134,2,media,Sentinel-2 04/09/2026,vegetacion junto a invernaderos
+227,multisensor_con_S,142,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas con arboles cerca de la costa (CBERS)
+228,optico,139,2,baja,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,predio de tierra con un edificio chico (CBERS)
+229,multisensor,84,2,media,Sentinel-2 04/09/2026,pastizal junto a galpones avicolas
+230,multisensor,103,1,media,Sentinel-2 04/09/2026,casas del borde de la ciudad
+231,optico,48,2,media,Sentinel-2 04/09/2026,camino y pastizal en un barrio rural
+232,SAR_multibanda,77,2,alta,Sentinel-2 04/09/2026,borde de plantacion
+233,multisensor,30,1,media,Sentinel-2 04/09/2026,casas de un pueblo
+234,multisensor_con_S,70,1,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,casas junto a una calle del borde (CBERS)
+235,optico,20,1,alta,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,manzana edificada (CBERS)
+236,multisensor,3,2,media,Sentinel-2 04/09/2026,pastizal junto a casas rurales
+237,C,20,2,media,Sentinel-2 04/09/2026,vegetacion junto a una calle de un pueblo
+238,C,66,2,alta,Sentinel-2 04/09/2026,pastizal
+239,C,140,2,media,Sentinel-2 04/09/2026,arboles en el borde de un pueblo
+240,optico,135,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,baldio con arbustos en el borde urbano (CBERS)
+241,optico,141,2,media,Sentinel-2 04/09/2026,pastizal junto a una ruta
+242,optico,65,2,media,Sentinel-2 04/09/2026,invernaderos de plastico
+243,SAR_multibanda,142,2,media,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026,arboleda en el borde del barrio (CBERS)

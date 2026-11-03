@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp9_A - que estrato ve cada banda: radar y NDVI por clase de altura GEDI" description="Muestra estratificada de huellas GEDI L2A validas de C_FEDERAL a menos de 730 dias del 1/7/2021 (hasta 700 por clase de rh98), con el gamma0 de ALOS-2 L y Sentinel-1 C de 2021 en dB, el NDVI de 2021 y la clase de MapBiomas 2021.">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File - huellas GEDI con radar y NDVI de 2021" position="(80, 260)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(330, 40)" />
+		<node id="2" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - ALOS-2 HV por clase de altura" position="(330, 160)" />
+		<node id="3" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - Sentinel-1 VH por clase de altura" position="(330, 280)" />
+		<node id="4" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot - NDVI 2021 por clase de altura" position="(330, 400)" />
+		<node id="5" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot - rh98 frente a ALOS-2 HV" position="(330, 520)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(560, 160, 420, 140)" font-family="Arial" font-size="14">La L en HV sube unos 5 dB entre 2-5 m y 12-16 m; la C en VH, 2,1 dB; el NDVI casi no cambia. Las clases de 12-16 y mas de 16 m tienen 75 y 48 huellas: su mediana es poco firme.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVuAEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjGBEOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwOV9EZWZvcmVzdGFjaW9u
+XDA4X09yYW5nZS9kYXRvc1xUcDlfQV9odWVsbGFzX0dFRElfMjAyMS5jc3aUjAZwcmVmaXiUjAdi
+YXNlZGlylIwHcmVscGF0aJSMIWRhdG9zL1RwOV9BX2h1ZWxsYXNfR0VESV8yMDIxLmNzdpSMBXRp
+dGxllIwAlIwFc2hlZXSUaBCMC2ZpbGVfZm9ybWF0lE51YmGMC3JlY2VudF91cmxzlF2UjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lE6MC3NoZWV0X25hbWVzlH2UjAZzb3VyY2WUSwCMA3VybJRoEIwNZG9t
+YWluX2VkaXRvcpR9lIwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZR1Lg==
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVTQIAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojARyaDk4lEsCjAxjbGFzZV9hbHR1
+cmGUSwGMEkxfQUxPUzJfMjAyMV9ISF9kQpRLAowSTF9BTE9TMl8yMDIxX0hWX2RClEsCjA9DX1Mx
+XzIwMjFfVlZfZEKUSwKMD0NfUzFfMjAyMV9WSF9kQpRLAowLT19ORFZJXzIwMjGUSwKMDk1hcEJp
+b21hc18yMDIxlEsBdYwFbWV0YXOUfZSMBWZlY2hhlEsDc4wGdmFsdWVzlH2UKGgMSwGMCWF0dHJp
+YnV0ZZSMEkxfQUxPUzJfMjAyMV9IVl9kQpRLZoaUjAlncm91cF92YXKUjAxjbGFzZV9hbHR1cmGU
+S2WGlIwJc2VsZWN0aW9ulClK/v///4aUdXViYXUu
+</properties>
+		<properties node_id="3" format="pickle">gASVSgIAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojARyaDk4lEsCjAxjbGFzZV9hbHR1
+cmGUSwGMEkxfQUxPUzJfMjAyMV9ISF9kQpRLAowSTF9BTE9TMl8yMDIxX0hWX2RClEsCjA9DX1Mx
+XzIwMjFfVlZfZEKUSwKMD0NfUzFfMjAyMV9WSF9kQpRLAowLT19ORFZJXzIwMjGUSwKMDk1hcEJp
+b21hc18yMDIxlEsBdYwFbWV0YXOUfZSMBWZlY2hhlEsDc4wGdmFsdWVzlH2UKGgMSwGMCWF0dHJp
+YnV0ZZSMD0NfUzFfMjAyMV9WSF9kQpRLZoaUjAlncm91cF92YXKUjAxjbGFzZV9hbHR1cmGUS2WG
+lIwJc2VsZWN0aW9ulClK/v///4aUdXViYXUu
+</properties>
+		<properties node_id="4" format="pickle">gASVRgIAAAAAAAB9lCiMB2NvbXBhcmWUSwCMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojARyaDk4lEsCjAxjbGFzZV9hbHR1
+cmGUSwGMEkxfQUxPUzJfMjAyMV9ISF9kQpRLAowSTF9BTE9TMl8yMDIxX0hWX2RClEsCjA9DX1Mx
+XzIwMjFfVlZfZEKUSwKMD0NfUzFfMjAyMV9WSF9kQpRLAowLT19ORFZJXzIwMjGUSwKMDk1hcEJp
+b21hc18yMDIxlEsBdYwFbWV0YXOUfZSMBWZlY2hhlEsDc4wGdmFsdWVzlH2UKGgMSwGMCWF0dHJp
+YnV0ZZSMC09fTkRWSV8yMDIxlEtmhpSMCWdyb3VwX3ZhcpSMDGNsYXNlX2FsdHVyYZRLZYaUjAlz
+ZWxlY3Rpb26UKUr+////hpR1dWJhdS4=
+</properties>
+		<properties node_id="5" format="pickle">gASVZgMAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZROjAlzZWxlY3Rpb26UTowRdG9vbHRpcF9zaG93c19hbGyUiIwPdmlzdWFsX3NldHRp
+bmdzlH2UjAVncmFwaJR9lCiMC2FscGhhX3ZhbHVllEtajA1jbGFzc19kZW5zaXR5lImMEWppdHRl
+cl9jb250aW51b3VzlImMC2ppdHRlcl9zaXpllEsAjBNsYWJlbF9vbmx5X3NlbGVjdGVklImMFm9y
+dGhvbm9ybWFsX3JlZ3Jlc3Npb26UiYwLcG9pbnRfd2lkdGiUSwWMDHNob3dfZWxsaXBzZZSJjAlz
+aG93X2dyaWSUiIwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGluZZSJdYwLX192ZXJzaW9uX1+U
+SwWMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMCmF0dHJpYnV0ZXOUfZQojARyaDk4lEsCjAxjbGFzZV9hbHR1cmGUSwGMEkxfQUxP
+UzJfMjAyMV9ISF9kQpRLAowSTF9BTE9TMl8yMDIxX0hWX2RClEsCjA9DX1MxXzIwMjFfVlZfZEKU
+SwKMD0NfUzFfMjAyMV9WSF9kQpRLAowLT19ORFZJXzIwMjGUSwKMDk1hcEJpb21hc18yMDIxlEsB
+dYwFbWV0YXOUfZSMBWZlY2hhlEsDc4wGdmFsdWVzlH2UKGgYSwWMCmF0dHJfY29sb3KUjA5NYXBC
+aW9tYXNfMjAyMZRLZYaUjAphdHRyX2xhYmVslE5K/v///4aUjAphdHRyX3NoYXBllGgzjAlhdHRy
+X3NpemWUaDOMBmF0dHJfeJSMBHJoOTiUS2aGlIwMYXR0cl94X2xvd2VylGgzjAxhdHRyX3hfdXBw
+ZXKUaDOMBmF0dHJfeZSMEkxfQUxPUzJfMjAyMV9IVl9kQpRLZoaUjAxhdHRyX3lfbG93ZXKUaDOM
+DGF0dHJfeV91cHBlcpRoM2gLfZR1dWJhdS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

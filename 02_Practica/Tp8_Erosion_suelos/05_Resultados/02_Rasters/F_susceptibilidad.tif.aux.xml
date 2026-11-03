@@ -1,0 +1,13 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>susceptibilidad</Description>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">1</MDI>
+      <MDI key="STATISTICS_MEAN">0.248571133294</MDI>
+      <MDI key="STATISTICS_STDDEV">0.27679178189387</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">83.71</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

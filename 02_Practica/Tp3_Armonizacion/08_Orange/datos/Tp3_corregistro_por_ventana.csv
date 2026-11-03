@@ -1,0 +1,249 @@
+﻿sitio,par,par_y_estado,estado,veredicto,ventana,fila,columna,dx_px,dy_px,dx_m_este,dy_m_norte,corr_antes,corr_despues,usada,grupo
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"0,0",0,0,0.7,0.0,14.0,0.0,0.859,0.979,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"0,1",0,1,0.7,0.0,14.0,0.0,0.861,0.968,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"0,2",0,2,0.6,0.0,12.0,0.0,0.894,0.972,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"0,3",0,3,0.6,0.0,12.0,0.0,0.894,0.976,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"1,0",1,0,0.8,0.0,16.0,0.0,0.856,0.972,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"1,1",1,1,0.7,0.0,14.0,0.0,0.87,0.98,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"1,2",1,2,0.7,0.0,14.0,0.0,0.862,0.974,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"1,3",1,3,0.7,0.0,14.0,0.0,0.874,0.973,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"2,0",2,0,0.8,0.0,16.0,0.0,0.854,0.976,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"2,1",2,1,0.8,0.0,16.0,0.0,0.83,0.977,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"2,2",2,2,0.8,0.0,16.0,0.0,0.854,0.976,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"2,3",2,3,0.8,0.0,16.0,0.0,0.888,0.978,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"3,0",3,0,0.8,0.0,16.0,0.0,0.886,0.981,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"3,1",3,1,0.8,0.0,16.0,0.0,0.862,0.98,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"3,2",3,2,0.8,0.0,16.0,0.0,0.829,0.972,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S1 SNAP VV,Ibicuy: S1 RTC VV / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"3,3",3,3,0.7,0.0,14.0,0.0,0.838,0.969,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"0,0",0,0,1.0,0.1,20.0,-2.0,0.25,0.33,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"0,1",0,1,0.7,0.2,14.0,-4.0,0.438,0.497,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"0,2",0,2,0.4,0.2,8.0,-4.0,0.24,0.267,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"0,3",0,3,0.9,0.3,18.0,-6.0,0.33,0.371,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"1,0",1,0,0.8,0.1,16.0,-2.0,0.452,0.498,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"1,1",1,1,0.7,0.1,14.0,-2.0,0.615,0.658,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"1,2",1,2,0.8,0.1,16.0,-2.0,0.49,0.555,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"1,3",1,3,1.0,0.2,20.0,-4.0,0.351,0.397,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"2,0",2,0,0.8,0.0,16.0,0.0,0.491,0.56,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"2,1",2,1,0.8,0.0,16.0,0.0,0.501,0.558,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"2,2",2,2,0.9,0.2,18.0,-4.0,0.424,0.502,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"2,3",2,3,1.0,0.2,20.0,-4.0,0.392,0.442,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"3,0",3,0,0.7,0.0,14.0,0.0,0.589,0.636,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"3,1",3,1,0.8,0.0,16.0,0.0,0.52,0.576,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"3,2",3,2,1.0,0.1,20.0,-2.0,0.436,0.478,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / NISAR L HH,Ibicuy: S1 RTC VV / NISAR L HH,no aplica,CUMPLE para rasgo o decision,"3,3",3,3,0.8,-0.1,16.0,2.0,0.491,0.531,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"0,0",0,0,1.0,0.2,20.0,-4.0,0.322,0.397,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"0,1",0,1,0.7,0.2,14.0,-4.0,0.324,0.394,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"0,2",0,2,0.7,0.2,14.0,-4.0,0.238,0.267,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"0,3",0,3,0.8,0.2,16.0,-4.0,0.259,0.303,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"1,0",1,0,0.9,0.2,18.0,-4.0,0.348,0.38,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"1,1",1,1,0.7,0.1,14.0,-2.0,0.475,0.528,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"1,2",1,2,0.8,0.2,16.0,-4.0,0.335,0.384,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"1,3",1,3,0.7,0.1,14.0,-2.0,0.286,0.329,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"2,0",2,0,0.9,0.2,18.0,-4.0,0.342,0.387,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"2,1",2,1,1.2,0.1,24.0,-2.0,0.285,0.427,no,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"2,2",2,2,0.8,0.2,16.0,-4.0,0.275,0.342,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"2,3",2,3,0.9,0.1,18.0,-2.0,0.237,0.267,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"3,0",3,0,0.8,0.0,16.0,0.0,0.311,0.346,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"3,1",3,1,1.0,0.2,20.0,-4.0,0.32,0.346,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"3,2",3,2,0.9,0.1,18.0,-2.0,0.327,0.368,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 RTC VV / S2 B08,Ibicuy: S1 RTC VV / S2 B08,no aplica,CUMPLE para rasgo o decision,"3,3",3,3,0.9,0.1,18.0,-2.0,0.315,0.349,si,"Ibicuy: S1 RTC VV (con S2, NISAR L o SNAP)"
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,0",0,0,0.2,0.2,4.0,-4.0,0.383,0.392,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,1",0,1,0.1,0.2,2.0,-4.0,0.383,0.397,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,2",0,2,0.2,0.2,4.0,-4.0,0.255,0.264,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,3",0,3,0.2,0.2,4.0,-4.0,0.283,0.293,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,0",1,0,0.1,0.2,2.0,-4.0,0.38,0.391,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,1",1,1,0.2,0.2,4.0,-4.0,0.53,0.538,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,2",1,2,0.1,0.2,2.0,-4.0,0.38,0.386,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,3",1,3,0.1,0.1,2.0,-2.0,0.314,0.321,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,0",2,0,0.1,0.3,2.0,-6.0,0.385,0.399,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,1",2,1,0.5,0.2,10.0,-4.0,0.413,0.442,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,2",2,2,0.1,0.3,2.0,-6.0,0.33,0.342,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,3",2,3,0.2,0.2,4.0,-4.0,0.253,0.252,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,0",3,0,0.1,0.0,2.0,0.0,0.343,0.345,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,1",3,1,0.3,0.3,6.0,-6.0,0.34,0.342,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,2",3,2,0.2,0.1,4.0,-2.0,0.379,0.388,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,S1 SNAP VV / S2 B08,Ibicuy: S1 SNAP VV / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,3",3,3,0.2,0.1,4.0,-2.0,0.357,0.368,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,0",0,0,-0.1,0.0,-2.0,0.0,0.425,0.429,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,1",0,1,0.0,0.1,0.0,-2.0,0.349,0.351,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,2",0,2,0.0,0.0,0.0,0.0,0.251,0.251,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,3",0,3,0.0,0.0,0.0,0.0,0.344,0.344,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,0",1,0,0.0,0.1,0.0,-2.0,0.473,0.476,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,1",1,1,-0.1,0.1,-2.0,-2.0,0.583,0.586,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,2",1,2,-0.1,0.0,-2.0,0.0,0.409,0.41,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,3",1,3,-0.1,0.0,-2.0,0.0,0.271,0.273,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,0",2,0,-0.2,0.1,-4.0,-2.0,0.49,0.507,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,1",2,1,0.0,0.0,0.0,0.0,0.416,0.416,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,2",2,2,-0.2,0.0,-4.0,0.0,0.446,0.453,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,3",2,3,-0.1,-0.1,-2.0,2.0,0.366,0.369,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,0",3,0,-0.2,0.0,-4.0,0.0,0.472,0.476,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,1",3,1,-0.2,0.1,-4.0,-2.0,0.458,0.47,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,2",3,2,-0.3,-0.1,-6.0,2.0,0.441,0.451,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR L HV / S2 B08,Ibicuy: NISAR L HV / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,3",3,3,-0.2,0.1,-4.0,-2.0,0.431,0.437,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"0,0",0,0,0.7,0.5,21.0,-15.0,0.641,0.758,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"0,1",0,1,0.6,0.4,18.0,-12.0,0.835,0.928,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"0,2",0,2,0.5,0.4,15.0,-12.0,0.842,0.93,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"0,3",0,3,0.6,0.4,18.0,-12.0,0.776,0.932,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"1,0",1,0,0.5,0.4,15.0,-12.0,0.846,0.919,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"1,1",1,1,0.5,0.4,15.0,-12.0,0.898,0.943,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"1,2",1,2,0.5,0.4,15.0,-12.0,0.872,0.92,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"1,3",1,3,0.5,0.4,15.0,-12.0,0.802,0.921,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"2,0",2,0,0.5,0.5,15.0,-15.0,0.801,0.913,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"2,1",2,1,0.6,0.4,18.0,-12.0,0.827,0.936,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"2,2",2,2,0.5,0.4,15.0,-12.0,0.857,0.929,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"2,3",2,3,0.5,0.4,15.0,-12.0,0.822,0.909,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"3,0",3,0,0.6,0.4,18.0,-12.0,0.765,0.89,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"3,1",3,1,0.4,0.3,12.0,-9.0,0.845,0.887,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"3,2",3,2,0.5,0.4,15.0,-12.0,0.859,0.91,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,Landsat 8 B5 / S2 B08 (30 m),Ibicuy: Landsat 8 B5 / S2 B08 (30 m),no aplica,CUMPLE para rasgo o decision,"3,3",3,3,0.5,0.5,15.0,-15.0,0.817,0.92,si,Ibicuy: Landsat 8 B5 / S2 B08 (30 m)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"0,0",0,0,-0.7,-0.4,-14.0,8.0,0.198,0.252,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"0,1",0,1,-0.5,-0.5,-10.0,10.0,0.383,0.416,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"0,2",0,2,-0.3,-0.5,-6.0,10.0,0.15,0.163,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"0,3",0,3,-0.9,-0.7,-18.0,14.0,0.277,0.335,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"1,0",1,0,-1.4,-1.0,-28.0,20.0,0.354,0.397,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"1,1",1,1,-0.1,0.0,-2.0,0.0,0.502,0.509,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"1,2",1,2,-0.3,-0.2,-6.0,4.0,0.384,0.409,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"1,3",1,3,-0.7,-0.2,-14.0,4.0,0.226,0.26,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"2,0",2,0,-1.5,-0.1,-30.0,2.0,0.396,0.454,no,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"2,1",2,1,-0.6,-0.2,-12.0,4.0,0.419,0.471,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"2,2",2,2,-0.4,-0.5,-8.0,10.0,0.346,0.398,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"2,3",2,3,-0.4,-0.6,-8.0,12.0,0.327,0.37,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"3,0",3,0,-1.0,0.0,-20.0,0.0,0.446,0.457,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"3,1",3,1,-0.5,-0.1,-10.0,2.0,0.42,0.447,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"3,2",3,2,-0.5,-0.4,-10.0,8.0,0.336,0.369,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P HH / S1 SNAP VV,Ibicuy: BIOMASS P HH / S1 SNAP VV,no aplica,CUMPLE para rasgo o decision,"3,3",3,3,-0.8,-0.4,-16.0,8.0,0.306,0.319,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"0,0",0,0,-0.4,-0.2,-8.0,4.0,0.486,0.531,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"0,1",0,1,-0.8,-0.4,-16.0,8.0,0.577,0.636,no,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"0,2",0,2,-0.7,-0.2,-14.0,4.0,0.552,0.596,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"0,3",0,3,-0.4,-0.2,-8.0,4.0,0.435,0.474,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"1,0",1,0,-0.4,-0.1,-8.0,2.0,0.583,0.618,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"1,1",1,1,-0.5,-0.3,-10.0,6.0,0.675,0.717,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"1,2",1,2,-0.4,-0.2,-8.0,4.0,0.601,0.637,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"1,3",1,3,-0.6,-0.2,-12.0,4.0,0.547,0.593,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"2,0",2,0,-0.5,-0.2,-10.0,4.0,0.573,0.64,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"2,1",2,1,-0.5,-0.2,-10.0,4.0,0.55,0.604,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"2,2",2,2,-0.3,-0.2,-6.0,4.0,0.593,0.633,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"2,3",2,3,-0.4,-0.4,-8.0,8.0,0.575,0.615,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"3,0",3,0,-0.5,-0.2,-10.0,4.0,0.567,0.616,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"3,1",3,1,-0.4,-0.2,-8.0,4.0,0.624,0.662,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"3,2",3,2,-0.2,-0.1,-4.0,2.0,0.582,0.602,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / NISAR L HV,Ibicuy: BIOMASS P VH / NISAR L HV,no aplica,CUMPLE para fusion de pixel,"3,3",3,3,-0.5,-0.3,-10.0,6.0,0.596,0.642,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"0,0",0,0,-0.8,-0.1,-16.0,2.0,0.179,0.208,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"0,1",0,1,-0.6,-0.4,-12.0,8.0,0.239,0.256,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"0,2",0,2,-0.7,-0.2,-14.0,4.0,0.112,0.122,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"0,3",0,3,-0.5,-0.6,-10.0,12.0,0.086,0.1,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"1,0",1,0,-0.2,0.2,-4.0,-4.0,0.28,0.297,no,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"1,1",1,1,-0.8,-0.4,-16.0,8.0,0.375,0.391,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"1,2",1,2,-0.5,-0.3,-10.0,6.0,0.263,0.279,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"1,3",1,3,-0.5,-0.6,-10.0,12.0,0.149,0.165,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"2,0",2,0,-1.5,-0.2,-30.0,4.0,0.28,0.326,no,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"2,1",2,1,-0.4,-0.2,-8.0,4.0,0.333,0.332,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"2,2",2,2,-0.8,-0.4,-16.0,8.0,0.283,0.306,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"2,3",2,3,-0.5,-0.4,-10.0,8.0,0.227,0.246,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"3,0",3,0,-0.5,-0.3,-10.0,6.0,0.301,0.323,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"3,1",3,1,-0.7,-0.1,-14.0,2.0,0.283,0.303,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"3,2",3,2,-0.6,-0.3,-12.0,6.0,0.258,0.279,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,BIOMASS P VH / S2 B08,Ibicuy: BIOMASS P VH / S2 B08,no aplica,CUMPLE para rasgo o decision,"3,3",3,3,-0.8,-0.2,-16.0,4.0,0.225,0.232,si,Ibicuy: BIOMASS P (con S2 o SNAP)
+Ibicuy,NISAR S HH / NISAR L HH,Ibicuy: NISAR S HH / NISAR L HH,no aplica,CUMPLE para fusion de pixel,"2,0",2,0,0.2,0.1,4.0,-2.0,0.72,0.747,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / NISAR L HH,Ibicuy: NISAR S HH / NISAR L HH,no aplica,CUMPLE para fusion de pixel,"2,1",2,1,0.2,0.2,4.0,-4.0,0.662,0.691,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / NISAR L HH,Ibicuy: NISAR S HH / NISAR L HH,no aplica,CUMPLE para fusion de pixel,"2,2",2,2,0.1,0.1,2.0,-2.0,0.761,0.775,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / NISAR L HH,Ibicuy: NISAR S HH / NISAR L HH,no aplica,CUMPLE para fusion de pixel,"2,3",2,3,0.1,0.2,2.0,-4.0,0.767,0.789,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / NISAR L HH,Ibicuy: NISAR S HH / NISAR L HH,no aplica,CUMPLE para fusion de pixel,"3,0",3,0,0.3,0.2,6.0,-4.0,0.717,0.755,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / NISAR L HH,Ibicuy: NISAR S HH / NISAR L HH,no aplica,CUMPLE para fusion de pixel,"3,1",3,1,0.2,0.1,4.0,-2.0,0.712,0.733,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / NISAR L HH,Ibicuy: NISAR S HH / NISAR L HH,no aplica,CUMPLE para fusion de pixel,"3,2",3,2,0.1,0.1,2.0,-2.0,0.716,0.728,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / NISAR L HH,Ibicuy: NISAR S HH / NISAR L HH,no aplica,CUMPLE para fusion de pixel,"3,3",3,3,0.2,0.1,4.0,-2.0,0.709,0.729,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / S2 B08,Ibicuy: NISAR S HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,0",2,0,0.1,0.3,2.0,-6.0,0.502,0.524,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / S2 B08,Ibicuy: NISAR S HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,1",2,1,0.2,0.3,4.0,-6.0,0.414,0.454,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / S2 B08,Ibicuy: NISAR S HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,2",2,2,-0.1,0.1,-2.0,-2.0,0.451,0.455,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / S2 B08,Ibicuy: NISAR S HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,3",2,3,0.0,0.2,0.0,-4.0,0.467,0.471,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / S2 B08,Ibicuy: NISAR S HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,0",3,0,-0.1,0.3,-2.0,-6.0,0.459,0.472,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / S2 B08,Ibicuy: NISAR S HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,1",3,1,0.0,0.2,0.0,-4.0,0.443,0.453,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / S2 B08,Ibicuy: NISAR S HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,2",3,2,-0.2,0.1,-4.0,-2.0,0.438,0.452,si,Ibicuy: pares que cumplen para pixel
+Ibicuy,NISAR S HH / S2 B08,Ibicuy: NISAR S HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,3",3,3,-0.1,0.2,-2.0,-4.0,0.451,0.463,si,Ibicuy: pares que cumplen para pixel
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","0,0",0,0,1.1,0.2,22.0,-4.0,0.267,0.335,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","0,1",0,1,1.0,0.2,20.0,-4.0,0.251,0.318,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","0,2",0,2,0.9,0.2,18.0,-4.0,0.192,0.249,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","0,3",0,3,0.4,0.5,8.0,-10.0,0.198,0.231,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","1,0",1,0,1.6,0.0,32.0,0.0,0.219,0.284,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","1,1",1,1,0.9,0.1,18.0,-2.0,0.246,0.301,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","1,2",1,2,0.8,0.2,16.0,-4.0,0.206,0.261,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","1,3",1,3,-33.0,47.0,-660.0,-940.0,0.086,0.025,no,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","2,0",2,0,1.1,-0.1,22.0,2.0,0.223,0.279,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","2,1",2,1,1.1,0.4,22.0,-8.0,0.339,0.442,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","2,2",2,2,1.2,0.2,24.0,-4.0,0.301,0.398,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","2,3",2,3,0.8,0.3,16.0,-6.0,0.17,0.205,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","3,0",3,0,0.8,0.1,16.0,-2.0,0.434,0.492,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","3,1",3,1,1.1,0.0,22.0,0.0,0.258,0.342,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","3,2",3,2,1.0,0.1,20.0,-2.0,0.266,0.331,si,Bovril: S1 RTC VV / S2 B08
+Bovril,S1 RTC VV / S2 B08,Bovril: S1 RTC VV / S2 B08,no aplica,"NO CUMPLE, rigido","3,3",3,3,0.7,0.3,14.0,-6.0,0.079,0.103,si,Bovril: S1 RTC VV / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,0",0,0,-0.1,-0.1,-2.0,2.0,0.342,0.345,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,1",0,1,-0.1,-0.1,-2.0,2.0,0.331,0.334,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,2",0,2,-0.1,0.0,-2.0,0.0,0.432,0.433,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"0,3",0,3,-0.2,0.0,-4.0,0.0,0.319,0.33,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,0",1,0,0.0,-0.1,0.0,2.0,0.333,0.336,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,1",1,1,-0.2,0.1,-4.0,-2.0,0.306,0.31,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,2",1,2,-0.1,0.0,-2.0,0.0,0.281,0.282,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"1,3",1,3,-0.1,-0.1,-2.0,2.0,0.353,0.358,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,0",2,0,-0.1,0.0,-2.0,0.0,0.371,0.372,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,1",2,1,0.1,0.0,2.0,0.0,0.414,0.415,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,2",2,2,0.0,-0.1,0.0,2.0,0.348,0.351,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"2,3",2,3,-0.2,-0.1,-4.0,2.0,0.358,0.368,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,0",3,0,-0.3,-0.1,-6.0,2.0,0.37,0.378,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,1",3,1,0.1,-0.2,2.0,4.0,0.313,0.315,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,2",3,2,-0.2,-0.2,-4.0,4.0,0.451,0.457,si,Bovril: NISAR L HH / S2 B08
+Bovril,NISAR L HH / S2 B08,Bovril: NISAR L HH / S2 B08,no aplica,CUMPLE para fusion de pixel,"3,3",3,3,-0.3,0.0,-6.0,0.0,0.16,0.166,si,Bovril: NISAR L HH / S2 B08
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,0",0,0,0.0,3.6,0.0,-72.0,0.171,0.399,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,1",0,1,-0.5,3.3,-10.0,-66.0,0.113,0.38,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,2",0,2,-1.3,3.5,-26.0,-70.0,0.064,0.271,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,3",0,3,-0.8,4.4,-16.0,-88.0,0.066,0.362,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,0",1,0,-0.1,0.3,-2.0,-6.0,0.413,0.426,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,1",1,1,-1.2,-0.2,-24.0,4.0,0.367,0.451,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,2",1,2,-1.3,0.5,-26.0,-10.0,0.356,0.455,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,3",1,3,-1.5,1.0,-30.0,-20.0,0.197,0.297,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","2,0",2,0,-1.0,-4.1,-20.0,82.0,0.316,0.5,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","2,1",2,1,-0.9,-4.0,-18.0,80.0,0.119,0.334,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","2,2",2,2,-0.9,-2.2,-18.0,44.0,0.198,0.39,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","3,0",3,0,-0.9,-6.3,-18.0,126.0,0.155,0.45,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","3,1",3,1,-0.4,-5.9,-8.0,118.0,-0.007,0.303,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S1 RTC VV,Bovril: NovaSAR HH / S1 RTC VV (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","3,2",3,2,-0.9,-5.0,-18.0,100.0,0.069,0.387,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,0",0,0,1.2,4.0,24.0,-80.0,0.215,0.445,no,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,1",0,1,0.4,3.9,8.0,-78.0,0.107,0.397,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,2",0,2,-0.2,3.2,-4.0,-64.0,0.082,0.402,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,3",0,3,0.1,4.9,2.0,-98.0,0.131,0.482,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,0",1,0,0.9,0.0,18.0,0.0,0.439,0.482,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,1",1,1,-0.2,0.0,-4.0,0.0,0.48,0.486,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,2",1,2,-0.3,1.1,-6.0,-22.0,0.387,0.456,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,3",1,3,-0.1,2.3,-2.0,-46.0,0.299,0.452,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","2,0",2,0,0.0,-4.2,0.0,84.0,0.38,0.612,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","2,1",2,1,-0.1,-2.6,-2.0,52.0,0.211,0.496,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","2,2",2,2,0.4,-2.7,8.0,54.0,0.29,0.5,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","3,0",3,0,-0.1,-5.6,-2.0,112.0,0.254,0.536,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","3,1",3,1,0.1,-5.8,2.0,116.0,0.01,0.392,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / NISAR L HH,Bovril: NovaSAR HH / NISAR L HH (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","3,2",3,2,0.8,-5.1,16.0,102.0,0.112,0.602,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,0",0,0,1.0,3.9,20.0,-78.0,0.162,0.281,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,1",0,1,0.1,2.8,2.0,-56.0,0.107,0.299,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,2",0,2,-0.4,4.1,-8.0,-82.0,0.078,0.327,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","0,3",0,3,-0.1,4.7,-2.0,-94.0,0.081,0.299,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,0",1,0,0.6,0.0,12.0,0.0,0.249,0.274,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,1",1,1,0.3,0.5,6.0,-10.0,0.316,0.338,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,2",1,2,-0.4,1.0,-8.0,-20.0,0.28,0.31,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","1,3",1,3,0.0,1.8,0.0,-36.0,0.148,0.185,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","2,0",2,0,-0.3,-2.7,-6.0,54.0,0.221,0.332,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","2,1",2,1,0.0,-3.2,0.0,64.0,0.103,0.338,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","2,2",2,2,0.4,-3.1,8.0,62.0,0.211,0.318,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","3,0",3,0,0.8,-6.8,16.0,136.0,0.136,0.32,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","3,1",3,1,-0.1,-6.6,-2.0,132.0,-0.021,0.292,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (corregida),NovaSAR corregida,"NO CUMPLE, no rigido","3,2",3,2,0.9,-5.4,18.0,108.0,0.084,0.372,si,"Bovril: NovaSAR HH corregida (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","0,0",0,0,-3.4,28.0,-68.0,-560.0,-0.001,0.274,no,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","0,1",0,1,-4.6,27.4,-92.0,-548.0,0.007,0.302,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","0,2",0,2,-5.0,28.1,-100.0,-562.0,0.013,0.267,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","0,3",0,3,-4.7,28.9,-94.0,-578.0,-0.026,0.274,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","1,0",1,0,-3.9,23.8,-78.0,-476.0,-0.0,0.233,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","1,1",1,1,-4.5,24.6,-90.0,-492.0,-0.013,0.288,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","1,2",1,2,-5.1,25.2,-102.0,-504.0,0.039,0.268,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","1,3",1,3,-4.6,25.9,-92.0,-518.0,-0.004,0.171,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","2,0",2,0,-4.7,21.3,-94.0,-426.0,0.051,0.258,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","2,1",2,1,-4.4,21.0,-88.0,-420.0,-0.011,0.319,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","2,2",2,2,-4.4,20.9,-88.0,-418.0,0.021,0.29,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","3,0",3,0,-5.0,17.4,-100.0,-348.0,0.088,0.335,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","3,1",3,1,-4.7,17.8,-94.0,-356.0,-0.003,0.279,si,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"
+Bovril,NovaSAR HH / S2 B08,Bovril: NovaSAR HH / S2 B08 (sin corregir),NovaSAR sin corregir,"NO CUMPLE, no rigido","3,2",3,2,-3.4,18.2,-68.0,-364.0,0.055,0.351,no,"Bovril: NovaSAR HH sin corregir (S2, NISAR L o RTC)"

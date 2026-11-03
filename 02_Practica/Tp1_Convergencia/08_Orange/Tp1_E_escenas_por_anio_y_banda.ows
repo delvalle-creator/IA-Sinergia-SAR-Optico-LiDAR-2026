@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp1 E - Escenas verificadas por anio y banda" description="Matriz de convergencia de B_CONCORDIA resumida por anio y banda (Tp1_07).">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="Escenas por anio (File)" position="(80, 160)" />
+		<node id="1" name="Pivot Table" qualified_name="Orange.widgets.data.owpivot.OWPivot" project_name="Orange3" version="" title="Escenas por anio y banda" position="(330, 100)" />
+		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Tabla" position="(330, 240)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVmAQAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjFxEOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwMV9Db252ZXJnZW5jaWFc
+MDhfT3JhbmdlXGRhdG9zXFRwMV9lc2NlbmFzX3Bvcl9hbmlvLmNzdpSMBnByZWZpeJSMB2Jhc2Vk
+aXKUjAdyZWxwYXRolIweZGF0b3MvVHAxX2VzY2VuYXNfcG9yX2FuaW8uY3N2lIwFdGl0bGWUjACU
+jAVzaGVldJRoEIwLZmlsZV9mb3JtYXSUTnViYYwLcmVjZW50X3VybHOUXZSME3NhdmVkV2lkZ2V0
+R2VvbWV0cnmUTowLc2hlZXRfbmFtZXOUfZSMBnNvdXJjZZRLAIwDdXJslGgQjA1kb21haW5fZWRp
+dG9ylH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0
+LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJdmFyaWFibGVzlF2UaBp9
+lGgmXZQoXZQojARhbmlvlIwUT3JhbmdlLmRhdGEudmFyaWFibGWUjBBEaXNjcmV0ZVZhcmlhYmxl
+lJOUSwCMNDIwMTgsIDIwMTksIDIwMjAsIDIwMjEsIDIwMjIsIDIwMjMsIDIwMjQsIDIwMjUsIDIw
+MjaUiGVdlCiMBWJhbmRhlGguSwCMFkMsIEwsIExpREFSLCBQLCBvcHRpY2+UiWVdlCiMCHByb2R1
+Y3RvlGguSwCMeEFUTDA4IChMaURBUiksIEJJT01BU1MgKFApLCBHRURJMDJfQSAoTGlEQVIpLCBO
+SVNBUiAoTCksIFMxX0dSRCAoQyksIFMxX1NMQyAoQyksIFNlbnRpbmVsLTEgUlRDIChDKSwgU2Vu
+dGluZWwtMiAob3B0aWNvKZSJZV2UKIwHZXNjZW5hc5RoLIwSQ29udGludW91c1ZhcmlhYmxllJOU
+SwBoEIhlZXNoHEsBdYwKYXR0cmlidXRlc5QoaCtdlCiMBDIwMTiUjAQyMDE5lIwEMjAyMJSMBDIw
+MjGUjAQyMDIylIwEMjAyM5SMBDIwMjSUjAQyMDI1lIwEMjAyNpRlhpRoMV2UKIwBQ5SMAUyUjAVM
+aURBUpSMAVCUjAZvcHRpY2+UZYaUaDRdlCiMDUFUTDA4IChMaURBUimUjAtCSU9NQVNTIChQKZSM
+EEdFREkwMl9BIChMaURBUimUjAlOSVNBUiAoTCmUjApTMV9HUkQgKEMplIwKUzFfU0xDIChDKZSM
+ElNlbnRpbmVsLTEgUlRDIChDKZSME1NlbnRpbmVsLTIgKG9wdGljbymUZYaUaDdLAoaUdJSMBW1l
+dGFzlCmMCmNsYXNzX3ZhcnOUKYwSbW9kaWZpZWRfdmFyaWFibGVzlF2UdWJhdS4=
+</properties>
+		<properties node_id="1" format="pickle">gASVTwEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lE6MEXNlbF9hZ2dfZnVuY3Rpb25zlI+UKEsCkIwJc2VsZWN0aW9ulI+U
+jAtfX3ZlcnNpb25fX5RLAowQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRp
+bmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwLY29sX2ZlYXR1cmWUjAViYW5kYZRL
+ZYaUjAtyb3dfZmVhdHVyZZSMBGFuaW+US2WGlIwLdmFsX2ZlYXR1cmWUjAdlc2NlbmFzlEtmhpRo
+CEsCdYwKYXR0cmlidXRlc5R9lChoFksBaBNLAYwIcHJvZHVjdG+USwFoGUsCdYwFbWV0YXOUfZR1
+YmF1Lg==
+</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

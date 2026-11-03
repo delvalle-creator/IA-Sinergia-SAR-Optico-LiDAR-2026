@@ -1,0 +1,61 @@
+﻿fid,codigo,clase,revisado,n,x,y,motivo,imagen_usada
+14663,1,urbano,mal,1,403910.0,6530850.0,arboles de una plaza o patio,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+17197,1,urbano,bien,2,403210.0,6524950.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+16938,1,urbano,bien,3,402330.0,6525590.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+4803,1,urbano,mal,4,386210.0,6550310.0,borde de ruta y campo,Sentinel-2 04/09/2026
+17567,1,urbano,bien,5,397230.0,6523970.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+17062,1,urbano,mal,6,404450.0,6525290.0,costanera arbolada,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+16141,1,urbano,bien,7,405650.0,6527550.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+6460,1,urbano,bien,8,401790.0,6547370.0,,Sentinel-2 04/09/2026
+13552,1,urbano,mal,9,401590.0,6533370.0,vegetacion junto a una via,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+15564,1,urbano,bien,10,400150.0,6528790.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+16622,1,urbano,mal,11,395570.0,6526410.0,terreno de tierra y pasto junto a edificios,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+15629,1,urbano,bien,12,401290.0,6528650.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+14308,1,urbano,mal,13,403470.0,6531670.0,monte oscuro en el borde,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+15410,1,urbano,bien,14,400910.0,6529150.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+15822,1,urbano,bien,15,399910.0,6528250.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+16368,1,urbano,bien,16,401490.0,6526990.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+16437,1,urbano,bien,17,403590.0,6526810.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+16096,1,urbano,bien,18,403810.0,6527650.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+4256,1,urbano,bien,19,386910.0,6551290.0,,Sentinel-2 04/09/2026
+16519,1,urbano,bien,20,404310.0,6526650.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+16185,1,urbano,bien,21,403290.0,6527410.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+14731,1,urbano,bien,22,403950.0,6530690.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+16169,1,urbano,bien,23,403150.0,6527450.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+15110,1,urbano,bien,24,402750.0,6529830.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+16438,1,urbano,bien,25,405170.0,6526810.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+15353,1,urbano,bien,26,401010.0,6529310.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+17437,1,urbano,mal,27,394890.0,6524250.0,cancha de cesped,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+14839,1,urbano,mal,28,401490.0,6530450.0,baldio de tierra,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+14969,1,urbano,bien,29,401610.0,6530150.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+14163,1,urbano,mal,30,401350.0,6532010.0,borde de casas junto a una plantacion,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+14604,2,vegetacion lenosa,bien,31,386170.0,6530990.0,,Sentinel-2 04/09/2026
+14371,2,vegetacion lenosa,bien,32,386990.0,6531490.0,,Sentinel-2 04/09/2026
+5375,2,vegetacion lenosa,mal,33,395770.0,6549370.0,pastizal junto a una laguna,Sentinel-2 04/09/2026
+20286,2,vegetacion lenosa,mal,34,396110.0,6514910.0,borde de un lote de pastizal,Sentinel-2 04/09/2026
+1533,2,vegetacion lenosa,mal,35,381670.0,6556130.0,pastizal claro,Sentinel-2 04/09/2026
+15445,2,vegetacion lenosa,bien,36,391850.0,6529050.0,,Sentinel-2 04/09/2026
+7490,2,vegetacion lenosa,bien,37,387110.0,6545550.0,,Sentinel-2 04/09/2026
+8970,2,vegetacion lenosa,mal,38,383430.0,6542970.0,pastizal humedo,Sentinel-2 04/09/2026
+12000,2,vegetacion lenosa,bien,39,404470.0,6536870.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+446,2,vegetacion lenosa,mal,40,405410.0,6558110.0,cultivo herbaceo,Sentinel-2 04/09/2026
+13287,2,vegetacion lenosa,bien,41,383770.0,6533950.0,,Sentinel-2 04/09/2026
+230,2,vegetacion lenosa,mal,42,386870.0,6558430.0,pastizal,Sentinel-2 04/09/2026
+19113,2,vegetacion lenosa,bien,43,383670.0,6519050.0,,Sentinel-2 04/09/2026
+8691,2,vegetacion lenosa,bien,44,403730.0,6543450.0,,Sentinel-2 04/09/2026
+9542,2,vegetacion lenosa,bien,45,400790.0,6541910.0,,Sentinel-2 04/09/2026
+12810,2,vegetacion lenosa,bien,46,397930.0,6535110.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+19045,2,vegetacion lenosa,bien,47,392570.0,6519350.0,,Sentinel-2 04/09/2026
+4733,2,vegetacion lenosa,bien,48,400070.0,6550450.0,,Sentinel-2 04/09/2026
+17871,2,vegetacion lenosa,bien,49,399030.0,6523130.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+2365,2,vegetacion lenosa,mal,50,401130.0,6554610.0,borde del agua,Sentinel-2 04/09/2026
+18583,2,vegetacion lenosa,bien,51,387270.0,6520950.0,,Sentinel-2 04/09/2026
+15258,2,vegetacion lenosa,bien,52,383950.0,6529490.0,,Sentinel-2 04/09/2026
+18520,2,vegetacion lenosa,mal,53,391570.0,6521210.0,lote cultivado,Sentinel-2 04/09/2026
+8125,2,vegetacion lenosa,bien,54,388450.0,6544470.0,,Sentinel-2 04/09/2026
+250,2,vegetacion lenosa,bien,55,388350.0,6558390.0,,Sentinel-2 04/09/2026
+11830,2,vegetacion lenosa,bien,56,404870.0,6537310.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+11754,2,vegetacion lenosa,bien,57,402030.0,6537470.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026
+17416,2,vegetacion lenosa,bien,58,390550.0,6524330.0,,Sentinel-2 04/09/2026
+10196,2,vegetacion lenosa,bien,59,387250.0,6540650.0,,Sentinel-2 04/09/2026
+11981,2,vegetacion lenosa,bien,60,397670.0,6536910.0,,CBERS-4A 15/07/2026 y Sentinel-2 04/09/2026

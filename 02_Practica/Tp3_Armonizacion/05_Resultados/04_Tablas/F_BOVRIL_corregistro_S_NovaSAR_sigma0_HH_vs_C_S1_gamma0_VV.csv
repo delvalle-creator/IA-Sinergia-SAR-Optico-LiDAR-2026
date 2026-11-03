@@ -1,0 +1,15 @@
+﻿ventana,dy_px,dx_px,corr_antes,corr_despues,usada,mediana_dx_px,mediana_dy_px,pixel_m,ref,mov
+"0,0",27.7,-4.5,0.02,0.357,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"0,1",27.4,-5.2,-0.001,0.359,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"0,2",28.1,-5.8,0.012,0.224,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"0,3",28.8,-5.7,0.002,0.331,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"1,0",24.4,-4.8,0.008,0.376,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"1,1",23.9,-5.8,-0.004,0.422,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"1,2",24.9,-5.9,0.05,0.398,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"1,3",25.0,-6.1,0.034,0.253,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"2,0",20.1,-5.7,0.087,0.409,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"2,1",21.7,-6.0,0.009,0.299,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"2,2",21.2,-5.2,-0.017,0.369,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"3,0",17.8,-5.6,0.062,0.428,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"3,1",18.1,-5.7,-0.003,0.264,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH
+"3,2",18.9,-5.4,0.059,0.38,True,-5.7,24.15,20.0,C_S1_gamma0_VV,S_NovaSAR_sigma0_HH

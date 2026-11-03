@@ -1,0 +1,4 @@
+﻿variante,datos_usados,exactitud_global,omision,comision,area_estimada_ha,area_segun_mapa_ha,superficie_mapeada_ha,porcentaje_estimado,omision_frente_a_la_mejor,comision_frente_a_la_mejor,exactitud_global_frente_a_la_mejor
+Optico solo,Sentinel-2,0.979 +/- 0.025,0.482 +/- 0.347,0.156 +/- 0.128,6336 +/- 4246,3887,171985,3.7 +/- 2.5 %,es la mejor,es la mejor,es la mejor
+SAR solo (C),Sentinel-1,0.960 +/- 0.034,0.738 +/- 0.191,0.258 +/- 0.157,8260 +/- 5913,2912,172172,4.8 +/- 3.4 %,sin diferencia demostrada con Optico solo (IC superpuestos),sin diferencia demostrada con Optico solo (IC superpuestos),sin diferencia demostrada con Optico solo (IC superpuestos)
+Multisensor,C + optico,0.968 +/- 0.030,0.553 +/- 0.281,0.219 +/- 0.146,8254 +/- 5166,4719,172172,4.8 +/- 3.0 %,sin diferencia demostrada con Optico solo (IC superpuestos),sin diferencia demostrada con Optico solo (IC superpuestos),sin diferencia demostrada con Optico solo (IC superpuestos)

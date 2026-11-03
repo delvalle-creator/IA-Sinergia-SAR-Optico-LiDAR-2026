@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp5 B - Comparacion de las cuatro variantes" description="Salida de Tp4_04 (tabla_de_variantes_quemado.csv) con las cifras separadas en columnas numericas: exactitud global, omision y comision de quemado y porcentaje quemado estimado, cada una con su IC 95 %.">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="Tabla de variantes (File)" position="(40, 300)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Tabla de variantes" position="(360, 20)" />
+		<node id="2" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Omision de quemado por variante" position="(360, 170)" />
+		<node id="3" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Comision de quemado por variante" position="(360, 320)" />
+		<node id="4" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Exactitud global por variante" position="(360, 470)" />
+		<node id="5" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Porcentaje quemado estimado por variante" position="(360, 620)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(660, 170, 460, 200)" font-family="Arial" font-size="14">Orange no dibuja los intervalos de confianza: estan en la tabla (columnas IC95_). Una variante mejora a otra si el IC del 95 % de la DIFERENCIA excluye el cero (bitacora de Tp4_04); que los IC de cada una se superpongan no prueba que sean iguales.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVtgEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjF1EOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwNV9JbmNlbmRpb3NcMDhf
+T3JhbmdlL2RhdG9zXFRwNV9CX3RhYmxhX2RlX3ZhcmlhbnRlcy5jc3aUjAZwcmVmaXiUjAdiYXNl
+ZGlylIwHcmVscGF0aJSMImRhdG9zL1RwNV9CX3RhYmxhX2RlX3ZhcmlhbnRlcy5jc3aUjAV0aXRs
+ZZSMAJSMBXNoZWV0lGgQjAtmaWxlX2Zvcm1hdJROdWJhjAtyZWNlbnRfdXJsc5RdlIwTc2F2ZWRX
+aWRnZXRHZW9tZXRyeZROjAtzaGVldF9uYW1lc5R9lIwGc291cmNllEsAjAN1cmyUaBCMDWRvbWFp
+bl9lZGl0b3KUfZSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UdS4=
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': None, 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASV2wEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAVncmFw
+aJR9lIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZROjAlzZWxlY3Rpb26UTowPdmlzdWFsX3NldHRpbmdz
+lH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNl
+dHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwKYXR0cmlidXRlc5R9lCiMEGV4YWN0aXR1ZF9nbG9i
+YWyUSwKMC0lDOTVfZ2xvYmFslEsCjA9vbWlzaW9uX3F1ZW1hZG+USwKMDElDOTVfb21pc2lvbpRL
+AowQY29taXNpb25fcXVlbWFkb5RLAowNSUM5NV9jb21pc2lvbpRLAowLcXVlbWFkb19wY3SUSwKM
+EElDOTVfcXVlbWFkb19wY3SUSwJ1jAVtZXRhc5R9lIwIdmFyaWFudGWUSwNzjAZ2YWx1ZXOUfZQo
+aAlLAYwJYW5ub3RfdmFylGgdS2eGlIwJY29sb3JfdmFylE5K/v///4aUaAN9lIwJZ3JvdXBfdmFy
+lGgjjAxzZWxlY3RlZF92YXKUaBVLZoaUdXViYXUu
+</properties>
+		<properties node_id="3" format="pickle">gASV2wEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAVncmFw
+aJR9lIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZROjAlzZWxlY3Rpb26UTowPdmlzdWFsX3NldHRpbmdz
+lH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNl
+dHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwKYXR0cmlidXRlc5R9lCiMEGV4YWN0aXR1ZF9nbG9i
+YWyUSwKMC0lDOTVfZ2xvYmFslEsCjA9vbWlzaW9uX3F1ZW1hZG+USwKMDElDOTVfb21pc2lvbpRL
+AowQY29taXNpb25fcXVlbWFkb5RLAowNSUM5NV9jb21pc2lvbpRLAowLcXVlbWFkb19wY3SUSwKM
+EElDOTVfcXVlbWFkb19wY3SUSwJ1jAVtZXRhc5R9lIwIdmFyaWFudGWUSwNzjAZ2YWx1ZXOUfZQo
+aAlLAYwJYW5ub3RfdmFylGgdS2eGlIwJY29sb3JfdmFylE5K/v///4aUaAN9lIwJZ3JvdXBfdmFy
+lGgjjAxzZWxlY3RlZF92YXKUaBdLZoaUdXViYXUu
+</properties>
+		<properties node_id="4" format="pickle">gASV2wEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAVncmFw
+aJR9lIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZROjAlzZWxlY3Rpb26UTowPdmlzdWFsX3NldHRpbmdz
+lH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNl
+dHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwKYXR0cmlidXRlc5R9lCiMEGV4YWN0aXR1ZF9nbG9i
+YWyUSwKMC0lDOTVfZ2xvYmFslEsCjA9vbWlzaW9uX3F1ZW1hZG+USwKMDElDOTVfb21pc2lvbpRL
+AowQY29taXNpb25fcXVlbWFkb5RLAowNSUM5NV9jb21pc2lvbpRLAowLcXVlbWFkb19wY3SUSwKM
+EElDOTVfcXVlbWFkb19wY3SUSwJ1jAVtZXRhc5R9lIwIdmFyaWFudGWUSwNzjAZ2YWx1ZXOUfZQo
+aAlLAYwJYW5ub3RfdmFylGgdS2eGlIwJY29sb3JfdmFylE5K/v///4aUaAN9lIwJZ3JvdXBfdmFy
+lGgjjAxzZWxlY3RlZF92YXKUaBNLZoaUdXViYXUu
+</properties>
+		<properties node_id="5" format="pickle">gASV2wEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAVncmFw
+aJR9lIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZROjAlzZWxlY3Rpb26UTowPdmlzdWFsX3NldHRpbmdz
+lH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNl
+dHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwKYXR0cmlidXRlc5R9lCiMEGV4YWN0aXR1ZF9nbG9i
+YWyUSwKMC0lDOTVfZ2xvYmFslEsCjA9vbWlzaW9uX3F1ZW1hZG+USwKMDElDOTVfb21pc2lvbpRL
+AowQY29taXNpb25fcXVlbWFkb5RLAowNSUM5NV9jb21pc2lvbpRLAowLcXVlbWFkb19wY3SUSwKM
+EElDOTVfcXVlbWFkb19wY3SUSwJ1jAVtZXRhc5R9lIwIdmFyaWFudGWUSwNzjAZ2YWx1ZXOUfZQo
+aAlLAYwJYW5ub3RfdmFylGgdS2eGlIwJY29sb3JfdmFylE5K/v///4aUaAN9lIwJZ3JvdXBfdmFy
+lGgjjAxzZWxlY3RlZF92YXKUaBlLZoaUdXViYXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

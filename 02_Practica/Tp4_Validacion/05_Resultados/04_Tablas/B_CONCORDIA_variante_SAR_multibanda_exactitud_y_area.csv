@@ -1,0 +1,3 @@
+﻿codigo,clase,n_puntos_estrato,area_mapa_ha,area_estimada_ha,IC95_area_ha,exactitud_usuario,IC95_usuario,usuario_Wilson_inf,usuario_Wilson_sup,comision,exactitud_productor,IC95_productor,omision,IC95_area_inf,IC95_area_sup,usuario_inf,usuario_sup,productor_inf,productor_sup,productor_estimable,aviso_normal,exactitud_global,IC95_global,area_total_ha,n_total
+1,urbano,49,5109.8,8428.9,5309.7,0.898,0.086,0.782,0.956,0.102,0.544,0.343,0.456,3119.2,13738.6,0.812,0.984,0.201,0.887,si,,0.9747,0.0308,172172.0,136
+2,no_urbano,87,167062.2,163743.1,5309.7,0.977,0.032,0.92,0.994,0.023,0.997,0.003,0.003,158433.4,169052.8,0.945,1.0,0.994,1.0,si,aproximacion normal inadecuada (n*p < 5): leer Wilson,0.9747,0.0308,172172.0,136

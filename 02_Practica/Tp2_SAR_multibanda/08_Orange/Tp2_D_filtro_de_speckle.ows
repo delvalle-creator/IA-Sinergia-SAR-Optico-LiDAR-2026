@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Tp2 D - El filtro de speckle" description="Gamma0 del mismo Sentinel-1 sin filtrar y con Refined Lee, en los poligonos de agua calma, pajonal y monte.">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="Sin y con filtro (File)" position="(80, 200)" />
+		<node id="1" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="VV por clase, sin y con filtro" position="(330, 100)" />
+		<node id="2" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distribucion de VV, sin y con filtro" position="(330, 240)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASV4AQAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjGZEOlxDVVJTT1NfQ0VSRUdFT18yMDI2XDAyX1ByYWN0aWNhXFRwMl9TQVJfbXVsdGliYW5k
+YVwwOF9PcmFuZ2VcZGF0b3NcVHAyX3NwZWNrbGVfc2luX3lfY29uX2ZpbHRyby5jc3aUjAZwcmVm
+aXiUjAdiYXNlZGlylIwHcmVscGF0aJSMJmRhdG9zL1RwMl9zcGVja2xlX3Npbl95X2Nvbl9maWx0
+cm8uY3N2lIwFdGl0bGWUjACUjAVzaGVldJRoEIwLZmlsZV9mb3JtYXSUTnViYYwLcmVjZW50X3Vy
+bHOUXZSME3NhdmVkV2lkZ2V0R2VvbWV0cnmUTowLc2hlZXRfbmFtZXOUfZSMBnNvdXJjZZRLAIwD
+dXJslGgQjA1kb21haW5fZWRpdG9ylH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5n
+c5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2U
+KIwJdmFyaWFibGVzlF2UaBp9lGgmXZQoXZQojAVjbGFzZZSMFE9yYW5nZS5kYXRhLnZhcmlhYmxl
+lIwQRGlzY3JldGVWYXJpYWJsZZSTlEsAjCNhZ3VhX2NhbG1hLCBtb250ZV9vX2Jvc3F1ZSwgcGFq
+b25hbJSJZV2UKIwGZmlsdHJvlGguSwCMF1JlZmluZWQgTGVlLCBzaW4gZmlsdHJvlIllXZQojA5j
+bGFzZV95X2ZpbHRyb5RoLksAjJlhZ3VhX2NhbG1hIHwgUmVmaW5lZCBMZWUsIGFndWFfY2FsbWEg
+fCBzaW4gZmlsdHJvLCBtb250ZV9vX2Jvc3F1ZSB8IFJlZmluZWQgTGVlLCBtb250ZV9vX2Jvc3F1
+ZSB8IHNpbiBmaWx0cm8sIHBham9uYWwgfCBSZWZpbmVkIExlZSwgcGFqb25hbCB8IHNpbiBmaWx0
+cm+UiWVdlCiMBVZWX2RClGgsjBJDb250aW51b3VzVmFyaWFibGWUk5RLAGgQiGVdlCiMBVZIX2RC
+lGg5SwBoEIhlZXNoHEsBdYwKYXR0cmlidXRlc5QoaCtdlCiMCmFndWFfY2FsbWGUjA5tb250ZV9v
+X2Jvc3F1ZZSMB3Bham9uYWyUZYaUaDFdlCiMC1JlZmluZWQgTGVllIwKc2luIGZpbHRyb5RlhpRo
+NF2UKIwYYWd1YV9jYWxtYSB8IFJlZmluZWQgTGVllIwXYWd1YV9jYWxtYSB8IHNpbiBmaWx0cm+U
+jBxtb250ZV9vX2Jvc3F1ZSB8IFJlZmluZWQgTGVllIwbbW9udGVfb19ib3NxdWUgfCBzaW4gZmls
+dHJvlIwVcGFqb25hbCB8IFJlZmluZWQgTGVllIwUcGFqb25hbCB8IHNpbiBmaWx0cm+UZYaUaDdL
+AoaUaDtLAoaUdJSMBW1ldGFzlCmMCmNsYXNzX3ZhcnOUKYwSbW9kaWZpZWRfdmFyaWFibGVzlF2U
+dWJhdS4=
+</properties>
+		<properties node_id="1" format="pickle">gASVywEAAAAAAAB9lCiMB2NvbXBhcmWUSwGMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZROjBBzaG93X2Fubm90YXRpb25zlIiMC3Nob3dfbGFiZWxzlIiMDXNpZ190aHJl
+c2hvbGSURz+pmZmZmZmajApzb3J0X2ZyZXFzlImMCHN0YXR0ZXN0lEsAjAlzdHJldGNoZWSUiIwL
+X192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCWF0dHJpYnV0ZZSMBVZWX2RClEtmhpSM
+CWdyb3VwX3ZhcpSMDmNsYXNlX3lfZmlsdHJvlEtlhpSMCXNlbGVjdGlvbpQpSv7///+GlGgMSwF1
+jAphdHRyaWJ1dGVzlH2UKIwFY2xhc2WUSwGMBmZpbHRyb5RLAWgaSwFoF0sCjAVWSF9kQpRLAnWM
+BW1ldGFzlH2UdWJhdS4=
+</properties>
+		<properties node_id="2" format="pickle">gASVwgEAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiMEGN1bXVs
+YXRpdmVfZGlzdHKUiYwTZml0dGVkX2Rpc3RyaWJ1dGlvbpRLAIwJaGlkZV9iYXJzlImMDWtkZV9z
+bW9vdGhpbmeUSwqME3NhdmVkV2lkZ2V0R2VvbWV0cnmUTowKc2hvd19wcm9ic5SJjAxzb3J0X2J5
+X2ZyZXGUiYwPc3RhY2tlZF9jb2x1bW5zlImMC19fdmVyc2lvbl9flEsCjBBjb250ZXh0X3NldHRp
+bmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOU
+fZQojARjdmFylIwGZmlsdHJvlEtlhpSMDm51bWJlcl9vZl9iaW5zlEsASv7///+GlIwNc2VsZWN0
+ZWRfYmFyc5SPlEr+////hpSMA3ZhcpSMBVZWX2RClEtmhpRoC0sCdYwKYXR0cmlidXRlc5R9lCiM
+BWNsYXNllEsBaBZLAYwOY2xhc2VfeV9maWx0cm+USwFoHksCjAVWSF9kQpRLAnWMBW1ldGFzlH2U
+dWJhdS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

@@ -1,0 +1,6 @@
+variante,id,obs,jrc,seca,mapa,orig,nueva
+optico,19,pequena laguna,0.0,True,2,1,2
+optico,132,agua habitual JRC 79,79.0,False,1,2,1
+C,62,agua habitual JRC 50,50.0,False,1,2,1
+multisensor,105,orilla anegada,9.0,True,2,1,2
+multisensor,137,agua habitual JRC 81,81.0,False,1,2,1

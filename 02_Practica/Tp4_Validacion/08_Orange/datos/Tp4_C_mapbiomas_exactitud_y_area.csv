@@ -1,0 +1,8 @@
+clase,n_puntos_estrato,area_mapa_ha,area_estimada_ha,IC95_area_ha,exactitud_usuario,IC95_usuario,exactitud_productor,IC95_productor,estimada_sobre_mapa
+1 agua_permanente,10,10466.4,11097.9,1040.7,1.0,0.0,0.943,0.088,1.06
+2 humedal_pajonal,10,5188.8,7350.2,11022.6,0.1,0.196,0.071,0.166,1.42
+3 monte_nativo,10,14127.1,10484.2,8485.7,0.2,0.261,0.269,0.324,0.74
+4 plantacion_forestal,10,28460.1,38068.9,16547.5,0.8,0.261,0.598,0.245,1.34
+5 cultivo_pastura,10,54186.5,36384.0,18381.4,0.5,0.327,0.745,0.16,0.67
+6 suelo_desnudo,10,1127.0,225.4,294.5,0.2,0.261,1.0,0.0,0.2
+7 urbano,10,4100.6,13933.1,14216.9,0.7,0.299,0.206,0.221,3.4

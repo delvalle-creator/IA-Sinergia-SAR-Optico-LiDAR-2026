@@ -1,0 +1,17 @@
+[general]
+name=NISAR GCOV Reader
+qgisMinimumVersion=3.22
+description=Abre productos NISAR GCOV (Nivel 2, HDF5) y los carga como rasteres georreferenciados. Independiente: no modifica ningun otro complemento ni la lectura de productos NISAR de Nivel 1.
+about=Lee la estructura interna del HDF5 GCOV (grillas frequencyA/B), reconstruye la georreferencia a partir de xCoordinates/yCoordinates y del codigo EPSG del producto, y exporta cada polarizacion como GeoTIFF o como producto BEAM-DIMAP para SNAP. Opcion de convertir gamma0 lineal a decibeles. Soporta productos duales, compactos y cuadripolares: los terminos complejos fuera de la diagonal se escriben como par real/imaginario y, en cuadripolar, pueden exportarse con la nomenclatura de matriz C3 de SNAP. Desarrollado para cursos de posgrado en teledeteccion (H. F. del Valle).
+version=1.8.1
+author=H. F. del Valle
+email=hfdelvalle@gmail.com
+tracker=https://example.invalid/issues
+repository=https://example.invalid/repo
+homepage=https://example.invalid
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=no
+tags=NISAR,SAR,GCOV,HDF5,radar,gamma0

@@ -1,0 +1,6 @@
+variante,datos_usados,exactitud_global,IC_global,omision_urbano,IC_omision,comision_urbano,IC_comision,porcentaje_estimado,IC_porcentaje,area_segun_mapa_ha
+Optico solo,Sentinel-2,0.979,0.021,0.323,0.43,0.314,0.129,3.3,2.1,5584
+SAR solo (C),Sentinel-1,0.974,0.021,0.388,0.469,0.471,0.138,2.7,2.1,5463
+SAR multibanda,C + L,0.982,0.021,0.325,0.432,0.255,0.121,3.3,2.1,5110
+Multisensor,C + L + optico,0.983,0.021,0.288,0.403,0.196,0.11,3.7,2.1,5615
+Multisensor con S,C + S + L + optico,0.9725,0.0293,0.295,0.288,0.115,0.088,7.1,2.9,3825

@@ -1,0 +1,7 @@
+﻿mapa_1,mapa_2,dif_global,IC95_dif_global,global,dif_productor_3,IC95_dif_productor,dif_usuario_3,IC95_dif_usuario
+clase_mapa,abiertos_herbaceo,-0.024,0.0587,no demostrada,0.2695,0.3236,0.2,0.2613
+clase_mapa,inundables_herbaceo,-0.0176,0.0191,no demostrada,0.0,0.0,0.0,0.0
+clase_mapa,ambas,-0.0417,0.0617,no demostrada,0.2695,0.3236,0.2,0.2613
+abiertos_herbaceo,inundables_herbaceo,0.0064,0.0617,no demostrada,-0.2695,0.3236,-0.2,0.2613
+abiertos_herbaceo,ambas,-0.0176,0.0191,no demostrada,0.0,0.0,0.0,0.0
+inundables_herbaceo,ambas,-0.024,0.0587,no demostrada,0.2695,0.3236,0.2,0.2613

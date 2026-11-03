@@ -1,0 +1,3 @@
+﻿variante,datos_usados,exactitud_global,omision,comision,area_estimada_ha,area_segun_mapa_ha,superficie_mapeada_ha,porcentaje_estimado,omision_frente_a_la_mejor,comision_frente_a_la_mejor,exactitud_global_frente_a_la_mejor
+Solo optico,Sentinel-2,0.963 +/- 0.025,0.901 +/- 0.157,0.906 +/- 0.103,369 +/- 461,391,18684,2.0 +/- 2.5 %,diferencia +0.300 +/- 0.452 con Multisensor: no demostrada con esta muestra,es la mejor,es la mejor
+Multisensor,Sentinel-2 + NovaSAR S + Sentinel-1 C + FABDEM,0.833 +/- 0.026,0.601 +/- 0.424,0.930 +/- 0.077,468 +/- 439,2677,16587,2.8 +/- 2.6 %,es la mejor,diferencia +0.024 +/- 0.129 con Solo optico: no demostrada con esta muestra,diferencia -0.130 +/- 0.036 con Solo optico: significativa al 95 %
