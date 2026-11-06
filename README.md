@@ -27,7 +27,7 @@ Un curso práctico (40 horas, cinco días) sobre el uso conjunto de radar de ape
 
 1. `02_Practica/00_LEEME_PRIMERO.md`: organización del curso, cronograma y preparación del entorno de Miniforge.
 2. `02_Practica/00_Guia_teorica_practica/Guia_teorico_practica_SAR_Optico_LiDAR.pdf`: la guía completa.
-3. `01_Teoria`: las diez presentaciones de teoría, en PDF.
+3. `01_Teoria`: las once presentaciones de teoría, en PDF (la 11, de mosaicos y productos globales para Entre Ríos).
 
 Los archivos `.md` se leen formateados en GitHub, o en VS Code con `Ctrl+Shift+V`.
 
