@@ -16,6 +16,9 @@ identifiers:
     value: 10.5281/zenodo.23929604
     description: "DOI de concepto (todas las versiones)"
   - type: doi
+    value: 10.5281/zenodo.24019793
+    description: "DOI de la versión 1.1.0"
+  - type: doi
     value: 10.5281/zenodo.23929605
     description: "DOI de la versión 1.0.0"
 repository-code: "https://github.com/delvalle-creator/IA-Sinergia-SAR-Optico-LiDAR-2026"

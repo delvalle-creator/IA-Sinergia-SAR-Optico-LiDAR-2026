@@ -13,6 +13,7 @@ Laboratorio de Ecología, Meteorología y Gestión de Fuegos (LEMIV), Facultad d
 | | DOI |
 |---|---|
 | Todas las versiones (DOI de concepto) | [10.5281/zenodo.23929604](https://doi.org/10.5281/zenodo.23929604) |
+| Versión 1.1.0 | [10.5281/zenodo.24019793](https://doi.org/10.5281/zenodo.24019793) |
 | Versión 1.0.0 | [10.5281/zenodo.23929605](https://doi.org/10.5281/zenodo.23929605) |
 
 ## Desarrollo con inteligencia artificial
@@ -64,6 +65,6 @@ Las imágenes Pléiades y Pléiades Neo de `02_Practica/00_COMUN/10_Alta_resoluc
 
 ## Cómo citar
 
-del Valle, H. F. (2026). *Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), 2026* (Versión 1.0.0) [Material de curso]. Zenodo. https://doi.org/10.5281/zenodo.23929605
+del Valle, H. F. (2026). *Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), 2026* (Versión 1.1.0) [Material de curso]. Zenodo. https://doi.org/10.5281/zenodo.24019793
 
 También puede usar el botón **Cite this repository** de GitHub o el archivo `CITATION.cff`.
