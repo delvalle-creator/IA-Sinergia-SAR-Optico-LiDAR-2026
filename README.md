@@ -28,7 +28,7 @@ Un curso práctico (40 horas, cinco días) sobre el uso conjunto de radar de ape
 
 1. `02_Practica/00_LEEME_PRIMERO.md`: organización del curso, cronograma y preparación del entorno de Miniforge.
 2. `02_Practica/00_Guia_teorica_practica/Guia_teorico_practica_SAR_Optico_LiDAR.pdf`: la guía completa.
-3. `01_Teoria`: las once presentaciones de teoría, en PDF (la 11, de mosaicos y productos globales para Entre Ríos).
+3. `01_Teoria`: las doce presentaciones de teoría, en PDF (la 11, de mosaicos y productos globales para Entre Ríos; la 12, de los modelos digitales de terreno y de superficie GEM-15 de 15 m de Entre Ríos).
 
 Los archivos `.md` se leen formateados en GitHub, o en VS Code con `Ctrl+Shift+V`.
 
@@ -65,6 +65,6 @@ Las imágenes Pléiades y Pléiades Neo de `02_Practica/00_COMUN/10_Alta_resoluc
 
 ## Cómo citar
 
-del Valle, H. F. (2026). *Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), 2026* (Versión 1.1.0) [Material de curso]. Zenodo. https://doi.org/10.5281/zenodo.24019793
+del Valle, H. F. (2026). *Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), 2026* (Versión 1.2.0) [Material de curso]. Zenodo. https://doi.org/10.5281/zenodo.23929604
 
 También puede usar el botón **Cite this repository** de GitHub o el archivo `CITATION.cff`.
