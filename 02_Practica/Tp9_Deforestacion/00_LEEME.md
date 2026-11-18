@@ -77,7 +77,7 @@ L2A de altura del bosque (FH) y de retrodispersión con el suelo cancelado (GN) 
 | NISAR GCOV del 17/09/2026 (traza 161, cuadro 162, ascendente) | `00_COMUN\08_Originales_crudos\NISAR\NISAR_L2_PR_GCOV_030_161_A_162_2005_DHDH_A_20260917T095508_20260917T095543_P05023_N_F_J_001.h5` | `Tp1_04_buscar_asf.py --solo NISAR --descargar 1` |
 | Huellas GEDI L2A del sitio, filtradas | `Tp1_Convergencia\05_Resultados\03_Vectores\lidar_C_FEDERAL.gpkg`, capa `gedi_l2a` | `Tp1_05_buscar_lidar.py --sitio C_FEDERAL --descargar` |
 | Cobertura de control a 20 m | `Tp4_Validacion\02_Subsets_SNAP_QGIS\C_FEDERAL_cobertura_control_20m.tif` | `Tp4_01_cobertura_de_control.py --sitio C_FEDERAL --pixel 20` con el monte **confirmado sin cambio** digitalizado (clase 3) |
-| NovaSAR-1 escena 50896 | `E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE` | Archivo del curso (CSIRO) |
+| NovaSAR-1 escena 50896 | `00_COMUN\08_Originales_crudos\LOCALES\NOVASAR` | Archivo del curso (CSIRO) |
 | BIOMASS de Federal (banda P) | `02_Subsets_SNAP_QGIS\QGIS_GeoTIFF\C_FEDERAL_BIOMASS_P_20260812.tif` (γ⁰ HH, HV, VH y VV lineal; el `.dim` y el RGB HH-HV-HH/HV al lado) | `armar_subsets.py Tp9` (ESA MAAP) — **YA VIENE HECHO** |
 
 Si la cobertura de control no tiene el monte confirmado, la calibración cruzada

@@ -14,7 +14,8 @@ relevada en 2018, la zona de referencia, la grieta y la capa de cicatriz y depos
 desenrollada con snaphu (00_COMUN\09_Herramientas\desarrollo_docente\Tp7, 22/10/2026) de la banda X (COSMO-SkyMed 15-19/10/2018) y la coherencia y el desplazamiento de la banda C (Sentinel-1, HyP3); los MDE; el
 contexto (MapBiomas 2018 con la leyenda oficial, CCI Biomass 2024, banda P de BIOMASS en RGB HH, VH, HH/VH y la altura
 FH sin agua) y el optico (Sentinel-2 del 19/10/2018, CBERS-4A de 2 m de 2026 y Pleiades de CONAE 2022). Las capas de
-COSMO-SkyMed se leen de F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE; Pleiades necesita internet.
+COSMO-SkyMed y la grieta se leen de Tp7_Barrancas_deslizamientos\02_Subsets_SNAP_QGIS (COSMO_InSAR_HI_2018 y
+Grieta_2018); Pleiades necesita internet.
 La capa de cicatriz y deposito tiene los dos poligonos del docente interpretados sobre el CBERS-4A de 2 m del 26/09/2026
 (22/10/2026, a confirmar con fotos de campo). La grieta va en rojo grueso con halo blanco.
 Marcadores: el sitio, la barranca y la cicatriz. Grupo "Para seguir": velocidad vertical HyP3 2025-2026 del Tp10,

@@ -74,11 +74,11 @@ python ..\..\00_COMUN\configuracion_comun.py
 **Control.** Que no diga `NO EXISTE` en la carpeta de originales. Si los originales están en otro disco, defina la variable antes de correr nada:
 
 ```
-set CURSO_SAR_ORIGINALES=E:\ORIGINALES_CURSO
-set CURSO_SAR_NOVASAR=E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE
+set CURSO_SAR_ORIGINALES=<carpeta de los originales>
+set CURSO_SAR_NOVASAR=<carpeta con las escenas NovaSAR-1>
 ```
 
-(Las rutas son ejemplos: escriba las de su equipo. `set` vale sólo para esa ventana de consola.)
+(Escriba entre los signos < > las carpetas de su equipo. `set` vale sólo para esa ventana de consola.)
 
 **Errores típicos.**
 

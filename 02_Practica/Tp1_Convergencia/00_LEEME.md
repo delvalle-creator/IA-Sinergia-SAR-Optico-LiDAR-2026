@@ -97,12 +97,12 @@ descartada desde el principio, por más que el algoritmo «corra».
 - El entorno `sar` de Miniforge instalado desde `00_COMUN/entorno_sar.yml` y revisado
   con `python comprobar_entorno.py`, corrido desde `00_COMUN` (debe terminar con
   `Resultado: TODO EN ORDEN`).
-- Las escenas NovaSAR-1 (carpeta `E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE`)
+- Las escenas NovaSAR-1 (carpeta `00_COMUN\08_Originales_crudos\LOCALES\NOVASAR`)
   y los NISAR GCOV del Delta (`00_COMUN\08_Originales_crudos\NISAR_DELTA`, que baja el docente con
-  `datos_crudos.py nisar`). Las escenas NovaSAR se leen de donde están o de su
-  copia en `08_Originales_crudos\LOCALES`.
-- El archivo del curso 2023 (`E:\CURSO SAR CEREGEO 2023\PRACTICAL EXERCISES`) y los
-  COSMO-SkyMed de Diamante (`F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE`).
+  `datos_crudos.py nisar`). Todas las rutas de este práctico
+  están dentro de la carpeta del curso.
+- El archivo del curso 2023 (`00_COMUN\08_Originales_crudos\LOCALES\CURSO_2023`) y los
+  COSMO-SkyMed de Diamante (`00_COMUN\08_Originales_crudos\LOCALES\COSMO_DIAMANTE`).
 - Los granulos GEDI y ATL08 que se usen en el conteo, ya bajados en
   `<ORIGINALES>\LIDAR\<SITIO>\GEDI02_A\` y `...\ATL08\`. Bajar un granulo GEDI lleva
   entre 0,2 y 3 GB: en clase **no** se descarga.

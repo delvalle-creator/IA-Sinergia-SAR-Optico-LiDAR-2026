@@ -77,9 +77,9 @@ para quien consiga un par SAOCOM de otro período, pero eso ya es otra pregunta.
 
 | Insumo | Dónde está | Quién lo dejó |
 |---|---|---|
-| COSMO-SkyMed Himage y Spotlight de Diamante, octubre de 2018 (banda X) | `F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE` (copia en `E:\CURSO SAR CEREGEO 2023\PRACTICAL EXERCISES\InSAR\02 IMAGES\CSKS SCS\DIAMANTE`) | Archivo del docente |
-| Producto InSAR del par 15/10–19/10/2018, procesado en SNAP en el curso 2023 | `E:\CURSO SAR CEREGEO 2023\PRACTICAL EXERCISES\...\InSAR HI\` (`*_Stack_ifg_dinsar_flt_TC.dim`) | Curso 2023. **`Unw_Phase` en cero** |
-| Polígono de la ladera `barranca-periferia_Polygon.shp` | `F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE\GRIETAS\` | Relevamiento del curso 2018 |
+| COSMO-SkyMed Himage y Spotlight de Diamante, octubre de 2018 (banda X) | `00_COMUN\08_Originales_crudos\LOCALES\COSMO_DIAMANTE` (copia en `00_COMUN\08_Originales_crudos\LOCALES\CURSO_2023\InSAR\02 IMAGES\CSKS SCS\DIAMANTE`) | Archivo del curso |
+| Producto InSAR del par 15/10–19/10/2018, procesado en SNAP en el curso 2023 | `Tp7_Barrancas_deslizamientos\02_Subsets_SNAP_QGIS\COSMO_InSAR_HI_2018\` (`subset_*_Stack_ifg_dinsar_flt_TC.dim`) | Curso 2023. **`Unw_Phase` en cero** |
+| Polígono de la ladera (`barranca-periferia_Polygon.shp`, ya reparado) y grieta | `Tp7_Barrancas_deslizamientos\04_Tablas_de_trabajo\E1_ladera_reparada.gpkg` y `02_Subsets_SNAP_QGIS\Grieta_2018\grietadte.shp` | Relevamiento del curso 2018 |
 | MDE recortados al sitio: Copernicus DEM GLO-30, FABDEM, IGN 5 m (vuelo de 2013) y el mosaico IGN del curso 2018 | `02_Subsets_SNAP_QGIS\QGIS_GeoTIFF\E1_DIAMANTE_BARRANCA_*` | Docente (`armar_subsets.py Tp7`) |
 | Productos HyP3 del par Sentinel-1 elegido (`*_corr.tif`, `*_los_disp.tif`, …) | `00_COMUN\08_Originales_crudos\HYP3\E1_DIAMANTE_BARRANCA\` (o la carpeta de la variable `CURSO_SAR_ORIGINALES`) | Docente, con `Tp7_01 --hyp3 1` (tarda de 30 min a horas) |
 | ICESat-2 ATL08 del sitio | `Tp1_Convergencia\05_Resultados\03_Vectores\lidar_E1_DIAMANTE_BARRANCA.gpkg`, capa `atl08` | Docente, con `Tp1_05_buscar_lidar.py --sitio E1_DIAMANTE_BARRANCA --descargar` |

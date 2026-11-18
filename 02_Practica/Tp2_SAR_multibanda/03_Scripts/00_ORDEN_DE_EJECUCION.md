@@ -89,10 +89,10 @@ al sur: `--desplazamiento -92 -484`.
 
 ```
 set CURSO_SAR_NISAR_DELTA=<carpeta con BANDA_L_NASA y BANDA_S_ISRO>
-set CURSO_SAR_NOVASAR=E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE
+set CURSO_SAR_NOVASAR=<carpeta con las escenas NovaSAR-1>
 ```
 
-Son los valores por defecto del código; se cambian sólo si los datos están en otra unidad.
+Por defecto el código usa `00_COMUN\08_Originales_crudos\NISAR_DELTA` y `00_COMUN\08_Originales_crudos\LOCALES\NOVASAR`; las variables se definen sólo si los datos están en otra carpeta.
 
 ## Qué hacer si falla
 

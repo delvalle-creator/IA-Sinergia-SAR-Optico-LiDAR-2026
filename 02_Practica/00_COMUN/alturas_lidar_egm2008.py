@@ -17,7 +17,7 @@ con las columnas nuevas, agrega la explicacion al LEEME del sitio y copia la car
 (02_Subsets_SNAP_QGIS\\LiDAR_<SITIO>), como exportar_lidar.py.
 
 Geoides: la ondulacion N se interpola (bilineal) en las grillas del docente:
-  EGM2008  G:\IA_APLICADA_HIDROGRAFIA_HIDROLOGIA_2026\PERSONAL\DTMs_DEMs\GEOIDES\EGM2008\egm08_25.gtx
+  EGM2008  00_COMUN\GEOIDES\EGM2008\egm08_25.gtx (si no esta, se usa la grilla de PROJ us_nga_egm08_25.tif)
   GEOIDE-Ar16 (IGN, SRVN16)  ...\GEOIDES\SRVN16\ar_ign_GEOIDE-Ar16.tif
 (o las rutas de las variables CURSO_SAR_GEOIDE_EGM2008 y CURSO_SAR_GEOIDE_AR16). Cota = h elipsoidal - N.
 Si no esta la grilla EGM2008, se usa alturas_a_egm2008() de funciones_lidar.py (PROJ, us_nga_egm08_25).
@@ -45,7 +45,7 @@ from funciones_lidar import alturas_a_egm2008                   # noqa: E402
 FABDEM = os.environ.get("CURSO_SAR_FABDEM",
                         os.path.join(os.path.expanduser("~"), ".snap", "auxdata", "dem", "FABDEM",
                                      "FABDEM_v1-2_Entre_Rios.tif"))
-_GEOIDES = r"G:\IA_APLICADA_HIDROGRAFIA_HIDROLOGIA_2026\PERSONAL\DTMs_DEMs\GEOIDES"
+_GEOIDES = os.environ.get("CURSO_SAR_GEOIDES", os.path.join(AQUI, "GEOIDES"))   # 00_COMUN\GEOIDES
 GEOIDE_EGM2008 = os.environ.get("CURSO_SAR_GEOIDE_EGM2008", os.path.join(_GEOIDES, "EGM2008", "egm08_25.gtx"))
 GEOIDE_AR16 = os.environ.get("CURSO_SAR_GEOIDE_AR16", os.path.join(_GEOIDES, "SRVN16", "ar_ign_GEOIDE-Ar16.tif"))
 FUENTE_EGM2008 = ("NGA. Earth Gravitational Model 2008 (EGM2008), grilla de ondulacion de 2,5' (egm08_25.gtx). "

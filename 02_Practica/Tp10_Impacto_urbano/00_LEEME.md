@@ -70,7 +70,7 @@ Se sigue la regla 5 de `00_COMUN/REGLAS_DEL_PROYECTO.md` y el `GLOSARIO.md`.
 | Insumo | De dónde sale | Dónde queda |
 |---|---|---|
 | NISAR GCOV banda L del 18/09/2026 sobre Concordia (HH y HV; traza 10, cuadro 104, descendente) | **No está en los mosaicos del Delta.** Lo bajó el docente (`datos_crudos.py nisar`, cuenta de NASA Earthdata) | `00_COMUN\08_Originales_crudos\NISAR\NISAR_L2_PR_GCOV_031_010_D_104_2005_DHDH_A_20260918T215921_20260918T215955_P05023_F_F_J_001.h5` |
-| NovaSAR-1 escena 47942 (13/09/2023, HH, 6 m) | Archivo del curso (CSIRO) | `E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE` |
+| NovaSAR-1 escena 47942 (13/09/2023, HH, 6 m) | Archivo del curso (CSIRO) | `00_COMUN\08_Originales_crudos\LOCALES\NOVASAR` |
 | Desplazamiento de la georreferencia de NovaSAR 47942 | `Tp3_02_medir_corregistro.py` (Tp3) | `Tp3_Armonizacion\05_Resultados\04_Tablas\B_CONCORDIA_corregistro_S_NovaSAR_sigma0_HH_vs_OPT_S2_B08.csv` |
 | Cobertura de control de Concordia a 20 m (opcional, mejora la tabla del paso 2) | `Tp4_01_cobertura_de_control.py --sitio B_CONCORDIA --pixel 20` (Tp4) | `Tp4_Validacion\02_Subsets_SNAP_QGIS\B_CONCORDIA_cobertura_control_20m.tif` |
 | Interferogramas HyP3 de Paraná – Diamante: 120 pares del 01/06/2025 al 03/07/2026, recortados al sitio | `Tp10_04_pares_sbas.py --hyp3 120` (horas de proceso en ASF) y `00_COMUN\recortar_hyp3.py` | `02_Subsets_SNAP_QGIS\HyP3_E_PARANA_DIAMANTE\` (los originales completos, 99 GB, en `00_COMUN\08_Originales_crudos\HYP3\E_PARANA_DIAMANTE\`) |

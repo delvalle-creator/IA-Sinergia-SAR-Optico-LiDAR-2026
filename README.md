@@ -66,6 +66,6 @@ Las imágenes Pléiades y Pléiades Neo de `02_Practica/00_COMUN/10_Alta_resoluc
 
 ## Cómo citar
 
-del Valle, H. F. (2026). *Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), 2026* (Versión 1.2.0) [Material de curso]. Zenodo. https://doi.org/10.5281/zenodo.24250799
+del Valle, H. F. (2026). *Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), 2026* (Versión 1.3.0) [Material de curso]. Zenodo. https://doi.org/10.5281/zenodo.23929604
 
 También puede usar el botón **Cite this repository** de GitHub o el archivo `CITATION.cff`.

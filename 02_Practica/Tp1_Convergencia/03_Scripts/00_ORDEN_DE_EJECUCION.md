@@ -75,15 +75,17 @@ mayúsculas y guiones bajos.
 Se escriben en la misma ventana, antes de correr:
 
 ```
-set CURSO_SAR_NOVASAR=E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE
+set CURSO_SAR_NOVASAR=<carpeta con las escenas NovaSAR-1>
 set CURSO_SAR_NISAR_DELTA=<carpeta con BANDA_L_NASA y BANDA_S_ISRO>
-set CURSO_SAR_2023=E:\CURSO SAR CEREGEO 2023\PRACTICAL EXERCISES
-set CURSO_SAR_COSMO=F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE
+set CURSO_SAR_2023=<carpeta del archivo del curso 2023>
+set CURSO_SAR_COSMO=<carpeta COSMO-SkyMed de Diamante>
 set CURSO_SAR_ORIGINALES=<carpeta donde están ASF, LIDAR y BIOMASS ya bajados>
 ```
 
-Los valores de arriba son los que el código usa por defecto, salvo
-`CURSO_SAR_ORIGINALES`, cuyo defecto es `02_Practica\00_COMUN\08_Originales_crudos`.
+Por defecto el código usa las carpetas del curso: `02_Practica\00_COMUN\08_Originales_crudos`
+(`CURSO_SAR_ORIGINALES`) y, dentro de ella, `NISAR_DELTA`, `LOCALES\NOVASAR`,
+`LOCALES\CURSO_2023` y `LOCALES\COSMO_DIAMANTE`. Las variables se definen sólo si
+los datos están en otra carpeta.
 
 Credenciales: **nunca** en un archivo del curso. NASA Earthdata, en el `.netrc` del
 usuario (`C:\Users\<usuario>\.netrc`) o con `set EARTHDATA_TOKEN=...`; ESA MAAP, con

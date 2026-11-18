@@ -99,7 +99,7 @@ sys.path.insert(0, os.path.join(_d, "00_COMUN"))
 import numpy as np                                                    # noqa: E402
 import pandas as pd                                                   # noqa: E402
 
-from configuracion_comun import COSMO_DIAMANTE, ruta_tp               # noqa: E402
+from configuracion_comun import capa_diamante, ruta_tp                # noqa: E402
 from funciones_comunes import (grilla_sitio, leer_en_grilla, rasterizar,  # noqa: E402
                                guardar_tif, Bitacora)
 from funciones_cambio import fusion_decision                          # noqa: E402
@@ -225,7 +225,7 @@ def main():
     suf = a.sufijo
     log = Bitacora(ruta_tp("Tp7", "05_Resultados", "06_Control_calidad"), "Tp7_02_deformacion" + suf)
     g = grilla_sitio(SITIO, pixel=a.pixel)
-    ladera_shp = a.ladera or (glob.glob(os.path.join(COSMO_DIAMANTE, "GRIETAS", "barranca-periferia_Polygon.shp")) or [""])[0]
+    ladera_shp = a.ladera or capa_diamante("barranca-periferia_Polygon.shp")
     if not ladera_shp or not os.path.exists(ladera_shp):
         sys.exit("No encuentro el poligono de la ladera (barranca-periferia_Polygon.shp). Pasarlo con --ladera.")
     lad = gpd.read_file(ladera_shp).to_crs(g["crs"])

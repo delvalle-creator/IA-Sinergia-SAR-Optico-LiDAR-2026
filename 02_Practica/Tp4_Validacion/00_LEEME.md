@@ -73,7 +73,7 @@ El Tp4 no hace sinergia ni fusión: **valida** los productos de ambas.
 
 - El entorno `sar` de Miniforge (`00_COMUN/entorno_sar.yml`).
 - Conexión a internet para leer JRC del Planetary Computer. Sin red, `Tp4_01 --sin_jrc` sigue sin esa fuente.
-- **YA VIENE HECHO:** los rásteres de bosque de MapBiomas 2023 recortados a las escenas NovaSAR, en la carpeta raíz de NovaSAR (`E:\IMÁGENES NOVASAR-1 2023 2024`) o, en la computadora del aula, en la copia local `00_COMUN\08_Originales_crudos\LOCALES\MAPBIOMAS`. Sólo cubren donde hay escenas NovaSAR.
+- **YA VIENE HECHO:** los rásteres de bosque de MapBiomas 2023 recortados a las escenas NovaSAR, en `00_COMUN\08_Originales_crudos\LOCALES\MAPBIOMAS`. Sólo cubren donde hay escenas NovaSAR.
 - **YA VIENE HECHO:** las capas Pléiades / Pléiades Neo de CONAE de las localidades del curso (`02_Subsets_SNAP_QGIS\Pleiades_CONAE_WMS`, fechadas en 2022–2023; necesitan internet) y las huellas LiDAR de Concordia (`02_Subsets_SNAP_QGIS\LiDAR_B_CONCORDIA`).
 - QGIS 3.x con conexión a internet para las teselas de alta resolución (Google Satellite o Esri World Imagery).
 - Para los Tp5 a Tp10: los mapas de variantes de cada práctico, en `<Tp>/05_Resultados/02_Rasters/`.

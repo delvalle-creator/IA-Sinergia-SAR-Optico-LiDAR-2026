@@ -68,7 +68,7 @@ Pasos sin script propio:
 
 | Insumo | Dónde está |
 |---|---|
-| NovaSAR-1 escena 47974 (GRD, HH, 6 m), cedida por CSIRO | `E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE\NovaSAR_01_47974_grd_*_HH\` (variable `CURSO_SAR_NOVASAR`) |
+| NovaSAR-1 escena 47974 (GRD, HH, 6 m), cedida por CSIRO | `00_COMUN\08_Originales_crudos\LOCALES\NOVASAR\NovaSAR_01_47974_grd_*_HH\` (variable `CURSO_SAR_NOVASAR`) |
 | Red hacia el Planetary Computer (Sentinel-2, Sentinel-1 RTC, Copernicus DEM) | Sin cuenta |
 | El desfase de NovaSAR medido por el docente en la clase teórica (presentación 02) | Corrección ≈ 80 m al oeste y 20 m al norte (`--desplazamiento -80 20`) |
 | Serie Sentinel-2 local para correr el paso 1 sin internet (`--local`) | `00_COMUN/08_Originales_crudos/PLANETARY/F_BOVRIL/sentinel-2-l2a` (68 fechas) |

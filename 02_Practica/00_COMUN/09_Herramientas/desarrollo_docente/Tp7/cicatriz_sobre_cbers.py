@@ -4,14 +4,14 @@ Traza el deposito (claro de vegetacion rala, NDVI < 0,30 entre las cotas 14 y 42
 y la cicatriz (escarpa entre la grieta y el borde superior del claro) sobre el CBERS-4A WPM del 26/09/2026 (2 m)
 y el MDE IGN 5 m. Interpretacion de imagen, a confirmar con fotos de campo.
 """
-import rasterio, numpy as np, geopandas as gpd
+import os, rasterio, numpy as np, geopandas as gpd
 from rasterio.warp import reproject, Resampling
 from rasterio.transform import from_origin
 import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
 B=r'D:/CURSOS_CEREGEO_2026/02_Practica/Tp7_Barrancas_deslizamientos/'
 Q=B+'02_Subsets_SNAP_QGIS/QGIS_GeoTIFF/E1_DIAMANTE_BARRANCA_'
 CRS='EPSG:32721'
-gr=gpd.read_file(r'F:/HFdV COURSES/CEREGEO/2018/TelSAR/DIAMANTE/GRIETAS/grietadte.shp').to_crs(CRS)
+gr=gpd.read_file(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..', 'Tp7_Barrancas_deslizamientos', '02_Subsets_SNAP_QGIS', 'Grieta_2018', 'grietadte.shp')).to_crs(CRS)
 f=gpd.read_file(B+'04_Tablas_de_trabajo/E1_cicatriz_y_deposito.gpkg',layer='formas').to_crs(CRS)
 with rasterio.open(Q+'CBERS4A_DIAMANTE_20260926_pansharpened_2m.tif') as s:
     print(s.crs,s.res,s.count,s.dtypes,[s.descriptions])
@@ -35,7 +35,7 @@ pickle.dump((bands,ign,T,(x0,x1,y0,y1)),open('crop.pkl','wb'))
 from matplotlib.colors import LightSource
 bands,ign,T,(x0,x1,y0,y1)=pickle.load(open('crop.pkl','rb'))
 CRS='EPSG:32721'; B=r'D:/CURSOS_CEREGEO_2026/02_Practica/Tp7_Barrancas_deslizamientos/'
-gr=gpd.read_file(r'F:/HFdV COURSES/CEREGEO/2018/TelSAR/DIAMANTE/GRIETAS/grietadte.shp').to_crs(CRS)
+gr=gpd.read_file(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..', 'Tp7_Barrancas_deslizamientos', '02_Subsets_SNAP_QGIS', 'Grieta_2018', 'grietadte.shp')).to_crs(CRS)
 f=gpd.read_file(B+'04_Tablas_de_trabajo/E1_cicatriz_y_deposito.gpkg',layer='formas').to_crs(CRS)
 def st(a,p=(2,98)):
     lo,hi=np.nanpercentile(a,p); return np.clip((a-lo)/(hi-lo),0,1)

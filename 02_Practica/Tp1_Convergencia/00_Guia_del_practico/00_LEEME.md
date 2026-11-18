@@ -106,9 +106,9 @@ además la conexión al Planetary Computer, ASF y Earthdata. Debe terminar con
   antes de correr cualquier script:
 
 ```
-set CURSO_SAR_NISAR_DELTA=G:\NISAR_DELTA
-set CURSO_SAR_NOVASAR=G:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE
-set CURSO_SAR_ORIGINALES=G:\ORIGINALES_CURSO_SAR
+set CURSO_SAR_NISAR_DELTA=<carpeta con BANDA_L_NASA y BANDA_S_ISRO>
+set CURSO_SAR_NOVASAR=<carpeta con las escenas NovaSAR-1>
+set CURSO_SAR_ORIGINALES=<carpeta de los originales>
 ```
 
 La variable dura mientras la ventana esté abierta.

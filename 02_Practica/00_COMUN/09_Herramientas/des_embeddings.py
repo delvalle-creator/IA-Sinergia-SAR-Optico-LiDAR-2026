@@ -348,7 +348,7 @@ elif TP == "Tp7":
         log("%s: %d pixeles, semejanza 2018-2025 mediana %.3f, %.0f %% por debajo del umbral" % (nom, v.size, np.median(v), 100 * (v < umbral).mean()))
     tabla("Tp7_embeddings_cambio.csv", ["Zona", "Pixeles de 10 m", "Semejanza 2018-2025 mediana", "Percentil 10", "%% por debajo de %.3f (percentil 10 de la ladera)" % umbral], filas)
     try:
-        grieta = gpd.read_file(r"F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE\GRIETAS\grietadte.shp").to_crs(crs)
+        grieta = gpd.read_file(__import__("configuracion_comun").capa_diamante("grietadte.shp")).to_crs(crs)
     except Exception:
         grieta = None
     x0, y0 = T.c, T.f; ext = (x0, x0 + sh[1] * T.a, y0 + sh[0] * T.e, y0)

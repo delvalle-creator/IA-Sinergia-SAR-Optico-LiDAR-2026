@@ -84,8 +84,10 @@ def main():
             continue
         existe = os.path.isdir(ruta)
         print("   %-18s %s  %s" % (nombre, "ok   " if existe else "NO ESTA", ruta))
-    print("   (Si una carpeta no esta, el practico que la usa lo avisa. Las rutas se cambian en")
-    print("    configuracion_comun.py o con las variables de entorno CURSO_SAR_*.)")
+    print("   (Son los originales sin procesar, en 02_Practica\\00_COMUN\\08_Originales_crudos.")
+    print("    Para trabajar con los subsets de cada practico NO hacen falta: si una carpeta")
+    print("    no esta, el practico que la usa lo avisa. Si estan en otro disco, se indican con")
+    print("    las variables de entorno CURSO_SAR_*.)")
 
     print("\n5. Credencial de NASA Earthdata (no se lee su contenido)")
     casa = os.path.expanduser("~")

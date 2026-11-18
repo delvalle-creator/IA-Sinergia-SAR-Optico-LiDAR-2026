@@ -73,16 +73,17 @@ sitio. La línea de `E1_DIAMANTE_BARRANCA` dice `kml_COSMO (-60.71, -32.135, -60
 
 **Control.** Abra el Explorador de archivos y confirme que existen:
 
-- `F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE\GRIETAS\barranca-periferia_Polygon.shp`
-- la carpeta `...\InSAR HI\` del curso 2023 con el producto `*_Stack_ifg_dinsar_flt_TC.dim`;
+- `Tp7_Barrancas_deslizamientos\04_Tablas_de_trabajo\E1_ladera_reparada.gpkg` (el polígono de la ladera ya reparado) y
+  `02_Subsets_SNAP_QGIS\Grieta_2018\grietadte.shp`;
+- la carpeta `02_Subsets_SNAP_QGIS\COSMO_InSAR_HI_2018\` con el producto `subset_*_Stack_ifg_dinsar_flt_TC.dim`;
 - la carpeta de HyP3 `...\08_Originales_crudos\HYP3\E1_DIAMANTE_BARRANCA\`.
 
-**Error típico.** El disco del curso montado con otra letra. Se corrige con las
-variables de entorno, sin tocar el código:
+**Error típico.** Los originales en otra carpeta o en un disco externo. Se indica con
+las variables de entorno, sin tocar el código:
 
 ```
-set CURSO_SAR_COSMO=G:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE
-set CURSO_SAR_ORIGINALES=G:\ORIGINALES
+set CURSO_SAR_COSMO=<carpeta COSMO-SkyMed de Diamante>
+set CURSO_SAR_ORIGINALES=<carpeta de los originales>
 ```
 
 (valen sólo para esa ventana del Miniforge Prompt).

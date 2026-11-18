@@ -244,8 +244,8 @@ Salidas: `02_Subsets_SNAP_QGIS/F_textura_S_C_10m.tif` (bandas
 
 **Errores típicos.**
 
-- `No encuentro el GRD de la escena 47974`: el disco de NovaSAR con otra letra.
-  `set CURSO_SAR_NOVASAR=F:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE`.
+- `No encuentro el GRD de la escena 47974`: la escena no está en `00_COMUN\08_Originales_crudos\LOCALES\NOVASAR`.
+  Si está en otra carpeta: `set CURSO_SAR_NOVASAR=<carpeta con las escenas NovaSAR-1>`.
 - «Sin Sentinel-1 RTC +/- 6 días»: la comparación queda sin banda C; el paso 5
   sigue sólo con la banda S. Declárelo.
 - «Falta la frecuencia de suelo desnudo»: corra el paso 1 antes, o pase el

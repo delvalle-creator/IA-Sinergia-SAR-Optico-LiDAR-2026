@@ -98,7 +98,7 @@ curso.
 - Los SAOCOM-1A de 2020 del Delta, ya procesados a γ⁰ por el docente
   (`Tp5_Incendios\02_Subsets_SNAP_QGIS\SAOCOM_gamma0`), para el ejemplo de la pila
   sobre `A1_DELTA_QUEMAS` (no cubren Ibicuy).
-- NovaSAR-1 en `E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE` (sólo si se
+- NovaSAR-1 en `00_COMUN\08_Originales_crudos\LOCALES\NOVASAR` (sólo si se
   trabaja `F_BOVRIL` o `B_CONCORDIA`; no cubre Ibicuy).
 
 ## Lo que conviene saber de entrada

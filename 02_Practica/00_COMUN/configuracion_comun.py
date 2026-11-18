@@ -54,7 +54,7 @@ NODATA = -9999.0      # valor sin dato de todos los GeoTIFF que escribe el curso
 #                         procesaron las figuras del curso;
 #   "mosaico_NISAR"    -> sale de la geometria de los mosaicos NISAR del Delta;
 #   "subset_curso_2023"-> recorte de las escenas SAOCOM del curso SAR CEREGEO
-#                         2023 (E:\CURSO SAR CEREGEO 2023), leido de sus .dim;
+#                         2023 (copia en 08_Originales_crudos\LOCALES\CURSO_2023), leido de sus .dim;
 #   "kml_COSMO"        -> poligono del .kml que acompana la escena COSMO-SkyMed;
 #   "aproximada"       -> ubicacion aproximada de la diapositiva 19 de la
 #                         presentacion 01. Se ajusta en el Tp1, paso 1, y se
@@ -215,14 +215,27 @@ ORIGINALES = os.environ.get(
 LOCALES = os.path.join(ORIGINALES, "LOCALES")
 
 
-def _ruta_dato(variable, original, nombre_local):
-    """Variable de entorno > disco original > copia local en datos crudos."""
+# Discos de ORIGEN del archivo del docente. Solo los usa datos_crudos.py
+# (copiar_locales) para armar la copia en LOCALES; los practicos leen la copia
+# que esta dentro del curso, en cualquier computadora.
+ORIGEN_DOCENTE = {
+    "NOVASAR": r"E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE",
+    "CURSO_2023": r"E:\CURSO SAR CEREGEO 2023\PRACTICAL EXERCISES",
+    "COSMO_DIAMANTE": r"F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE",
+}
+
+
+def _ruta_dato(variable, nombre_local):
+    """Variable de entorno > copia del curso (08_Originales_crudos/LOCALES) >
+    disco de origen del docente (si esta conectado). Si no esta en ninguno,
+    devuelve la ruta DENTRO DEL CURSO, nunca la de un disco de otra computadora."""
     if os.environ.get(variable):
         return os.environ[variable]
     copia = os.path.join(LOCALES, nombre_local)
-    if not os.path.isdir(original) and os.path.isdir(copia):
-        return copia
-    return original
+    origen = ORIGEN_DOCENTE.get(nombre_local, "")
+    if not os.path.isdir(copia) and origen and os.path.isdir(origen):
+        return origen
+    return copia
 
 # Los NISAR GCOV del Delta. Los llena datos_crudos.py nisar (ASF, cuenta NASA
 # Earthdata) en 08_Originales_crudos\NISAR_DELTA\BANDA_L_NASA. La banda S (ISRO)
@@ -235,8 +248,7 @@ NISAR_DELTA = os.environ.get("CURSO_SAR_NISAR_DELTA") or os.path.join(ORIGINALES
 # (rango oblicuo) y slc (complejo, con fase). Calibracion del producto:
 # sigma0 = DN^2 / CalibrationConstant, con CalibrationConstant = 1E+05 en el
 # metadata.xml de las cinco escenas.
-NOVASAR = _ruta_dato("CURSO_SAR_NOVASAR",
-                     r"E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE", "NOVASAR")
+NOVASAR = _ruta_dato("CURSO_SAR_NOVASAR", "NOVASAR")
 NOVASAR_ESCENAS = {
     # escena: (fecha, hora UTC, sitio que cubre y fraccion del sitio con dato)
     # Coberturas MEDIDAS con Tp1_02_inventario_local.py sobre los GRD (16/10/2026):
@@ -256,21 +268,19 @@ NOVASAR_ESCENAS = {
 # ALOS-2 2020, COSMO-SkyMed de Diamante 2018, MDE del IGN de 5 m, grietas
 # relevadas). Son 556 GB: se leen de donde estan; datos_crudos.py copia SOLO
 # las escenas que cubren los sitios del curso.
-ORIGINALES_2023 = _ruta_dato(
-    "CURSO_SAR_2023", r"E:\CURSO SAR CEREGEO 2023\PRACTICAL EXERCISES", "CURSO_2023")
+ORIGINALES_2023 = _ruta_dato("CURSO_SAR_2023", "CURSO_2023")
 
 # COSMO-SkyMed (banda X) de Diamante, octubre-noviembre de 2018, del curso
 # TelSAR 2018: HIMAGE (3 m) y Spotlight (1 m), con el MDE del IGN, las grietas
 # relevadas en la barranca y una Sentinel-1 GRDH del 12/10/2018.
 # (Hay copia en ORIGINALES_2023\InSAR\02 IMAGES\CSKS SCS\DIAMANTE.)
-COSMO_DIAMANTE = _ruta_dato(
-    "CURSO_SAR_COSMO", r"F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE", "COSMO_DIAMANTE")
+COSMO_DIAMANTE = _ruta_dato("CURSO_SAR_COSMO", "COSMO_DIAMANTE")
 
 # Bosques de MapBiomas Argentina 2023 recortados a cada escena NovaSAR (en la
 # misma carpeta raiz). Es un producto de TERCEROS, hecho con Landsat: sirve
 # para comparar y para estratificar, NUNCA como verdad de campo (Tp4).
-MAPBIOMAS_BOSQUES = (os.path.join(LOCALES, "MAPBIOMAS") if NOVASAR.startswith(LOCALES)
-                     else os.path.dirname(NOVASAR))
+MAPBIOMAS_BOSQUES = (os.path.dirname(NOVASAR) if NOVASAR == ORIGEN_DOCENTE["NOVASAR"]
+                     else os.path.join(LOCALES, "MAPBIOMAS"))
 
 PRACTICOS = {
     "Tp1": "Tp1_Convergencia",
@@ -290,6 +300,20 @@ PRACTICOS = {
 def ruta_tp(codigo, *sub):
     """Ruta dentro de un practico. Ej.: ruta_tp('Tp5', '05_Resultados', '02_Rasters')"""
     return os.path.join(PRACTICA, PRACTICOS[codigo], *sub)
+
+
+def capa_diamante(nombre):
+    """Capas relevadas en la barranca de Diamante (2018). Se buscan en el
+    subset del Tp7 (02_Subsets_SNAP_QGIS/Grieta_2018) y en COSMO_DIAMANTE/GRIETAS.
+    El poligono de la ladera ya reparado esta en Tp7/04_Tablas_de_trabajo."""
+    candidatos = [ruta_tp("Tp7", "02_Subsets_SNAP_QGIS", "Grieta_2018", nombre),
+                  os.path.join(COSMO_DIAMANTE, "GRIETAS", nombre)]
+    if nombre.startswith("barranca-periferia"):
+        candidatos.append(ruta_tp("Tp7", "04_Tablas_de_trabajo", "E1_ladera_reparada.gpkg"))
+    for c in candidatos:
+        if os.path.exists(c):
+            return c
+    return candidatos[0]
 
 
 # ------------------------------------------------------ CONVENCIONES DE VALOR

@@ -30,7 +30,7 @@
 >   bandas B02, B04, B08, B11 y SCL. Par óptico verificado: 10/09/2023.
 > - **Banda S.** NovaSAR-1 Stripmap GRD HH, 6 m, escena 47974 del 14/09/2023
 >   (cubre el 92 % del sitio), cedida por CSIRO, en
->   `E:\IMÁGENES NOVASAR-1 2023 2024\ENTRE RIOS-SANTA FE`.
+>   `00_COMUN\08_Originales_crudos\LOCALES\NOVASAR`.
 >   σ⁰ = DN²/CalibrationConstant, con la constante (1E+05) leída del
 >   `metadata.xml`. El `image_HH.tif` trae sólo los cuatro puntos de esquina
 >   como GCP. Con ellos el corrimiento es de cientos de metros y no rígido; con los

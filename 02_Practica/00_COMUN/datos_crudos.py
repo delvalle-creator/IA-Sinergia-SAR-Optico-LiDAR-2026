@@ -101,8 +101,9 @@ from configuracion_comun import (SITIOS, ORIGINALES, LOCALES, PRACTICA, ruta_tp)
 
 # Raices del archivo del docente y nombre de su copia en LOCALES (la misma
 # estructura de carpetas: configuracion_comun.py usa la copia si falta el disco)
-RAICES = [("NISAR_DELTA", cc.NISAR_DELTA), ("NOVASAR", cc.NOVASAR),
-          ("CURSO_2023", cc.ORIGINALES_2023), ("COSMO_DIAMANTE", cc.COSMO_DIAMANTE)]
+RAICES = [("NISAR_DELTA", cc.NISAR_DELTA), ("NOVASAR", cc.ORIGEN_DOCENTE["NOVASAR"]),
+          ("CURSO_2023", cc.ORIGEN_DOCENTE["CURSO_2023"]),
+          ("COSMO_DIAMANTE", cc.ORIGEN_DOCENTE["COSMO_DIAMANTE"])]
 
 
 def destino_local(ruta):
@@ -251,12 +252,13 @@ def cmd_copiar_locales(a):
         sensor = t.loc[t.ruta == r, "sensor"].iloc[0]
         plan.append((r, destino_local(r), sensor, peso(r)))
     # MapBiomas (bosques 2023 recortados a las escenas NovaSAR), en la carpeta madre de NovaSAR
-    for f in sorted(glob.glob(os.path.join(os.path.dirname(cc.NOVASAR), "Bosques_MapBiomas_2023_*.tif"))):
+    for f in sorted(glob.glob(os.path.join(os.path.dirname(cc.ORIGEN_DOCENTE["NOVASAR"]), "Bosques_MapBiomas_2023_*.tif"))):
         plan.append((f, os.path.join(LOCALES, "MAPBIOMAS", os.path.basename(f)), "MapBiomas", peso(f)))
     # COSMO-SkyMed de Diamante completo (grietas, MDE del IGN, productos InSAR)
-    if a.cosmo_completo and os.path.isdir(cc.COSMO_DIAMANTE):
-        plan.append((cc.COSMO_DIAMANTE, os.path.join(LOCALES, "COSMO_DIAMANTE"), "COSMO-SkyMed (carpeta)",
-                     peso(cc.COSMO_DIAMANTE)))
+    cosmo_origen = cc.ORIGEN_DOCENTE["COSMO_DIAMANTE"]
+    if a.cosmo_completo and os.path.isdir(cosmo_origen):
+        plan.append((cosmo_origen, os.path.join(LOCALES, "COSMO_DIAMANTE"), "COSMO-SkyMed (carpeta)",
+                     peso(cosmo_origen)))
     total = sum(p[3] for p in plan)
     ya = sum(p[3] for p in plan if os.path.exists(p[1]) and peso(p[1]) == p[3])
     print("Escenas que cubren los sitios: %d, %s en total (%s ya copiado)." % (len(plan), tam(total), tam(ya)))

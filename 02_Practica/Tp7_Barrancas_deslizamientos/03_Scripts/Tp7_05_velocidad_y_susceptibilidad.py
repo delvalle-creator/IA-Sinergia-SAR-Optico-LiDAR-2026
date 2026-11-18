@@ -43,7 +43,7 @@ sys.path.insert(0, os.path.join(_d, "00_COMUN"))
 import numpy as np                                                    # noqa: E402
 import pandas as pd                                                   # noqa: E402
 
-from configuracion_comun import COSMO_DIAMANTE, ruta_tp               # noqa: E402
+from configuracion_comun import capa_diamante, ruta_tp                # noqa: E402
 from funciones_comunes import Bitacora                                # noqa: E402
 
 # ------------------------------------------------------------ PARAMETROS
@@ -110,7 +110,7 @@ def main():
     cls[urb & (cerca | hund)] = 2
     cls[urb & cerca & hund] = 3
     filas = []
-    gr = gpd.read_file(os.path.join(COSMO_DIAMANTE, "GRIETAS", "grietadte.shp")).to_crs(CRS)
+    gr = gpd.read_file(capa_diamante("grietadte.shp")).to_crs(CRS)
     mg = rasterize([(gr.union_all().buffer(100), 1)], out_shape=sh, transform=T).astype(bool)
     for nom, m in (("franja <= 150 m del borde", cerca), ("interior > 300 m", meseta & (dist > INTERIOR)), ("a 100 m de la grieta", mg)):
         v = vel[m & np.isfinite(vel)]

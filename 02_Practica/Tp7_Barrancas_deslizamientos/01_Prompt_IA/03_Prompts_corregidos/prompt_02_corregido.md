@@ -30,7 +30,7 @@
 >
 > - **Banda X.** COSMO-SkyMed Himage (3 m) del 12, 15, 18, 19 y 28/10/2018 y
 >   Spotlight (1 m) del 20/10/2018, en `COSMO_DIAMANTE`
->   (`F:\HFdV COURSES\CEREGEO\2018\TelSAR\DIAMANTE`). Par interferométrico
+>   (`00_COMUN\08_Originales_crudos\LOCALES\COSMO_DIAMANTE`). Par interferométrico
 >   15/10–19/10/2018 procesado en SNAP en el curso 2023
 >   (`...\InSAR HI\*_Stack_ifg_dinsar_flt_TC.dim`), **con la banda `Unw_Phase`
 >   toda en cero porque el desenrollado SNAPHU nunca se importó**: el estudiante

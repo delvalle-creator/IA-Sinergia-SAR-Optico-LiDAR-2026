@@ -25,7 +25,7 @@ ENTRADAS
   00_COMUN/08_Originales_crudos/LIDAR/E1_DIAMANTE_BARRANCA/ATL08/*.h5 (granulos ATL08 v007)
   02_Subsets_SNAP_QGIS/LiDAR_E1_DIAMANTE_BARRANCA/E1_DIAMANTE_BARRANCA_ATL08.csv (ondulaciones)
   02_Subsets_SNAP_QGIS/QGIS_GeoTIFF/E1_DIAMANTE_BARRANCA_IGN_MDE_5m.tif, _CopernicusDEM30.tif
-  04_Tablas_de_trabajo/E1_cicatriz_y_deposito.gpkg (capa formas) y la grieta (COSMO_DIAMANTE/GRIETAS)
+  04_Tablas_de_trabajo/E1_cicatriz_y_deposito.gpkg (capa formas) y la grieta (Tp7/02_Subsets_SNAP_QGIS/Grieta_2018)
 
 SALIDAS
   05_Resultados/04_Tablas/E1_atl08_20m_cicatriz.csv
