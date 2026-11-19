@@ -108,7 +108,7 @@ TpN_<nombre>\
 | Marca | Qué significa |
 |---|---|
 | **SE CORRE** | Lo corre el estudiante en clase. |
-| **YA VIENE HECHO** | Descarga o proceso largo que hizo el docente antes del curso. El programa queda para ver cómo se hace y repetirlo en otro sitio. |
+| **YA VIENE HECHO** | Descarga o proceso largo que hizo el docente antes del curso. El programa queda para ver cómo se hace y repetirlo en otro sitio (ver `00_COMUN/COMO_CAMBIAR_DE_AREA.md`). |
 | **AUXILIAR** | No es un paso de la cadena: sirve para diagnosticar o inspeccionar. |
 | **EN SNAP** | Se hace con la interfaz de SNAP (los menús se indican en la guía). |
 | **EN QGIS** | Se hace en QGIS (digitalizar, etiquetar, mirar). |
@@ -179,8 +179,8 @@ variables de entorno (`CURSO_SAR_NISAR_DELTA`, `CURSO_SAR_NOVASAR`,
 | `comprobar_entorno.py` | La verificación del entorno |
 | `datos_crudos.py` | Reúne los datos crudos en `08_Originales_crudos` (lo corre el docente) |
 | `08_Originales_crudos/` | Los datos crudos, con un `LEEME.md` por carpeta: el del CCI Biomass resume qué esperar en cada sitio; el de `LIDAR` reúne lo que dieron ICESat-2 y GEDI en cada sitio (disparos, válidos, fechas) y las decisiones al usarlos |
-| `configuracion_comun.py` | Sitios, eventos, grilla y rutas: lo único que se toca para cambiar de área |
+| `configuracion_comun.py` | Sitios, eventos, grilla y rutas: lo primero que se toca para cambiar de área (los scripts de Tp5 a Tp10 también se adaptan; ver `COMO_CAMBIAR_DE_AREA.md`) |
 | `funciones_comunes.py`, `funciones_cambio.py`, `funciones_lidar.py` | Las funciones que usan todos los prácticos |
 | `REGLAS_DEL_PROYECTO.md` | Las reglas que siguen todos los programas |
 | `GLOSARIO.md` | Los términos del curso |
-| `COMO_CAMBIAR_DE_AREA.md` | Cómo repetir un práctico en otro sitio |
+| `COMO_CAMBIAR_DE_AREA.md` | Cómo repetir un práctico en otro sitio: la ruta en cinco pasos de la presentación de introducción (diapositivas 47 a 56) |
