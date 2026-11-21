@@ -88,21 +88,15 @@ Las consultas al Planetary Computer y a ASF no pudieron probarse desde el entorn
 
 ## Corrida del 24/10/2026: compuestos de temporada y entrenamiento proporcional (Tp10_02 y Tp10_03)
 
-- Tp10_02 y Tp10_03 se reescribieron (respaldo .bak_20261024comp). Compuestos: Sentinel-1 RTC, media lineal de 5 pasadas de la orbita 68; Sentinel-2 L2A, mediana de hasta 5 escenas sin nube (SCL). El Sentinel-2 del 04/09/2026 se excluye (--excluir): es la referencia del Tp4.
+- Compuestos: Sentinel-1 RTC, media lineal de 5 pasadas de la orbita 68; Sentinel-2 L2A, mediana de hasta 5 escenas sin nube (SCL). El Sentinel-2 del 04/09/2026 se excluye (--excluir): es la referencia del Tp4.
 - Entrenamiento: 20.444 pixeles estables de MapBiomas (2023-2025), en proporcion al paisaje (minimo 600 por clase), funcion entrenamiento_mapbiomas() de 00_COMUN/funciones_comunes.py. fusion_pixel_o_rasgo() tiene ahora equilibrar=True/False (por defecto True, como antes, para los demas practicos).
 - Con 10 poligonos por clase y clases equilibradas el mapa marcaba 13.425 ha urbanas y la comision era 0,53. Con el entrenamiento proporcional: 5.615 ha, comision 0,196 +/- 0,110 (multisensor), 0,255 (C + L), 0,314 (optico), 0,471 (C). Multisensor mejor que C con IC no superpuestos.
-- Validacion: Tp4_02 con --minimo 50; 710 puntos etiquetados al azar (semilla 1024); los puntos anteriores quedaron en Tp4_Validacion/04_Tablas_de_trabajo/respaldo_Tp10_20261023.
+- Validacion: Tp4_02 con --minimo 50; 710 puntos etiquetados al azar (semilla 1024).
 - Expansion (comparacion posterior a la clasificacion, p >= 0,6 y mancha >= 5 pixeles): 38,6 ha nuevas sobre 4.371,7 ha (0,9 %), 11,0 ha clase 4, 2.510,2 ha sin decidir. MapBiomas: 44 ha nuevas 2019-2025 del lado argentino.
 - Tiempos en la computadora del docente: Tp10_02 17 min; Tp10_03 34 min.
-
-## Historial de los scripts (trasladado desde las docstrings el 27/10/2026)
-
-- `Tp10_02_fusion_pixel_urbano.py`, versión del 24/10/2026: compuestos de temporada en lugar de escenas sueltas; entrenamiento de MapBiomas en proporción al paisaje en lugar del mismo número de píxeles por clase con `class_weight="balanced"` (que sobrestimaba la ciudad: comisión de 0,53 en Concordia); una variante por conjunto de sensores con el mismo clasificador y el mismo entrenamiento.
-- `Tp10_03_expansion_urbana.py`, versión del 24/10/2026: la versión anterior comparaba una escena de cada año con umbrales fijos (VV > u dB y NDBI > u) y la «ciudad que desaparece» salía más grande que la expansión; ahora compara dos clasificaciones con compuestos y exige cambio confiable.
-- 27/10/2026 (auditoría): `Tp10_01` usa por defecto los 84 puntos de enlace (`--puntos_enlace todos`) y una unidad mínima de 1.200 m² para el detalle (`--umm_m2`); `Tp10_03` guarda la matriz de transiciones y avisa al 20 %; `Tp10_04` dibuja la red completa; `Tp10_05` informa el error de la media, aplica el criterio de 2 errores, controla saltos de desenrollado y escribe sus bandas como `velocidad_mm_por_anio` y `dispersion_entre_pares_mm_por_anio`. Comentarios y mensajes con tildes (UTF-8).
 
 ## Corrida del 28/10/2026: referencia revisada por dos intérpretes
 
 - 243 puntos (193 de confianza media o baja y 50 de alta) revisados sin ver la etiqueta de la IA. A: CBERS-4A 2 m del 15/07/2026 (Sentinel-2 10 m del 16/09/2026 fuera de la escena); B: Sentinel-2 del 16/09/2026, color natural y falso color 8-4-3. Acuerdo 91,2 %, kappa 0,82 en 194 puntos; 34 no interpretables por nubes (sin etiqueta). Consenso: mayor confianza; empate, A.
-- Tp4_03 (5 variantes), Tp4_04 y Tp10_06 corridos de nuevo (00_COMUN/09_Herramientas/ETIQUETADO_28_10.bat). Multisensor: comisión 0,143 ± 0,099, usuario 0,857 ± 0,099, productor 0,555 ± 0,342, área 8.676 ± 5.351 ha.
+- Tp4_03 (5 variantes), Tp4_04 y Tp10_06 corridos con la referencia revisada. Multisensor: comisión 0,143 ± 0,099, usuario 0,857 ± 0,099, productor 0,555 ± 0,342, área 8.676 ± 5.351 ha.
 - Franja de 1 km etiquetada por los mismos intérpretes (acuerdo 88 %, kappa 0,27): con tres estratos, área urbana 6.023 ± 938 ha (`area_urbana_tres_estratos_multisensor.csv`).

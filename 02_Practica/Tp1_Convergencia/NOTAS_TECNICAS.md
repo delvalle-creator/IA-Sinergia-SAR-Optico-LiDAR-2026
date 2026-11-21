@@ -159,7 +159,7 @@ otro sensor de banda C suman una sola banda.
   tres figuras en `05_Resultados/05_Graficos/Figuras_del_desarrollo`, muestra de Orange y bitacora
   `06_Control_calidad/Tp1_06b_banda_L_antes_despues.log` (corrida en el equipo del docente el 26/10/2026).
 
-## Cambios del 18/10/2026 en `Tp1_03_buscar_optico_y_C.py` (corrida del docente)
+## Búsqueda de pares óptico–C (`Tp1_03_buscar_optico_y_C.py`)
 
 1. **Tomas Sentinel-2 duplicadas.** El Planetary Computer guarda a veces la
    misma toma y tesela dos veces: la original y el reprocesamiento de ESA
@@ -171,8 +171,6 @@ otro sensor de banda C suman una sola banda.
    nubes, que es la fecha óptica verificada del Tp9. Ahora se unen las teselas
    de la misma fecha y órbita y se mide cobertura y nubes del mosaico dentro
    del sitio. Los pares se arman con el mosaico del día.
-
-Respaldo de la versión anterior: `00_COMUN\Tp1_03_buscar_optico_y_C_respaldo_20261018.py`.
 
 Resultados de la corrida (pares óptico-C a 3 días o menos):
 
@@ -188,10 +186,9 @@ Resultados de la corrida (pares óptico-C a 3 días o menos):
 El 17/09/2026 (BIOMASS y NISAR) estaba nublado: 39 % de nubes en la franja D
 y 99 % en Federal. El óptico más cercano útil es el 16/09/2026.
 
-## Corrida del 20/10/2026, después de la auditoría (vale ésta)
+## Grado de convergencia por sitio (corrida del 20/10/2026)
 
-Hecha con `00_COMUN\09_Herramientas\correcciones_auditoria_datos.bat` (pasos 4 y 5). Cambio de fondo respecto
-de la corrida del 18/10: el LiDAR entra a la matriz **sólo** en las fechas con al menos una huella válida
+Pasos 4 y 5: el LiDAR entra a la matriz **sólo** en las fechas con al menos una huella válida
 contada en los `.h5` del equipo (`lidar_fechas_validas_<SITIO>.csv`), y GEDI descarta además las huellas sobre
 agua (`landsat_water_persistence` ≥ 50 %). Un gránulo que cruza el sitio ya no alcanza.
 
@@ -205,42 +202,16 @@ agua (`landsat_water_persistence` ≥ 50 %). Un gránulo que cruza el sitio ya n
 | C Federal | 17/09/2026 | sí | C + L + P | no | parcial | ATL08 13/12/2025 (278 días antes, con los `.h5` del equipo) |
 | D La Paz – Villaguay | 17/09/2026 | sí | C + L + P | no | parcial | ATL08 15/07/2026 (64 días antes) |
 
-Recuento con el filtro de agua: La Paz – Villaguay 3 460 703 huellas GEDI, 893 781 válidas (antes 897 376:
-32 562 caen sobre agua). La tabla genérica `matriz_convergencia_B_CONCORDIA.csv` es la del evento 2023; para
+Recuento con el filtro de agua: La Paz – Villaguay 3 460 703 huellas GEDI, 893 781 válidas (32 562 caen
+sobre agua). La tabla genérica `matriz_convergencia_B_CONCORDIA.csv` es la del evento 2023; para
 cada emergencia de Concordia use la del sufijo (`Tp1_07` con `--etiqueta` lee las planillas de búsqueda con el
 mismo sufijo).
 
-## Corrida del docente del 18/10/2026: pasos 4, 5 y 7 (reemplazada por la de arriba)
-
-Hecha con `00_COMUN\09_Herramientas\Tp1_corrida_docente.bat` (ventana y fecha de
-evento de cada práctico, ventana de ±12 días). Sin errores en ningún sitio.
-`Tp1_07` usa ahora el mosaico del día de Sentinel-2 (no cada tesela) y el rótulo
-del evento quedó dentro del gráfico.
-
-| Sitio | Evento | Óptico | SAR | LiDAR a ±12 días | Grado | LiDAR más cercano |
-|---|---|---|---|---|---|---|
-| B Concordia | 04/11/2023 | sí | C | sí | parcial | ATL08 10/11/2023 (6 días) |
-| A1 Delta | 13/10/2020 | sí | C + L | sí | **completa** | ATL08 16/10/2020 (3 días) |
-| F Bovril | 14/09/2023 | sí | C + S | no | parcial | ATL08 19/08/2023 (26 días antes) |
-| E1 Barranca | 15/10/2018 | sí | C + X | no | parcial | ATL08 03/05/2019 (200 días después) |
-| C Federal | 17/09/2026 | sí | C + L + P | no | parcial | ATL08 11/07/2026 (68 días antes) |
-| D La Paz – Villaguay | 17/09/2026 | sí | C + L + P | no | parcial | ATL08 15/07/2026 (64 días antes) |
-
-En Federal y La Paz – Villaguay la convergencia es parcial sólo por el LiDAR:
-GEDI termina en 2025 y el último ATL08 es de julio de 2026. Para el monte, cuya
-altura no cambia en dos meses, se puede justificar ampliar la ventana del LiDAR
-(y declararlo); para un evento rápido, no.
-
-Recuento LiDAR del paso 5: coincide exactamente con `LIDAR\recuento_lidar.csv`
-(por ejemplo, La Paz – Villaguay: 3 460 703 huellas GEDI, 897 376 válidas).
-El GeoPackage de huellas de La Paz – Villaguay pesa 1,2 GB.
-
-## Revisión del 27/10/2026 (auditoría académica)
+## Detalles de `Tp1_06b` y `Tp1_07`
 
 - `Tp1_06b_banda_L_antes_despues.py`: comprueba que existan las máscaras del Tp6 (insumo YA VIENE HECHO) y, si faltan,
   lo dice y termina; toma 0 como sin dato en γ⁰ cuando el GeoTIFF no lo declara (`--nodata_gamma`); semilla en
-  `--semilla`; agrega la zona «agua del óptico 04/11 sin la de C». Corrido con los datos del curso: reproduce las cifras
-  anteriores (Tabla de pares) y agrega la zona independiente.
+  `--semilla`; agrega la zona «agua del óptico 04/11 sin la de C». Agrega la zona independiente.
 - `Tp1_07_matriz_convergencia.py`: informa las observaciones independientes (una por plataforma, banda y fecha): en
   B_CONCORDIA, 243 registros = 233 observaciones; a ± 12 días, 16 registros = 10 observaciones. La línea de tiempo trae
   una ampliación de ± 30 días y fechas dd/mm/aaaa. La matriz no cambia (227 filas, mismo contenido).

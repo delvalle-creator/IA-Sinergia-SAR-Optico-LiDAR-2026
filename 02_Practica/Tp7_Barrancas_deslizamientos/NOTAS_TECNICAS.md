@@ -152,19 +152,14 @@ el error sería de unos 15 m). Se comparan sólo segmentos en tierra firme estab
   de Sentinel-2 (entre los 129 y 1120 m medidos en COSMO, NovaSAR y SAOCOM): la
   georreferencia de la banda X se verifica antes de digitalizar o comparar.
 
-## Corrección del 22/10/2026 (desarrollo docente)
+## Banda vacía y coherencia en `Tp7_02`
 
-- `Tp7_02_coherencia_y_deformacion.py` declaraba «banda vacía» sólo si el
-  desplazamiento era cero en **todo** el sitio. La `Unw_Phase` del curso 2023 tiene
-  11 píxeles distintos de cero en 5,8 millones (0,0009 %), así que la banda X se tomó
-  como válida, con desplazamiento cero en toda la ladera, y la fusión informó
-  «0 píxeles confirmados por las 2 bandas»: un resultado engañoso. Ahora se declara
-  vacía la banda con menos de 1 % de píxeles distintos de cero (con coherencia).
-- El porcentaje de la ladera coherente se calcula con la coherencia sola (antes
-  daba 0 % en una banda sin desplazamiento), y la bitácora ya no muestra «nan»
-  cuando la mediana es exactamente 0.
-- Respaldo del script anterior: `03_Scripts\Tp7_02_coherencia_y_deformacion.py.bak_20261022t`.
-- Resultados con el script corregido (par C 12/10–24/10/2018): coherencia X 0,42 en
+- `Tp7_02_coherencia_y_deformacion.py` declara vacía la banda con menos de 1 % de
+  píxeles distintos de cero (con coherencia). La `Unw_Phase` del curso 2023 tiene
+  11 píxeles distintos de cero en 5,8 millones (0,0009 %): si se la tomara como válida,
+  la fusión informaría «0 píxeles confirmados por las 2 bandas», un resultado engañoso.
+- El porcentaje de la ladera coherente se calcula con la coherencia sola.
+- Resultados (par C 12/10–24/10/2018): coherencia X 0,42 en
   la ladera y 0,40 en la referencia; C 0,59 y 0,54; desplazamiento C mediano −4,0 mm
   con 2,9 mm de ruido en la referencia; una sola banda con desplazamiento, sin fusión.
   Par de control C 18/09–30/09/2018: coherencia 0,64 y 0,63, mediana 0,0 mm, ruido 5,1 mm.
@@ -180,7 +175,7 @@ el error sería de unos 15 m). Se comparan sólo segmentos en tierra firme estab
   Con X y C, Tp7_02 decide 22 547 de 36 599 píxeles de la ladera y confirma 0.
 - `04_Tablas_de_trabajo\E1_cicatriz_y_deposito.gpkg` tiene dos polígonos HIPOTÉTICOS del
   docente trazados sobre el MDE IGN 5 m (cicatriz: escarpa hasta 40 m de la grieta;
-  depósito: banquina de 40 a 110 m). Respaldo de la capa vacía: `.bak_20261022v`.
+  depósito: banquina de 40 a 110 m).
 - Tp7_03 (IGN 5 m → GLO-30, 30 m) da +6,2 m en los dos polígonos y 61 791 m³ de
   «depósito»: es un artefacto de resolución y pendiente (la diferencia es +5 a +10 m en
   toda la escarpa) entre dos MDE anteriores al evento. No es un volumen de 2018.
@@ -199,8 +194,6 @@ el error sería de unos 15 m). Se comparan sólo segmentos en tierra firme estab
     y pendiente mediana 36 %.
   - La imagen es de 2026: el claro puede ser también un desmonte o un relleno posterior. Hay que confirmarlo con fotos
     de campo.
-  - La versión anterior quedó como `E1_cicatriz_y_deposito.gpkg.bak_20261022h` y la primera de CBERS (que tocaba el
-    camino) como `.bak_20261022i`.
 - Tp7_03 (IGN 5 m → GLO-30, 30 m): la cicatriz da +4,24 m y el depósito +6,57 m, con 35 488 m³. Sigue siendo el
   artefacto de resolución y pendiente entre dos MDE anteriores al evento.
 - ICESat-2 (`icesat2_cicatriz.py`): dos pasadas posteriores al evento, el 23/01/2024 y el 11/05/2025, pasan junto a
@@ -221,7 +214,7 @@ el error sería de unos 15 m). Se comparan sólo segmentos en tierra firme estab
   evento y su diferencia no mide lo que se movió. Se necesita un vuelo de dron o de LiDAR aerotransportado, o un par
   estéreo de Pléiades, de resolución igual o mejor que 5 m.
 
-## Resultados con los scripts corregidos (27/10/2026)
+## Resultados de los scripts (27/10/2026)
 
 - **Tp7_02** (X promediada de 2 a 10 m con sus componentes; C por vecino más
   cercano; regla de signo `vector`): X 0,41 / 0,40 de coherencia, 80,2 % de la

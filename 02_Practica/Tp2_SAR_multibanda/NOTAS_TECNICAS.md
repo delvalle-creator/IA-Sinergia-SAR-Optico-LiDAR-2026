@@ -144,7 +144,7 @@ pasada aparecen valores de alrededor de **−133 dB**, que arruinan cualquier pr
 - ALOS-1 PALSAR FBS 2011 es sólo HH: si se suma ALOS 2011 a una pila, no hay RGB dual
   para esa fecha.
 
-## Cambios del 27/10/2026 (auditoría académica)
+## Opciones y salidas de los scripts
 
 - `--extra` acepta la unidad (`gamma0`, `gamma0E`, `sigma0`) y la pasada y traza; la tabla
   de bandas del Tp2 declara la banda P como «gamma0 elipsoidal lineal» y lleva la pasada

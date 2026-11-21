@@ -19,7 +19,7 @@ Grupos:
 - Poligonos digitalizados (paso 3): `control_digitalizado_B_CONCORDIA.gpkg`, capa `control`, 24 poligonos sorteados con el
   borde del color de su clase; `codigo` es un mapa de valores (guia, 3.4).
 - Mapa de control 20 m: la banda 1 (clase) y la banda 2 (fuente: digitalizado, JRC, MapBiomas recortado) del mismo
-  GeoTIFF, la version anterior (monte de MapBiomas 30 m sin recortar, `.bak_20261022m`), la mascara de copas de 2 m
+  GeoTIFF, la version anterior (monte de MapBiomas 30 m sin recortar), la mascara de copas de 2 m
   hecha sobre el CBERS-4A del 15/07/2026 y el mapa de A1_DELTA_QUEMAS (solo agua de JRC).
 - MapBiomas 2025 como mapa a validar (paso 10): la cobertura 2025 de MapBiomas Argentina con su leyenda oficial
   (subset del Tp1), el mismo mapa llevado a las clases del curso por `Tp4_05`, sus 70 puntos etiquetados al azar,

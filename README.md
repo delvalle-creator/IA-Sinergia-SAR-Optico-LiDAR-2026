@@ -49,7 +49,6 @@ Los archivos `.md` se leen formateados en GitHub, o en VS Code con `Ctrl+Shift+V
 | `02_Practica/Guia sintetica` | Guía sintética de cada práctico (`Tp1_sintético.pdf` a `Tp10_sintético.pdf`) |
 | `02_Practica/00_COMUN` | Programas comunes, entorno `entorno_sar.yml`, áreas de estudio, conexiones WMS de CONAE y herramientas |
 | `02_Practica/Tp1_…` a `Tp10_…` | Guía, prompts de IA, scripts, tablas, bibliografía, preguntas, flujos de Orange y grafos de SNAP de cada práctico |
-| `03_Trabajos_futuros` | Plan de vuelo con dron para la barranca de Diamante |
 
 ## Lo que no está en este repositorio
 

@@ -8,7 +8,7 @@ Aquí trabaja el grupo. Van a aparecer:
 
 En el desarrollo docente (22/10/2026) los polígonos de `control_digitalizado_B_CONCORDIA.gpkg` salieron de un sorteo:
 `puntos_sorteo_control_B_CONCORDIA.gpkg` y `sorteo_poligonos_control_B_CONCORDIA.csv` registran los puntos y lo que pasó con
-cada uno; los anteriores, dibujados a mano, quedaron como `.bak_20261022s`.
+cada uno.
 
 `<NOMBRE>` es el nombre del mapa evaluado sin extensión (por ejemplo `A1_variante_multisensor`).
 

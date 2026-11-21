@@ -16,8 +16,7 @@ Aquí va **un** archivo por sitio:
 
 En el desarrollo docente (22/10/2026) los 28 polígonos salieron de un sorteo: `puntos_sorteo_A2_IBICUY.gpkg`
 tiene los puntos sorteados y `sorteo_poligonos_A2_IBICUY.csv` lo que pasó con cada uno (aceptado o descartado y por qué). Los grupos entregan el mismo
-registro de su sorteo. Los polígonos
-anteriores, ubicados a mano, quedaron como `cubiertas_A2_IBICUY.gpkg.bak_20261022s`.
+registro de su sorteo.
 
 No cambie el nombre de la capa ni del campo `clase`: los dos scripts los buscan por
 esos nombres.

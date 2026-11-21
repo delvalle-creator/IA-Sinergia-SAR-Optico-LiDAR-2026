@@ -199,21 +199,3 @@ veredicto.
   de L2A V003 es `l2a_quality_flag_rel3`.
 - ATL08 v007: valor de relleno 3,4 × 10³⁸; haz fuerte según `sc_orient`; alturas
   elipsoidales que se pasan a EGM2008 con PROJ.
-
-## Historia de cambios del código (para el docente)
-
-- 21/10/2026: `Tp3_02` agregó `corr_antes` y `corr_despues`; la columna `error` de
-  scikit-image se eliminó porque con la normalización de fase vale ~1 siempre. Cuando el
-  veredicto es «no rígido», la bitácora muestra el desplazamiento por fila y por columna
-  de ventanas.
-- 21/10/2026: se agregó `Tp3_04_contexto_y_huellas.py`.
-- 22/10/2026: `Tp3_04` enmascara el agua antes de comparar la altura FH con el LiDAR.
-- 27/10/2026 (auditoría académica): `Tp3_02` pasa a dos niveles de veredicto, ventanas
-  por mediana ± 3 MAD, rango por fila y columna, signo en palabras y resumen completo en
-  el CSV; `Tp3_03` agrega `plausible` y el rectángulo orientado de ATL08; `Tp3_01`
-  declara la resolución nativa y el sobremuestreo de cada capa, y la clase 7 de la SCL;
-  se agrega `Tp3_05_tablas_para_Orange.py`.
-- El docstring anterior de `Tp3_02` citaba desfases de 129 a 1.120 m medidos en la
-  presentación 02 en COSMO-SkyMed, NovaSAR-1 y SAOCOM; esas cifras corresponden a
-  productos sin corrección geométrica fina y no a los productos de este práctico (el
-  SAOCOM del Tp3, corregido en SNAP, está a unos 30 m de NISAR L). Se quitaron del código.

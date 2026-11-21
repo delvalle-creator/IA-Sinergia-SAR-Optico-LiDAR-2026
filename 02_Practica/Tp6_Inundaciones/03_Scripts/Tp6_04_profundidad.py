@@ -118,7 +118,7 @@ def main():
         nombre_mde = "Copernicus DEM GLO-30 (Planetary Computer)"
     log("Modelo de elevacion: %s" % nombre_mde)
     try:
-        ocu, _ = jrc_ocurrencia("B_CONCORDIA", g)
+        ocu, _ = jrc_ocurrencia(SITIO, g)
         perm = np.nan_to_num(ocu, nan=0) >= 90
         log("Agua permanente (JRC >= 90 %%): %.1f %% del sitio; no define borde." % (100 * perm.mean()))
     except Exception as e:                                       # noqa: BLE001

@@ -265,6 +265,7 @@ TRABAJOS = {
                                      "curso SAR CEREGEO 2023 (CONAE: https://catalogos.conae.gov.ar)"}),
             ("s2_l2a", {"fecha": "20200715", "etiqueta": "S2_20200715"}),
             ("s2_l2a", {"fecha": "20201013", "etiqueta": "S2_20201013"}),
+            ("s2_l2a", {"fecha": "20200816", "etiqueta": "S2_20200816"}),
             ("copdem", {"etiqueta": "CopernicusDEM30"}),
             ("jrc_gsw", {"etiqueta": "JRC_GSW_ocurrencia"}),
             # BIOMASS banda P (ESA), agregado el 21/10/2026. Se eligio la franja (S1, S2 o S3) cuya huella cubre

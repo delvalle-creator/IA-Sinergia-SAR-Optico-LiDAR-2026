@@ -8,3 +8,6 @@ la bibliografía.
 
 Es el mismo contenido que está, práctico por práctico, en los `.md` de cada
 carpeta, ordenado para leerlo de corrido.
+
+La carpeta `fuente_docente` guarda el original editable y no se
+entrega a los estudiantes.
