@@ -30,13 +30,19 @@ Advertencias que se escriben en la bitácora
     rh98 no tiene significado estructural.
   - GEDI no adquirió entre el 17/03/2023 y el 26/04/2024; para 2020 hay datos.
 
-ENTRADA  Tp1_Convergencia/05_Resultados/03_Vectores/lidar_A1_DELTA_QUEMAS.gpkg (capa gedi_l2a)
-SALIDA   Tp5_Incendios/05_Resultados/04_Tablas/A1_delta_rh98_por_celda.csv
-         Tp5_Incendios/05_Resultados/04_Tablas/A1_delta_rh98_por_clase.csv
+ENTRADA  Tp1_Convergencia/05_Resultados/03_Vectores/lidar_<SITIO>.gpkg (capa gedi_l2a)
+         el mapa de quemado con el que se cruza (--mapa; por defecto A1_variante_multisensor.tif
+         de Tp5_Incendios/05_Resultados/02_Rasters; clase 1 = quemado, 2 = no quemado)
+SALIDA   Tp5_Incendios/05_Resultados/04_Tablas/<prefijo>_delta_rh98_por_celda.csv
+         Tp5_Incendios/05_Resultados/04_Tablas/<prefijo>_delta_rh98_por_clase.csv
+         (<prefijo> = la primera parte del nombre del sitio: A1 para A1_DELTA_QUEMAS)
 
 USO
     python Tp5_04_gedi_cambio_de_altura.py --antes_desde 2019-10-01 --antes_hasta 2020-04-01 ^
         --despues_desde 2020-10-01 --despues_hasta 2021-03-31 --celda 100
+
+    En otro sitio (por ejemplo, la demostración de Bariloche), además de cambiar la línea SITIO:
+    python Tp5_04_gedi_cambio_de_altura.py --mapa <ruta o nombre del .tif de la variante multisensor del sitio>
 """
 import argparse
 import os
@@ -61,6 +67,7 @@ DESPUES_DESDE = "2020-10-01"    # primavera y verano posteriores
 DESPUES_HASTA = "2021-03-31"    # inclusive
 CELDA_M = 100.0                 # lado de la celda, en metros
 MIN_HUELLAS = 2                 # huellas válidas mínimas antes y después en cada celda
+MAPA = "A1_variante_multisensor.tif"   # mapa de quemado (Tp5_03); un nombre suelto se busca en 05_Resultados/02_Rasters
 PISO_RH98_M = 3.0               # por debajo, el rh98 es el piso del instrumento, no la altura de la vegetación
 
 
@@ -75,16 +82,19 @@ def main():
     ap.add_argument("--despues_hasta", default=DESPUES_HASTA, help="última fecha de 'después', incluida")
     ap.add_argument("--celda", type=float, default=CELDA_M)
     ap.add_argument("--min_huellas", type=int, default=MIN_HUELLAS)
+    ap.add_argument("--mapa", default=MAPA, help="mapa de quemado con el que se cruza (ruta, o nombre en 05_Resultados/02_Rasters)")
     a = ap.parse_args()
     log = Bitacora(ruta_tp("Tp5", "05_Resultados", "06_Control_calidad"), "Tp5_04_gedi")
     gp = ruta_tp("Tp1", "05_Resultados", "03_Vectores", "lidar_%s.gpkg" % SITIO)
     if not os.path.exists(gp):
         sys.exit("Falta %s: hay que correr antes Tp1_05_buscar_lidar.py --sitio %s --descargar "
                  "(o pedir el archivo al docente)." % (gp, SITIO))
-    var = ruta_tp("Tp5", "05_Resultados", "02_Rasters", "A1_variante_multisensor.tif")
+    var = a.mapa if os.path.dirname(a.mapa) else ruta_tp("Tp5", "05_Resultados", "02_Rasters", a.mapa)
+    pref = SITIO.split("_")[0]
     if not os.path.exists(var):
         sys.exit("Falta %s: correr antes Tp5_03_fusion.py con la capa de entrenamiento digitalizada." % var)
     log("GEDI no adquirió entre el 17/03/2023 y el 26/04/2024; para el evento de 2020 hay datos antes y después.")
+    log("Mapa con el que se cruza:", var)
     log("Ventana 'antes':   %s a %s (sin incluir el último día)" % (a.antes_desde, a.antes_hasta))
     log("Ventana 'después': %s a %s (incluido)" % (a.despues_desde, a.despues_hasta))
     with rasterio.open(var) as src:
@@ -146,7 +156,7 @@ def main():
     alb = agg.median_antes >= PISO_RH98_M
     log("Celdas con rh98 previo >= %.0f m (estructura leñosa): %d; de ellas, %d en lo quemado del mapa."
         % (PISO_RH98_M, int(alb.sum()), int((alb & (agg.clase_mapa == 1)).sum())))
-    out = ruta_tp("Tp5", "05_Resultados", "04_Tablas", "A1_delta_rh98_por_celda.csv")
+    out = ruta_tp("Tp5", "05_Resultados", "04_Tablas", "%s_delta_rh98_por_celda.csv" % pref)
     os.makedirs(os.path.dirname(out), exist_ok=True)
     agg.to_csv(out, index=False, encoding="utf-8-sig")
     por.to_csv(out.replace("por_celda", "por_clase"), encoding="utf-8-sig")
