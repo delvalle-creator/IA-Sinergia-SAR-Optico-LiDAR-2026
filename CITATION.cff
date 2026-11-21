@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Si usa este material, cítelo de la siguiente manera."
 title: "Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), 2026"
 type: software
-version: 1.6.0
+version: 1.6.1
 date-released: 2026-11-21
 authors:
   - family-names: "del Valle"
@@ -15,6 +15,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23929604
     description: "DOI de concepto (todas las versiones)"
+  - type: doi
+    value: 10.5281/zenodo.24424981
+    description: "DOI de la versión 1.6.1"
   - type: doi
     value: 10.5281/zenodo.24424779
     description: "DOI de la versión 1.6.0"
