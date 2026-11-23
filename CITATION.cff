@@ -41,7 +41,7 @@ identifiers:
     description: "DOI de la versión 1.0.0"
 preferred-citation:
   type: generic
-  medium: "Material de curso"
+  medium: "Materiales del Curso de Posgrado dictado en octubre y noviembre de 2026"
   title: "Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), 2026"
   authors:
     - family-names: "del Valle"
@@ -50,6 +50,8 @@ preferred-citation:
       affiliation: "Centro Regional de Geomática (CeReGeo), Facultad de Ciencia y Tecnología (FCyT), Universidad Autónoma de Entre Ríos (UADER); Laboratorio de Ecología, Meteorología y Gestión de Fuegos (LEMIV), Facultad de Ingeniería, Universidad Nacional de la Patagonia San Juan Bosco (UNPSJB)"
   version: 1.6.1
   year: 2026
+  month: 11
+  date-published: 2026-11-21
   publisher:
     name: "Zenodo"
   doi: 10.5281/zenodo.24424981
