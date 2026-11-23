@@ -41,7 +41,7 @@ identifiers:
     description: "DOI de la versión 1.0.0"
 preferred-citation:
   type: generic
-  medium: "Materiales del Curso de Posgrado dictado en octubre y noviembre de 2026"
+  medium: "Materiales del Curso de Posgrado, Maestría Profesional en Geomática Aplicada a la Gestión de Riesgos Ambientales, Centro Regional de Geomática (CeReGeo), Facultad de Ciencia y Tecnología (FCyT), Universidad Autónoma de Entre Ríos (UADER), en articulación con el CICyTTP-CONICET, dictado en octubre y noviembre de 2026"
   title: "Sinergias multisensor y estrategias de fusión SAR-Óptico-LiDAR para evaluación de emergencias ambientales. Curso de posgrado, Diamante (Entre Ríos), Argentina, 2026"
   authors:
     - family-names: "del Valle"
